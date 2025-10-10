@@ -34,7 +34,7 @@ python3 scripts/collect_modules.py --architecture genoa
 
 ```bash
 # Git-Repository konfigurieren (einmalig)
-git remote add origin https://github.com/IHR_USERNAME/IHR_REPO.git
+git remote add origin https://github.com/nemo-cluster/easybuild-modules.git
 
 # Daten sammeln und pushen
 ./scripts/update_git.sh

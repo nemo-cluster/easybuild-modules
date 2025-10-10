@@ -10,8 +10,8 @@ class ModuleBrowser {
         this.sortColumn = 0;
         this.sortDirection = 'asc';
         
-        // Git Repository URL für Daten (anpassen an Ihr Repository)
-        this.dataUrl = 'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/modules_all.json';
+        // Git Repository URL für Daten
+        this.dataUrl = 'https://raw.githubusercontent.com/nemo-cluster/easybuild-modules/main/data/modules_all.json';
         
         this.init();
     }
