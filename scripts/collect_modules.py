@@ -60,6 +60,41 @@ class ModuleCollector:
             print(f"Fehler beim Ausführen des Befehls für {architecture}: {e}")
             return ""
     
+    def get_module_whatis(self, module_name: str, architecture: str) -> str:
+        """
+        Führt module whatis für ein spezifisches Modul aus
+        """
+        try:
+            load_cmd = f"module load arch/{architecture}"
+            whatis_cmd = f"module whatis {module_name}"
+            
+            full_cmd = f"{load_cmd} && {whatis_cmd}"
+            
+            result = subprocess.run(
+                full_cmd,
+                shell=True,
+                capture_output=True,
+                text=True,
+                timeout=10
+            )
+            
+            # Kombiniere stdout und stderr für vollständige Ausgabe
+            output = result.stdout + result.stderr
+            
+            # Extrahiere die Beschreibung (normalerweise nach dem Modulnamen)
+            for line in output.split('\n'):
+                line = line.strip()
+                if line and ':' in line:
+                    # Format: "modulename: description"
+                    parts = line.split(':', 1)
+                    if len(parts) == 2:
+                        return parts[1].strip()
+            
+            return ""
+            
+        except Exception:
+            return ""
+    
     def parse_module_output(self, output: str, architecture: str) -> List[Dict]:
         """
         Parst die module avail Ausgabe und extrahiert Modul-Informationen
@@ -86,6 +121,11 @@ class ModuleCollector:
                 module_entries = re.findall(r'(\S+/\S+(?:\s*\([^)]+\))?)', line)
                 
                 for entry in module_entries:
+                    # Filtere arch/* Module aus
+                    clean_entry = re.sub(r'\s*\([^)]+\)$', '', entry.strip())
+                    if clean_entry.startswith('arch/'):
+                        continue
+                    
                     module_info = self.parse_single_module(entry, current_category, architecture)
                     if module_info:
                         modules.append(module_info)
@@ -114,8 +154,14 @@ class ModuleCollector:
         # Bestimme Kategorie basierend auf Software-Präfix
         detected_category = self.detect_category(software, category)
         
-        # Erstelle Beschreibung
-        description = f"{software} version {version} for {architecture} architecture"
+        # Hole echte Beschreibung mit module whatis
+        whatis_description = self.get_module_whatis(clean_entry, architecture)
+        
+        # Fallback-Beschreibung falls whatis fehlschlägt
+        if whatis_description:
+            description = whatis_description
+        else:
+            description = f"{software} version {version} for {architecture} architecture"
         
         return {
             'software': software,
