@@ -60,42 +60,74 @@ class ModuleCollector:
             print(f"Fehler beim Ausführen des Befehls für {architecture}: {e}")
             return ""
     
-    def get_module_whatis(self, module_name: str, architecture: str) -> str:
+    def get_module_spider_data(self, architecture: str) -> Dict[str, str]:
         """
-        Führt module whatis für ein spezifisches Modul aus
+        Führt module spider einmal aus und extrahiert alle Beschreibungen
         """
         try:
             load_cmd = f"module load arch/{architecture}"
-            whatis_cmd = f"module whatis {module_name}"
+            spider_cmd = "module spider"
             
-            full_cmd = f"{load_cmd} && {whatis_cmd}"
+            full_cmd = f"{load_cmd} && {spider_cmd}"
             
             result = subprocess.run(
                 full_cmd,
                 shell=True,
                 capture_output=True,
                 text=True,
-                timeout=10
+                timeout=60  # Spider kann länger dauern
             )
             
-            # Kombiniere stdout und stderr für vollständige Ausgabe
             output = result.stdout + result.stderr
+            return self.parse_spider_output(output)
             
-            # Extrahiere die Beschreibung (normalerweise nach dem Modulnamen)
-            for line in output.split('\n'):
-                line = line.strip()
-                if line and ':' in line:
-                    # Format: "modulename: description"
-                    parts = line.split(':', 1)
-                    if len(parts) == 2:
-                        return parts[1].strip()
-            
-            return ""
-            
-        except Exception:
-            return ""
+        except subprocess.TimeoutExpired:
+            print(f"Timeout beim Ausführen von module spider für {architecture}")
+            return {}
+        except Exception as e:
+            print(f"Fehler beim Ausführen von module spider für {architecture}: {e}")
+            return {}
     
-    def parse_module_output(self, output: str, architecture: str) -> List[Dict]:
+    def parse_spider_output(self, output: str) -> Dict[str, str]:
+        """
+        Parst die module spider Ausgabe und extrahiert Software-Beschreibungen
+        """
+        descriptions = {}
+        lines = output.split('\n')
+        current_software = None
+        current_description = []
+        
+        for line in lines:
+            # Erkenne Software-Header (z.B. "  lang/bison:")
+            if line.strip() and ':' in line and not line.startswith('    '):
+                # Speichere vorherige Beschreibung falls vorhanden
+                if current_software and current_description:
+                    descriptions[current_software] = ' '.join(current_description).strip()
+                
+                # Extrahiere Software-Namen (ohne Versionen)
+                software_match = re.match(r'\s*(\S+):\s*', line)
+                if software_match:
+                    current_software = software_match.group(1)
+                    current_description = []
+                else:
+                    current_software = None
+                    current_description = []
+            
+            # Sammle Beschreibungszeilen (beginnen mit 4+ Leerzeichen)
+            elif line.startswith('    ') and current_software:
+                # Überspringe Versionszeilen (enthalten meist Kommas und Modulnamen)
+                if not ('/' in line and ',' in line):
+                    desc_line = line.strip()
+                    if desc_line:
+                        current_description.append(desc_line)
+        
+        # Speichere letzte Beschreibung
+        if current_software and current_description:
+            descriptions[current_software] = ' '.join(current_description).strip()
+        
+        return descriptions
+    
+    def parse_module_output(self, output: str, architecture: str, spider_descriptions: Dict[str, str]) -> List[Dict]:
         """
         Parst die module avail Ausgabe und extrahiert Modul-Informationen
         """
@@ -126,13 +158,13 @@ class ModuleCollector:
                     if clean_entry.startswith('arch/'):
                         continue
                     
-                    module_info = self.parse_single_module(entry, current_category, architecture)
+                    module_info = self.parse_single_module(entry, current_category, architecture, spider_descriptions)
                     if module_info:
                         modules.append(module_info)
         
         return modules
     
-    def parse_single_module(self, module_entry: str, category: str, architecture: str) -> Dict:
+    def parse_single_module(self, module_entry: str, category: str, architecture: str, spider_descriptions: Dict[str, str]) -> Dict:
         """
         Parst einen einzelnen Modul-Eintrag
         """
@@ -150,6 +182,7 @@ class ModuleCollector:
             software = parts[0]
             version = parts[1]
             detected_category = self.detect_category(software, category)
+            software_key = software
         else:
             # Format: kategorie/software/version (3+ parts)
             category_prefix = parts[0]
@@ -158,14 +191,13 @@ class ModuleCollector:
             
             # Verwende Kategorie-Präfix für bessere Kategorisierung
             detected_category = self.detect_category_from_prefix(category_prefix, category)
+            software_key = f"{category_prefix}/{software}"
         
-        # Hole echte Beschreibung mit module whatis
-        whatis_description = self.get_module_whatis(clean_entry, architecture)
+        # Hole Beschreibung aus Spider-Daten
+        description = spider_descriptions.get(software_key, "")
         
-        # Fallback-Beschreibung falls whatis fehlschlägt
-        if whatis_description:
-            description = whatis_description
-        else:
+        # Fallback-Beschreibung falls Spider keine Daten hat
+        if not description:
             description = f"{software} version {version} for {architecture} architecture"
         
         return {
@@ -249,10 +281,17 @@ class ModuleCollector:
         
         for arch in self.architectures:
             print(f"Sammle Module für Architektur: {arch}")
+            
+            # Hole Spider-Daten einmal für diese Architektur
+            print(f"  -> Führe module spider aus...")
+            spider_descriptions = self.get_module_spider_data(arch)
+            print(f"  -> {len(spider_descriptions)} Software-Beschreibungen gefunden")
+            
+            # Hole module avail Ausgabe
             output = self.run_module_command(arch)
             
             if output:
-                modules = self.parse_module_output(output, arch)
+                modules = self.parse_module_output(output, arch, spider_descriptions)
                 all_modules[arch] = modules
                 print(f"  -> {len(modules)} Module gefunden")
             else:
