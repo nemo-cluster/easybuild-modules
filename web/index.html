@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HPC Module Browser</title>
+    <title>bwForCluster NEMO 2 Easybuild Module Browser</title>
     <style>
         * {
             box-sizing: border-box;
@@ -210,34 +210,34 @@
 <body>
     <div class="container">
         <header>
-            <h1>HPC Module Browser</h1>
-            <p class="subtitle">Verfügbare Software-Module für verschiedene HPC-Architekturen</p>
+            <h1>bwForCluster NEMO 2 Easybuild Module Browser</h1>
+            <p class="subtitle">Available software modules for various HPC architectures</p>
         </header>
 
         <div class="controls">
             <div class="filter-row">
                 <div class="filter-group">
-                    <label for="architectureFilter">Architektur:</label>
+                    <label for="architectureFilter">Architecture:</label>
                     <select id="architectureFilter">
-                        <option value="">Alle Architekturen</option>
+                        <option value="">All Architectures</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="categoryFilter">Kategorie:</label>
+                    <label for="categoryFilter">Category:</label>
                     <select id="categoryFilter">
-                        <option value="">Alle Kategorien</option>
+                        <option value="">All Categories</option>
                     </select>
                 </div>
                 
                 <div class="filter-group search-group">
-                    <label for="searchInput">Software suchen:</label>
-                    <input type="text" id="searchInput" placeholder="Software-Name eingeben...">
+                    <label for="searchInput">Search software:</label>
+                    <input type="text" id="searchInput" placeholder="Enter software name...">
                 </div>
             </div>
             
             <div class="stats" id="statsDisplay">
-                Lade Daten...
+                Loading data...
             </div>
         </div>
 
@@ -245,7 +245,7 @@
 
         <div class="table-container">
             <div id="loadingDisplay" class="loading">
-                Lade Module-Daten...
+                Loading module data...
             </div>
             
             <table id="moduleTable" style="display: none;">
@@ -253,9 +253,9 @@
                     <tr>
                         <th onclick="sortTable(0)">Software ↕</th>
                         <th onclick="sortTable(1)">Version ↕</th>
-                        <th onclick="sortTable(2)">Kategorie ↕</th>
-                        <th onclick="sortTable(3)">Architektur ↕</th>
-                        <th onclick="sortTable(4)">Beschreibung ↕</th>
+                        <th onclick="sortTable(2)">Category ↕</th>
+                        <th onclick="sortTable(3)">Architecture ↕</th>
+                        <th onclick="sortTable(4)">Description ↕</th>
                     </tr>
                 </thead>
                 <tbody id="moduleTableBody">
@@ -263,7 +263,7 @@
             </table>
             
             <div id="noResultsDisplay" class="no-results" style="display: none;">
-                Keine Module gefunden, die den Filterkriterien entsprechen.
+                No modules found matching the filter criteria.
             </div>
         </div>
     </div>

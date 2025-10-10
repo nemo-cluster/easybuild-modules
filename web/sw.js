@@ -1,5 +1,5 @@
-// Service Worker für HPC Module Browser
-// Ermöglicht Offline-Funktionalität und Caching
+// Service Worker for bwForCluster NEMO 2 Easybuild Module Browser
+// Enables offline functionality and caching
 
 const CACHE_NAME = 'hpc-modules-v1';
 const CACHE_URLS = [
@@ -18,7 +18,7 @@ self.addEventListener('install', event => {
     );
 });
 
-// Aktivierung
+// Activation
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames => {
@@ -33,24 +33,24 @@ self.addEventListener('activate', event => {
     );
 });
 
-// Fetch-Ereignisse
+// Fetch events
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
             .then(response => {
-                // Cache-Hit - gib gecachte Version zurück
+                // Cache hit - return cached version
                 if (response) {
                     return response;
                 }
 
-                // Kein Cache-Hit - hole von Netzwerk
+                // No cache hit - fetch from network
                 return fetch(event.request).then(response => {
-                    // Prüfe ob wir eine gültige Antwort haben
+                    // Check if we have a valid response
                     if (!response || response.status !== 200 || response.type !== 'basic') {
                         return response;
                     }
 
-                    // Clone die Antwort für Cache
+                    // Clone the response for cache
                     const responseToCache = response.clone();
 
                     caches.open(CACHE_NAME)
@@ -62,7 +62,7 @@ self.addEventListener('fetch', event => {
                 });
             })
             .catch(() => {
-                // Offline-Fallback für JSON-Daten
+                // Offline fallback for JSON data
                 if (event.request.url.includes('.json')) {
                     return caches.match('./sample-data.json');
                 }

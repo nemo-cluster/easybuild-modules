@@ -1,72 +1,72 @@
 #!/bin/bash
-# Git Push Script für HPC Module Data
-# Pushed die gesammelten Modul-Daten ins Git-Repository
+# Git Push Script for bwForCluster NEMO 2 Easybuild Module Data
+# Pushes collected module data to Git repository
 
 set -e
 
-# Konfiguration
+# Configuration
 DATA_DIR="./data"
 COMMIT_MESSAGE="Update module data - $(date '+%Y-%m-%d %H:%M:%S')"
 
-# Prüfe ob Git-Repository initialisiert ist
+# Check if Git repository is initialized
 if [ ! -d ".git" ]; then
-    echo "Git-Repository nicht gefunden. Initialisiere Repository..."
+    echo "Git repository not found. Initializing repository..."
     git init
-    echo "# HPC Module Data" > README.md
-    echo "Automatisch generierte Daten über verfügbare HPC-Module" >> README.md
+    echo "# bwForCluster NEMO 2 Easybuild Module Data" > README.md
+    echo "Automatically generated data about available HPC modules" >> README.md
     git add README.md
     git commit -m "Initial commit"
 fi
 
-# Prüfe ob Remote-Repository konfiguriert ist
+# Check if remote repository is configured
 if ! git remote get-url origin >/dev/null 2>&1; then
-    echo "Warnung: Kein Remote-Repository konfiguriert."
-    echo "Fügen Sie ein Remote-Repository hinzu mit:"
+    echo "Warning: No remote repository configured."
+    echo "Add a remote repository with:"
     echo "  git remote add origin <REPOSITORY_URL>"
-    echo "Dann führen Sie dieses Skript erneut aus."
+    echo "Then run this script again."
     exit 1
 fi
 
-# Sammle Module-Daten
-echo "Sammle Modul-Daten..."
+# Collect module data
+echo "Collecting module data..."
 python3 scripts/collect_modules.py --output-dir "$DATA_DIR"
 
-# Prüfe ob Daten vorhanden sind
+# Check if data exists
 if [ ! -d "$DATA_DIR" ] || [ -z "$(ls -A "$DATA_DIR")" ]; then
-    echo "Fehler: Keine Daten im Verzeichnis $DATA_DIR gefunden"
+    echo "Error: No data found in directory $DATA_DIR"
     exit 1
 fi
 
-# Git-Operationen
-echo "Füge Änderungen zu Git hinzu..."
+# Git operations
+echo "Adding changes to Git..."
 git add "$DATA_DIR"/*
 
-# Prüfe ob es Änderungen gibt
+# Check if there are changes
 if git diff --staged --quiet; then
-    echo "Keine Änderungen gefunden. Kein Commit erforderlich."
+    echo "No changes found. No commit required."
     exit 0
 fi
 
-# Commit und Push
-echo "Erstelle Commit..."
+# Commit and push
+echo "Creating commit..."
 git commit -m "$COMMIT_MESSAGE"
 
-echo "Pushe Änderungen..."
+echo "Pushing changes..."
 git push origin main
 
-echo "Daten erfolgreich ins Repository gepusht!"
+echo "Data successfully pushed to repository!"
 
-# Zeige Statistiken
+# Show statistics
 echo ""
-echo "Statistiken:"
+echo "Statistics:"
 if [ -f "$DATA_DIR/metadata.json" ]; then
     python3 -c "
 import json
 with open('$DATA_DIR/metadata.json', 'r') as f:
     metadata = json.load(f)
-print(f\"Architekturen: {', '.join(metadata['architectures'])}\")
-print(f\"Gesamt Module: {metadata['total_modules']}\")
+print(f\"Architectures: {', '.join(metadata['architectures'])}\")
+print(f\"Total modules: {metadata['total_modules']}\")
 for arch, count in metadata['modules_per_arch'].items():
-    print(f\"  {arch}: {count} Module\")
+    print(f\"  {arch}: {count} modules\")
 "
 fi

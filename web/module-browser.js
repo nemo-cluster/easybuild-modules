@@ -1,6 +1,6 @@
 /**
- * HPC Module Browser JavaScript
- * Verwaltet das Laden, Filtern und Anzeigen von Modul-Daten
+ * bwForCluster NEMO 2 Easybuild Module Browser JavaScript
+ * Manages loading, filtering and displaying module data
  */
 
 class ModuleBrowser {
@@ -10,7 +10,7 @@ class ModuleBrowser {
         this.sortColumn = 0;
         this.sortDirection = 'asc';
         
-        // Git Repository URL für Daten
+        // Git Repository URL for data
         this.dataUrl = 'https://raw.githubusercontent.com/nemo-cluster/easybuild-modules/main/data/modules_all.json';
         
         this.init();
@@ -35,7 +35,7 @@ class ModuleBrowser {
     
     async loadData() {
         try {
-            // Versuche Daten vom Git Repository zu laden
+            // Try to load data from Git repository
             let response;
             try {
                 response = await fetch(this.dataUrl);
@@ -43,11 +43,11 @@ class ModuleBrowser {
                     throw new Error(`HTTP ${response.status}`);
                 }
             } catch (gitError) {
-                // Fallback: Lade lokale Testdaten
-                console.warn('Kann nicht vom Git Repository laden, verwende lokale Testdaten:', gitError.message);
+                // Fallback: Load local test data
+                console.warn('Cannot load from Git repository, using local test data:', gitError.message);
                 response = await fetch('./sample-data.json');
                 if (!response.ok) {
-                    throw new Error('Kann auch keine lokalen Testdaten laden');
+                    throw new Error('Cannot load local test data either');
                 }
             }
             
@@ -57,14 +57,14 @@ class ModuleBrowser {
             document.getElementById('moduleTable').style.display = 'table';
             
         } catch (error) {
-            this.showError(`Fehler beim Laden der Daten: ${error.message}`);
-            // Erstelle Beispiel-Daten für Demo
+            this.showError(`Error loading data: ${error.message}`);
+            // Create sample data for demo
             this.createSampleData();
         }
     }
     
     createSampleData() {
-        console.log('Erstelle Beispiel-Daten für Demo');
+        console.log('Creating sample data for demo');
         this.modules = [
             {
                 software: 'gromacs',
@@ -114,11 +114,11 @@ class ModuleBrowser {
         const archSelect = document.getElementById('architectureFilter');
         const catSelect = document.getElementById('categoryFilter');
         
-        // Leere bestehende Optionen (außer "Alle")
-        archSelect.innerHTML = '<option value="">Alle Architekturen</option>';
-        catSelect.innerHTML = '<option value="">Alle Kategorien</option>';
+        // Clear existing options (except "All")
+        archSelect.innerHTML = '<option value="">All Architectures</option>';
+        catSelect.innerHTML = '<option value="">All Categories</option>';
         
-        // Füge Architektur-Optionen hinzu
+        // Add architecture options
         architectures.forEach(arch => {
             const option = document.createElement('option');
             option.value = arch;
@@ -126,7 +126,7 @@ class ModuleBrowser {
             archSelect.appendChild(option);
         });
         
-        // Füge Kategorie-Optionen hinzu
+        // Add category options
         categories.forEach(cat => {
             const option = document.createElement('option');
             option.value = cat;
@@ -198,7 +198,7 @@ class ModuleBrowser {
         const filtered = this.filteredModules.length;
         const architectures = [...new Set(this.filteredModules.map(m => m.architecture))];
         
-        const statsText = `${filtered} von ${total} Modulen angezeigt | Architekturen: ${architectures.length}`;
+        const statsText = `${filtered} of ${total} modules displayed | Architectures: ${architectures.length}`;
         document.getElementById('statsDisplay').textContent = statsText;
     }
     
@@ -216,7 +216,7 @@ class ModuleBrowser {
     }
 }
 
-// Globale Funktion für Tabellen-Sortierung
+// Global function for table sorting
 function sortTable(column) {
     const browser = window.moduleBrowser;
     if (browser.sortColumn === column) {
@@ -228,12 +228,12 @@ function sortTable(column) {
     browser.filterAndDisplay();
 }
 
-// Initialisiere die Anwendung
+// Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
     window.moduleBrowser = new ModuleBrowser();
 });
 
-// Service Worker für Offline-Funktionalität (optional)
+// Service Worker for offline functionality (optional)
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')

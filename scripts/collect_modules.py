@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-HPC Module Collector
-Sammelt Informationen über verfügbare Module von verschiedenen HPC-Architekturen
-und erstellt maschinenlesbare JSON-Ausgaben für Git-Repository.
+bwForCluster NEMO 2 Easybuild Module Collector
+Collects information about available software modules from different HPC architectures
+and creates machine-readable JSON outputs for Git repository.
 """
 
 import subprocess
@@ -32,14 +32,14 @@ class ModuleCollector:
     
     def run_module_command(self, architecture: str) -> str:
         """
-        Führt den module avail Befehl für eine spezifische Architektur aus
+        Executes the module avail command for a specific architecture
         """
         try:
-            # Lade die entsprechende Architektur
+            # Load the corresponding architecture
             load_cmd = f"module load arch/{architecture}"
             avail_cmd = "module avail"
             
-            # Kombiniere beide Befehle
+            # Combine both commands
             full_cmd = f"{load_cmd} && {avail_cmd}"
             
             result = subprocess.run(
@@ -50,19 +50,19 @@ class ModuleCollector:
                 timeout=30
             )
             
-            # module avail gibt Ausgabe über stderr aus
+            # module avail outputs via stderr
             return result.stderr + result.stdout
             
         except subprocess.TimeoutExpired:
-            print(f"Timeout beim Ausführen des Befehls für {architecture}")
+            print(f"Timeout when executing command for {architecture}")
             return ""
         except Exception as e:
-            print(f"Fehler beim Ausführen des Befehls für {architecture}: {e}")
+            print(f"Error executing command for {architecture}: {e}")
             return ""
     
     def get_module_spider_data(self, architecture: str) -> Dict[str, str]:
         """
-        Führt module spider einmal aus und extrahiert alle Beschreibungen
+        Executes module spider once and extracts all descriptions
         """
         try:
             load_cmd = f"module load arch/{architecture}"
@@ -75,22 +75,22 @@ class ModuleCollector:
                 shell=True,
                 capture_output=True,
                 text=True,
-                timeout=60  # Spider kann länger dauern
+                timeout=60  # Spider can take longer
             )
             
             output = result.stdout + result.stderr
             return self.parse_spider_output(output)
             
         except subprocess.TimeoutExpired:
-            print(f"Timeout beim Ausführen von module spider für {architecture}")
+            print(f"Timeout when executing module spider for {architecture}")
             return {}
         except Exception as e:
-            print(f"Fehler beim Ausführen von module spider für {architecture}: {e}")
+            print(f"Error executing module spider for {architecture}: {e}")
             return {}
     
     def parse_spider_output(self, output: str) -> Dict[str, str]:
         """
-        Parst die module spider Ausgabe und extrahiert Software-Beschreibungen
+        Parses the module spider output and extracts software descriptions
         """
         descriptions = {}
         lines = output.split('\n')
@@ -98,13 +98,13 @@ class ModuleCollector:
         current_description = []
         
         for line in lines:
-            # Erkenne Software-Header (z.B. "  lang/bison:")
+            # Detect software headers (e.g. "  lang/bison:")
             if line.strip() and ':' in line and not line.startswith('    '):
-                # Speichere vorherige Beschreibung falls vorhanden
+                # Save previous description if available
                 if current_software and current_description:
                     descriptions[current_software] = ' '.join(current_description).strip()
                 
-                # Extrahiere Software-Namen (ohne Versionen)
+                # Extract software names (without versions)
                 software_match = re.match(r'\s*(\S+):\s*', line)
                 if software_match:
                     current_software = software_match.group(1)
@@ -113,15 +113,15 @@ class ModuleCollector:
                     current_software = None
                     current_description = []
             
-            # Sammle Beschreibungszeilen (beginnen mit 4+ Leerzeichen)
+            # Collect description lines (start with 4+ spaces)
             elif line.startswith('    ') and current_software:
-                # Überspringe Versionszeilen (enthalten meist Kommas und Modulnamen)
+                # Skip version lines (usually contain commas and module names)
                 if not ('/' in line and ',' in line):
                     desc_line = line.strip()
                     if desc_line:
                         current_description.append(desc_line)
         
-        # Speichere letzte Beschreibung
+        # Save last description
         if current_software and current_description:
             descriptions[current_software] = ' '.join(current_description).strip()
         
@@ -129,7 +129,7 @@ class ModuleCollector:
     
     def parse_module_output(self, output: str, architecture: str, spider_descriptions: Dict[str, str]) -> List[Dict]:
         """
-        Parst die module avail Ausgabe und extrahiert Modul-Informationen
+        Parses the module avail output and extracts module information
         """
         modules = []
         current_category = "Unknown"
@@ -139,21 +139,21 @@ class ModuleCollector:
         for line in lines:
             line = line.strip()
             
-            # Erkenne Kategorie-Header (z.B. "Chemistry Software")
+            # Detect category headers (e.g. "Chemistry Software")
             if line.startswith('---') and line.endswith('---'):
-                # Extrahiere Kategorie-Namen zwischen den Strichen
+                # Extract category names between dashes
                 category_match = re.search(r'---+\s*(.+?)\s*---+', line)
                 if category_match:
                     current_category = category_match.group(1).strip()
                 continue
             
-            # Erkenne Module (enthalten Versionsnummern und optional Flags)
+            # Detect modules (contain version numbers and optional flags)
             if '/' in line and not line.startswith('-'):
-                # Teile die Zeile in einzelne Module auf
+                # Split line into individual modules
                 module_entries = re.findall(r'(\S+/\S+(?:\s*\([^)]+\))?)', line)
                 
                 for entry in module_entries:
-                    # Filtere arch/* Module aus
+                    # Filter out arch/* modules
                     clean_entry = re.sub(r'\s*\([^)]+\)$', '', entry.strip())
                     if clean_entry.startswith('arch/'):
                         continue
@@ -166,17 +166,17 @@ class ModuleCollector:
     
     def parse_single_module(self, module_entry: str, category: str, architecture: str, spider_descriptions: Dict[str, str]) -> Dict:
         """
-        Parst einen einzelnen Modul-Eintrag
+        Parses a single module entry
         """
-        # Entferne Flags wie (D), (L), (S) am Ende
+        # Remove flags like (D), (L), (S) at the end
         clean_entry = re.sub(r'\s*\([^)]+\)$', '', module_entry.strip())
         
-        # Teile in Komponenten: kategorie/software/version
+        # Split into components: category/software/version
         parts = clean_entry.split('/')
         if len(parts) < 2:
             return None
         
-        # Bestimme Software und Version basierend auf Anzahl der Parts
+        # Determine software and version based on number of parts
         if len(parts) == 2:
             # Format: software/version
             software = parts[0]
@@ -184,19 +184,19 @@ class ModuleCollector:
             detected_category = self.detect_category(software, category)
             software_key = software
         else:
-            # Format: kategorie/software/version (3+ parts)
+            # Format: category/software/version (3+ parts)
             category_prefix = parts[0]
             software = parts[1]
-            version = '/'.join(parts[2:])  # Rest ist Version (kann weitere Slashes enthalten)
+            version = '/'.join(parts[2:])  # Rest is version (can contain more slashes)
             
-            # Verwende Kategorie-Präfix für bessere Kategorisierung
+            # Use category prefix for better categorization
             detected_category = self.detect_category_from_prefix(category_prefix, category)
             software_key = f"{category_prefix}/{software}"
         
-        # Hole Beschreibung aus Spider-Daten
+        # Get description from spider data
         description = spider_descriptions.get(software_key, "")
         
-        # Fallback-Beschreibung falls Spider keine Daten hat
+        # Fallback description if spider has no data
         if not description:
             description = f"{software} version {version} for {architecture} architecture"
         
@@ -212,18 +212,18 @@ class ModuleCollector:
     
     def detect_category(self, software: str, header_category: str) -> str:
         """
-        Bestimmt die Kategorie basierend auf Software-Namen und Header
+        Determines category based on software name and header
         """
-        # Prüfe ob Software mit bekanntem Präfix beginnt
+        # Check if software starts with known prefix
         for prefix, cat_name in self.categories.items():
             if software.startswith(prefix + '/') or software == prefix:
                 return cat_name
         
-        # Verwende Header-Kategorie falls verfügbar
+        # Use header category if available
         if header_category and header_category != "Unknown":
             return header_category
         
-        # Fallback-Kategorien basierend auf Software-Namen
+        # Fallback categories based on software name
         software_lower = software.lower()
         if any(term in software_lower for term in ['gcc', 'intel', 'llvm', 'go']):
             return 'Compilers'
@@ -236,9 +236,9 @@ class ModuleCollector:
     
     def detect_category_from_prefix(self, category_prefix: str, header_category: str) -> str:
         """
-        Bestimmt die Kategorie basierend auf Modul-Präfix (z.B. devel, bio, chem)
+        Determines category based on module prefix (e.g. devel, bio, chem)
         """
-        # Direkte Zuordnung von bekannten Präfixen
+        # Direct mapping of known prefixes
         prefix_mapping = {
             'devel': 'Development Tools',
             'bio': 'Biology Software',
@@ -259,15 +259,15 @@ class ModuleCollector:
             'toolchain': 'Toolchains'
         }
         
-        # Prüfe direkte Zuordnung
+        # Check direct mapping
         if category_prefix.lower() in prefix_mapping:
             return prefix_mapping[category_prefix.lower()]
         
-        # Prüfe ob Präfix in den definierten Kategorien ist
+        # Check if prefix is in defined categories
         if category_prefix in self.categories:
             return self.categories[category_prefix]
         
-        # Verwende Header-Kategorie falls verfügbar
+        # Use header category if available
         if header_category and header_category != "Unknown":
             return header_category
         
@@ -275,45 +275,45 @@ class ModuleCollector:
     
     def collect_all_modules(self) -> Dict[str, List[Dict]]:
         """
-        Sammelt Module für alle Architekturen
+        Collects modules for all architectures
         """
         all_modules = {}
         
         for arch in self.architectures:
-            print(f"Sammle Module für Architektur: {arch}")
+            print(f"Collecting modules for architecture: {arch}")
             
-            # Hole Spider-Daten einmal für diese Architektur
-            print(f"  -> Führe module spider aus...")
+            # Get spider data once for this architecture
+            print(f"  -> Running module spider...")
             spider_descriptions = self.get_module_spider_data(arch)
-            print(f"  -> {len(spider_descriptions)} Software-Beschreibungen gefunden")
+            print(f"  -> {len(spider_descriptions)} software descriptions found")
             
-            # Hole module avail Ausgabe
+            # Get module avail output
             output = self.run_module_command(arch)
             
             if output:
                 modules = self.parse_module_output(output, arch, spider_descriptions)
                 all_modules[arch] = modules
-                print(f"  -> {len(modules)} Module gefunden")
+                print(f"  -> {len(modules)} modules found")
             else:
-                print(f"  -> Keine Module gefunden oder Fehler aufgetreten")
+                print(f"  -> No modules found or error occurred")
                 all_modules[arch] = []
         
         return all_modules
     
     def save_data(self, modules_data: Dict[str, List[Dict]], output_dir: str):
         """
-        Speichert die gesammelten Daten in JSON-Dateien
+        Saves the collected data to JSON files
         """
         os.makedirs(output_dir, exist_ok=True)
         
-        # Speichere Daten pro Architektur
+        # Save data per architecture
         for arch, modules in modules_data.items():
             arch_file = os.path.join(output_dir, f"modules_{arch}.json")
             with open(arch_file, 'w', encoding='utf-8') as f:
                 json.dump(modules, f, indent=2, ensure_ascii=False)
-            print(f"Daten für {arch} gespeichert: {arch_file}")
+            print(f"Data for {arch} saved: {arch_file}")
         
-        # Erstelle kombinierte Datei
+        # Create combined file
         all_modules = []
         for modules in modules_data.values():
             all_modules.extend(modules)
@@ -321,9 +321,9 @@ class ModuleCollector:
         combined_file = os.path.join(output_dir, "modules_all.json")
         with open(combined_file, 'w', encoding='utf-8') as f:
             json.dump(all_modules, f, indent=2, ensure_ascii=False)
-        print(f"Kombinierte Daten gespeichert: {combined_file}")
+        print(f"Combined data saved: {combined_file}")
         
-        # Erstelle Metadaten
+        # Create metadata
         metadata = {
             'collection_date': datetime.now().isoformat(),
             'architectures': list(modules_data.keys()),
@@ -334,15 +334,15 @@ class ModuleCollector:
         metadata_file = os.path.join(output_dir, "metadata.json")
         with open(metadata_file, 'w', encoding='utf-8') as f:
             json.dump(metadata, f, indent=2, ensure_ascii=False)
-        print(f"Metadaten gespeichert: {metadata_file}")
+        print(f"Metadata saved: {metadata_file}")
 
 
 def main():
-    parser = argparse.ArgumentParser(description='HPC Module Collector')
+    parser = argparse.ArgumentParser(description='bwForCluster NEMO 2 Easybuild Module Collector')
     parser.add_argument('--output-dir', '-o', default='./data',
-                       help='Ausgabe-Verzeichnis für JSON-Dateien')
+                       help='Output directory for JSON files')
     parser.add_argument('--architecture', '-a', 
-                       help='Sammle nur für spezifische Architektur')
+                       help='Collect only for specific architecture')
     
     args = parser.parse_args()
     
@@ -350,19 +350,19 @@ def main():
     
     if args.architecture:
         if args.architecture not in collector.architectures:
-            print(f"Unbekannte Architektur: {args.architecture}")
-            print(f"Verfügbare Architekturen: {', '.join(collector.architectures)}")
+            print(f"Unknown architecture: {args.architecture}")
+            print(f"Available architectures: {', '.join(collector.architectures)}")
             return 1
         
         collector.architectures = [args.architecture]
     
-    print("Starte Modul-Sammlung...")
+    print("Starting module collection...")
     modules_data = collector.collect_all_modules()
     
-    print("\nSpeichere Daten...")
+    print("\nSaving data...")
     collector.save_data(modules_data, args.output_dir)
     
-    print("\nSammlung abgeschlossen!")
+    print("\nCollection completed!")
     return 0
 
 
