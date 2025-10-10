@@ -48,15 +48,7 @@ install:
 test:
 	@echo "Teste das System..."
 	@echo "1. Teste Python-Skript mit Mock-Daten..."
-	python3 -c "
-import sys
-sys.path.append('scripts')
-from collect_modules import ModuleCollector
-collector = ModuleCollector()
-print('✓ ModuleCollector kann importiert werden')
-print(f'✓ Architekturen: {collector.architectures}')
-print(f'✓ Kategorien: {len(collector.categories)} definiert')
-"
+	@python3 -c "import sys; sys.path.append('scripts'); from collect_modules import ModuleCollector; collector = ModuleCollector(); print('✓ ModuleCollector kann importiert werden'); print(f'✓ Architekturen: {collector.architectures}'); print(f'✓ Kategorien: {len(collector.categories)} definiert')"
 	@echo "2. Teste Web-Dateien..."
 	@test -f web/index.html && echo "✓ index.html vorhanden" || echo "✗ index.html fehlt"
 	@test -f web/module-browser.js && echo "✓ module-browser.js vorhanden" || echo "✗ module-browser.js fehlt"
