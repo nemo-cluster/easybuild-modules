@@ -1,0 +1,1091 @@
+[
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Other",
+    "architecture": "mi300a",
+    "description": "arch version genoa for mi300a architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:07.921527"
+  },
+  {
+    "software": "arch",
+    "version": "mi300a",
+    "category": "Other",
+    "architecture": "mi300a",
+    "description": "arch version mi300a for mi300a architecture",
+    "full_name": "arch/mi300a",
+    "collected_at": "2025-10-10T17:50:07.921570"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "mi300a",
+    "description": "lang version miniforge3/24.11.3 for mi300a architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:07.921623"
+  },
+  {
+    "software": "devel",
+    "version": "miniforge",
+    "category": "Global Aliases",
+    "architecture": "mi300a",
+    "description": "devel version miniforge for mi300a architecture",
+    "full_name": "devel/miniforge",
+    "collected_at": "2025-10-10T17:50:07.921635"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "mi300a",
+    "description": "lang version miniforge3/24.11.3 for mi300a architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:07.921646"
+  },
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "mi300a",
+    "description": "arch version genoa for mi300a architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:07.921671"
+  },
+  {
+    "software": "arch",
+    "version": "h200",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "mi300a",
+    "description": "arch version h200 for mi300a architecture",
+    "full_name": "arch/h200",
+    "collected_at": "2025-10-10T17:50:07.921681"
+  },
+  {
+    "software": "arch",
+    "version": "l40s",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "mi300a",
+    "description": "arch version l40s for mi300a architecture",
+    "full_name": "arch/l40s",
+    "collected_at": "2025-10-10T17:50:07.921691"
+  },
+  {
+    "software": "arch",
+    "version": "mi300a",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "mi300a",
+    "description": "arch version mi300a for mi300a architecture",
+    "full_name": "arch/mi300a",
+    "collected_at": "2025-10-10T17:50:07.921701"
+  },
+  {
+    "software": "arch",
+    "version": "milan",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "mi300a",
+    "description": "arch version milan for mi300a architecture",
+    "full_name": "arch/milan",
+    "collected_at": "2025-10-10T17:50:07.921711"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/13.3.0",
+    "category": "Compilers",
+    "architecture": "mi300a",
+    "description": "compiler version gcc/13.3.0 for mi300a architecture",
+    "full_name": "compiler/gcc/13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921733"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/13.3.0",
+    "category": "Compilers",
+    "architecture": "mi300a",
+    "description": "compiler version gcccore/13.3.0 for mi300a architecture",
+    "full_name": "compiler/gcccore/13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921742"
+  },
+  {
+    "software": "compiler",
+    "version": "go/1.23.6",
+    "category": "Compilers",
+    "architecture": "mi300a",
+    "description": "compiler version go/1.23.6 for mi300a architecture",
+    "full_name": "compiler/go/1.23.6",
+    "collected_at": "2025-10-10T17:50:07.921750"
+  },
+  {
+    "software": "compiler",
+    "version": "intel",
+    "category": "Compilers",
+    "architecture": "mi300a",
+    "description": "compiler version intel for mi300a architecture",
+    "full_name": "compiler/intel-compilers/2024.2.0",
+    "collected_at": "2025-10-10T17:50:07.921759"
+  },
+  {
+    "software": "data",
+    "version": "lame/3.100",
+    "category": "Data Analysis",
+    "architecture": "mi300a",
+    "description": "data version lame/3.100 for mi300a architecture",
+    "full_name": "data/lame/3.100-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921780"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.72",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version autoconf/2.72 for mi300a architecture",
+    "full_name": "devel/autoconf/2.72-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921799"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version make/4.4.1 for mi300a architecture",
+    "full_name": "devel/make/4.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921815"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version automake/1.16.5 for mi300a architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921836"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version ncurses/6.5 for mi300a architecture",
+    "full_name": "devel/ncurses/6.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921847"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20231222",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version autotools/20231222 for mi300a architecture",
+    "full_name": "devel/autotools/20231222-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921863"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version ncurses/6.5 for mi300a architecture",
+    "full_name": "devel/ncurses/6.5",
+    "collected_at": "2025-10-10T17:50:07.921874"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.29.3",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version cmake/3.29.3 for mi300a architecture",
+    "full_name": "devel/cmake/3.29.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921889"
+  },
+  {
+    "software": "devel",
+    "version": "pcre2/10.43",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version pcre2/10.43 for mi300a architecture",
+    "full_name": "devel/pcre2/10.43-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921899"
+  },
+  {
+    "software": "devel",
+    "version": "dbus/1.15.8",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version dbus/1.15.8 for mi300a architecture",
+    "full_name": "devel/dbus/1.15.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921913"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.8.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version pkgconf/1.8.0 for mi300a architecture",
+    "full_name": "devel/pkgconf/1.8.0",
+    "collected_at": "2025-10-10T17:50:07.921923"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version gperf/3.1 for mi300a architecture",
+    "full_name": "devel/gperf/3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921940"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/2.2.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version pkgconf/2.2.0 for mi300a architecture",
+    "full_name": "devel/pkgconf/2.2.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921951"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version intltool/0.51.0 for mi300a architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921981"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.45.3",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version sqlite/3.45.3 for mi300a architecture",
+    "full_name": "devel/sqlite/3.45.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.921992"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version m4/1.4.19 for mi300a architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922006"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version xorg for mi300a architecture",
+    "full_name": "devel/xorg-macros/1.20.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922016"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "devel version m4/1.4.19 for mi300a architecture",
+    "full_name": "devel/m4/1.4.19",
+    "collected_at": "2025-10-10T17:50:07.922029"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version bison/3.8.2 for mi300a architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922047"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.03",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version nasm/2.16.03 for mi300a architecture",
+    "full_name": "lang/nasm/2.16.03-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922060"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version bison/3.8.2 for mi300a architecture",
+    "full_name": "lang/bison/3.8.2",
+    "collected_at": "2025-10-10T17:50:07.922074"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version perl for mi300a architecture",
+    "full_name": "lang/perl-bundle-cpan/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922085"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version flex/2.6.4 for mi300a architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922100"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.0",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version perl/5.38.0 for mi300a architecture",
+    "full_name": "lang/perl/5.38.0",
+    "collected_at": "2025-10-10T17:50:07.922113"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version flex/2.6.4 for mi300a architecture",
+    "full_name": "lang/flex/2.6.4",
+    "collected_at": "2025-10-10T17:50:07.922127"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.2",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version perl/5.38.2 for mi300a architecture",
+    "full_name": "lang/perl/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922138"
+  },
+  {
+    "software": "lang",
+    "version": "fribidi/1.0.15",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version fribidi/1.0.15 for mi300a architecture",
+    "full_name": "lang/fribidi/1.0.15-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922161"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.12.3",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version python/3.12.3 for mi300a architecture",
+    "full_name": "lang/python/3.12.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922171"
+  },
+  {
+    "software": "lang",
+    "version": "lua/5.4.7",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version lua/5.4.7 for mi300a architecture",
+    "full_name": "lang/lua/5.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922185"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.14",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version tcl/8.6.14 for mi300a architecture",
+    "full_name": "lang/tcl/8.6.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922195"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version miniforge3/24.11.3 for mi300a architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:07.922209"
+  },
+  {
+    "software": "lang",
+    "version": "yasm/1.3.0",
+    "category": "Programming Languages",
+    "architecture": "mi300a",
+    "description": "lang version yasm/1.3.0 for mi300a architecture",
+    "full_name": "lang/yasm/1.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922219"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.1.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version brotli/1.1.0 for mi300a architecture",
+    "full_name": "lib/brotli/1.1.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922236"
+  },
+  {
+    "software": "lib",
+    "version": "libunwind/1.8.1",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libunwind/1.8.1 for mi300a architecture",
+    "full_name": "lib/libunwind/1.8.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922245"
+  },
+  {
+    "software": "lib",
+    "version": "double",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version double for mi300a architecture",
+    "full_name": "lib/double-conversion/3.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922258"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.4.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libwebp/1.4.0 for mi300a architecture",
+    "full_name": "lib/libwebp/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922268"
+  },
+  {
+    "software": "lib",
+    "version": "ffnvcodec/12.2.72.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version ffnvcodec/12.2.72.0 for mi300a architecture",
+    "full_name": "lib/ffnvcodec/12.2.72.0",
+    "collected_at": "2025-10-10T17:50:07.922286"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.12.7",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libxml2/2.12.7 for mi300a architecture",
+    "full_name": "lib/libxml2/2.12.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922295"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.4.4",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version flexiblas/3.4.4 for mi300a architecture",
+    "full_name": "lib/flexiblas/3.4.4-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922308"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version lz4/1.9.4 for mi300a architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922324"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version giflib/5.2.1 for mi300a architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922337"
+  },
+  {
+    "software": "lib",
+    "version": "nspr/4.35",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version nspr/4.35 for mi300a architecture",
+    "full_name": "lib/nspr/4.35-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922346"
+  },
+  {
+    "software": "lib",
+    "version": "graphite2/1.3.14",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version graphite2/1.3.14 for mi300a architecture",
+    "full_name": "lib/graphite2/1.3.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922359"
+  },
+  {
+    "software": "lib",
+    "version": "nss/3.104",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version nss/3.104 for mi300a architecture",
+    "full_name": "lib/nss/3.104-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922367"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libevent/2.1.12 for mi300a architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922388"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/5.0.2",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version pmix/5.0.2 for mi300a architecture",
+    "full_name": "lib/pmix/5.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922398"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.21.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libfabric/1.21.0 for mi300a architecture",
+    "full_name": "lib/libfabric/1.21.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922411"
+  },
+  {
+    "software": "lib",
+    "version": "prrte/3.0.5",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version prrte/3.0.5 for mi300a architecture",
+    "full_name": "lib/prrte/3.0.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922420"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.5",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libffi/3.4.5 for mi300a architecture",
+    "full_name": "lib/libffi/3.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922433"
+  },
+  {
+    "software": "lib",
+    "version": "snappy/1.2.1",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version snappy/1.2.1 for mi300a architecture",
+    "full_name": "lib/snappy/1.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922442"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libiconv/1.17 for mi300a architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922454"
+  },
+  {
+    "software": "lib",
+    "version": "ucc/1.3.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version ucc/1.3.0 for mi300a architecture",
+    "full_name": "lib/ucc/1.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922464"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libjpeg for mi300a architecture",
+    "full_name": "lib/libjpeg-turbo/3.0.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922481"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.16.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version ucx/1.16.0 for mi300a architecture",
+    "full_name": "lib/ucx/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922491"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.43",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libpng/1.6.43 for mi300a architecture",
+    "full_name": "lib/libpng/1.6.43-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922503"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version zlib/1.2.13 for mi300a architecture",
+    "full_name": "lib/zlib/1.2.13",
+    "collected_at": "2025-10-10T17:50:07.922512"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libreadline/8.2 for mi300a architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922525"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version zlib/1.3.1 for mi300a architecture",
+    "full_name": "lib/zlib/1.3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922534"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.6.0",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libtiff/4.6.0 for mi300a architecture",
+    "full_name": "lib/libtiff/4.6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922547"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version zlib/1.3.1 for mi300a architecture",
+    "full_name": "lib/zlib/1.3.1",
+    "collected_at": "2025-10-10T17:50:07.922556"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version libtool/2.4.7 for mi300a architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922569"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.6",
+    "category": "Libraries",
+    "architecture": "mi300a",
+    "description": "lib version zstd/1.5.6 for mi300a architecture",
+    "full_name": "lib/zstd/1.5.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922578"
+  },
+  {
+    "software": "math",
+    "version": "libcerf/2.4",
+    "category": "Mathematics Software",
+    "architecture": "mi300a",
+    "description": "math version libcerf/2.4 for mi300a architecture",
+    "full_name": "math/libcerf/2.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922593"
+  },
+  {
+    "software": "mpi",
+    "version": "impi/2021.13.0",
+    "category": "MPI Libraries",
+    "architecture": "mi300a",
+    "description": "mpi version impi/2021.13.0 for mi300a architecture",
+    "full_name": "mpi/impi/2021.13.0-intel-compilers-2024.2.0",
+    "collected_at": "2025-10-10T17:50:07.922620"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/5.0.3",
+    "category": "MPI Libraries",
+    "architecture": "mi300a",
+    "description": "mpi version openmpi/5.0.3 for mi300a architecture",
+    "full_name": "mpi/openmpi/5.0.3-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922630"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/1.0",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version blis/1.0 for mi300a architecture",
+    "full_name": "numlib/blis/1.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922660"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl/2024.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version imkl/2024.2.0 for mi300a architecture",
+    "full_name": "numlib/imkl/2024.2.0",
+    "collected_at": "2025-10-10T17:50:07.922671"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw.mpi/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version fftw.mpi/3.3.10 for mi300a architecture",
+    "full_name": "numlib/fftw.mpi/3.3.10-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:07.922685"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.27",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version openblas/0.3.27 for mi300a architecture",
+    "full_name": "numlib/openblas/0.3.27-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922695"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version fftw/3.3.10 for mi300a architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922708"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version scalapack/2.2.0 for mi300a architecture",
+    "full_name": "numlib/scalapack/2.2.0-gompi-2024a-fb",
+    "collected_at": "2025-10-10T17:50:07.922719"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl",
+    "category": "Numeric Libraries",
+    "architecture": "mi300a",
+    "description": "numlib version imkl for mi300a architecture",
+    "full_name": "numlib/imkl-fftw/2024.2.0-iimpi-2024a",
+    "collected_at": "2025-10-10T17:50:07.922732"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.10.0",
+    "category": "System Modules",
+    "architecture": "mi300a",
+    "description": "system version hwloc/2.10.0 for mi300a architecture",
+    "full_name": "system/hwloc/2.10.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922749"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.18.1",
+    "category": "System Modules",
+    "architecture": "mi300a",
+    "description": "system version libpciaccess/0.18.1 for mi300a architecture",
+    "full_name": "system/libpciaccess/0.18.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922764"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.20",
+    "category": "System Modules",
+    "architecture": "mi300a",
+    "description": "system version libdeflate/1.20 for mi300a architecture",
+    "full_name": "system/libdeflate/1.20-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922778"
+  },
+  {
+    "software": "system",
+    "version": "openssl/3",
+    "category": "System Modules",
+    "architecture": "mi300a",
+    "description": "system version openssl/3 for mi300a architecture",
+    "full_name": "system/openssl/3",
+    "collected_at": "2025-10-10T17:50:07.922790"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2024a",
+    "category": "Toolchains",
+    "architecture": "mi300a",
+    "description": "toolchain version foss/2024a for mi300a architecture",
+    "full_name": "toolchain/foss/2024a",
+    "collected_at": "2025-10-10T17:50:07.922808"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2024a",
+    "category": "Toolchains",
+    "architecture": "mi300a",
+    "description": "toolchain version gompi/2024a for mi300a architecture",
+    "full_name": "toolchain/gompi/2024a",
+    "collected_at": "2025-10-10T17:50:07.922818"
+  },
+  {
+    "software": "toolchain",
+    "version": "iimpi/2024a",
+    "category": "Toolchains",
+    "architecture": "mi300a",
+    "description": "toolchain version iimpi/2024a for mi300a architecture",
+    "full_name": "toolchain/iimpi/2024a",
+    "collected_at": "2025-10-10T17:50:07.922831"
+  },
+  {
+    "software": "toolchain",
+    "version": "intel/2024a",
+    "category": "Toolchains",
+    "architecture": "mi300a",
+    "description": "toolchain version intel/2024a for mi300a architecture",
+    "full_name": "toolchain/intel/2024a",
+    "collected_at": "2025-10-10T17:50:07.922841"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version binutils/2.40 for mi300a architecture",
+    "full_name": "tools/binutils/2.40",
+    "collected_at": "2025-10-10T17:50:07.922856"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.13",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version gzip/1.13 for mi300a architecture",
+    "full_name": "tools/gzip/1.13-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922865"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version binutils/2.42 for mi300a architecture",
+    "full_name": "tools/binutils/2.42-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922878"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version help2man/1.49.3 for mi300a architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922887"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version binutils/2.42 for mi300a architecture",
+    "full_name": "tools/binutils/2.42",
+    "collected_at": "2025-10-10T17:50:07.922905"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.7.4",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version libarchive/3.7.4 for mi300a architecture",
+    "full_name": "tools/libarchive/3.7.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922919"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version bzip2/1.0.8 for mi300a architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922933"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.4.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version meson/1.4.0 for mi300a architecture",
+    "full_name": "tools/meson/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922942"
+  },
+  {
+    "software": "tools",
+    "version": "code",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version code for mi300a architecture",
+    "full_name": "tools/code-server/4.90.2",
+    "collected_at": "2025-10-10T17:50:07.922955"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.12.1",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version ninja/1.12.1 for mi300a architecture",
+    "full_name": "tools/ninja/1.12.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922964"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.7.1",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version curl/8.7.1 for mi300a architecture",
+    "full_name": "tools/curl/8.7.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922976"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.18",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version numactl/2.0.18 for mi300a architecture",
+    "full_name": "tools/numactl/2.0.18-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.922990"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.6.2",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version expat/2.6.2 for mi300a architecture",
+    "full_name": "tools/expat/2.6.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923002"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version patchelf/0.18.0 for mi300a architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923011"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version gettext/0.22.5 for mi300a architecture",
+    "full_name": "tools/gettext/0.22.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923023"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version unzip/6.0 for mi300a architecture",
+    "full_name": "tools/unzip/6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923032"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version gettext/0.22.5 for mi300a architecture",
+    "full_name": "tools/gettext/0.22.5",
+    "collected_at": "2025-10-10T17:50:07.923045"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version util for mi300a architecture",
+    "full_name": "tools/util-linux/2.40-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923054"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.45.1",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version git/2.45.1 for mi300a architecture",
+    "full_name": "tools/git/2.45.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923071"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.5",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version xz/5.4.5 for mi300a architecture",
+    "full_name": "tools/xz/5.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923080"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.23.0",
+    "category": "Development Tools",
+    "architecture": "mi300a",
+    "description": "tools version groff/1.23.0 for mi300a architecture",
+    "full_name": "tools/groff/1.23.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923092"
+  },
+  {
+    "software": "vis",
+    "version": "assimp/5.4.3",
+    "category": "Visualization",
+    "architecture": "mi300a",
+    "description": "vis version assimp/5.4.3 for mi300a architecture",
+    "full_name": "vis/assimp/5.4.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923110"
+  },
+  {
+    "software": "vis",
+    "version": "jasper/4.2.4",
+    "category": "Visualization",
+    "architecture": "mi300a",
+    "description": "vis version jasper/4.2.4 for mi300a architecture",
+    "full_name": "vis/jasper/4.2.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923120"
+  },
+  {
+    "software": "vis",
+    "version": "x264/20240513",
+    "category": "Visualization",
+    "architecture": "mi300a",
+    "description": "vis version x264/20240513 for mi300a architecture",
+    "full_name": "vis/x264/20240513-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923130"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.2",
+    "category": "Visualization",
+    "architecture": "mi300a",
+    "description": "vis version freetype/2.13.2 for mi300a architecture",
+    "full_name": "vis/freetype/2.13.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923149"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "mi300a",
+    "description": "vis version jbigkit/2.1 for mi300a architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923158"
+  },
+  {
+    "software": "vis",
+    "version": "x265/3.6",
+    "category": "Visualization",
+    "architecture": "mi300a",
+    "description": "vis version x265/3.6 for mi300a architecture",
+    "full_name": "vis/x265/3.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.923168"
+  }
+]

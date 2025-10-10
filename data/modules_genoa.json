@@ -1,0 +1,4925 @@
+[
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "genoa",
+    "description": "lang version miniforge3/24.11.3 for genoa architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:05.097201"
+  },
+  {
+    "software": "devel",
+    "version": "miniforge",
+    "category": "Global Aliases",
+    "architecture": "genoa",
+    "description": "devel version miniforge for genoa architecture",
+    "full_name": "devel/miniforge",
+    "collected_at": "2025-10-10T17:50:05.097219"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "genoa",
+    "description": "lang version miniforge3/24.11.3 for genoa architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:05.097225"
+  },
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "genoa",
+    "description": "arch version genoa for genoa architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:05.097237"
+  },
+  {
+    "software": "arch",
+    "version": "h200",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "genoa",
+    "description": "arch version h200 for genoa architecture",
+    "full_name": "arch/h200",
+    "collected_at": "2025-10-10T17:50:05.097242"
+  },
+  {
+    "software": "arch",
+    "version": "l40s",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "genoa",
+    "description": "arch version l40s for genoa architecture",
+    "full_name": "arch/l40s",
+    "collected_at": "2025-10-10T17:50:05.097246"
+  },
+  {
+    "software": "arch",
+    "version": "mi300a",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "genoa",
+    "description": "arch version mi300a for genoa architecture",
+    "full_name": "arch/mi300a",
+    "collected_at": "2025-10-10T17:50:05.097250"
+  },
+  {
+    "software": "arch",
+    "version": "milan",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "genoa",
+    "description": "arch version milan for genoa architecture",
+    "full_name": "arch/milan",
+    "collected_at": "2025-10-10T17:50:05.097254"
+  },
+  {
+    "software": "bio",
+    "version": "gromacs/2023.3",
+    "category": "Biology Software",
+    "architecture": "genoa",
+    "description": "bio version gromacs/2023.3 for genoa architecture",
+    "full_name": "bio/gromacs/2023.3-foss-2023a",
+    "collected_at": "2025-10-10T17:50:05.097264"
+  },
+  {
+    "software": "bio",
+    "version": "nest/2.20.2",
+    "category": "Biology Software",
+    "architecture": "genoa",
+    "description": "bio version nest/2.20.2 for genoa architecture",
+    "full_name": "bio/nest/2.20.2-foss-2020b",
+    "collected_at": "2025-10-10T17:50:05.097270"
+  },
+  {
+    "software": "bio",
+    "version": "nest/3.8",
+    "category": "Biology Software",
+    "architecture": "genoa",
+    "description": "bio version nest/3.8 for genoa architecture",
+    "full_name": "bio/nest/3.8-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.097274"
+  },
+  {
+    "software": "chem",
+    "version": "ase/3.24.0",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version ase/3.24.0 for genoa architecture",
+    "full_name": "chem/ase/3.24.0-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:05.097281"
+  },
+  {
+    "software": "chem",
+    "version": "mdi/1.4.26",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version mdi/1.4.26 for genoa architecture",
+    "full_name": "chem/mdi/1.4.26-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:05.097286"
+  },
+  {
+    "software": "chem",
+    "version": "gpaw",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version gpaw for genoa architecture",
+    "full_name": "chem/gpaw-setups/24.11.0",
+    "collected_at": "2025-10-10T17:50:05.097292"
+  },
+  {
+    "software": "chem",
+    "version": "mdi/1.4.26",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version mdi/1.4.26 for genoa architecture",
+    "full_name": "chem/mdi/1.4.26-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:05.097296"
+  },
+  {
+    "software": "chem",
+    "version": "kim",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version kim for genoa architecture",
+    "full_name": "chem/kim-api/2.3.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097302"
+  },
+  {
+    "software": "chem",
+    "version": "orca/6.0.1",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version orca/6.0.1 for genoa architecture",
+    "full_name": "chem/orca/6.0.1-gompi-2023a-avx2",
+    "collected_at": "2025-10-10T17:50:05.097305"
+  },
+  {
+    "software": "chem",
+    "version": "kim",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version kim for genoa architecture",
+    "full_name": "chem/kim-api/2.4.1-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097311"
+  },
+  {
+    "software": "chem",
+    "version": "plumed/2.9.0",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version plumed/2.9.0 for genoa architecture",
+    "full_name": "chem/plumed/2.9.0-foss-2023a",
+    "collected_at": "2025-10-10T17:50:05.097314"
+  },
+  {
+    "software": "chem",
+    "version": "lammps/2aug2023_update2",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version lammps/2aug2023_update2 for genoa architecture",
+    "full_name": "chem/lammps/2aug2023_update2-foss-2023a-kokkos",
+    "collected_at": "2025-10-10T17:50:05.097320"
+  },
+  {
+    "software": "chem",
+    "version": "plumed/2.9.3",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version plumed/2.9.3 for genoa architecture",
+    "full_name": "chem/plumed/2.9.3-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.097325"
+  },
+  {
+    "software": "chem",
+    "version": "libvdwxc/0.4.0",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version libvdwxc/0.4.0 for genoa architecture",
+    "full_name": "chem/libvdwxc/0.4.0-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.097330"
+  },
+  {
+    "software": "chem",
+    "version": "spglib",
+    "category": "Chemistry Software",
+    "architecture": "genoa",
+    "description": "chem version spglib for genoa architecture",
+    "full_name": "chem/spglib-python/2.5.0-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:05.097336"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/10.2.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcc/10.2.0 for genoa architecture",
+    "full_name": "compiler/gcc/10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097344"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/10.2.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcccore/10.2.0 for genoa architecture",
+    "full_name": "compiler/gcccore/10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097348"
+  },
+  {
+    "software": "compiler",
+    "version": "go/1.23.6",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version go/1.23.6 for genoa architecture",
+    "full_name": "compiler/go/1.23.6",
+    "collected_at": "2025-10-10T17:50:05.097351"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/12.3.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcc/12.3.0 for genoa architecture",
+    "full_name": "compiler/gcc/12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097357"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/12.3.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcccore/12.3.0 for genoa architecture",
+    "full_name": "compiler/gcccore/12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097360"
+  },
+  {
+    "software": "compiler",
+    "version": "intel",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version intel for genoa architecture",
+    "full_name": "compiler/intel-compilers/2024.2.0",
+    "collected_at": "2025-10-10T17:50:05.097363"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/13.2.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcc/13.2.0 for genoa architecture",
+    "full_name": "compiler/gcc/13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097369"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/13.2.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcccore/13.2.0 for genoa architecture",
+    "full_name": "compiler/gcccore/13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097372"
+  },
+  {
+    "software": "compiler",
+    "version": "llvm/16.0.6",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version llvm/16.0.6 for genoa architecture",
+    "full_name": "compiler/llvm/16.0.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097377"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/13.3.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcc/13.3.0 for genoa architecture",
+    "full_name": "compiler/gcc/13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097385"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/13.3.0",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version gcccore/13.3.0 for genoa architecture",
+    "full_name": "compiler/gcccore/13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097389"
+  },
+  {
+    "software": "compiler",
+    "version": "llvm/18.1.8",
+    "category": "Compilers",
+    "architecture": "genoa",
+    "description": "compiler version llvm/18.1.8 for genoa architecture",
+    "full_name": "compiler/llvm/18.1.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097393"
+  },
+  {
+    "software": "data",
+    "version": "hdf5/1.10.7",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version hdf5/1.10.7 for genoa architecture",
+    "full_name": "data/hdf5/1.10.7-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:05.097401"
+  },
+  {
+    "software": "data",
+    "version": "lame/3.100",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version lame/3.100 for genoa architecture",
+    "full_name": "data/lame/3.100-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097406"
+  },
+  {
+    "software": "data",
+    "version": "hdf5/1.14.0",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version hdf5/1.14.0 for genoa architecture",
+    "full_name": "data/hdf5/1.14.0-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:05.097411"
+  },
+  {
+    "software": "data",
+    "version": "netcdf/4.9.2",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version netcdf/4.9.2 for genoa architecture",
+    "full_name": "data/netcdf/4.9.2-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:05.097415"
+  },
+  {
+    "software": "data",
+    "version": "hdf5/1.14.5",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version hdf5/1.14.5 for genoa architecture",
+    "full_name": "data/hdf5/1.14.5-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:05.097421"
+  },
+  {
+    "software": "data",
+    "version": "netcdf/4.9.2",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version netcdf/4.9.2 for genoa architecture",
+    "full_name": "data/netcdf/4.9.2-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:05.097425"
+  },
+  {
+    "software": "data",
+    "version": "lame/3.100",
+    "category": "Data Analysis",
+    "architecture": "genoa",
+    "description": "data version lame/3.100 for genoa architecture",
+    "full_name": "data/lame/3.100-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097430"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.69",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autoconf/2.69 for genoa architecture",
+    "full_name": "devel/autoconf/2.69-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097437"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version m4/1.4.19 for genoa architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097442"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autoconf/2.71 for genoa architecture",
+    "full_name": "devel/autoconf/2.71-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097448"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version m4/1.4.19 for genoa architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097452"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autoconf/2.71 for genoa architecture",
+    "full_name": "devel/autoconf/2.71-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097458"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version m4/1.4.19 for genoa architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097462"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autoconf/2.71 for genoa architecture",
+    "full_name": "devel/autoconf/2.71",
+    "collected_at": "2025-10-10T17:50:05.097473"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version m4/1.4.19 for genoa architecture",
+    "full_name": "devel/m4/1.4.19",
+    "collected_at": "2025-10-10T17:50:05.097477"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.72",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autoconf/2.72 for genoa architecture",
+    "full_name": "devel/autoconf/2.72-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097483"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version make/4.3 for genoa architecture",
+    "full_name": "devel/make/4.3-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097487"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version automake/1.16.2 for genoa architecture",
+    "full_name": "devel/automake/1.16.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097493"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version make/4.4.1 for genoa architecture",
+    "full_name": "devel/make/4.4.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097497"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version automake/1.16.5 for genoa architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097503"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version make/4.4.1 for genoa architecture",
+    "full_name": "devel/make/4.4.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097507"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version automake/1.16.5 for genoa architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097513"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version make/4.4.1 for genoa architecture",
+    "full_name": "devel/make/4.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097517"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version automake/1.16.5 for genoa architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097523"
+  },
+  {
+    "software": "devel",
+    "version": "makeinfo/6.7",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version makeinfo/6.7 for genoa architecture",
+    "full_name": "devel/makeinfo/6.7-gcccore-10.2.0-minimal",
+    "collected_at": "2025-10-10T17:50:05.097527"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version automake/1.16.5 for genoa architecture",
+    "full_name": "devel/automake/1.16.5",
+    "collected_at": "2025-10-10T17:50:05.097533"
+  },
+  {
+    "software": "devel",
+    "version": "mako/1.2.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version mako/1.2.4 for genoa architecture",
+    "full_name": "devel/mako/1.2.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097539"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20200321",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autotools/20200321 for genoa architecture",
+    "full_name": "devel/autotools/20200321-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097547"
+  },
+  {
+    "software": "devel",
+    "version": "mako/1.3.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version mako/1.3.5 for genoa architecture",
+    "full_name": "devel/mako/1.3.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097551"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autotools/20220317 for genoa architecture",
+    "full_name": "devel/autotools/20220317-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097557"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.2 for genoa architecture",
+    "full_name": "devel/ncurses/6.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097562"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autotools/20220317 for genoa architecture",
+    "full_name": "devel/autotools/20220317-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097569"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.2 for genoa architecture",
+    "full_name": "devel/ncurses/6.2",
+    "collected_at": "2025-10-10T17:50:05.097573"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autotools/20220317 for genoa architecture",
+    "full_name": "devel/autotools/20220317",
+    "collected_at": "2025-10-10T17:50:05.097579"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.3 for genoa architecture",
+    "full_name": "devel/ncurses/6.3",
+    "collected_at": "2025-10-10T17:50:05.097583"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20231222",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version autotools/20231222 for genoa architecture",
+    "full_name": "devel/autotools/20231222-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097590"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.4 for genoa architecture",
+    "full_name": "devel/ncurses/6.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097594"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.74.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version boost/1.74.0 for genoa architecture",
+    "full_name": "devel/boost/1.74.0-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097606"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.4 for genoa architecture",
+    "full_name": "devel/ncurses/6.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097611"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.82.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version boost/1.82.0 for genoa architecture",
+    "full_name": "devel/boost/1.82.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097619"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.4 for genoa architecture",
+    "full_name": "devel/ncurses/6.4",
+    "collected_at": "2025-10-10T17:50:05.097623"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.85.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version boost/1.85.0 for genoa architecture",
+    "full_name": "devel/boost/1.85.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097629"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.5 for genoa architecture",
+    "full_name": "devel/ncurses/6.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097633"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.18.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version cmake/3.18.4 for genoa architecture",
+    "full_name": "devel/cmake/3.18.4-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097641"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version ncurses/6.5 for genoa architecture",
+    "full_name": "devel/ncurses/6.5",
+    "collected_at": "2025-10-10T17:50:05.097645"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.18.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version cmake/3.18.4 for genoa architecture",
+    "full_name": "devel/cmake/3.18.4",
+    "collected_at": "2025-10-10T17:50:05.097651"
+  },
+  {
+    "software": "devel",
+    "version": "pcre/8.45",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pcre/8.45 for genoa architecture",
+    "full_name": "devel/pcre/8.45-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097655"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.20.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version cmake/3.20.1 for genoa architecture",
+    "full_name": "devel/cmake/3.20.1-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097661"
+  },
+  {
+    "software": "devel",
+    "version": "pcre/8.45",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pcre/8.45 for genoa architecture",
+    "full_name": "devel/pcre/8.45-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097665"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.26.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version cmake/3.26.3 for genoa architecture",
+    "full_name": "devel/cmake/3.26.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097671"
+  },
+  {
+    "software": "devel",
+    "version": "pcre2/10.42",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pcre2/10.42 for genoa architecture",
+    "full_name": "devel/pcre2/10.42-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097675"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.27.6",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version cmake/3.27.6 for genoa architecture",
+    "full_name": "devel/cmake/3.27.6-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097681"
+  },
+  {
+    "software": "devel",
+    "version": "pcre2/10.43",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pcre2/10.43 for genoa architecture",
+    "full_name": "devel/pcre2/10.43-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097689"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.29.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version cmake/3.29.3 for genoa architecture",
+    "full_name": "devel/cmake/3.29.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097695"
+  },
+  {
+    "software": "devel",
+    "version": "pkg",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pkg for genoa architecture",
+    "full_name": "devel/pkg-config/0.29.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097699"
+  },
+  {
+    "software": "devel",
+    "version": "dbus/1.15.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version dbus/1.15.4 for genoa architecture",
+    "full_name": "devel/dbus/1.15.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097705"
+  },
+  {
+    "software": "devel",
+    "version": "pkg",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pkg for genoa architecture",
+    "full_name": "devel/pkg-config/0.29.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097709"
+  },
+  {
+    "software": "devel",
+    "version": "dbus/1.15.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version dbus/1.15.8 for genoa architecture",
+    "full_name": "devel/dbus/1.15.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097715"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.8.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pkgconf/1.8.0 for genoa architecture",
+    "full_name": "devel/pkgconf/1.8.0",
+    "collected_at": "2025-10-10T17:50:05.097719"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.8.20",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version doxygen/1.8.20 for genoa architecture",
+    "full_name": "devel/doxygen/1.8.20-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097725"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.9.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pkgconf/1.9.5 for genoa architecture",
+    "full_name": "devel/pkgconf/1.9.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097729"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.9.7",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version doxygen/1.9.7 for genoa architecture",
+    "full_name": "devel/doxygen/1.9.7-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097735"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/2.0.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pkgconf/2.0.3 for genoa architecture",
+    "full_name": "devel/pkgconf/2.0.3-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097739"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.9.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version doxygen/1.9.8 for genoa architecture",
+    "full_name": "devel/doxygen/1.9.8-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097747"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/2.2.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version pkgconf/2.2.0 for genoa architecture",
+    "full_name": "devel/pkgconf/2.2.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097751"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.11.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version doxygen/1.11.0 for genoa architecture",
+    "full_name": "devel/doxygen/1.11.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097758"
+  },
+  {
+    "software": "devel",
+    "version": "protobuf",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version protobuf for genoa architecture",
+    "full_name": "devel/protobuf-python/4.24.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097763"
+  },
+  {
+    "software": "devel",
+    "version": "fonttools/4.53.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version fonttools/4.53.1 for genoa architecture",
+    "full_name": "devel/fonttools/4.53.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097769"
+  },
+  {
+    "software": "devel",
+    "version": "protobuf/24.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version protobuf/24.0 for genoa architecture",
+    "full_name": "devel/protobuf/24.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097773"
+  },
+  {
+    "software": "devel",
+    "version": "gobject",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version gobject for genoa architecture",
+    "full_name": "devel/gobject-introspection/1.76.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097779"
+  },
+  {
+    "software": "devel",
+    "version": "qt5/5.15.10",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version qt5/5.15.10 for genoa architecture",
+    "full_name": "devel/qt5/5.15.10-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097783"
+  },
+  {
+    "software": "devel",
+    "version": "gobject",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version gobject for genoa architecture",
+    "full_name": "devel/gobject-introspection/1.80.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097789"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.33.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version sqlite/3.33.0 for genoa architecture",
+    "full_name": "devel/sqlite/3.33.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097793"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version gperf/3.1 for genoa architecture",
+    "full_name": "devel/gperf/3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097799"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.42.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version sqlite/3.42.0 for genoa architecture",
+    "full_name": "devel/sqlite/3.42.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097803"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version gperf/3.1 for genoa architecture",
+    "full_name": "devel/gperf/3.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097809"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.43.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version sqlite/3.43.1 for genoa architecture",
+    "full_name": "devel/sqlite/3.43.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097813"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version gperf/3.1 for genoa architecture",
+    "full_name": "devel/gperf/3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097821"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.45.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version sqlite/3.45.3 for genoa architecture",
+    "full_name": "devel/sqlite/3.45.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097827"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version intltool/0.51.0 for genoa architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097833"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version xorg for genoa architecture",
+    "full_name": "devel/xorg-macros/1.19.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097839"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version intltool/0.51.0 for genoa architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097845"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version xorg for genoa architecture",
+    "full_name": "devel/xorg-macros/1.20.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097850"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version intltool/0.51.0 for genoa architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097857"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version xorg for genoa architecture",
+    "full_name": "devel/xorg-macros/1.20.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097862"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.18",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version m4/1.4.18 for genoa architecture",
+    "full_name": "devel/m4/1.4.18-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097868"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version xorg for genoa architecture",
+    "full_name": "devel/xorg-macros/1.20.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097872"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.18",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "devel version m4/1.4.18 for genoa architecture",
+    "full_name": "devel/m4/1.4.18",
+    "collected_at": "2025-10-10T17:50:05.097877"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.7.1",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version bison/3.7.1 for genoa architecture",
+    "full_name": "lang/bison/3.7.1-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097884"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.32.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl/5.32.0 for genoa architecture",
+    "full_name": "lang/perl/5.32.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097889"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version bison/3.8.2 for genoa architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097894"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.36.1",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl/5.36.1 for genoa architecture",
+    "full_name": "lang/perl/5.36.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097898"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version bison/3.8.2 for genoa architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097904"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl/5.38.0 for genoa architecture",
+    "full_name": "lang/perl/5.38.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097908"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version bison/3.8.2 for genoa architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097918"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl/5.38.0 for genoa architecture",
+    "full_name": "lang/perl/5.38.0",
+    "collected_at": "2025-10-10T17:50:05.097922"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version bison/3.8.2 for genoa architecture",
+    "full_name": "lang/bison/3.8.2",
+    "collected_at": "2025-10-10T17:50:05.097931"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.2",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl/5.38.2 for genoa architecture",
+    "full_name": "lang/perl/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097935"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.8",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version cython/3.0.8 for genoa architecture",
+    "full_name": "lang/cython/3.0.8-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097941"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python for genoa architecture",
+    "full_name": "lang/python-bundle-pypi/2023.06-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097946"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.8",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version cython/3.0.8 for genoa architecture",
+    "full_name": "lang/cython/3.0.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097951"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python for genoa architecture",
+    "full_name": "lang/python-bundle-pypi/2023.10-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097955"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.10",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version cython/3.0.10 for genoa architecture",
+    "full_name": "lang/cython/3.0.10-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097961"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python for genoa architecture",
+    "full_name": "lang/python-bundle-pypi/2024.06-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097966"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.10",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version cython/3.0.10 for genoa architecture",
+    "full_name": "lang/cython/3.0.10-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.097973"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.8.6",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python/3.8.6 for genoa architecture",
+    "full_name": "lang/python/3.8.6-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097977"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version flex/2.6.4 for genoa architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.097983"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.11.3",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python/3.11.3 for genoa architecture",
+    "full_name": "lang/python/3.11.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097987"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version flex/2.6.4 for genoa architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.097993"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.11.5",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python/3.11.5 for genoa architecture",
+    "full_name": "lang/python/3.11.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.097997"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version flex/2.6.4 for genoa architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098003"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.12.3",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version python/3.12.3 for genoa architecture",
+    "full_name": "lang/python/3.12.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098007"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version flex/2.6.4 for genoa architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098013"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.70.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version rust/1.70.0 for genoa architecture",
+    "full_name": "lang/rust/1.70.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098017"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version flex/2.6.4 for genoa architecture",
+    "full_name": "lang/flex/2.6.4",
+    "collected_at": "2025-10-10T17:50:05.098023"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.73.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version rust/1.73.0 for genoa architecture",
+    "full_name": "lang/rust/1.73.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098028"
+  },
+  {
+    "software": "lang",
+    "version": "fribidi/1.0.12",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version fribidi/1.0.12 for genoa architecture",
+    "full_name": "lang/fribidi/1.0.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098034"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.78.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version rust/1.78.0 for genoa architecture",
+    "full_name": "lang/rust/1.78.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098040"
+  },
+  {
+    "software": "lang",
+    "version": "fribidi/1.0.15",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version fribidi/1.0.15 for genoa architecture",
+    "full_name": "lang/fribidi/1.0.15-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098048"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.83.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version rust/1.83.0 for genoa architecture",
+    "full_name": "lang/rust/1.83.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098052"
+  },
+  {
+    "software": "lang",
+    "version": "java/21.0.2",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version java/21.0.2 for genoa architecture",
+    "full_name": "lang/java/21.0.2",
+    "collected_at": "2025-10-10T17:50:05.098058"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version scipy for genoa architecture",
+    "full_name": "lang/scipy-bundle/2020.11-foss-2020b",
+    "collected_at": "2025-10-10T17:50:05.098062"
+  },
+  {
+    "software": "lang",
+    "version": "lua/5.4.7",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version lua/5.4.7 for genoa architecture",
+    "full_name": "lang/lua/5.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098068"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version scipy for genoa architecture",
+    "full_name": "lang/scipy-bundle/2023.07-gfbf-2023a",
+    "collected_at": "2025-10-10T17:50:05.098072"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version miniforge3/24.11.3 for genoa architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:05.098078"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version scipy for genoa architecture",
+    "full_name": "lang/scipy-bundle/2023.11-gfbf-2023b",
+    "collected_at": "2025-10-10T17:50:05.098082"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.01",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version nasm/2.16.01 for genoa architecture",
+    "full_name": "lang/nasm/2.16.01-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098088"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version scipy for genoa architecture",
+    "full_name": "lang/scipy-bundle/2024.05-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:05.098093"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.01",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version nasm/2.16.01 for genoa architecture",
+    "full_name": "lang/nasm/2.16.01-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098098"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.10",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version tcl/8.6.10 for genoa architecture",
+    "full_name": "lang/tcl/8.6.10-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098102"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.03",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version nasm/2.16.03 for genoa architecture",
+    "full_name": "lang/nasm/2.16.03-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098110"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.13",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version tcl/8.6.13 for genoa architecture",
+    "full_name": "lang/tcl/8.6.13-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098114"
+  },
+  {
+    "software": "lang",
+    "version": "nodejs/18.17.1",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version nodejs/18.17.1 for genoa architecture",
+    "full_name": "lang/nodejs/18.17.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098120"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.13",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version tcl/8.6.13 for genoa architecture",
+    "full_name": "lang/tcl/8.6.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098124"
+  },
+  {
+    "software": "lang",
+    "version": "nodejs/20.13.1",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version nodejs/20.13.1 for genoa architecture",
+    "full_name": "lang/nodejs/20.13.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098131"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.14",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version tcl/8.6.14 for genoa architecture",
+    "full_name": "lang/tcl/8.6.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098136"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl for genoa architecture",
+    "full_name": "lang/perl-bundle-cpan/5.36.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098142"
+  },
+  {
+    "software": "lang",
+    "version": "tkinter/3.11.5",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version tkinter/3.11.5 for genoa architecture",
+    "full_name": "lang/tkinter/3.11.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098146"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl for genoa architecture",
+    "full_name": "lang/perl-bundle-cpan/5.38.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098153"
+  },
+  {
+    "software": "lang",
+    "version": "tkinter/3.12.3",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version tkinter/3.12.3 for genoa architecture",
+    "full_name": "lang/tkinter/3.12.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098157"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl for genoa architecture",
+    "full_name": "lang/perl-bundle-cpan/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098163"
+  },
+  {
+    "software": "lang",
+    "version": "yasm/1.3.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version yasm/1.3.0 for genoa architecture",
+    "full_name": "lang/yasm/1.3.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098167"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.32.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version perl/5.32.0 for genoa architecture",
+    "full_name": "lang/perl/5.32.0-gcccore-10.2.0-minimal",
+    "collected_at": "2025-10-10T17:50:05.098173"
+  },
+  {
+    "software": "lang",
+    "version": "yasm/1.3.0",
+    "category": "Programming Languages",
+    "architecture": "genoa",
+    "description": "lang version yasm/1.3.0 for genoa architecture",
+    "full_name": "lang/yasm/1.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098179"
+  },
+  {
+    "software": "lib",
+    "version": "abseil/20230125.3",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version abseil/20230125.3 for genoa architecture",
+    "full_name": "lib/abseil/20230125.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098186"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.3.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libwebp/1.3.1 for genoa architecture",
+    "full_name": "lib/libwebp/1.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098190"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.0.9",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version brotli/1.0.9 for genoa architecture",
+    "full_name": "lib/brotli/1.0.9-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098195"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.3.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libwebp/1.3.2 for genoa architecture",
+    "full_name": "lib/libwebp/1.3.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098199"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.1.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version brotli/1.1.0 for genoa architecture",
+    "full_name": "lib/brotli/1.1.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098204"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.4.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libwebp/1.4.0 for genoa architecture",
+    "full_name": "lib/libwebp/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098208"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.1.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version brotli/1.1.0 for genoa architecture",
+    "full_name": "lib/brotli/1.1.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098214"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.9.10",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libxml2/2.9.10 for genoa architecture",
+    "full_name": "lib/libxml2/2.9.10-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098218"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.9",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version catch2/2.13.9 for genoa architecture",
+    "full_name": "lib/catch2/2.13.9-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098223"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.11.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libxml2/2.11.4 for genoa architecture",
+    "full_name": "lib/libxml2/2.11.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098227"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.9",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version catch2/2.13.9 for genoa architecture",
+    "full_name": "lib/catch2/2.13.9-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098232"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.11.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libxml2/2.11.5 for genoa architecture",
+    "full_name": "lib/libxml2/2.11.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098236"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.10",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version catch2/2.13.10 for genoa architecture",
+    "full_name": "lib/catch2/2.13.10-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098244"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.12.7",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libxml2/2.12.7 for genoa architecture",
+    "full_name": "lib/libxml2/2.12.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098250"
+  },
+  {
+    "software": "lib",
+    "version": "cereal/1.3.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version cereal/1.3.2 for genoa architecture",
+    "full_name": "lib/cereal/1.3.2",
+    "collected_at": "2025-10-10T17:50:05.098255"
+  },
+  {
+    "software": "lib",
+    "version": "libyaml/0.2.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libyaml/0.2.5 for genoa architecture",
+    "full_name": "lib/libyaml/0.2.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098259"
+  },
+  {
+    "software": "lib",
+    "version": "double",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version double for genoa architecture",
+    "full_name": "lib/double-conversion/3.3.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098265"
+  },
+  {
+    "software": "lib",
+    "version": "libyaml/0.2.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libyaml/0.2.5 for genoa architecture",
+    "full_name": "lib/libyaml/0.2.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098269"
+  },
+  {
+    "software": "lib",
+    "version": "double",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version double for genoa architecture",
+    "full_name": "lib/double-conversion/3.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098274"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version lz4/1.9.2 for genoa architecture",
+    "full_name": "lib/lz4/1.9.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098278"
+  },
+  {
+    "software": "lib",
+    "version": "ffnvcodec/12.0.16.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ffnvcodec/12.0.16.0 for genoa architecture",
+    "full_name": "lib/ffnvcodec/12.0.16.0",
+    "collected_at": "2025-10-10T17:50:05.098283"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version lz4/1.9.4 for genoa architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098287"
+  },
+  {
+    "software": "lib",
+    "version": "ffnvcodec/12.2.72.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ffnvcodec/12.2.72.0 for genoa architecture",
+    "full_name": "lib/ffnvcodec/12.2.72.0",
+    "collected_at": "2025-10-10T17:50:05.098293"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version lz4/1.9.4 for genoa architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098296"
+  },
+  {
+    "software": "lib",
+    "version": "flask/3.0.3",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version flask/3.0.3 for genoa architecture",
+    "full_name": "lib/flask/3.0.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098308"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version lz4/1.9.4 for genoa architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098315"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.3.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version flexiblas/3.3.1 for genoa architecture",
+    "full_name": "lib/flexiblas/3.3.1-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098321"
+  },
+  {
+    "software": "lib",
+    "version": "mpi4py/3.1.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version mpi4py/3.1.4 for genoa architecture",
+    "full_name": "lib/mpi4py/3.1.4-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:05.098325"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.3.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version flexiblas/3.3.1 for genoa architecture",
+    "full_name": "lib/flexiblas/3.3.1-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098330"
+  },
+  {
+    "software": "lib",
+    "version": "mpi4py/3.1.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version mpi4py/3.1.4 for genoa architecture",
+    "full_name": "lib/mpi4py/3.1.4-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:05.098334"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.4.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version flexiblas/3.4.4 for genoa architecture",
+    "full_name": "lib/flexiblas/3.4.4-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098341"
+  },
+  {
+    "software": "lib",
+    "version": "mpi4py/4.0.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version mpi4py/4.0.1 for genoa architecture",
+    "full_name": "lib/mpi4py/4.0.1-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:05.098345"
+  },
+  {
+    "software": "lib",
+    "version": "gdrcopy/2.3.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version gdrcopy/2.3.1 for genoa architecture",
+    "full_name": "lib/gdrcopy/2.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098350"
+  },
+  {
+    "software": "lib",
+    "version": "nccl/2.18.3",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version nccl/2.18.3 for genoa architecture",
+    "full_name": "lib/nccl/2.18.3-gcccore-12.3.0-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:05.098354"
+  },
+  {
+    "software": "lib",
+    "version": "gdrcopy/2.4.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version gdrcopy/2.4.1 for genoa architecture",
+    "full_name": "lib/gdrcopy/2.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098360"
+  },
+  {
+    "software": "lib",
+    "version": "nccl/2.22.3",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version nccl/2.22.3 for genoa architecture",
+    "full_name": "lib/nccl/2.22.3-gcccore-13.3.0-cuda-12.6.0",
+    "collected_at": "2025-10-10T17:50:05.098366"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version giflib/5.2.1 for genoa architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098371"
+  },
+  {
+    "software": "lib",
+    "version": "nspr/4.35",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version nspr/4.35 for genoa architecture",
+    "full_name": "lib/nspr/4.35-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098375"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version giflib/5.2.1 for genoa architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098383"
+  },
+  {
+    "software": "lib",
+    "version": "nspr/4.35",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version nspr/4.35 for genoa architecture",
+    "full_name": "lib/nspr/4.35-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098387"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version giflib/5.2.1 for genoa architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098392"
+  },
+  {
+    "software": "lib",
+    "version": "nss/3.89.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version nss/3.89.1 for genoa architecture",
+    "full_name": "lib/nss/3.89.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098396"
+  },
+  {
+    "software": "lib",
+    "version": "graphite2/1.3.14",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version graphite2/1.3.14 for genoa architecture",
+    "full_name": "lib/graphite2/1.3.14-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098402"
+  },
+  {
+    "software": "lib",
+    "version": "nss/3.104",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version nss/3.104 for genoa architecture",
+    "full_name": "lib/nss/3.104-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098406"
+  },
+  {
+    "software": "lib",
+    "version": "graphite2/1.3.14",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version graphite2/1.3.14 for genoa architecture",
+    "full_name": "lib/graphite2/1.3.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098411"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version openjpeg/2.5.0 for genoa architecture",
+    "full_name": "lib/openjpeg/2.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098415"
+  },
+  {
+    "software": "lib",
+    "version": "icu/73.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version icu/73.2 for genoa architecture",
+    "full_name": "lib/icu/73.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098420"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version openjpeg/2.5.0 for genoa architecture",
+    "full_name": "lib/openjpeg/2.5.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098424"
+  },
+  {
+    "software": "lib",
+    "version": "icu/75.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version icu/75.1 for genoa architecture",
+    "full_name": "lib/icu/75.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098430"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version openjpeg/2.5.2 for genoa architecture",
+    "full_name": "lib/openjpeg/2.5.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098438"
+  },
+  {
+    "software": "lib",
+    "version": "libdrm/2.4.115",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libdrm/2.4.115 for genoa architecture",
+    "full_name": "lib/libdrm/2.4.115-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098443"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/3.1.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pmix/3.1.5 for genoa architecture",
+    "full_name": "lib/pmix/3.1.5-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098447"
+  },
+  {
+    "software": "lib",
+    "version": "libdrm/2.4.122",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libdrm/2.4.122 for genoa architecture",
+    "full_name": "lib/libdrm/2.4.122-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098453"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/4.2.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pmix/4.2.4 for genoa architecture",
+    "full_name": "lib/pmix/4.2.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098456"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libevent/2.1.12 for genoa architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098464"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/5.0.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pmix/5.0.2 for genoa architecture",
+    "full_name": "lib/pmix/5.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098468"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libevent/2.1.12 for genoa architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098474"
+  },
+  {
+    "software": "lib",
+    "version": "prrte/3.0.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version prrte/3.0.5 for genoa architecture",
+    "full_name": "lib/prrte/3.0.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098478"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libevent/2.1.12 for genoa architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098483"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.6.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pybind11/2.6.0 for genoa architecture",
+    "full_name": "lib/pybind11/2.6.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098487"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.11.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libfabric/1.11.0 for genoa architecture",
+    "full_name": "lib/libfabric/1.11.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098493"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.11.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pybind11/2.11.1 for genoa architecture",
+    "full_name": "lib/pybind11/2.11.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098496"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.18.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libfabric/1.18.0 for genoa architecture",
+    "full_name": "lib/libfabric/1.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098502"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.11.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pybind11/2.11.1 for genoa architecture",
+    "full_name": "lib/pybind11/2.11.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098505"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.21.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libfabric/1.21.0 for genoa architecture",
+    "full_name": "lib/libfabric/1.21.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098514"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.12.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pybind11/2.12.0 for genoa architecture",
+    "full_name": "lib/pybind11/2.12.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098518"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.3",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libffi/3.3 for genoa architecture",
+    "full_name": "lib/libffi/3.3-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098523"
+  },
+  {
+    "software": "lib",
+    "version": "pyyaml/6.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pyyaml/6.0 for genoa architecture",
+    "full_name": "lib/pyyaml/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098527"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libffi/3.4.4 for genoa architecture",
+    "full_name": "lib/libffi/3.4.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098533"
+  },
+  {
+    "software": "lib",
+    "version": "pyyaml/6.0.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version pyyaml/6.0.2 for genoa architecture",
+    "full_name": "lib/pyyaml/6.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098537"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.4",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libffi/3.4.4 for genoa architecture",
+    "full_name": "lib/libffi/3.4.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098542"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version scikit for genoa architecture",
+    "full_name": "lib/scikit-build-core/0.10.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098546"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libffi/3.4.5 for genoa architecture",
+    "full_name": "lib/libffi/3.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098551"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version scikit for genoa architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098555"
+  },
+  {
+    "software": "lib",
+    "version": "libgd/2.3.3",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libgd/2.3.3 for genoa architecture",
+    "full_name": "lib/libgd/2.3.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098561"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version scikit for genoa architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098564"
+  },
+  {
+    "software": "lib",
+    "version": "libglvnd/1.6.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libglvnd/1.6.0 for genoa architecture",
+    "full_name": "lib/libglvnd/1.6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098570"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version scikit for genoa architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098576"
+  },
+  {
+    "software": "lib",
+    "version": "libglvnd/1.7.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libglvnd/1.7.0 for genoa architecture",
+    "full_name": "lib/libglvnd/1.7.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098581"
+  },
+  {
+    "software": "lib",
+    "version": "sdl2/2.28.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version sdl2/2.28.2 for genoa architecture",
+    "full_name": "lib/sdl2/2.28.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098585"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.16",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libiconv/1.16 for genoa architecture",
+    "full_name": "lib/libiconv/1.16-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098592"
+  },
+  {
+    "software": "lib",
+    "version": "sdl2/2.30.6",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version sdl2/2.30.6 for genoa architecture",
+    "full_name": "lib/sdl2/2.30.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098601"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libiconv/1.17 for genoa architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098607"
+  },
+  {
+    "software": "lib",
+    "version": "snappy/1.1.10",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version snappy/1.1.10 for genoa architecture",
+    "full_name": "lib/snappy/1.1.10-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098611"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libiconv/1.17 for genoa architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098618"
+  },
+  {
+    "software": "lib",
+    "version": "snappy/1.2.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version snappy/1.2.1 for genoa architecture",
+    "full_name": "lib/snappy/1.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098622"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libiconv/1.17 for genoa architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098628"
+  },
+  {
+    "software": "lib",
+    "version": "tbb/2021.11.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version tbb/2021.11.0 for genoa architecture",
+    "full_name": "lib/tbb/2021.11.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098632"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libjpeg for genoa architecture",
+    "full_name": "lib/libjpeg-turbo/2.1.5.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098639"
+  },
+  {
+    "software": "lib",
+    "version": "tbb/2021.13.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version tbb/2021.13.0 for genoa architecture",
+    "full_name": "lib/tbb/2021.13.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098643"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libjpeg for genoa architecture",
+    "full_name": "lib/libjpeg-turbo/3.0.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098651"
+  },
+  {
+    "software": "lib",
+    "version": "ucc/1.2.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucc/1.2.0 for genoa architecture",
+    "full_name": "lib/ucc/1.2.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098654"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libjpeg for genoa architecture",
+    "full_name": "lib/libjpeg-turbo/3.0.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098660"
+  },
+  {
+    "software": "lib",
+    "version": "ucc/1.3.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucc/1.3.0 for genoa architecture",
+    "full_name": "lib/ucc/1.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098664"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.39",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libpng/1.6.39 for genoa architecture",
+    "full_name": "lib/libpng/1.6.39-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098670"
+  },
+  {
+    "software": "lib",
+    "version": "ucx",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucx for genoa architecture",
+    "full_name": "lib/ucx-cuda/1.14.1-gcccore-12.3.0-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:05.098674"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.40",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libpng/1.6.40 for genoa architecture",
+    "full_name": "lib/libpng/1.6.40-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098679"
+  },
+  {
+    "software": "lib",
+    "version": "ucx",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucx for genoa architecture",
+    "full_name": "lib/ucx-cuda/1.16.0-gcccore-13.3.0-cuda-12.6.0",
+    "collected_at": "2025-10-10T17:50:05.098683"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.43",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libpng/1.6.43 for genoa architecture",
+    "full_name": "lib/libpng/1.6.43-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098689"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.9.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucx/1.9.0 for genoa architecture",
+    "full_name": "lib/ucx/1.9.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098693"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libreadline/8.0 for genoa architecture",
+    "full_name": "lib/libreadline/8.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098698"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.14.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucx/1.14.1 for genoa architecture",
+    "full_name": "lib/ucx/1.14.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098702"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libreadline/8.2 for genoa architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098709"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.16.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version ucx/1.16.0 for genoa architecture",
+    "full_name": "lib/ucx/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098716"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libreadline/8.2 for genoa architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098721"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.11",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.2.11 for genoa architecture",
+    "full_name": "lib/zlib/1.2.11-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098725"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libreadline/8.2 for genoa architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098731"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.11",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.2.11 for genoa architecture",
+    "full_name": "lib/zlib/1.2.11",
+    "collected_at": "2025-10-10T17:50:05.098734"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.5.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtiff/4.5.0 for genoa architecture",
+    "full_name": "lib/libtiff/4.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098740"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.2.13 for genoa architecture",
+    "full_name": "lib/zlib/1.2.13-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098743"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.6.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtiff/4.6.0 for genoa architecture",
+    "full_name": "lib/libtiff/4.6.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098749"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.2.13 for genoa architecture",
+    "full_name": "lib/zlib/1.2.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098753"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.6.0",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtiff/4.6.0 for genoa architecture",
+    "full_name": "lib/libtiff/4.6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098758"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.2.13 for genoa architecture",
+    "full_name": "lib/zlib/1.2.13",
+    "collected_at": "2025-10-10T17:50:05.098762"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.6",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtool/2.4.6 for genoa architecture",
+    "full_name": "lib/libtool/2.4.6-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098767"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.3.1 for genoa architecture",
+    "full_name": "lib/zlib/1.3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098770"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtool/2.4.7 for genoa architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098779"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zlib/1.3.1 for genoa architecture",
+    "full_name": "lib/zlib/1.3.1",
+    "collected_at": "2025-10-10T17:50:05.098783"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtool/2.4.7 for genoa architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098788"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.4.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zstd/1.4.5 for genoa architecture",
+    "full_name": "lib/zstd/1.4.5-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098792"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtool/2.4.7 for genoa architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098799"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zstd/1.5.5 for genoa architecture",
+    "full_name": "lib/zstd/1.5.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098803"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libtool/2.4.7 for genoa architecture",
+    "full_name": "lib/libtool/2.4.7",
+    "collected_at": "2025-10-10T17:50:05.098808"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.5",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zstd/1.5.5 for genoa architecture",
+    "full_name": "lib/zstd/1.5.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098812"
+  },
+  {
+    "software": "lib",
+    "version": "libunwind/1.6.2",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libunwind/1.6.2 for genoa architecture",
+    "full_name": "lib/libunwind/1.6.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098819"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.6",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version zstd/1.5.6 for genoa architecture",
+    "full_name": "lib/zstd/1.5.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098823"
+  },
+  {
+    "software": "lib",
+    "version": "libunwind/1.8.1",
+    "category": "Libraries",
+    "architecture": "genoa",
+    "description": "lib version libunwind/1.8.1 for genoa architecture",
+    "full_name": "lib/libunwind/1.8.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098828"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.3.8",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version eigen/3.3.8 for genoa architecture",
+    "full_name": "math/eigen/3.3.8-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098835"
+  },
+  {
+    "software": "math",
+    "version": "matlab/2023b",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version matlab/2023b for genoa architecture",
+    "full_name": "math/matlab/2023b",
+    "collected_at": "2025-10-10T17:50:05.098839"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version eigen/3.4.0 for genoa architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098845"
+  },
+  {
+    "software": "math",
+    "version": "mpc/1.3.1",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version mpc/1.3.1 for genoa architecture",
+    "full_name": "math/mpc/1.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098849"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version eigen/3.4.0 for genoa architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098854"
+  },
+  {
+    "software": "math",
+    "version": "mpfr/4.2.0",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version mpfr/4.2.0 for genoa architecture",
+    "full_name": "math/mpfr/4.2.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098857"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version eigen/3.4.0 for genoa architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098862"
+  },
+  {
+    "software": "math",
+    "version": "qhull/2020.2",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version qhull/2020.2 for genoa architecture",
+    "full_name": "math/qhull/2020.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098866"
+  },
+  {
+    "software": "math",
+    "version": "elpa/2024.05.001",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version elpa/2024.05.001 for genoa architecture",
+    "full_name": "math/elpa/2024.05.001-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.098871"
+  },
+  {
+    "software": "math",
+    "version": "qhull/2020.2",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version qhull/2020.2 for genoa architecture",
+    "full_name": "math/qhull/2020.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098875"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.2.0",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version gmp/6.2.0 for genoa architecture",
+    "full_name": "math/gmp/6.2.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098880"
+  },
+  {
+    "software": "math",
+    "version": "scafacos/1.0.4",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version scafacos/1.0.4 for genoa architecture",
+    "full_name": "math/scafacos/1.0.4-foss-2023a",
+    "collected_at": "2025-10-10T17:50:05.098883"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.2.1",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version gmp/6.2.1 for genoa architecture",
+    "full_name": "math/gmp/6.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098888"
+  },
+  {
+    "software": "math",
+    "version": "scafacos/1.0.4",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version scafacos/1.0.4 for genoa architecture",
+    "full_name": "math/scafacos/1.0.4-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.098892"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.3.0",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version gmp/6.3.0 for genoa architecture",
+    "full_name": "math/gmp/6.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098899"
+  },
+  {
+    "software": "math",
+    "version": "sympy/1.12",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version sympy/1.12 for genoa architecture",
+    "full_name": "math/sympy/1.12-gfbf-2023a",
+    "collected_at": "2025-10-10T17:50:05.098906"
+  },
+  {
+    "software": "math",
+    "version": "gmpy2/2.1.5",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version gmpy2/2.1.5 for genoa architecture",
+    "full_name": "math/gmpy2/2.1.5-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098911"
+  },
+  {
+    "software": "math",
+    "version": "voro++/0.4.6",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version voro++/0.4.6 for genoa architecture",
+    "full_name": "math/voro++/0.4.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098915"
+  },
+  {
+    "software": "math",
+    "version": "libcerf/2.4",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version libcerf/2.4 for genoa architecture",
+    "full_name": "math/libcerf/2.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098920"
+  },
+  {
+    "software": "math",
+    "version": "voro++/0.4.6",
+    "category": "Mathematics Software",
+    "architecture": "genoa",
+    "description": "math version voro++/0.4.6 for genoa architecture",
+    "full_name": "math/voro++/0.4.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098924"
+  },
+  {
+    "software": "mpi",
+    "version": "impi/2021.13.0",
+    "category": "MPI Libraries",
+    "architecture": "genoa",
+    "description": "mpi version impi/2021.13.0 for genoa architecture",
+    "full_name": "mpi/impi/2021.13.0-intel-compilers-2024.2.0",
+    "collected_at": "2025-10-10T17:50:05.098931"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/4.1.5",
+    "category": "MPI Libraries",
+    "architecture": "genoa",
+    "description": "mpi version openmpi/4.1.5 for genoa architecture",
+    "full_name": "mpi/openmpi/4.1.5-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098935"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/4.0.5",
+    "category": "MPI Libraries",
+    "architecture": "genoa",
+    "description": "mpi version openmpi/4.0.5 for genoa architecture",
+    "full_name": "mpi/openmpi/4.0.5-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.098943"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/5.0.3",
+    "category": "MPI Libraries",
+    "architecture": "genoa",
+    "description": "mpi version openmpi/5.0.3 for genoa architecture",
+    "full_name": "mpi/openmpi/5.0.3-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098947"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/0.9.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version blis/0.9.0 for genoa architecture",
+    "full_name": "numlib/blis/0.9.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098954"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.7",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version gsl/2.7 for genoa architecture",
+    "full_name": "numlib/gsl/2.7-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.098958"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/0.9.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version blis/0.9.0 for genoa architecture",
+    "full_name": "numlib/blis/0.9.0-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.098964"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.8",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version gsl/2.8 for genoa architecture",
+    "full_name": "numlib/gsl/2.8-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098968"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/1.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version blis/1.0 for genoa architecture",
+    "full_name": "numlib/blis/1.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.098976"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version imkl for genoa architecture",
+    "full_name": "numlib/imkl-fftw/2024.2.0-iimpi-2024a",
+    "collected_at": "2025-10-10T17:50:05.098981"
+  },
+  {
+    "software": "numlib",
+    "version": "cudnn/8.9.2.26",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version cudnn/8.9.2.26 for genoa architecture",
+    "full_name": "numlib/cudnn/8.9.2.26-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:05.098986"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl/2024.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version imkl/2024.2.0 for genoa architecture",
+    "full_name": "numlib/imkl/2024.2.0",
+    "collected_at": "2025-10-10T17:50:05.098990"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw.mpi/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version fftw.mpi/3.3.10 for genoa architecture",
+    "full_name": "numlib/fftw.mpi/3.3.10-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:05.098996"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.12",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version openblas/0.3.12 for genoa architecture",
+    "full_name": "numlib/openblas/0.3.12-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.099000"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw.mpi/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version fftw.mpi/3.3.10 for genoa architecture",
+    "full_name": "numlib/fftw.mpi/3.3.10-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:05.099006"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.23",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version openblas/0.3.23 for genoa architecture",
+    "full_name": "numlib/openblas/0.3.23-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.099012"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.8",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version fftw/3.3.8 for genoa architecture",
+    "full_name": "numlib/fftw/3.3.8-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:05.099018"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.24",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version openblas/0.3.24 for genoa architecture",
+    "full_name": "numlib/openblas/0.3.24-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.099022"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version fftw/3.3.10 for genoa architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.099027"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.27",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version openblas/0.3.27 for genoa architecture",
+    "full_name": "numlib/openblas/0.3.27-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.099032"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version fftw/3.3.10 for genoa architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.099037"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.1.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version scalapack/2.1.0 for genoa architecture",
+    "full_name": "numlib/scalapack/2.1.0-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:05.099043"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version fftw/3.3.10 for genoa architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.099049"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version scalapack/2.2.0 for genoa architecture",
+    "full_name": "numlib/scalapack/2.2.0-gompi-2023a-fb",
+    "collected_at": "2025-10-10T17:50:05.099055"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.6",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version gsl/2.6 for genoa architecture",
+    "full_name": "numlib/gsl/2.6-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.099061"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "genoa",
+    "description": "numlib version scalapack/2.2.0 for genoa architecture",
+    "full_name": "numlib/scalapack/2.2.0-gompi-2024a-fb",
+    "collected_at": "2025-10-10T17:50:05.099065"
+  },
+  {
+    "software": "phys",
+    "version": "hoomd",
+    "category": "Physics Software",
+    "architecture": "genoa",
+    "description": "phys version hoomd for genoa architecture",
+    "full_name": "phys/hoomd-blue/5.2.0-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.099071"
+  },
+  {
+    "software": "system",
+    "version": "cuda/12.1.1",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version cuda/12.1.1 for genoa architecture",
+    "full_name": "system/cuda/12.1.1",
+    "collected_at": "2025-10-10T17:50:05.099078"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.20",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libdeflate/1.20 for genoa architecture",
+    "full_name": "system/libdeflate/1.20-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.099083"
+  },
+  {
+    "software": "system",
+    "version": "cuda/12.6.0",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version cuda/12.6.0 for genoa architecture",
+    "full_name": "system/cuda/12.6.0",
+    "collected_at": "2025-10-10T17:50:05.099088"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.16",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libpciaccess/0.16 for genoa architecture",
+    "full_name": "system/libpciaccess/0.16-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.099092"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.2.0",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version hwloc/2.2.0 for genoa architecture",
+    "full_name": "system/hwloc/2.2.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.099098"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.17",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libpciaccess/0.17 for genoa architecture",
+    "full_name": "system/libpciaccess/0.17-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.099102"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.9.1",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version hwloc/2.9.1 for genoa architecture",
+    "full_name": "system/hwloc/2.9.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.099108"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.17",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libpciaccess/0.17 for genoa architecture",
+    "full_name": "system/libpciaccess/0.17-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.099116"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.10.0",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version hwloc/2.10.0 for genoa architecture",
+    "full_name": "system/hwloc/2.10.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.099125"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.18.1",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libpciaccess/0.18.1 for genoa architecture",
+    "full_name": "system/libpciaccess/0.18.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.099130"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.18",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libdeflate/1.18 for genoa architecture",
+    "full_name": "system/libdeflate/1.18-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.099137"
+  },
+  {
+    "software": "system",
+    "version": "openssl/1.1",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version openssl/1.1 for genoa architecture",
+    "full_name": "system/openssl/1.1",
+    "collected_at": "2025-10-10T17:50:05.099141"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.19",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version libdeflate/1.19 for genoa architecture",
+    "full_name": "system/libdeflate/1.19-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.099147"
+  },
+  {
+    "software": "system",
+    "version": "openssl/3",
+    "category": "System Modules",
+    "architecture": "genoa",
+    "description": "system version openssl/3 for genoa architecture",
+    "full_name": "system/openssl/3",
+    "collected_at": "2025-10-10T17:50:05.099151"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2020b",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version foss/2020b for genoa architecture",
+    "full_name": "toolchain/foss/2020b",
+    "collected_at": "2025-10-10T17:50:05.099159"
+  },
+  {
+    "software": "toolchain",
+    "version": "gfbf/2023b",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version gfbf/2023b for genoa architecture",
+    "full_name": "toolchain/gfbf/2023b",
+    "collected_at": "2025-10-10T17:50:05.099163"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2024a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version gompi/2024a for genoa architecture",
+    "full_name": "toolchain/gompi/2024a",
+    "collected_at": "2025-10-10T17:50:05.099167"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2023a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version foss/2023a for genoa architecture",
+    "full_name": "toolchain/foss/2023a",
+    "collected_at": "2025-10-10T17:50:05.099172"
+  },
+  {
+    "software": "toolchain",
+    "version": "gfbf/2024a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version gfbf/2024a for genoa architecture",
+    "full_name": "toolchain/gfbf/2024a",
+    "collected_at": "2025-10-10T17:50:05.099176"
+  },
+  {
+    "software": "toolchain",
+    "version": "iimpi/2024a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version iimpi/2024a for genoa architecture",
+    "full_name": "toolchain/iimpi/2024a",
+    "collected_at": "2025-10-10T17:50:05.099180"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2024a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version foss/2024a for genoa architecture",
+    "full_name": "toolchain/foss/2024a",
+    "collected_at": "2025-10-10T17:50:05.099188"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2020b",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version gompi/2020b for genoa architecture",
+    "full_name": "toolchain/gompi/2020b",
+    "collected_at": "2025-10-10T17:50:05.099192"
+  },
+  {
+    "software": "toolchain",
+    "version": "intel/2024a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version intel/2024a for genoa architecture",
+    "full_name": "toolchain/intel/2024a",
+    "collected_at": "2025-10-10T17:50:05.099196"
+  },
+  {
+    "software": "toolchain",
+    "version": "gfbf/2023a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version gfbf/2023a for genoa architecture",
+    "full_name": "toolchain/gfbf/2023a",
+    "collected_at": "2025-10-10T17:50:05.099201"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2023a",
+    "category": "Toolchains",
+    "architecture": "genoa",
+    "description": "toolchain version gompi/2023a for genoa architecture",
+    "full_name": "toolchain/gompi/2023a",
+    "collected_at": "2025-10-10T17:50:05.100033"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version archspec/0.2.1 for genoa architecture",
+    "full_name": "tools/archspec/0.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100047"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version help2man/1.49.3 for genoa architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100052"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version archspec/0.2.5 for genoa architecture",
+    "full_name": "tools/archspec/0.2.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100058"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version help2man/1.49.3 for genoa architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100062"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version archspec/0.2.5 for genoa architecture",
+    "full_name": "tools/archspec/0.2.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100068"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version help2man/1.49.3 for genoa architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100072"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.35",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.35 for genoa architecture",
+    "full_name": "tools/binutils/2.35-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100078"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/5.41.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hypothesis/5.41.2 for genoa architecture",
+    "full_name": "tools/hypothesis/5.41.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100082"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.35",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.35 for genoa architecture",
+    "full_name": "tools/binutils/2.35",
+    "collected_at": "2025-10-10T17:50:05.100088"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.82.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hypothesis/6.82.0 for genoa architecture",
+    "full_name": "tools/hypothesis/6.82.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100092"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.40 for genoa architecture",
+    "full_name": "tools/binutils/2.40-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100098"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.90.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hypothesis/6.90.0 for genoa architecture",
+    "full_name": "tools/hypothesis/6.90.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100102"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.40 for genoa architecture",
+    "full_name": "tools/binutils/2.40-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100107"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.103.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hypothesis/6.103.1 for genoa architecture",
+    "full_name": "tools/hypothesis/6.103.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100111"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.40 for genoa architecture",
+    "full_name": "tools/binutils/2.40",
+    "collected_at": "2025-10-10T17:50:05.100117"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.4.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version libarchive/3.4.3 for genoa architecture",
+    "full_name": "tools/libarchive/3.4.3-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100121"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.42 for genoa architecture",
+    "full_name": "tools/binutils/2.42-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100127"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.6.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version libarchive/3.6.2 for genoa architecture",
+    "full_name": "tools/libarchive/3.6.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100131"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version binutils/2.42 for genoa architecture",
+    "full_name": "tools/binutils/2.42",
+    "collected_at": "2025-10-10T17:50:05.100137"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.7.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version libarchive/3.7.2 for genoa architecture",
+    "full_name": "tools/libarchive/3.7.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100141"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version bzip2/1.0.8 for genoa architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100147"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.7.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version libarchive/3.7.4 for genoa architecture",
+    "full_name": "tools/libarchive/3.7.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100151"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version bzip2/1.0.8 for genoa architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100157"
+  },
+  {
+    "software": "tools",
+    "version": "lit/18.1.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version lit/18.1.2 for genoa architecture",
+    "full_name": "tools/lit/18.1.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100161"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version bzip2/1.0.8 for genoa architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100166"
+  },
+  {
+    "software": "tools",
+    "version": "lit/18.1.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version lit/18.1.8 for genoa architecture",
+    "full_name": "tools/lit/18.1.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100170"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version bzip2/1.0.8 for genoa architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100175"
+  },
+  {
+    "software": "tools",
+    "version": "maturin/1.6.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version maturin/1.6.0 for genoa architecture",
+    "full_name": "tools/maturin/1.6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100179"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.15.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cffi/1.15.1 for genoa architecture",
+    "full_name": "tools/cffi/1.15.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100184"
+  },
+  {
+    "software": "tools",
+    "version": "meson",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version meson for genoa architecture",
+    "full_name": "tools/meson-python/0.15.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100188"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.15.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cffi/1.15.1 for genoa architecture",
+    "full_name": "tools/cffi/1.15.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100194"
+  },
+  {
+    "software": "tools",
+    "version": "meson",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version meson for genoa architecture",
+    "full_name": "tools/meson-python/0.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100198"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.16.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cffi/1.16.0 for genoa architecture",
+    "full_name": "tools/cffi/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100203"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.1.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version meson/1.1.1 for genoa architecture",
+    "full_name": "tools/meson/1.1.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100207"
+  },
+  {
+    "software": "tools",
+    "version": "code",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version code for genoa architecture",
+    "full_name": "tools/code-server/4.90.2",
+    "collected_at": "2025-10-10T17:50:05.100212"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.2.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version meson/1.2.3 for genoa architecture",
+    "full_name": "tools/meson/1.2.3-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100216"
+  },
+  {
+    "software": "tools",
+    "version": "cppy/1.2.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cppy/1.2.1 for genoa architecture",
+    "full_name": "tools/cppy/1.2.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100221"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.4.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version meson/1.4.0 for genoa architecture",
+    "full_name": "tools/meson/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100225"
+  },
+  {
+    "software": "tools",
+    "version": "cppy/1.2.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cppy/1.2.1 for genoa architecture",
+    "full_name": "tools/cppy/1.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100230"
+  },
+  {
+    "software": "tools",
+    "version": "networkx/3.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version networkx/3.1 for genoa architecture",
+    "full_name": "tools/networkx/3.1-gfbf-2023a",
+    "collected_at": "2025-10-10T17:50:05.100234"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/41.0.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cryptography/41.0.1 for genoa architecture",
+    "full_name": "tools/cryptography/41.0.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100240"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.11.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version ninja/1.11.1 for genoa architecture",
+    "full_name": "tools/ninja/1.11.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100243"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/41.0.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cryptography/41.0.5 for genoa architecture",
+    "full_name": "tools/cryptography/41.0.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100248"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.11.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version ninja/1.11.1 for genoa architecture",
+    "full_name": "tools/ninja/1.11.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100253"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/42.0.8",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version cryptography/42.0.8 for genoa architecture",
+    "full_name": "tools/cryptography/42.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100259"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.12.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version ninja/1.12.1 for genoa architecture",
+    "full_name": "tools/ninja/1.12.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100263"
+  },
+  {
+    "software": "tools",
+    "version": "curl/7.72.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version curl/7.72.0 for genoa architecture",
+    "full_name": "tools/curl/7.72.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100268"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.13",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version numactl/2.0.13 for genoa architecture",
+    "full_name": "tools/numactl/2.0.13-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100272"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.0.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version curl/8.0.1 for genoa architecture",
+    "full_name": "tools/curl/8.0.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100278"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.16",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version numactl/2.0.16 for genoa architecture",
+    "full_name": "tools/numactl/2.0.16-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100282"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.3.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version curl/8.3.0 for genoa architecture",
+    "full_name": "tools/curl/8.3.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100287"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.18",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version numactl/2.0.18 for genoa architecture",
+    "full_name": "tools/numactl/2.0.18-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100291"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.7.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version curl/8.7.1 for genoa architecture",
+    "full_name": "tools/curl/8.7.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100297"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version patchelf/0.18.0 for genoa architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100301"
+  },
+  {
+    "software": "tools",
+    "version": "db/18.1.40",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version db/18.1.40 for genoa architecture",
+    "full_name": "tools/db/18.1.40-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100306"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version patchelf/0.18.0 for genoa architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100310"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.2.9",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version expat/2.2.9 for genoa architecture",
+    "full_name": "tools/expat/2.2.9-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100315"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version patchelf/0.18.0 for genoa architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100319"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.5.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version expat/2.5.0 for genoa architecture",
+    "full_name": "tools/expat/2.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100324"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.5.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version poetry/1.5.1 for genoa architecture",
+    "full_name": "tools/poetry/1.5.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100328"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.5.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version expat/2.5.0 for genoa architecture",
+    "full_name": "tools/expat/2.5.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100333"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.6.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version poetry/1.6.1 for genoa architecture",
+    "full_name": "tools/poetry/1.6.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100336"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.6.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version expat/2.6.2 for genoa architecture",
+    "full_name": "tools/expat/2.6.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100342"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.8.3",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version poetry/1.8.3 for genoa architecture",
+    "full_name": "tools/poetry/1.8.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100346"
+  },
+  {
+    "software": "tools",
+    "version": "expecttest/0.1.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version expecttest/0.1.5 for genoa architecture",
+    "full_name": "tools/expecttest/0.1.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100351"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version pytest for genoa architecture",
+    "full_name": "tools/pytest-flakefinder/1.1.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100355"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version flit/3.9.0 for genoa architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100360"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version pytest for genoa architecture",
+    "full_name": "tools/pytest-rerunfailures/12.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100364"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version flit/3.9.0 for genoa architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100369"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version pytest for genoa architecture",
+    "full_name": "tools/pytest-shard/0.1.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100373"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version flit/3.9.0 for genoa architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100378"
+  },
+  {
+    "software": "tools",
+    "version": "re2c/3.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version re2c/3.1 for genoa architecture",
+    "full_name": "tools/re2c/3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100382"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.21 for genoa architecture",
+    "full_name": "tools/gettext/0.21-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100387"
+  },
+  {
+    "software": "tools",
+    "version": "re2c/3.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version re2c/3.1 for genoa architecture",
+    "full_name": "tools/re2c/3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100391"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.21 for genoa architecture",
+    "full_name": "tools/gettext/0.21",
+    "collected_at": "2025-10-10T17:50:05.100396"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version setuptools for genoa architecture",
+    "full_name": "tools/setuptools-rust/1.6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100400"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.21.1 for genoa architecture",
+    "full_name": "tools/gettext/0.21.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100405"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version setuptools for genoa architecture",
+    "full_name": "tools/setuptools-rust/1.8.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100409"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.21.1 for genoa architecture",
+    "full_name": "tools/gettext/0.21.1",
+    "collected_at": "2025-10-10T17:50:05.100414"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version setuptools for genoa architecture",
+    "full_name": "tools/setuptools-rust/1.9.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100418"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.22 for genoa architecture",
+    "full_name": "tools/gettext/0.22-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100424"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version szip/2.1.1 for genoa architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100430"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.22 for genoa architecture",
+    "full_name": "tools/gettext/0.22",
+    "collected_at": "2025-10-10T17:50:05.100435"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version szip/2.1.1 for genoa architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100439"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.22.5 for genoa architecture",
+    "full_name": "tools/gettext/0.22.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100444"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version szip/2.1.1 for genoa architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100448"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gettext/0.22.5 for genoa architecture",
+    "full_name": "tools/gettext/0.22.5",
+    "collected_at": "2025-10-10T17:50:05.100453"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version unzip/6.0 for genoa architecture",
+    "full_name": "tools/unzip/6.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100459"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.28.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version git/2.28.0 for genoa architecture",
+    "full_name": "tools/git/2.28.0-gcccore-10.2.0-nodocs",
+    "collected_at": "2025-10-10T17:50:05.100464"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version unzip/6.0 for genoa architecture",
+    "full_name": "tools/unzip/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100468"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.41.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version git/2.41.0 for genoa architecture",
+    "full_name": "tools/git/2.41.0-gcccore-12.3.0-nodocs",
+    "collected_at": "2025-10-10T17:50:05.100473"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version unzip/6.0 for genoa architecture",
+    "full_name": "tools/unzip/6.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100477"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.42.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version git/2.42.0 for genoa architecture",
+    "full_name": "tools/git/2.42.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100482"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version unzip/6.0 for genoa architecture",
+    "full_name": "tools/unzip/6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100485"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.45.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version git/2.45.1 for genoa architecture",
+    "full_name": "tools/git/2.45.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100491"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version util for genoa architecture",
+    "full_name": "tools/util-linux/2.39-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100494"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.22.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version groff/1.22.4 for genoa architecture",
+    "full_name": "tools/groff/1.22.4-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100500"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version util for genoa architecture",
+    "full_name": "tools/util-linux/2.39-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100503"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.22.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version groff/1.22.4 for genoa architecture",
+    "full_name": "tools/groff/1.22.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100508"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version util for genoa architecture",
+    "full_name": "tools/util-linux/2.40-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100512"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.23.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version groff/1.23.0 for genoa architecture",
+    "full_name": "tools/groff/1.23.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100519"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.23.1",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version virtualenv/20.23.1 for genoa architecture",
+    "full_name": "tools/virtualenv/20.23.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100523"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.23.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version groff/1.23.0 for genoa architecture",
+    "full_name": "tools/groff/1.23.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100528"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.24.6",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version virtualenv/20.24.6 for genoa architecture",
+    "full_name": "tools/virtualenv/20.24.6-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100532"
+  },
+  {
+    "software": "tools",
+    "version": "gsd/3.4.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gsd/3.4.2 for genoa architecture",
+    "full_name": "tools/gsd/3.4.2-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.100537"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.26.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version virtualenv/20.26.2 for genoa architecture",
+    "full_name": "tools/virtualenv/20.26.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100541"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.10",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gzip/1.10 for genoa architecture",
+    "full_name": "tools/gzip/1.10-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100547"
+  },
+  {
+    "software": "tools",
+    "version": "xxd/9.0.2112",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version xxd/9.0.2112 for genoa architecture",
+    "full_name": "tools/xxd/9.0.2112-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100550"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.12",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gzip/1.12 for genoa architecture",
+    "full_name": "tools/gzip/1.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100556"
+  },
+  {
+    "software": "tools",
+    "version": "xxd/9.1.1275",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version xxd/9.1.1275 for genoa architecture",
+    "full_name": "tools/xxd/9.1.1275-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100559"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.13",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gzip/1.13 for genoa architecture",
+    "full_name": "tools/gzip/1.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100565"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.2.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version xz/5.2.5 for genoa architecture",
+    "full_name": "tools/xz/5.2.5-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100568"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.13",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version gzip/1.13 for genoa architecture",
+    "full_name": "tools/gzip/1.13-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100573"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version xz/5.4.2 for genoa architecture",
+    "full_name": "tools/xz/5.4.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100579"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.18.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hatchling/1.18.0 for genoa architecture",
+    "full_name": "tools/hatchling/1.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100585"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.4",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version xz/5.4.4 for genoa architecture",
+    "full_name": "tools/xz/5.4.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100588"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.18.0",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hatchling/1.18.0 for genoa architecture",
+    "full_name": "tools/hatchling/1.18.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100594"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.5",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version xz/5.4.5 for genoa architecture",
+    "full_name": "tools/xz/5.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100603"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.24.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version hatchling/1.24.2 for genoa architecture",
+    "full_name": "tools/hatchling/1.24.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100608"
+  },
+  {
+    "software": "tools",
+    "version": "z3/4.12.2",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version z3/4.12.2 for genoa architecture",
+    "full_name": "tools/z3/4.12.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100614"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.47.16",
+    "category": "Development Tools",
+    "architecture": "genoa",
+    "description": "tools version help2man/1.47.16 for genoa architecture",
+    "full_name": "tools/help2man/1.47.16-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:05.100619"
+  },
+  {
+    "software": "vis",
+    "version": "assimp/5.4.3",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version assimp/5.4.3 for genoa architecture",
+    "full_name": "vis/assimp/5.4.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100629"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.15",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version littlecms/2.15 for genoa architecture",
+    "full_name": "vis/littlecms/2.15-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100635"
+  },
+  {
+    "software": "vis",
+    "version": "cairo/1.17.8",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version cairo/1.17.8 for genoa architecture",
+    "full_name": "vis/cairo/1.17.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100641"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.16",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version littlecms/2.16 for genoa architecture",
+    "full_name": "vis/littlecms/2.16-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100645"
+  },
+  {
+    "software": "vis",
+    "version": "cairo/1.18.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version cairo/1.18.0 for genoa architecture",
+    "full_name": "vis/cairo/1.18.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100650"
+  },
+  {
+    "software": "vis",
+    "version": "matplotlib/3.8.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version matplotlib/3.8.2 for genoa architecture",
+    "full_name": "vis/matplotlib/3.8.2-gfbf-2023b",
+    "collected_at": "2025-10-10T17:50:05.100656"
+  },
+  {
+    "software": "vis",
+    "version": "ffmpeg/6.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version ffmpeg/6.0 for genoa architecture",
+    "full_name": "vis/ffmpeg/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100662"
+  },
+  {
+    "software": "vis",
+    "version": "matplotlib/3.9.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version matplotlib/3.9.2 for genoa architecture",
+    "full_name": "vis/matplotlib/3.9.2-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:05.100666"
+  },
+  {
+    "software": "vis",
+    "version": "ffmpeg/7.0.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version ffmpeg/7.0.2 for genoa architecture",
+    "full_name": "vis/ffmpeg/7.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100672"
+  },
+  {
+    "software": "vis",
+    "version": "mesa/23.1.4",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version mesa/23.1.4 for genoa architecture",
+    "full_name": "vis/mesa/23.1.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100676"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.14.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version fontconfig/2.14.2 for genoa architecture",
+    "full_name": "vis/fontconfig/2.14.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100682"
+  },
+  {
+    "software": "vis",
+    "version": "mesa/24.1.3",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version mesa/24.1.3 for genoa architecture",
+    "full_name": "vis/mesa/24.1.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100688"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.14.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version fontconfig/2.14.2 for genoa architecture",
+    "full_name": "vis/fontconfig/2.14.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100693"
+  },
+  {
+    "software": "vis",
+    "version": "pango/1.54.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version pango/1.54.0 for genoa architecture",
+    "full_name": "vis/pango/1.54.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100697"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.15.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version fontconfig/2.15.0 for genoa architecture",
+    "full_name": "vis/fontconfig/2.15.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100703"
+  },
+  {
+    "software": "vis",
+    "version": "pillow",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version pillow for genoa architecture",
+    "full_name": "vis/pillow-simd/10.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100707"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version freetype/2.13.0 for genoa architecture",
+    "full_name": "vis/freetype/2.13.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100713"
+  },
+  {
+    "software": "vis",
+    "version": "pillow/10.0.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version pillow/10.0.0 for genoa architecture",
+    "full_name": "vis/pillow/10.0.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100717"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version freetype/2.13.2 for genoa architecture",
+    "full_name": "vis/freetype/2.13.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100724"
+  },
+  {
+    "software": "vis",
+    "version": "pillow/10.2.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version pillow/10.2.0 for genoa architecture",
+    "full_name": "vis/pillow/10.2.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100728"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version freetype/2.13.2 for genoa architecture",
+    "full_name": "vis/freetype/2.13.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100734"
+  },
+  {
+    "software": "vis",
+    "version": "pixman/0.42.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version pixman/0.42.2 for genoa architecture",
+    "full_name": "vis/pixman/0.42.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100738"
+  },
+  {
+    "software": "vis",
+    "version": "freud",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version freud for genoa architecture",
+    "full_name": "vis/freud-analysis/3.3.1-foss-2024a",
+    "collected_at": "2025-10-10T17:50:05.100744"
+  },
+  {
+    "software": "vis",
+    "version": "pixman/0.43.4",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version pixman/0.43.4 for genoa architecture",
+    "full_name": "vis/pixman/0.43.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100750"
+  },
+  {
+    "software": "vis",
+    "version": "glib/2.77.1",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version glib/2.77.1 for genoa architecture",
+    "full_name": "vis/glib/2.77.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100755"
+  },
+  {
+    "software": "vis",
+    "version": "tk/8.6.13",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version tk/8.6.13 for genoa architecture",
+    "full_name": "vis/tk/8.6.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100759"
+  },
+  {
+    "software": "vis",
+    "version": "glib/2.80.4",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version glib/2.80.4 for genoa architecture",
+    "full_name": "vis/glib/2.80.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100765"
+  },
+  {
+    "software": "vis",
+    "version": "tk/8.6.14",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version tk/8.6.14 for genoa architecture",
+    "full_name": "vis/tk/8.6.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100769"
+  },
+  {
+    "software": "vis",
+    "version": "harfbuzz/5.3.1",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version harfbuzz/5.3.1 for genoa architecture",
+    "full_name": "vis/harfbuzz/5.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100775"
+  },
+  {
+    "software": "vis",
+    "version": "turbovnc/3.1.2",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version turbovnc/3.1.2 for genoa architecture",
+    "full_name": "vis/turbovnc/3.1.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100779"
+  },
+  {
+    "software": "vis",
+    "version": "harfbuzz/9.0.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version harfbuzz/9.0.0 for genoa architecture",
+    "full_name": "vis/harfbuzz/9.0.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100784"
+  },
+  {
+    "software": "vis",
+    "version": "vtk/9.3.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version vtk/9.3.0 for genoa architecture",
+    "full_name": "vis/vtk/9.3.0-foss-2023a",
+    "collected_at": "2025-10-10T17:50:05.100790"
+  },
+  {
+    "software": "vis",
+    "version": "jasper/4.0.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version jasper/4.0.0 for genoa architecture",
+    "full_name": "vis/jasper/4.0.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100796"
+  },
+  {
+    "software": "vis",
+    "version": "wayland/1.23.0",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version wayland/1.23.0 for genoa architecture",
+    "full_name": "vis/wayland/1.23.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100799"
+  },
+  {
+    "software": "vis",
+    "version": "jasper/4.2.4",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version jasper/4.2.4 for genoa architecture",
+    "full_name": "vis/jasper/4.2.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100805"
+  },
+  {
+    "software": "vis",
+    "version": "x11/20230603",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x11/20230603 for genoa architecture",
+    "full_name": "vis/x11/20230603-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100809"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version jbigkit/2.1 for genoa architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100814"
+  },
+  {
+    "software": "vis",
+    "version": "x11/20231019",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x11/20231019 for genoa architecture",
+    "full_name": "vis/x11/20231019-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100818"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version jbigkit/2.1 for genoa architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:05.100824"
+  },
+  {
+    "software": "vis",
+    "version": "x11/20240607",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x11/20240607 for genoa architecture",
+    "full_name": "vis/x11/20240607-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100828"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version jbigkit/2.1 for genoa architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100838"
+  },
+  {
+    "software": "vis",
+    "version": "x264/20230226",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x264/20230226 for genoa architecture",
+    "full_name": "vis/x264/20230226-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100842"
+  },
+  {
+    "software": "vis",
+    "version": "libglu/9.0.3",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version libglu/9.0.3 for genoa architecture",
+    "full_name": "vis/libglu/9.0.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100847"
+  },
+  {
+    "software": "vis",
+    "version": "x264/20240513",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x264/20240513 for genoa architecture",
+    "full_name": "vis/x264/20240513-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100852"
+  },
+  {
+    "software": "vis",
+    "version": "libglu/9.0.3",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version libglu/9.0.3 for genoa architecture",
+    "full_name": "vis/libglu/9.0.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100863"
+  },
+  {
+    "software": "vis",
+    "version": "x265/3.5",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x265/3.5 for genoa architecture",
+    "full_name": "vis/x265/3.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100867"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.15",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version littlecms/2.15 for genoa architecture",
+    "full_name": "vis/littlecms/2.15-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:05.100872"
+  },
+  {
+    "software": "vis",
+    "version": "x265/3.6",
+    "category": "Visualization",
+    "architecture": "genoa",
+    "description": "vis version x265/3.6 for genoa architecture",
+    "full_name": "vis/x265/3.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:05.100877"
+  }
+]

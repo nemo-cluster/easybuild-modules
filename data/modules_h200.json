@@ -1,0 +1,4943 @@
+[
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Other",
+    "architecture": "h200",
+    "description": "arch version genoa for h200 architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:06.066383"
+  },
+  {
+    "software": "arch",
+    "version": "h200",
+    "category": "Other",
+    "architecture": "h200",
+    "description": "arch version h200 for h200 architecture",
+    "full_name": "arch/h200",
+    "collected_at": "2025-10-10T17:50:06.066413"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "h200",
+    "description": "lang version miniforge3/24.11.3 for h200 architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:06.066438"
+  },
+  {
+    "software": "devel",
+    "version": "miniforge",
+    "category": "Global Aliases",
+    "architecture": "h200",
+    "description": "devel version miniforge for h200 architecture",
+    "full_name": "devel/miniforge",
+    "collected_at": "2025-10-10T17:50:06.066446"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "h200",
+    "description": "lang version miniforge3/24.11.3 for h200 architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:06.066454"
+  },
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "h200",
+    "description": "arch version genoa for h200 architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:06.066472"
+  },
+  {
+    "software": "arch",
+    "version": "h200",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "h200",
+    "description": "arch version h200 for h200 architecture",
+    "full_name": "arch/h200",
+    "collected_at": "2025-10-10T17:50:06.066481"
+  },
+  {
+    "software": "arch",
+    "version": "l40s",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "h200",
+    "description": "arch version l40s for h200 architecture",
+    "full_name": "arch/l40s",
+    "collected_at": "2025-10-10T17:50:06.066488"
+  },
+  {
+    "software": "arch",
+    "version": "mi300a",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "h200",
+    "description": "arch version mi300a for h200 architecture",
+    "full_name": "arch/mi300a",
+    "collected_at": "2025-10-10T17:50:06.066495"
+  },
+  {
+    "software": "arch",
+    "version": "milan",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "h200",
+    "description": "arch version milan for h200 architecture",
+    "full_name": "arch/milan",
+    "collected_at": "2025-10-10T17:50:06.066504"
+  },
+  {
+    "software": "bio",
+    "version": "gromacs/2023.3",
+    "category": "Biology Software",
+    "architecture": "h200",
+    "description": "bio version gromacs/2023.3 for h200 architecture",
+    "full_name": "bio/gromacs/2023.3-foss-2023a",
+    "collected_at": "2025-10-10T17:50:06.066522"
+  },
+  {
+    "software": "bio",
+    "version": "nest/2.20.2",
+    "category": "Biology Software",
+    "architecture": "h200",
+    "description": "bio version nest/2.20.2 for h200 architecture",
+    "full_name": "bio/nest/2.20.2-foss-2020b",
+    "collected_at": "2025-10-10T17:50:06.066528"
+  },
+  {
+    "software": "bio",
+    "version": "nest/3.8",
+    "category": "Biology Software",
+    "architecture": "h200",
+    "description": "bio version nest/3.8 for h200 architecture",
+    "full_name": "bio/nest/3.8-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.066534"
+  },
+  {
+    "software": "chem",
+    "version": "ase/3.24.0",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version ase/3.24.0 for h200 architecture",
+    "full_name": "chem/ase/3.24.0-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:06.066545"
+  },
+  {
+    "software": "chem",
+    "version": "mdi/1.4.26",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version mdi/1.4.26 for h200 architecture",
+    "full_name": "chem/mdi/1.4.26-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:06.066554"
+  },
+  {
+    "software": "chem",
+    "version": "gpaw",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version gpaw for h200 architecture",
+    "full_name": "chem/gpaw-setups/24.11.0",
+    "collected_at": "2025-10-10T17:50:06.066564"
+  },
+  {
+    "software": "chem",
+    "version": "mdi/1.4.26",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version mdi/1.4.26 for h200 architecture",
+    "full_name": "chem/mdi/1.4.26-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:06.066570"
+  },
+  {
+    "software": "chem",
+    "version": "kim",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version kim for h200 architecture",
+    "full_name": "chem/kim-api/2.3.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066580"
+  },
+  {
+    "software": "chem",
+    "version": "orca/6.0.1",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version orca/6.0.1 for h200 architecture",
+    "full_name": "chem/orca/6.0.1-gompi-2023a-avx2",
+    "collected_at": "2025-10-10T17:50:06.066586"
+  },
+  {
+    "software": "chem",
+    "version": "kim",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version kim for h200 architecture",
+    "full_name": "chem/kim-api/2.4.1-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066604"
+  },
+  {
+    "software": "chem",
+    "version": "plumed/2.9.0",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version plumed/2.9.0 for h200 architecture",
+    "full_name": "chem/plumed/2.9.0-foss-2023a",
+    "collected_at": "2025-10-10T17:50:06.066610"
+  },
+  {
+    "software": "chem",
+    "version": "lammps/2aug2023_update2",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version lammps/2aug2023_update2 for h200 architecture",
+    "full_name": "chem/lammps/2aug2023_update2-foss-2023a-kokkos",
+    "collected_at": "2025-10-10T17:50:06.066620"
+  },
+  {
+    "software": "chem",
+    "version": "plumed/2.9.3",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version plumed/2.9.3 for h200 architecture",
+    "full_name": "chem/plumed/2.9.3-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.066627"
+  },
+  {
+    "software": "chem",
+    "version": "libvdwxc/0.4.0",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version libvdwxc/0.4.0 for h200 architecture",
+    "full_name": "chem/libvdwxc/0.4.0-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.066636"
+  },
+  {
+    "software": "chem",
+    "version": "spglib",
+    "category": "Chemistry Software",
+    "architecture": "h200",
+    "description": "chem version spglib for h200 architecture",
+    "full_name": "chem/spglib-python/2.5.0-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:06.066642"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/10.2.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcc/10.2.0 for h200 architecture",
+    "full_name": "compiler/gcc/10.2.0",
+    "collected_at": "2025-10-10T17:50:06.066658"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/10.2.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcccore/10.2.0 for h200 architecture",
+    "full_name": "compiler/gcccore/10.2.0",
+    "collected_at": "2025-10-10T17:50:06.066664"
+  },
+  {
+    "software": "compiler",
+    "version": "go/1.23.6",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version go/1.23.6 for h200 architecture",
+    "full_name": "compiler/go/1.23.6",
+    "collected_at": "2025-10-10T17:50:06.066670"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/12.3.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcc/12.3.0 for h200 architecture",
+    "full_name": "compiler/gcc/12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066679"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/12.3.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcccore/12.3.0 for h200 architecture",
+    "full_name": "compiler/gcccore/12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066685"
+  },
+  {
+    "software": "compiler",
+    "version": "intel",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version intel for h200 architecture",
+    "full_name": "compiler/intel-compilers/2024.2.0",
+    "collected_at": "2025-10-10T17:50:06.066691"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/13.2.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcc/13.2.0 for h200 architecture",
+    "full_name": "compiler/gcc/13.2.0",
+    "collected_at": "2025-10-10T17:50:06.066699"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/13.2.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcccore/13.2.0 for h200 architecture",
+    "full_name": "compiler/gcccore/13.2.0",
+    "collected_at": "2025-10-10T17:50:06.066705"
+  },
+  {
+    "software": "compiler",
+    "version": "llvm/16.0.6",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version llvm/16.0.6 for h200 architecture",
+    "full_name": "compiler/llvm/16.0.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066713"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/13.3.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcc/13.3.0 for h200 architecture",
+    "full_name": "compiler/gcc/13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066722"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/13.3.0",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version gcccore/13.3.0 for h200 architecture",
+    "full_name": "compiler/gcccore/13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066733"
+  },
+  {
+    "software": "compiler",
+    "version": "llvm/18.1.8",
+    "category": "Compilers",
+    "architecture": "h200",
+    "description": "compiler version llvm/18.1.8 for h200 architecture",
+    "full_name": "compiler/llvm/18.1.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066740"
+  },
+  {
+    "software": "data",
+    "version": "hdf5/1.10.7",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version hdf5/1.10.7 for h200 architecture",
+    "full_name": "data/hdf5/1.10.7-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:06.066752"
+  },
+  {
+    "software": "data",
+    "version": "lame/3.100",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version lame/3.100 for h200 architecture",
+    "full_name": "data/lame/3.100-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066759"
+  },
+  {
+    "software": "data",
+    "version": "hdf5/1.14.0",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version hdf5/1.14.0 for h200 architecture",
+    "full_name": "data/hdf5/1.14.0-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:06.066768"
+  },
+  {
+    "software": "data",
+    "version": "netcdf/4.9.2",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version netcdf/4.9.2 for h200 architecture",
+    "full_name": "data/netcdf/4.9.2-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:06.066775"
+  },
+  {
+    "software": "data",
+    "version": "hdf5/1.14.5",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version hdf5/1.14.5 for h200 architecture",
+    "full_name": "data/hdf5/1.14.5-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:06.066785"
+  },
+  {
+    "software": "data",
+    "version": "netcdf/4.9.2",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version netcdf/4.9.2 for h200 architecture",
+    "full_name": "data/netcdf/4.9.2-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:06.066794"
+  },
+  {
+    "software": "data",
+    "version": "lame/3.100",
+    "category": "Data Analysis",
+    "architecture": "h200",
+    "description": "data version lame/3.100 for h200 architecture",
+    "full_name": "data/lame/3.100-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066803"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.69",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autoconf/2.69 for h200 architecture",
+    "full_name": "devel/autoconf/2.69-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.066816"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version m4/1.4.19 for h200 architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066823"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autoconf/2.71 for h200 architecture",
+    "full_name": "devel/autoconf/2.71-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066833"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version m4/1.4.19 for h200 architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.066840"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autoconf/2.71 for h200 architecture",
+    "full_name": "devel/autoconf/2.71-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.066852"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version m4/1.4.19 for h200 architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066859"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autoconf/2.71 for h200 architecture",
+    "full_name": "devel/autoconf/2.71",
+    "collected_at": "2025-10-10T17:50:06.066869"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version m4/1.4.19 for h200 architecture",
+    "full_name": "devel/m4/1.4.19",
+    "collected_at": "2025-10-10T17:50:06.066876"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.72",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autoconf/2.72 for h200 architecture",
+    "full_name": "devel/autoconf/2.72-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066886"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version make/4.3 for h200 architecture",
+    "full_name": "devel/make/4.3-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.066896"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version automake/1.16.2 for h200 architecture",
+    "full_name": "devel/automake/1.16.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.066907"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version make/4.4.1 for h200 architecture",
+    "full_name": "devel/make/4.4.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066914"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version automake/1.16.5 for h200 architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066927"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version make/4.4.1 for h200 architecture",
+    "full_name": "devel/make/4.4.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.066934"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version automake/1.16.5 for h200 architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.066944"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version make/4.4.1 for h200 architecture",
+    "full_name": "devel/make/4.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066952"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version automake/1.16.5 for h200 architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.066962"
+  },
+  {
+    "software": "devel",
+    "version": "makeinfo/6.7",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version makeinfo/6.7 for h200 architecture",
+    "full_name": "devel/makeinfo/6.7-gcccore-10.2.0-minimal",
+    "collected_at": "2025-10-10T17:50:06.066971"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version automake/1.16.5 for h200 architecture",
+    "full_name": "devel/automake/1.16.5",
+    "collected_at": "2025-10-10T17:50:06.066981"
+  },
+  {
+    "software": "devel",
+    "version": "mako/1.2.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version mako/1.2.4 for h200 architecture",
+    "full_name": "devel/mako/1.2.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.066989"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20200321",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autotools/20200321 for h200 architecture",
+    "full_name": "devel/autotools/20200321-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.066999"
+  },
+  {
+    "software": "devel",
+    "version": "mako/1.3.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version mako/1.3.5 for h200 architecture",
+    "full_name": "devel/mako/1.3.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067007"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autotools/20220317 for h200 architecture",
+    "full_name": "devel/autotools/20220317-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067017"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.2 for h200 architecture",
+    "full_name": "devel/ncurses/6.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067024"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autotools/20220317 for h200 architecture",
+    "full_name": "devel/autotools/20220317-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067034"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.2 for h200 architecture",
+    "full_name": "devel/ncurses/6.2",
+    "collected_at": "2025-10-10T17:50:06.067041"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autotools/20220317 for h200 architecture",
+    "full_name": "devel/autotools/20220317",
+    "collected_at": "2025-10-10T17:50:06.067051"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.3 for h200 architecture",
+    "full_name": "devel/ncurses/6.3",
+    "collected_at": "2025-10-10T17:50:06.067058"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20231222",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version autotools/20231222 for h200 architecture",
+    "full_name": "devel/autotools/20231222-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067068"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.4 for h200 architecture",
+    "full_name": "devel/ncurses/6.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067075"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.74.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version boost/1.74.0 for h200 architecture",
+    "full_name": "devel/boost/1.74.0-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067087"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.4 for h200 architecture",
+    "full_name": "devel/ncurses/6.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067094"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.82.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version boost/1.82.0 for h200 architecture",
+    "full_name": "devel/boost/1.82.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067104"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.4 for h200 architecture",
+    "full_name": "devel/ncurses/6.4",
+    "collected_at": "2025-10-10T17:50:06.067111"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.85.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version boost/1.85.0 for h200 architecture",
+    "full_name": "devel/boost/1.85.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067121"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.5 for h200 architecture",
+    "full_name": "devel/ncurses/6.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067130"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.18.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version cmake/3.18.4 for h200 architecture",
+    "full_name": "devel/cmake/3.18.4-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067141"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version ncurses/6.5 for h200 architecture",
+    "full_name": "devel/ncurses/6.5",
+    "collected_at": "2025-10-10T17:50:06.067149"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.18.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version cmake/3.18.4 for h200 architecture",
+    "full_name": "devel/cmake/3.18.4",
+    "collected_at": "2025-10-10T17:50:06.067159"
+  },
+  {
+    "software": "devel",
+    "version": "pcre/8.45",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pcre/8.45 for h200 architecture",
+    "full_name": "devel/pcre/8.45-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067168"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.20.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version cmake/3.20.1 for h200 architecture",
+    "full_name": "devel/cmake/3.20.1-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067178"
+  },
+  {
+    "software": "devel",
+    "version": "pcre/8.45",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pcre/8.45 for h200 architecture",
+    "full_name": "devel/pcre/8.45-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067186"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.26.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version cmake/3.26.3 for h200 architecture",
+    "full_name": "devel/cmake/3.26.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067196"
+  },
+  {
+    "software": "devel",
+    "version": "pcre2/10.42",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pcre2/10.42 for h200 architecture",
+    "full_name": "devel/pcre2/10.42-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067205"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.27.6",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version cmake/3.27.6 for h200 architecture",
+    "full_name": "devel/cmake/3.27.6-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067226"
+  },
+  {
+    "software": "devel",
+    "version": "pcre2/10.43",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pcre2/10.43 for h200 architecture",
+    "full_name": "devel/pcre2/10.43-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067233"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.29.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version cmake/3.29.3 for h200 architecture",
+    "full_name": "devel/cmake/3.29.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067243"
+  },
+  {
+    "software": "devel",
+    "version": "pkg",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pkg for h200 architecture",
+    "full_name": "devel/pkg-config/0.29.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067250"
+  },
+  {
+    "software": "devel",
+    "version": "dbus/1.15.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version dbus/1.15.4 for h200 architecture",
+    "full_name": "devel/dbus/1.15.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067260"
+  },
+  {
+    "software": "devel",
+    "version": "pkg",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pkg for h200 architecture",
+    "full_name": "devel/pkg-config/0.29.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067268"
+  },
+  {
+    "software": "devel",
+    "version": "dbus/1.15.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version dbus/1.15.8 for h200 architecture",
+    "full_name": "devel/dbus/1.15.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067278"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.8.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pkgconf/1.8.0 for h200 architecture",
+    "full_name": "devel/pkgconf/1.8.0",
+    "collected_at": "2025-10-10T17:50:06.067285"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.8.20",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version doxygen/1.8.20 for h200 architecture",
+    "full_name": "devel/doxygen/1.8.20-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067295"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.9.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pkgconf/1.9.5 for h200 architecture",
+    "full_name": "devel/pkgconf/1.9.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067302"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.9.7",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version doxygen/1.9.7 for h200 architecture",
+    "full_name": "devel/doxygen/1.9.7-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067311"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/2.0.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pkgconf/2.0.3 for h200 architecture",
+    "full_name": "devel/pkgconf/2.0.3-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067318"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.9.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version doxygen/1.9.8 for h200 architecture",
+    "full_name": "devel/doxygen/1.9.8-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067334"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/2.2.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version pkgconf/2.2.0 for h200 architecture",
+    "full_name": "devel/pkgconf/2.2.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067341"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.11.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version doxygen/1.11.0 for h200 architecture",
+    "full_name": "devel/doxygen/1.11.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067351"
+  },
+  {
+    "software": "devel",
+    "version": "protobuf",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version protobuf for h200 architecture",
+    "full_name": "devel/protobuf-python/4.24.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067358"
+  },
+  {
+    "software": "devel",
+    "version": "fonttools/4.53.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version fonttools/4.53.1 for h200 architecture",
+    "full_name": "devel/fonttools/4.53.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067368"
+  },
+  {
+    "software": "devel",
+    "version": "protobuf/24.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version protobuf/24.0 for h200 architecture",
+    "full_name": "devel/protobuf/24.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067381"
+  },
+  {
+    "software": "devel",
+    "version": "gobject",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version gobject for h200 architecture",
+    "full_name": "devel/gobject-introspection/1.76.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067391"
+  },
+  {
+    "software": "devel",
+    "version": "qt5/5.15.10",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version qt5/5.15.10 for h200 architecture",
+    "full_name": "devel/qt5/5.15.10-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067398"
+  },
+  {
+    "software": "devel",
+    "version": "gobject",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version gobject for h200 architecture",
+    "full_name": "devel/gobject-introspection/1.80.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067408"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.33.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version sqlite/3.33.0 for h200 architecture",
+    "full_name": "devel/sqlite/3.33.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067416"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version gperf/3.1 for h200 architecture",
+    "full_name": "devel/gperf/3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067426"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.42.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version sqlite/3.42.0 for h200 architecture",
+    "full_name": "devel/sqlite/3.42.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067433"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version gperf/3.1 for h200 architecture",
+    "full_name": "devel/gperf/3.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067444"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.43.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version sqlite/3.43.1 for h200 architecture",
+    "full_name": "devel/sqlite/3.43.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067454"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version gperf/3.1 for h200 architecture",
+    "full_name": "devel/gperf/3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067464"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.45.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version sqlite/3.45.3 for h200 architecture",
+    "full_name": "devel/sqlite/3.45.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067471"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version intltool/0.51.0 for h200 architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067481"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version xorg for h200 architecture",
+    "full_name": "devel/xorg-macros/1.19.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067488"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version intltool/0.51.0 for h200 architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067498"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version xorg for h200 architecture",
+    "full_name": "devel/xorg-macros/1.20.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067505"
+  },
+  {
+    "software": "devel",
+    "version": "intltool/0.51.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version intltool/0.51.0 for h200 architecture",
+    "full_name": "devel/intltool/0.51.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067516"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version xorg for h200 architecture",
+    "full_name": "devel/xorg-macros/1.20.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067529"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.18",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version m4/1.4.18 for h200 architecture",
+    "full_name": "devel/m4/1.4.18-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067540"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version xorg for h200 architecture",
+    "full_name": "devel/xorg-macros/1.20.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067547"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.18",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "devel version m4/1.4.18 for h200 architecture",
+    "full_name": "devel/m4/1.4.18",
+    "collected_at": "2025-10-10T17:50:06.067556"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.7.1",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version bison/3.7.1 for h200 architecture",
+    "full_name": "lang/bison/3.7.1-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067572"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.32.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl/5.32.0 for h200 architecture",
+    "full_name": "lang/perl/5.32.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067582"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version bison/3.8.2 for h200 architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067592"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.36.1",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl/5.36.1 for h200 architecture",
+    "full_name": "lang/perl/5.36.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067604"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version bison/3.8.2 for h200 architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067614"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl/5.38.0 for h200 architecture",
+    "full_name": "lang/perl/5.38.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067621"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version bison/3.8.2 for h200 architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067631"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl/5.38.0 for h200 architecture",
+    "full_name": "lang/perl/5.38.0",
+    "collected_at": "2025-10-10T17:50:06.067637"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version bison/3.8.2 for h200 architecture",
+    "full_name": "lang/bison/3.8.2",
+    "collected_at": "2025-10-10T17:50:06.067647"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.2",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl/5.38.2 for h200 architecture",
+    "full_name": "lang/perl/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067654"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.8",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version cython/3.0.8 for h200 architecture",
+    "full_name": "lang/cython/3.0.8-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067664"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python for h200 architecture",
+    "full_name": "lang/python-bundle-pypi/2023.06-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067671"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.8",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version cython/3.0.8 for h200 architecture",
+    "full_name": "lang/cython/3.0.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067681"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python for h200 architecture",
+    "full_name": "lang/python-bundle-pypi/2023.10-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067688"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.10",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version cython/3.0.10 for h200 architecture",
+    "full_name": "lang/cython/3.0.10-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067701"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python for h200 architecture",
+    "full_name": "lang/python-bundle-pypi/2024.06-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067708"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.10",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version cython/3.0.10 for h200 architecture",
+    "full_name": "lang/cython/3.0.10-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067718"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.8.6",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python/3.8.6 for h200 architecture",
+    "full_name": "lang/python/3.8.6-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067728"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version flex/2.6.4 for h200 architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067737"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.11.3",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python/3.11.3 for h200 architecture",
+    "full_name": "lang/python/3.11.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067744"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version flex/2.6.4 for h200 architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067754"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.11.5",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python/3.11.5 for h200 architecture",
+    "full_name": "lang/python/3.11.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067761"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version flex/2.6.4 for h200 architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067770"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.12.3",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version python/3.12.3 for h200 architecture",
+    "full_name": "lang/python/3.12.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067778"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version flex/2.6.4 for h200 architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067787"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.70.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version rust/1.70.0 for h200 architecture",
+    "full_name": "lang/rust/1.70.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067794"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version flex/2.6.4 for h200 architecture",
+    "full_name": "lang/flex/2.6.4",
+    "collected_at": "2025-10-10T17:50:06.067804"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.73.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version rust/1.73.0 for h200 architecture",
+    "full_name": "lang/rust/1.73.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067814"
+  },
+  {
+    "software": "lang",
+    "version": "fribidi/1.0.12",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version fribidi/1.0.12 for h200 architecture",
+    "full_name": "lang/fribidi/1.0.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067823"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.78.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version rust/1.78.0 for h200 architecture",
+    "full_name": "lang/rust/1.78.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067830"
+  },
+  {
+    "software": "lang",
+    "version": "fribidi/1.0.15",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version fribidi/1.0.15 for h200 architecture",
+    "full_name": "lang/fribidi/1.0.15-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067843"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.83.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version rust/1.83.0 for h200 architecture",
+    "full_name": "lang/rust/1.83.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067851"
+  },
+  {
+    "software": "lang",
+    "version": "java/21.0.2",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version java/21.0.2 for h200 architecture",
+    "full_name": "lang/java/21.0.2",
+    "collected_at": "2025-10-10T17:50:06.067861"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version scipy for h200 architecture",
+    "full_name": "lang/scipy-bundle/2020.11-foss-2020b",
+    "collected_at": "2025-10-10T17:50:06.067872"
+  },
+  {
+    "software": "lang",
+    "version": "lua/5.4.7",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version lua/5.4.7 for h200 architecture",
+    "full_name": "lang/lua/5.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067881"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version scipy for h200 architecture",
+    "full_name": "lang/scipy-bundle/2023.07-gfbf-2023a",
+    "collected_at": "2025-10-10T17:50:06.067888"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version miniforge3/24.11.3 for h200 architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:06.067898"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version scipy for h200 architecture",
+    "full_name": "lang/scipy-bundle/2023.11-gfbf-2023b",
+    "collected_at": "2025-10-10T17:50:06.067905"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.01",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version nasm/2.16.01 for h200 architecture",
+    "full_name": "lang/nasm/2.16.01-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067918"
+  },
+  {
+    "software": "lang",
+    "version": "scipy",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version scipy for h200 architecture",
+    "full_name": "lang/scipy-bundle/2024.05-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:06.067926"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.01",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version nasm/2.16.01 for h200 architecture",
+    "full_name": "lang/nasm/2.16.01-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067938"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.10",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version tcl/8.6.10 for h200 architecture",
+    "full_name": "lang/tcl/8.6.10-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.067945"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.03",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version nasm/2.16.03 for h200 architecture",
+    "full_name": "lang/nasm/2.16.03-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067955"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.13",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version tcl/8.6.13 for h200 architecture",
+    "full_name": "lang/tcl/8.6.13-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067962"
+  },
+  {
+    "software": "lang",
+    "version": "nodejs/18.17.1",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version nodejs/18.17.1 for h200 architecture",
+    "full_name": "lang/nodejs/18.17.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.067971"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.13",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version tcl/8.6.13 for h200 architecture",
+    "full_name": "lang/tcl/8.6.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.067978"
+  },
+  {
+    "software": "lang",
+    "version": "nodejs/20.13.1",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version nodejs/20.13.1 for h200 architecture",
+    "full_name": "lang/nodejs/20.13.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067988"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.14",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version tcl/8.6.14 for h200 architecture",
+    "full_name": "lang/tcl/8.6.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.067995"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl for h200 architecture",
+    "full_name": "lang/perl-bundle-cpan/5.36.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068005"
+  },
+  {
+    "software": "lang",
+    "version": "tkinter/3.11.5",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version tkinter/3.11.5 for h200 architecture",
+    "full_name": "lang/tkinter/3.11.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068012"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl for h200 architecture",
+    "full_name": "lang/perl-bundle-cpan/5.38.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068022"
+  },
+  {
+    "software": "lang",
+    "version": "tkinter/3.12.3",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version tkinter/3.12.3 for h200 architecture",
+    "full_name": "lang/tkinter/3.12.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068029"
+  },
+  {
+    "software": "lang",
+    "version": "perl",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl for h200 architecture",
+    "full_name": "lang/perl-bundle-cpan/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068039"
+  },
+  {
+    "software": "lang",
+    "version": "yasm/1.3.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version yasm/1.3.0 for h200 architecture",
+    "full_name": "lang/yasm/1.3.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068049"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.32.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version perl/5.32.0 for h200 architecture",
+    "full_name": "lang/perl/5.32.0-gcccore-10.2.0-minimal",
+    "collected_at": "2025-10-10T17:50:06.068059"
+  },
+  {
+    "software": "lang",
+    "version": "yasm/1.3.0",
+    "category": "Programming Languages",
+    "architecture": "h200",
+    "description": "lang version yasm/1.3.0 for h200 architecture",
+    "full_name": "lang/yasm/1.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068066"
+  },
+  {
+    "software": "lib",
+    "version": "abseil/20230125.3",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version abseil/20230125.3 for h200 architecture",
+    "full_name": "lib/abseil/20230125.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068078"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.3.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libwebp/1.3.1 for h200 architecture",
+    "full_name": "lib/libwebp/1.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068084"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.0.9",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version brotli/1.0.9 for h200 architecture",
+    "full_name": "lib/brotli/1.0.9-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068093"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.3.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libwebp/1.3.2 for h200 architecture",
+    "full_name": "lib/libwebp/1.3.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068103"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.1.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version brotli/1.1.0 for h200 architecture",
+    "full_name": "lib/brotli/1.1.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068112"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.4.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libwebp/1.4.0 for h200 architecture",
+    "full_name": "lib/libwebp/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068124"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.1.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version brotli/1.1.0 for h200 architecture",
+    "full_name": "lib/brotli/1.1.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068133"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.9.10",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libxml2/2.9.10 for h200 architecture",
+    "full_name": "lib/libxml2/2.9.10-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068140"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.9",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version catch2/2.13.9 for h200 architecture",
+    "full_name": "lib/catch2/2.13.9-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068149"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.11.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libxml2/2.11.4 for h200 architecture",
+    "full_name": "lib/libxml2/2.11.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068155"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.9",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version catch2/2.13.9 for h200 architecture",
+    "full_name": "lib/catch2/2.13.9-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068167"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.11.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libxml2/2.11.5 for h200 architecture",
+    "full_name": "lib/libxml2/2.11.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068174"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.10",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version catch2/2.13.10 for h200 architecture",
+    "full_name": "lib/catch2/2.13.10-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068186"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.12.7",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libxml2/2.12.7 for h200 architecture",
+    "full_name": "lib/libxml2/2.12.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068193"
+  },
+  {
+    "software": "lib",
+    "version": "cereal/1.3.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version cereal/1.3.2 for h200 architecture",
+    "full_name": "lib/cereal/1.3.2",
+    "collected_at": "2025-10-10T17:50:06.068203"
+  },
+  {
+    "software": "lib",
+    "version": "libyaml/0.2.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libyaml/0.2.5 for h200 architecture",
+    "full_name": "lib/libyaml/0.2.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068209"
+  },
+  {
+    "software": "lib",
+    "version": "double",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version double for h200 architecture",
+    "full_name": "lib/double-conversion/3.3.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068218"
+  },
+  {
+    "software": "lib",
+    "version": "libyaml/0.2.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libyaml/0.2.5 for h200 architecture",
+    "full_name": "lib/libyaml/0.2.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068225"
+  },
+  {
+    "software": "lib",
+    "version": "double",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version double for h200 architecture",
+    "full_name": "lib/double-conversion/3.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068234"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version lz4/1.9.2 for h200 architecture",
+    "full_name": "lib/lz4/1.9.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068240"
+  },
+  {
+    "software": "lib",
+    "version": "ffnvcodec/12.0.16.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ffnvcodec/12.0.16.0 for h200 architecture",
+    "full_name": "lib/ffnvcodec/12.0.16.0",
+    "collected_at": "2025-10-10T17:50:06.068250"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version lz4/1.9.4 for h200 architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068256"
+  },
+  {
+    "software": "lib",
+    "version": "ffnvcodec/12.2.72.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ffnvcodec/12.2.72.0 for h200 architecture",
+    "full_name": "lib/ffnvcodec/12.2.72.0",
+    "collected_at": "2025-10-10T17:50:06.068265"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version lz4/1.9.4 for h200 architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068274"
+  },
+  {
+    "software": "lib",
+    "version": "flask/3.0.3",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version flask/3.0.3 for h200 architecture",
+    "full_name": "lib/flask/3.0.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068284"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version lz4/1.9.4 for h200 architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068294"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.3.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version flexiblas/3.3.1 for h200 architecture",
+    "full_name": "lib/flexiblas/3.3.1-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068303"
+  },
+  {
+    "software": "lib",
+    "version": "mpi4py/3.1.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version mpi4py/3.1.4 for h200 architecture",
+    "full_name": "lib/mpi4py/3.1.4-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:06.068309"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.3.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version flexiblas/3.3.1 for h200 architecture",
+    "full_name": "lib/flexiblas/3.3.1-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068318"
+  },
+  {
+    "software": "lib",
+    "version": "mpi4py/3.1.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version mpi4py/3.1.4 for h200 architecture",
+    "full_name": "lib/mpi4py/3.1.4-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:06.068324"
+  },
+  {
+    "software": "lib",
+    "version": "flexiblas/3.4.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version flexiblas/3.4.4 for h200 architecture",
+    "full_name": "lib/flexiblas/3.4.4-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068334"
+  },
+  {
+    "software": "lib",
+    "version": "mpi4py/4.0.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version mpi4py/4.0.1 for h200 architecture",
+    "full_name": "lib/mpi4py/4.0.1-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:06.068340"
+  },
+  {
+    "software": "lib",
+    "version": "gdrcopy/2.3.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version gdrcopy/2.3.1 for h200 architecture",
+    "full_name": "lib/gdrcopy/2.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068350"
+  },
+  {
+    "software": "lib",
+    "version": "nccl/2.18.3",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version nccl/2.18.3 for h200 architecture",
+    "full_name": "lib/nccl/2.18.3-gcccore-12.3.0-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:06.068356"
+  },
+  {
+    "software": "lib",
+    "version": "gdrcopy/2.4.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version gdrcopy/2.4.1 for h200 architecture",
+    "full_name": "lib/gdrcopy/2.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068366"
+  },
+  {
+    "software": "lib",
+    "version": "nccl/2.22.3",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version nccl/2.22.3 for h200 architecture",
+    "full_name": "lib/nccl/2.22.3-gcccore-13.3.0-cuda-12.6.0",
+    "collected_at": "2025-10-10T17:50:06.068372"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version giflib/5.2.1 for h200 architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068384"
+  },
+  {
+    "software": "lib",
+    "version": "nspr/4.35",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version nspr/4.35 for h200 architecture",
+    "full_name": "lib/nspr/4.35-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068391"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version giflib/5.2.1 for h200 architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068400"
+  },
+  {
+    "software": "lib",
+    "version": "nspr/4.35",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version nspr/4.35 for h200 architecture",
+    "full_name": "lib/nspr/4.35-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068406"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version giflib/5.2.1 for h200 architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068422"
+  },
+  {
+    "software": "lib",
+    "version": "nss/3.89.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version nss/3.89.1 for h200 architecture",
+    "full_name": "lib/nss/3.89.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068429"
+  },
+  {
+    "software": "lib",
+    "version": "graphite2/1.3.14",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version graphite2/1.3.14 for h200 architecture",
+    "full_name": "lib/graphite2/1.3.14-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068439"
+  },
+  {
+    "software": "lib",
+    "version": "nss/3.104",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version nss/3.104 for h200 architecture",
+    "full_name": "lib/nss/3.104-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068445"
+  },
+  {
+    "software": "lib",
+    "version": "graphite2/1.3.14",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version graphite2/1.3.14 for h200 architecture",
+    "full_name": "lib/graphite2/1.3.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068455"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version openjpeg/2.5.0 for h200 architecture",
+    "full_name": "lib/openjpeg/2.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068461"
+  },
+  {
+    "software": "lib",
+    "version": "icu/73.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version icu/73.2 for h200 architecture",
+    "full_name": "lib/icu/73.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068474"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version openjpeg/2.5.0 for h200 architecture",
+    "full_name": "lib/openjpeg/2.5.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068483"
+  },
+  {
+    "software": "lib",
+    "version": "icu/75.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version icu/75.1 for h200 architecture",
+    "full_name": "lib/icu/75.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068493"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version openjpeg/2.5.2 for h200 architecture",
+    "full_name": "lib/openjpeg/2.5.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068502"
+  },
+  {
+    "software": "lib",
+    "version": "libdrm/2.4.115",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libdrm/2.4.115 for h200 architecture",
+    "full_name": "lib/libdrm/2.4.115-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068512"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/3.1.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pmix/3.1.5 for h200 architecture",
+    "full_name": "lib/pmix/3.1.5-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068518"
+  },
+  {
+    "software": "lib",
+    "version": "libdrm/2.4.122",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libdrm/2.4.122 for h200 architecture",
+    "full_name": "lib/libdrm/2.4.122-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068527"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/4.2.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pmix/4.2.4 for h200 architecture",
+    "full_name": "lib/pmix/4.2.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068534"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libevent/2.1.12 for h200 architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068543"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/5.0.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pmix/5.0.2 for h200 architecture",
+    "full_name": "lib/pmix/5.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068550"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libevent/2.1.12 for h200 architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068559"
+  },
+  {
+    "software": "lib",
+    "version": "prrte/3.0.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version prrte/3.0.5 for h200 architecture",
+    "full_name": "lib/prrte/3.0.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068565"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libevent/2.1.12 for h200 architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068574"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.6.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pybind11/2.6.0 for h200 architecture",
+    "full_name": "lib/pybind11/2.6.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068581"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.11.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libfabric/1.11.0 for h200 architecture",
+    "full_name": "lib/libfabric/1.11.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068590"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.11.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pybind11/2.11.1 for h200 architecture",
+    "full_name": "lib/pybind11/2.11.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068602"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.18.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libfabric/1.18.0 for h200 architecture",
+    "full_name": "lib/libfabric/1.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068614"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.11.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pybind11/2.11.1 for h200 architecture",
+    "full_name": "lib/pybind11/2.11.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068621"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.21.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libfabric/1.21.0 for h200 architecture",
+    "full_name": "lib/libfabric/1.21.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068631"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.12.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pybind11/2.12.0 for h200 architecture",
+    "full_name": "lib/pybind11/2.12.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068637"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.3",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libffi/3.3 for h200 architecture",
+    "full_name": "lib/libffi/3.3-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068647"
+  },
+  {
+    "software": "lib",
+    "version": "pyyaml/6.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pyyaml/6.0 for h200 architecture",
+    "full_name": "lib/pyyaml/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068654"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libffi/3.4.4 for h200 architecture",
+    "full_name": "lib/libffi/3.4.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068667"
+  },
+  {
+    "software": "lib",
+    "version": "pyyaml/6.0.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version pyyaml/6.0.2 for h200 architecture",
+    "full_name": "lib/pyyaml/6.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068674"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.4",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libffi/3.4.4 for h200 architecture",
+    "full_name": "lib/libffi/3.4.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068683"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version scikit for h200 architecture",
+    "full_name": "lib/scikit-build-core/0.10.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068690"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libffi/3.4.5 for h200 architecture",
+    "full_name": "lib/libffi/3.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068702"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version scikit for h200 architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068709"
+  },
+  {
+    "software": "lib",
+    "version": "libgd/2.3.3",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libgd/2.3.3 for h200 architecture",
+    "full_name": "lib/libgd/2.3.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068718"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version scikit for h200 architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068728"
+  },
+  {
+    "software": "lib",
+    "version": "libglvnd/1.6.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libglvnd/1.6.0 for h200 architecture",
+    "full_name": "lib/libglvnd/1.6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068737"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version scikit for h200 architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068744"
+  },
+  {
+    "software": "lib",
+    "version": "libglvnd/1.7.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libglvnd/1.7.0 for h200 architecture",
+    "full_name": "lib/libglvnd/1.7.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068753"
+  },
+  {
+    "software": "lib",
+    "version": "sdl2/2.28.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version sdl2/2.28.2 for h200 architecture",
+    "full_name": "lib/sdl2/2.28.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068765"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.16",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libiconv/1.16 for h200 architecture",
+    "full_name": "lib/libiconv/1.16-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068774"
+  },
+  {
+    "software": "lib",
+    "version": "sdl2/2.30.6",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version sdl2/2.30.6 for h200 architecture",
+    "full_name": "lib/sdl2/2.30.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068781"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libiconv/1.17 for h200 architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068790"
+  },
+  {
+    "software": "lib",
+    "version": "snappy/1.1.10",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version snappy/1.1.10 for h200 architecture",
+    "full_name": "lib/snappy/1.1.10-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068796"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libiconv/1.17 for h200 architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068805"
+  },
+  {
+    "software": "lib",
+    "version": "snappy/1.2.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version snappy/1.2.1 for h200 architecture",
+    "full_name": "lib/snappy/1.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068812"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libiconv/1.17 for h200 architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068821"
+  },
+  {
+    "software": "lib",
+    "version": "tbb/2021.11.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version tbb/2021.11.0 for h200 architecture",
+    "full_name": "lib/tbb/2021.11.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068827"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libjpeg for h200 architecture",
+    "full_name": "lib/libjpeg-turbo/2.1.5.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068840"
+  },
+  {
+    "software": "lib",
+    "version": "tbb/2021.13.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version tbb/2021.13.0 for h200 architecture",
+    "full_name": "lib/tbb/2021.13.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068850"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libjpeg for h200 architecture",
+    "full_name": "lib/libjpeg-turbo/3.0.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068859"
+  },
+  {
+    "software": "lib",
+    "version": "ucc/1.2.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucc/1.2.0 for h200 architecture",
+    "full_name": "lib/ucc/1.2.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068865"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libjpeg for h200 architecture",
+    "full_name": "lib/libjpeg-turbo/3.0.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068875"
+  },
+  {
+    "software": "lib",
+    "version": "ucc/1.3.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucc/1.3.0 for h200 architecture",
+    "full_name": "lib/ucc/1.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068882"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.39",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libpng/1.6.39 for h200 architecture",
+    "full_name": "lib/libpng/1.6.39-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068891"
+  },
+  {
+    "software": "lib",
+    "version": "ucx",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucx for h200 architecture",
+    "full_name": "lib/ucx-cuda/1.14.1-gcccore-12.3.0-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:06.068897"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.40",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libpng/1.6.40 for h200 architecture",
+    "full_name": "lib/libpng/1.6.40-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068907"
+  },
+  {
+    "software": "lib",
+    "version": "ucx",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucx for h200 architecture",
+    "full_name": "lib/ucx-cuda/1.16.0-gcccore-13.3.0-cuda-12.6.0",
+    "collected_at": "2025-10-10T17:50:06.068913"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.43",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libpng/1.6.43 for h200 architecture",
+    "full_name": "lib/libpng/1.6.43-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068922"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.9.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucx/1.9.0 for h200 architecture",
+    "full_name": "lib/ucx/1.9.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068929"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libreadline/8.0 for h200 architecture",
+    "full_name": "lib/libreadline/8.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068938"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.14.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucx/1.14.1 for h200 architecture",
+    "full_name": "lib/ucx/1.14.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068948"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libreadline/8.2 for h200 architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.068957"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.16.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version ucx/1.16.0 for h200 architecture",
+    "full_name": "lib/ucx/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068964"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libreadline/8.2 for h200 architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.068972"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.11",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.2.11 for h200 architecture",
+    "full_name": "lib/zlib/1.2.11-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.068979"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libreadline/8.2 for h200 architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.068991"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.11",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.2.11 for h200 architecture",
+    "full_name": "lib/zlib/1.2.11",
+    "collected_at": "2025-10-10T17:50:06.068997"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.5.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtiff/4.5.0 for h200 architecture",
+    "full_name": "lib/libtiff/4.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069006"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.2.13 for h200 architecture",
+    "full_name": "lib/zlib/1.2.13-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069013"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.6.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtiff/4.6.0 for h200 architecture",
+    "full_name": "lib/libtiff/4.6.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069028"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.2.13 for h200 architecture",
+    "full_name": "lib/zlib/1.2.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069034"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.6.0",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtiff/4.6.0 for h200 architecture",
+    "full_name": "lib/libtiff/4.6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069044"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.2.13 for h200 architecture",
+    "full_name": "lib/zlib/1.2.13",
+    "collected_at": "2025-10-10T17:50:06.069050"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.6",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtool/2.4.6 for h200 architecture",
+    "full_name": "lib/libtool/2.4.6-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069061"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.3.1 for h200 architecture",
+    "full_name": "lib/zlib/1.3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069068"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtool/2.4.7 for h200 architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069077"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zlib/1.3.1 for h200 architecture",
+    "full_name": "lib/zlib/1.3.1",
+    "collected_at": "2025-10-10T17:50:06.069084"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtool/2.4.7 for h200 architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069092"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.4.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zstd/1.4.5 for h200 architecture",
+    "full_name": "lib/zstd/1.4.5-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069099"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtool/2.4.7 for h200 architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069107"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zstd/1.5.5 for h200 architecture",
+    "full_name": "lib/zstd/1.5.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069114"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libtool/2.4.7 for h200 architecture",
+    "full_name": "lib/libtool/2.4.7",
+    "collected_at": "2025-10-10T17:50:06.069123"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.5",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zstd/1.5.5 for h200 architecture",
+    "full_name": "lib/zstd/1.5.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069129"
+  },
+  {
+    "software": "lib",
+    "version": "libunwind/1.6.2",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libunwind/1.6.2 for h200 architecture",
+    "full_name": "lib/libunwind/1.6.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069138"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.6",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version zstd/1.5.6 for h200 architecture",
+    "full_name": "lib/zstd/1.5.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069144"
+  },
+  {
+    "software": "lib",
+    "version": "libunwind/1.8.1",
+    "category": "Libraries",
+    "architecture": "h200",
+    "description": "lib version libunwind/1.8.1 for h200 architecture",
+    "full_name": "lib/libunwind/1.8.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069153"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.3.8",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version eigen/3.3.8 for h200 architecture",
+    "full_name": "math/eigen/3.3.8-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069167"
+  },
+  {
+    "software": "math",
+    "version": "matlab/2023b",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version matlab/2023b for h200 architecture",
+    "full_name": "math/matlab/2023b",
+    "collected_at": "2025-10-10T17:50:06.069173"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version eigen/3.4.0 for h200 architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069182"
+  },
+  {
+    "software": "math",
+    "version": "mpc/1.3.1",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version mpc/1.3.1 for h200 architecture",
+    "full_name": "math/mpc/1.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069188"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version eigen/3.4.0 for h200 architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069199"
+  },
+  {
+    "software": "math",
+    "version": "mpfr/4.2.0",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version mpfr/4.2.0 for h200 architecture",
+    "full_name": "math/mpfr/4.2.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069205"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version eigen/3.4.0 for h200 architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069214"
+  },
+  {
+    "software": "math",
+    "version": "qhull/2020.2",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version qhull/2020.2 for h200 architecture",
+    "full_name": "math/qhull/2020.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069220"
+  },
+  {
+    "software": "math",
+    "version": "elpa/2024.05.001",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version elpa/2024.05.001 for h200 architecture",
+    "full_name": "math/elpa/2024.05.001-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.069228"
+  },
+  {
+    "software": "math",
+    "version": "qhull/2020.2",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version qhull/2020.2 for h200 architecture",
+    "full_name": "math/qhull/2020.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069234"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.2.0",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version gmp/6.2.0 for h200 architecture",
+    "full_name": "math/gmp/6.2.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069242"
+  },
+  {
+    "software": "math",
+    "version": "scafacos/1.0.4",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version scafacos/1.0.4 for h200 architecture",
+    "full_name": "math/scafacos/1.0.4-foss-2023a",
+    "collected_at": "2025-10-10T17:50:06.069249"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.2.1",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version gmp/6.2.1 for h200 architecture",
+    "full_name": "math/gmp/6.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069257"
+  },
+  {
+    "software": "math",
+    "version": "scafacos/1.0.4",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version scafacos/1.0.4 for h200 architecture",
+    "full_name": "math/scafacos/1.0.4-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.069270"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.3.0",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version gmp/6.3.0 for h200 architecture",
+    "full_name": "math/gmp/6.3.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069282"
+  },
+  {
+    "software": "math",
+    "version": "sympy/1.12",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version sympy/1.12 for h200 architecture",
+    "full_name": "math/sympy/1.12-gfbf-2023a",
+    "collected_at": "2025-10-10T17:50:06.069288"
+  },
+  {
+    "software": "math",
+    "version": "gmpy2/2.1.5",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version gmpy2/2.1.5 for h200 architecture",
+    "full_name": "math/gmpy2/2.1.5-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069297"
+  },
+  {
+    "software": "math",
+    "version": "voro++/0.4.6",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version voro++/0.4.6 for h200 architecture",
+    "full_name": "math/voro++/0.4.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069303"
+  },
+  {
+    "software": "math",
+    "version": "libcerf/2.4",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version libcerf/2.4 for h200 architecture",
+    "full_name": "math/libcerf/2.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069311"
+  },
+  {
+    "software": "math",
+    "version": "voro++/0.4.6",
+    "category": "Mathematics Software",
+    "architecture": "h200",
+    "description": "math version voro++/0.4.6 for h200 architecture",
+    "full_name": "math/voro++/0.4.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069317"
+  },
+  {
+    "software": "mpi",
+    "version": "impi/2021.13.0",
+    "category": "MPI Libraries",
+    "architecture": "h200",
+    "description": "mpi version impi/2021.13.0 for h200 architecture",
+    "full_name": "mpi/impi/2021.13.0-intel-compilers-2024.2.0",
+    "collected_at": "2025-10-10T17:50:06.069330"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/4.1.5",
+    "category": "MPI Libraries",
+    "architecture": "h200",
+    "description": "mpi version openmpi/4.1.5 for h200 architecture",
+    "full_name": "mpi/openmpi/4.1.5-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069337"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/4.0.5",
+    "category": "MPI Libraries",
+    "architecture": "h200",
+    "description": "mpi version openmpi/4.0.5 for h200 architecture",
+    "full_name": "mpi/openmpi/4.0.5-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069346"
+  },
+  {
+    "software": "mpi",
+    "version": "openmpi/5.0.3",
+    "category": "MPI Libraries",
+    "architecture": "h200",
+    "description": "mpi version openmpi/5.0.3 for h200 architecture",
+    "full_name": "mpi/openmpi/5.0.3-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069353"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/0.9.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version blis/0.9.0 for h200 architecture",
+    "full_name": "numlib/blis/0.9.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069365"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.7",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version gsl/2.7 for h200 architecture",
+    "full_name": "numlib/gsl/2.7-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069375"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/0.9.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version blis/0.9.0 for h200 architecture",
+    "full_name": "numlib/blis/0.9.0-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069388"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.8",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version gsl/2.8 for h200 architecture",
+    "full_name": "numlib/gsl/2.8-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069395"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/1.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version blis/1.0 for h200 architecture",
+    "full_name": "numlib/blis/1.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069404"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version imkl for h200 architecture",
+    "full_name": "numlib/imkl-fftw/2024.2.0-iimpi-2024a",
+    "collected_at": "2025-10-10T17:50:06.069411"
+  },
+  {
+    "software": "numlib",
+    "version": "cudnn/8.9.2.26",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version cudnn/8.9.2.26 for h200 architecture",
+    "full_name": "numlib/cudnn/8.9.2.26-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:06.069421"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl/2024.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version imkl/2024.2.0 for h200 architecture",
+    "full_name": "numlib/imkl/2024.2.0",
+    "collected_at": "2025-10-10T17:50:06.069428"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw.mpi/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version fftw.mpi/3.3.10 for h200 architecture",
+    "full_name": "numlib/fftw.mpi/3.3.10-gompi-2023a",
+    "collected_at": "2025-10-10T17:50:06.069437"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.12",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version openblas/0.3.12 for h200 architecture",
+    "full_name": "numlib/openblas/0.3.12-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069444"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw.mpi/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version fftw.mpi/3.3.10 for h200 architecture",
+    "full_name": "numlib/fftw.mpi/3.3.10-gompi-2024a",
+    "collected_at": "2025-10-10T17:50:06.069453"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.23",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version openblas/0.3.23 for h200 architecture",
+    "full_name": "numlib/openblas/0.3.23-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069460"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.8",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version fftw/3.3.8 for h200 architecture",
+    "full_name": "numlib/fftw/3.3.8-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:06.069470"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.24",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version openblas/0.3.24 for h200 architecture",
+    "full_name": "numlib/openblas/0.3.24-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069476"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version fftw/3.3.10 for h200 architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069486"
+  },
+  {
+    "software": "numlib",
+    "version": "openblas/0.3.27",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version openblas/0.3.27 for h200 architecture",
+    "full_name": "numlib/openblas/0.3.27-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069499"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version fftw/3.3.10 for h200 architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069508"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.1.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version scalapack/2.1.0 for h200 architecture",
+    "full_name": "numlib/scalapack/2.1.0-gompi-2020b",
+    "collected_at": "2025-10-10T17:50:06.069518"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version fftw/3.3.10 for h200 architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069527"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version scalapack/2.2.0 for h200 architecture",
+    "full_name": "numlib/scalapack/2.2.0-gompi-2023a-fb",
+    "collected_at": "2025-10-10T17:50:06.069534"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.6",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version gsl/2.6 for h200 architecture",
+    "full_name": "numlib/gsl/2.6-gcc-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069544"
+  },
+  {
+    "software": "numlib",
+    "version": "scalapack/2.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "h200",
+    "description": "numlib version scalapack/2.2.0 for h200 architecture",
+    "full_name": "numlib/scalapack/2.2.0-gompi-2024a-fb",
+    "collected_at": "2025-10-10T17:50:06.069554"
+  },
+  {
+    "software": "phys",
+    "version": "hoomd",
+    "category": "Physics Software",
+    "architecture": "h200",
+    "description": "phys version hoomd for h200 architecture",
+    "full_name": "phys/hoomd-blue/5.2.0-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.069568"
+  },
+  {
+    "software": "system",
+    "version": "cuda/12.1.1",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version cuda/12.1.1 for h200 architecture",
+    "full_name": "system/cuda/12.1.1",
+    "collected_at": "2025-10-10T17:50:06.069580"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.20",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libdeflate/1.20 for h200 architecture",
+    "full_name": "system/libdeflate/1.20-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069587"
+  },
+  {
+    "software": "system",
+    "version": "cuda/12.6.0",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version cuda/12.6.0 for h200 architecture",
+    "full_name": "system/cuda/12.6.0",
+    "collected_at": "2025-10-10T17:50:06.069605"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.16",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libpciaccess/0.16 for h200 architecture",
+    "full_name": "system/libpciaccess/0.16-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069612"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.2.0",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version hwloc/2.2.0 for h200 architecture",
+    "full_name": "system/hwloc/2.2.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069622"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.17",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libpciaccess/0.17 for h200 architecture",
+    "full_name": "system/libpciaccess/0.17-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069632"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.9.1",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version hwloc/2.9.1 for h200 architecture",
+    "full_name": "system/hwloc/2.9.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069641"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.17",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libpciaccess/0.17 for h200 architecture",
+    "full_name": "system/libpciaccess/0.17-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069648"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.10.0",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version hwloc/2.10.0 for h200 architecture",
+    "full_name": "system/hwloc/2.10.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069658"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.18.1",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libpciaccess/0.18.1 for h200 architecture",
+    "full_name": "system/libpciaccess/0.18.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069669"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.18",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libdeflate/1.18 for h200 architecture",
+    "full_name": "system/libdeflate/1.18-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069679"
+  },
+  {
+    "software": "system",
+    "version": "openssl/1.1",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version openssl/1.1 for h200 architecture",
+    "full_name": "system/openssl/1.1",
+    "collected_at": "2025-10-10T17:50:06.069685"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.19",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version libdeflate/1.19 for h200 architecture",
+    "full_name": "system/libdeflate/1.19-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069695"
+  },
+  {
+    "software": "system",
+    "version": "openssl/3",
+    "category": "System Modules",
+    "architecture": "h200",
+    "description": "system version openssl/3 for h200 architecture",
+    "full_name": "system/openssl/3",
+    "collected_at": "2025-10-10T17:50:06.069704"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2020b",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version foss/2020b for h200 architecture",
+    "full_name": "toolchain/foss/2020b",
+    "collected_at": "2025-10-10T17:50:06.069717"
+  },
+  {
+    "software": "toolchain",
+    "version": "gfbf/2023b",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version gfbf/2023b for h200 architecture",
+    "full_name": "toolchain/gfbf/2023b",
+    "collected_at": "2025-10-10T17:50:06.069724"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2024a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version gompi/2024a for h200 architecture",
+    "full_name": "toolchain/gompi/2024a",
+    "collected_at": "2025-10-10T17:50:06.069731"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2023a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version foss/2023a for h200 architecture",
+    "full_name": "toolchain/foss/2023a",
+    "collected_at": "2025-10-10T17:50:06.069740"
+  },
+  {
+    "software": "toolchain",
+    "version": "gfbf/2024a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version gfbf/2024a for h200 architecture",
+    "full_name": "toolchain/gfbf/2024a",
+    "collected_at": "2025-10-10T17:50:06.069751"
+  },
+  {
+    "software": "toolchain",
+    "version": "iimpi/2024a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version iimpi/2024a for h200 architecture",
+    "full_name": "toolchain/iimpi/2024a",
+    "collected_at": "2025-10-10T17:50:06.069757"
+  },
+  {
+    "software": "toolchain",
+    "version": "foss/2024a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version foss/2024a for h200 architecture",
+    "full_name": "toolchain/foss/2024a",
+    "collected_at": "2025-10-10T17:50:06.069771"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2020b",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version gompi/2020b for h200 architecture",
+    "full_name": "toolchain/gompi/2020b",
+    "collected_at": "2025-10-10T17:50:06.069778"
+  },
+  {
+    "software": "toolchain",
+    "version": "intel/2024a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version intel/2024a for h200 architecture",
+    "full_name": "toolchain/intel/2024a",
+    "collected_at": "2025-10-10T17:50:06.069784"
+  },
+  {
+    "software": "toolchain",
+    "version": "gfbf/2023a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version gfbf/2023a for h200 architecture",
+    "full_name": "toolchain/gfbf/2023a",
+    "collected_at": "2025-10-10T17:50:06.069793"
+  },
+  {
+    "software": "toolchain",
+    "version": "gompi/2023a",
+    "category": "Toolchains",
+    "architecture": "h200",
+    "description": "toolchain version gompi/2023a for h200 architecture",
+    "full_name": "toolchain/gompi/2023a",
+    "collected_at": "2025-10-10T17:50:06.069800"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version archspec/0.2.1 for h200 architecture",
+    "full_name": "tools/archspec/0.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069811"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version help2man/1.49.3 for h200 architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069817"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version archspec/0.2.5 for h200 architecture",
+    "full_name": "tools/archspec/0.2.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069826"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version help2man/1.49.3 for h200 architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069833"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version archspec/0.2.5 for h200 architecture",
+    "full_name": "tools/archspec/0.2.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069845"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version help2man/1.49.3 for h200 architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069852"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.35",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.35 for h200 architecture",
+    "full_name": "tools/binutils/2.35-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069864"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/5.41.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hypothesis/5.41.2 for h200 architecture",
+    "full_name": "tools/hypothesis/5.41.2-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069870"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.35",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.35 for h200 architecture",
+    "full_name": "tools/binutils/2.35",
+    "collected_at": "2025-10-10T17:50:06.069883"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.82.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hypothesis/6.82.0 for h200 architecture",
+    "full_name": "tools/hypothesis/6.82.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069889"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.40 for h200 architecture",
+    "full_name": "tools/binutils/2.40-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069898"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.90.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hypothesis/6.90.0 for h200 architecture",
+    "full_name": "tools/hypothesis/6.90.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069904"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.40 for h200 architecture",
+    "full_name": "tools/binutils/2.40-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069913"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.103.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hypothesis/6.103.1 for h200 architecture",
+    "full_name": "tools/hypothesis/6.103.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069920"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.40 for h200 architecture",
+    "full_name": "tools/binutils/2.40",
+    "collected_at": "2025-10-10T17:50:06.069928"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.4.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version libarchive/3.4.3 for h200 architecture",
+    "full_name": "tools/libarchive/3.4.3-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069935"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.42 for h200 architecture",
+    "full_name": "tools/binutils/2.42-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069943"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.6.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version libarchive/3.6.2 for h200 architecture",
+    "full_name": "tools/libarchive/3.6.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069950"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version binutils/2.42 for h200 architecture",
+    "full_name": "tools/binutils/2.42",
+    "collected_at": "2025-10-10T17:50:06.069961"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.7.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version libarchive/3.7.2 for h200 architecture",
+    "full_name": "tools/libarchive/3.7.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.069970"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version bzip2/1.0.8 for h200 architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.069979"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.7.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version libarchive/3.7.4 for h200 architecture",
+    "full_name": "tools/libarchive/3.7.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.069986"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version bzip2/1.0.8 for h200 architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.069995"
+  },
+  {
+    "software": "tools",
+    "version": "lit/18.1.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version lit/18.1.2 for h200 architecture",
+    "full_name": "tools/lit/18.1.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070001"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version bzip2/1.0.8 for h200 architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070010"
+  },
+  {
+    "software": "tools",
+    "version": "lit/18.1.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version lit/18.1.8 for h200 architecture",
+    "full_name": "tools/lit/18.1.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070016"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version bzip2/1.0.8 for h200 architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070025"
+  },
+  {
+    "software": "tools",
+    "version": "maturin/1.6.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version maturin/1.6.0 for h200 architecture",
+    "full_name": "tools/maturin/1.6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070032"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.15.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cffi/1.15.1 for h200 architecture",
+    "full_name": "tools/cffi/1.15.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070040"
+  },
+  {
+    "software": "tools",
+    "version": "meson",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version meson for h200 architecture",
+    "full_name": "tools/meson-python/0.15.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070047"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.15.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cffi/1.15.1 for h200 architecture",
+    "full_name": "tools/cffi/1.15.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070056"
+  },
+  {
+    "software": "tools",
+    "version": "meson",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version meson for h200 architecture",
+    "full_name": "tools/meson-python/0.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070062"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.16.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cffi/1.16.0 for h200 architecture",
+    "full_name": "tools/cffi/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070075"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.1.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version meson/1.1.1 for h200 architecture",
+    "full_name": "tools/meson/1.1.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070084"
+  },
+  {
+    "software": "tools",
+    "version": "code",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version code for h200 architecture",
+    "full_name": "tools/code-server/4.90.2",
+    "collected_at": "2025-10-10T17:50:06.070093"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.2.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version meson/1.2.3 for h200 architecture",
+    "full_name": "tools/meson/1.2.3-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070099"
+  },
+  {
+    "software": "tools",
+    "version": "cppy/1.2.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cppy/1.2.1 for h200 architecture",
+    "full_name": "tools/cppy/1.2.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070108"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.4.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version meson/1.4.0 for h200 architecture",
+    "full_name": "tools/meson/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070115"
+  },
+  {
+    "software": "tools",
+    "version": "cppy/1.2.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cppy/1.2.1 for h200 architecture",
+    "full_name": "tools/cppy/1.2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070130"
+  },
+  {
+    "software": "tools",
+    "version": "networkx/3.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version networkx/3.1 for h200 architecture",
+    "full_name": "tools/networkx/3.1-gfbf-2023a",
+    "collected_at": "2025-10-10T17:50:06.070145"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/41.0.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cryptography/41.0.1 for h200 architecture",
+    "full_name": "tools/cryptography/41.0.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070154"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.11.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version ninja/1.11.1 for h200 architecture",
+    "full_name": "tools/ninja/1.11.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070160"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/41.0.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cryptography/41.0.5 for h200 architecture",
+    "full_name": "tools/cryptography/41.0.5-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070169"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.11.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version ninja/1.11.1 for h200 architecture",
+    "full_name": "tools/ninja/1.11.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070176"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/42.0.8",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version cryptography/42.0.8 for h200 architecture",
+    "full_name": "tools/cryptography/42.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070185"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.12.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version ninja/1.12.1 for h200 architecture",
+    "full_name": "tools/ninja/1.12.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070195"
+  },
+  {
+    "software": "tools",
+    "version": "curl/7.72.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version curl/7.72.0 for h200 architecture",
+    "full_name": "tools/curl/7.72.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070204"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.13",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version numactl/2.0.13 for h200 architecture",
+    "full_name": "tools/numactl/2.0.13-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070210"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.0.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version curl/8.0.1 for h200 architecture",
+    "full_name": "tools/curl/8.0.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070219"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.16",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version numactl/2.0.16 for h200 architecture",
+    "full_name": "tools/numactl/2.0.16-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070225"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.3.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version curl/8.3.0 for h200 architecture",
+    "full_name": "tools/curl/8.3.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070234"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.18",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version numactl/2.0.18 for h200 architecture",
+    "full_name": "tools/numactl/2.0.18-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070241"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.7.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version curl/8.7.1 for h200 architecture",
+    "full_name": "tools/curl/8.7.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070250"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version patchelf/0.18.0 for h200 architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070256"
+  },
+  {
+    "software": "tools",
+    "version": "db/18.1.40",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version db/18.1.40 for h200 architecture",
+    "full_name": "tools/db/18.1.40-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070265"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version patchelf/0.18.0 for h200 architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070271"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.2.9",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version expat/2.2.9 for h200 architecture",
+    "full_name": "tools/expat/2.2.9-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070280"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version patchelf/0.18.0 for h200 architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070287"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.5.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version expat/2.5.0 for h200 architecture",
+    "full_name": "tools/expat/2.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070298"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.5.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version poetry/1.5.1 for h200 architecture",
+    "full_name": "tools/poetry/1.5.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070305"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.5.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version expat/2.5.0 for h200 architecture",
+    "full_name": "tools/expat/2.5.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070313"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.6.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version poetry/1.6.1 for h200 architecture",
+    "full_name": "tools/poetry/1.6.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070319"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.6.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version expat/2.6.2 for h200 architecture",
+    "full_name": "tools/expat/2.6.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070332"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.8.3",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version poetry/1.8.3 for h200 architecture",
+    "full_name": "tools/poetry/1.8.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070338"
+  },
+  {
+    "software": "tools",
+    "version": "expecttest/0.1.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version expecttest/0.1.5 for h200 architecture",
+    "full_name": "tools/expecttest/0.1.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070347"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version pytest for h200 architecture",
+    "full_name": "tools/pytest-flakefinder/1.1.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070354"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version flit/3.9.0 for h200 architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070363"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version pytest for h200 architecture",
+    "full_name": "tools/pytest-rerunfailures/12.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070373"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version flit/3.9.0 for h200 architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070381"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version pytest for h200 architecture",
+    "full_name": "tools/pytest-shard/0.1.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070388"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version flit/3.9.0 for h200 architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070396"
+  },
+  {
+    "software": "tools",
+    "version": "re2c/3.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version re2c/3.1 for h200 architecture",
+    "full_name": "tools/re2c/3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070406"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.21 for h200 architecture",
+    "full_name": "tools/gettext/0.21-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070415"
+  },
+  {
+    "software": "tools",
+    "version": "re2c/3.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version re2c/3.1 for h200 architecture",
+    "full_name": "tools/re2c/3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070421"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.21 for h200 architecture",
+    "full_name": "tools/gettext/0.21",
+    "collected_at": "2025-10-10T17:50:06.070431"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version setuptools for h200 architecture",
+    "full_name": "tools/setuptools-rust/1.6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070440"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.21.1 for h200 architecture",
+    "full_name": "tools/gettext/0.21.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070449"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version setuptools for h200 architecture",
+    "full_name": "tools/setuptools-rust/1.8.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070456"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.21.1 for h200 architecture",
+    "full_name": "tools/gettext/0.21.1",
+    "collected_at": "2025-10-10T17:50:06.070465"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version setuptools for h200 architecture",
+    "full_name": "tools/setuptools-rust/1.9.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070472"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.22 for h200 architecture",
+    "full_name": "tools/gettext/0.22-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070481"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version szip/2.1.1 for h200 architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070487"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.22 for h200 architecture",
+    "full_name": "tools/gettext/0.22",
+    "collected_at": "2025-10-10T17:50:06.070499"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version szip/2.1.1 for h200 architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070508"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.22.5 for h200 architecture",
+    "full_name": "tools/gettext/0.22.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070520"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version szip/2.1.1 for h200 architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070526"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gettext/0.22.5 for h200 architecture",
+    "full_name": "tools/gettext/0.22.5",
+    "collected_at": "2025-10-10T17:50:06.070535"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version unzip/6.0 for h200 architecture",
+    "full_name": "tools/unzip/6.0-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070541"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.28.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version git/2.28.0 for h200 architecture",
+    "full_name": "tools/git/2.28.0-gcccore-10.2.0-nodocs",
+    "collected_at": "2025-10-10T17:50:06.070550"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version unzip/6.0 for h200 architecture",
+    "full_name": "tools/unzip/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070557"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.41.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version git/2.41.0 for h200 architecture",
+    "full_name": "tools/git/2.41.0-gcccore-12.3.0-nodocs",
+    "collected_at": "2025-10-10T17:50:06.070566"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version unzip/6.0 for h200 architecture",
+    "full_name": "tools/unzip/6.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070572"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.42.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version git/2.42.0 for h200 architecture",
+    "full_name": "tools/git/2.42.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070581"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version unzip/6.0 for h200 architecture",
+    "full_name": "tools/unzip/6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070587"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.45.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version git/2.45.1 for h200 architecture",
+    "full_name": "tools/git/2.45.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070601"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version util for h200 architecture",
+    "full_name": "tools/util-linux/2.39-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070609"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.22.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version groff/1.22.4 for h200 architecture",
+    "full_name": "tools/groff/1.22.4-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070619"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version util for h200 architecture",
+    "full_name": "tools/util-linux/2.39-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070629"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.22.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version groff/1.22.4 for h200 architecture",
+    "full_name": "tools/groff/1.22.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070638"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version util for h200 architecture",
+    "full_name": "tools/util-linux/2.40-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070644"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.23.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version groff/1.23.0 for h200 architecture",
+    "full_name": "tools/groff/1.23.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070653"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.23.1",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version virtualenv/20.23.1 for h200 architecture",
+    "full_name": "tools/virtualenv/20.23.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070659"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.23.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version groff/1.23.0 for h200 architecture",
+    "full_name": "tools/groff/1.23.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070671"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.24.6",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version virtualenv/20.24.6 for h200 architecture",
+    "full_name": "tools/virtualenv/20.24.6-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070678"
+  },
+  {
+    "software": "tools",
+    "version": "gsd/3.4.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gsd/3.4.2 for h200 architecture",
+    "full_name": "tools/gsd/3.4.2-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.070687"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.26.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version virtualenv/20.26.2 for h200 architecture",
+    "full_name": "tools/virtualenv/20.26.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070697"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.10",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gzip/1.10 for h200 architecture",
+    "full_name": "tools/gzip/1.10-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070709"
+  },
+  {
+    "software": "tools",
+    "version": "xxd/9.0.2112",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version xxd/9.0.2112 for h200 architecture",
+    "full_name": "tools/xxd/9.0.2112-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070715"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.12",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gzip/1.12 for h200 architecture",
+    "full_name": "tools/gzip/1.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070724"
+  },
+  {
+    "software": "tools",
+    "version": "xxd/9.1.1275",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version xxd/9.1.1275 for h200 architecture",
+    "full_name": "tools/xxd/9.1.1275-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070731"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.13",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gzip/1.13 for h200 architecture",
+    "full_name": "tools/gzip/1.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070745"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.2.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version xz/5.2.5 for h200 architecture",
+    "full_name": "tools/xz/5.2.5-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070751"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.13",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version gzip/1.13 for h200 architecture",
+    "full_name": "tools/gzip/1.13-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070760"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version xz/5.4.2 for h200 architecture",
+    "full_name": "tools/xz/5.4.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070766"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.18.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hatchling/1.18.0 for h200 architecture",
+    "full_name": "tools/hatchling/1.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070775"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.4",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version xz/5.4.4 for h200 architecture",
+    "full_name": "tools/xz/5.4.4-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070781"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.18.0",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hatchling/1.18.0 for h200 architecture",
+    "full_name": "tools/hatchling/1.18.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070789"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.5",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version xz/5.4.5 for h200 architecture",
+    "full_name": "tools/xz/5.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070796"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.24.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version hatchling/1.24.2 for h200 architecture",
+    "full_name": "tools/hatchling/1.24.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070805"
+  },
+  {
+    "software": "tools",
+    "version": "z3/4.12.2",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version z3/4.12.2 for h200 architecture",
+    "full_name": "tools/z3/4.12.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070811"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.47.16",
+    "category": "Development Tools",
+    "architecture": "h200",
+    "description": "tools version help2man/1.47.16 for h200 architecture",
+    "full_name": "tools/help2man/1.47.16-gcccore-10.2.0",
+    "collected_at": "2025-10-10T17:50:06.070819"
+  },
+  {
+    "software": "vis",
+    "version": "assimp/5.4.3",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version assimp/5.4.3 for h200 architecture",
+    "full_name": "vis/assimp/5.4.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070831"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.15",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version littlecms/2.15 for h200 architecture",
+    "full_name": "vis/littlecms/2.15-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070838"
+  },
+  {
+    "software": "vis",
+    "version": "cairo/1.17.8",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version cairo/1.17.8 for h200 architecture",
+    "full_name": "vis/cairo/1.17.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070851"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.16",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version littlecms/2.16 for h200 architecture",
+    "full_name": "vis/littlecms/2.16-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070858"
+  },
+  {
+    "software": "vis",
+    "version": "cairo/1.18.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version cairo/1.18.0 for h200 architecture",
+    "full_name": "vis/cairo/1.18.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070867"
+  },
+  {
+    "software": "vis",
+    "version": "matplotlib/3.8.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version matplotlib/3.8.2 for h200 architecture",
+    "full_name": "vis/matplotlib/3.8.2-gfbf-2023b",
+    "collected_at": "2025-10-10T17:50:06.070873"
+  },
+  {
+    "software": "vis",
+    "version": "ffmpeg/6.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version ffmpeg/6.0 for h200 architecture",
+    "full_name": "vis/ffmpeg/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070883"
+  },
+  {
+    "software": "vis",
+    "version": "matplotlib/3.9.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version matplotlib/3.9.2 for h200 architecture",
+    "full_name": "vis/matplotlib/3.9.2-gfbf-2024a",
+    "collected_at": "2025-10-10T17:50:06.070893"
+  },
+  {
+    "software": "vis",
+    "version": "ffmpeg/7.0.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version ffmpeg/7.0.2 for h200 architecture",
+    "full_name": "vis/ffmpeg/7.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070903"
+  },
+  {
+    "software": "vis",
+    "version": "mesa/23.1.4",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version mesa/23.1.4 for h200 architecture",
+    "full_name": "vis/mesa/23.1.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070910"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.14.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version fontconfig/2.14.2 for h200 architecture",
+    "full_name": "vis/fontconfig/2.14.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070919"
+  },
+  {
+    "software": "vis",
+    "version": "mesa/24.1.3",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version mesa/24.1.3 for h200 architecture",
+    "full_name": "vis/mesa/24.1.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070930"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.14.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version fontconfig/2.14.2 for h200 architecture",
+    "full_name": "vis/fontconfig/2.14.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070939"
+  },
+  {
+    "software": "vis",
+    "version": "pango/1.54.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version pango/1.54.0 for h200 architecture",
+    "full_name": "vis/pango/1.54.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070946"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.15.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version fontconfig/2.15.0 for h200 architecture",
+    "full_name": "vis/fontconfig/2.15.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070955"
+  },
+  {
+    "software": "vis",
+    "version": "pillow",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version pillow for h200 architecture",
+    "full_name": "vis/pillow-simd/10.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.070965"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version freetype/2.13.0 for h200 architecture",
+    "full_name": "vis/freetype/2.13.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070974"
+  },
+  {
+    "software": "vis",
+    "version": "pillow/10.0.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version pillow/10.0.0 for h200 architecture",
+    "full_name": "vis/pillow/10.0.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.070981"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version freetype/2.13.2 for h200 architecture",
+    "full_name": "vis/freetype/2.13.2-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070990"
+  },
+  {
+    "software": "vis",
+    "version": "pillow/10.2.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version pillow/10.2.0 for h200 architecture",
+    "full_name": "vis/pillow/10.2.0-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.070997"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version freetype/2.13.2 for h200 architecture",
+    "full_name": "vis/freetype/2.13.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071007"
+  },
+  {
+    "software": "vis",
+    "version": "pixman/0.42.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version pixman/0.42.2 for h200 architecture",
+    "full_name": "vis/pixman/0.42.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071017"
+  },
+  {
+    "software": "vis",
+    "version": "freud",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version freud for h200 architecture",
+    "full_name": "vis/freud-analysis/3.3.1-foss-2024a",
+    "collected_at": "2025-10-10T17:50:06.071027"
+  },
+  {
+    "software": "vis",
+    "version": "pixman/0.43.4",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version pixman/0.43.4 for h200 architecture",
+    "full_name": "vis/pixman/0.43.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071034"
+  },
+  {
+    "software": "vis",
+    "version": "glib/2.77.1",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version glib/2.77.1 for h200 architecture",
+    "full_name": "vis/glib/2.77.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071043"
+  },
+  {
+    "software": "vis",
+    "version": "tk/8.6.13",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version tk/8.6.13 for h200 architecture",
+    "full_name": "vis/tk/8.6.13-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.071050"
+  },
+  {
+    "software": "vis",
+    "version": "glib/2.80.4",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version glib/2.80.4 for h200 architecture",
+    "full_name": "vis/glib/2.80.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071059"
+  },
+  {
+    "software": "vis",
+    "version": "tk/8.6.14",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version tk/8.6.14 for h200 architecture",
+    "full_name": "vis/tk/8.6.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071066"
+  },
+  {
+    "software": "vis",
+    "version": "harfbuzz/5.3.1",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version harfbuzz/5.3.1 for h200 architecture",
+    "full_name": "vis/harfbuzz/5.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071079"
+  },
+  {
+    "software": "vis",
+    "version": "turbovnc/3.1.2",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version turbovnc/3.1.2 for h200 architecture",
+    "full_name": "vis/turbovnc/3.1.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071088"
+  },
+  {
+    "software": "vis",
+    "version": "harfbuzz/9.0.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version harfbuzz/9.0.0 for h200 architecture",
+    "full_name": "vis/harfbuzz/9.0.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071098"
+  },
+  {
+    "software": "vis",
+    "version": "vtk/9.3.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version vtk/9.3.0 for h200 architecture",
+    "full_name": "vis/vtk/9.3.0-foss-2023a",
+    "collected_at": "2025-10-10T17:50:06.071105"
+  },
+  {
+    "software": "vis",
+    "version": "jasper/4.0.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version jasper/4.0.0 for h200 architecture",
+    "full_name": "vis/jasper/4.0.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071114"
+  },
+  {
+    "software": "vis",
+    "version": "wayland/1.23.0",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version wayland/1.23.0 for h200 architecture",
+    "full_name": "vis/wayland/1.23.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071121"
+  },
+  {
+    "software": "vis",
+    "version": "jasper/4.2.4",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version jasper/4.2.4 for h200 architecture",
+    "full_name": "vis/jasper/4.2.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071130"
+  },
+  {
+    "software": "vis",
+    "version": "x11/20230603",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x11/20230603 for h200 architecture",
+    "full_name": "vis/x11/20230603-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071137"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version jbigkit/2.1 for h200 architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071146"
+  },
+  {
+    "software": "vis",
+    "version": "x11/20231019",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x11/20231019 for h200 architecture",
+    "full_name": "vis/x11/20231019-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.071153"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version jbigkit/2.1 for h200 architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-13.2.0",
+    "collected_at": "2025-10-10T17:50:06.071162"
+  },
+  {
+    "software": "vis",
+    "version": "x11/20240607",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x11/20240607 for h200 architecture",
+    "full_name": "vis/x11/20240607-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071169"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version jbigkit/2.1 for h200 architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071179"
+  },
+  {
+    "software": "vis",
+    "version": "x264/20230226",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x264/20230226 for h200 architecture",
+    "full_name": "vis/x264/20230226-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071191"
+  },
+  {
+    "software": "vis",
+    "version": "libglu/9.0.3",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version libglu/9.0.3 for h200 architecture",
+    "full_name": "vis/libglu/9.0.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071204"
+  },
+  {
+    "software": "vis",
+    "version": "x264/20240513",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x264/20240513 for h200 architecture",
+    "full_name": "vis/x264/20240513-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071211"
+  },
+  {
+    "software": "vis",
+    "version": "libglu/9.0.3",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version libglu/9.0.3 for h200 architecture",
+    "full_name": "vis/libglu/9.0.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071230"
+  },
+  {
+    "software": "vis",
+    "version": "x265/3.5",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x265/3.5 for h200 architecture",
+    "full_name": "vis/x265/3.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071238"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.15",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version littlecms/2.15 for h200 architecture",
+    "full_name": "vis/littlecms/2.15-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:06.071247"
+  },
+  {
+    "software": "vis",
+    "version": "x265/3.6",
+    "category": "Visualization",
+    "architecture": "h200",
+    "description": "vis version x265/3.6 for h200 architecture",
+    "full_name": "vis/x265/3.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:06.071254"
+  }
+]
