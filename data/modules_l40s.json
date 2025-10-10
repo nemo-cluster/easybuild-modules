@@ -1,30 +1,12 @@
 [
   {
-    "software": "arch",
-    "version": "genoa",
-    "category": "Other",
+    "software": "miniforge3",
+    "version": "24.11.3-0",
+    "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "arch version genoa for l40s architecture",
-    "full_name": "arch/genoa",
-    "collected_at": "2025-10-10T17:50:07.003134"
-  },
-  {
-    "software": "arch",
-    "version": "l40s",
-    "category": "Other",
-    "architecture": "l40s",
-    "description": "arch version l40s for l40s architecture",
-    "full_name": "arch/l40s",
-    "collected_at": "2025-10-10T17:50:07.003173"
-  },
-  {
-    "software": "lang",
-    "version": "miniforge3/24.11.3",
-    "category": "Global Aliases",
-    "architecture": "l40s",
-    "description": "lang version miniforge3/24.11.3 for l40s architecture",
+    "description": "Miniforge is a free minimal installer for conda and Mamba specific to conda-forge.",
     "full_name": "lang/miniforge3/24.11.3-0",
-    "collected_at": "2025-10-10T17:50:07.003209"
+    "collected_at": "2025-10-10T18:46:54.970338"
   },
   {
     "software": "devel",
@@ -33,2121 +15,2076 @@
     "architecture": "l40s",
     "description": "devel version miniforge for l40s architecture",
     "full_name": "devel/miniforge",
-    "collected_at": "2025-10-10T17:50:07.003220"
+    "collected_at": "2025-10-10T18:46:54.970378"
   },
   {
-    "software": "lang",
-    "version": "miniforge3/24.11.3",
-    "category": "Global Aliases",
+    "software": "miniforge3",
+    "version": "24.11.3-0",
+    "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version miniforge3/24.11.3 for l40s architecture",
+    "description": "Miniforge is a free minimal installer for conda and Mamba specific to conda-forge.",
     "full_name": "lang/miniforge3/24.11.3-0",
-    "collected_at": "2025-10-10T17:50:07.003231"
+    "collected_at": "2025-10-10T18:46:54.970391"
   },
   {
-    "software": "arch",
-    "version": "genoa",
-    "category": "Modules for Architectures/Slurm Partitions",
-    "architecture": "l40s",
-    "description": "arch version genoa for l40s architecture",
-    "full_name": "arch/genoa",
-    "collected_at": "2025-10-10T17:50:07.003255"
-  },
-  {
-    "software": "arch",
-    "version": "h200",
-    "category": "Modules for Architectures/Slurm Partitions",
-    "architecture": "l40s",
-    "description": "arch version h200 for l40s architecture",
-    "full_name": "arch/h200",
-    "collected_at": "2025-10-10T17:50:07.003268"
-  },
-  {
-    "software": "arch",
-    "version": "l40s",
-    "category": "Modules for Architectures/Slurm Partitions",
-    "architecture": "l40s",
-    "description": "arch version l40s for l40s architecture",
-    "full_name": "arch/l40s",
-    "collected_at": "2025-10-10T17:50:07.003278"
-  },
-  {
-    "software": "arch",
-    "version": "mi300a",
-    "category": "Modules for Architectures/Slurm Partitions",
-    "architecture": "l40s",
-    "description": "arch version mi300a for l40s architecture",
-    "full_name": "arch/mi300a",
-    "collected_at": "2025-10-10T17:50:07.003287"
-  },
-  {
-    "software": "arch",
-    "version": "milan",
-    "category": "Modules for Architectures/Slurm Partitions",
-    "architecture": "l40s",
-    "description": "arch version milan for l40s architecture",
-    "full_name": "arch/milan",
-    "collected_at": "2025-10-10T17:50:07.003297"
-  },
-  {
-    "software": "chem",
-    "version": "kim",
+    "software": "kim-api",
+    "version": "2.3.0-gcc-12.3.0",
     "category": "Chemistry Software",
     "architecture": "l40s",
-    "description": "chem version kim for l40s architecture",
+    "description": "Open Knowledgebase of Interatomic Models. KIM is an API and OpenKIM is a collection of interatomic models (potentials) for atomistic simulations. This is a library that can be used by simulation programs to get access to the models in the OpenKIM database. This EasyBuild only installs the API, the models can be installed with the package openkim-models, or the user can install them manually by running kim-api-collections-management install user MODELNAME or kim-api-collections-management install user OpenKIM to install them all.",
     "full_name": "chem/kim-api/2.3.0-gcc-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003319"
+    "collected_at": "2025-10-10T18:46:54.970443"
   },
   {
-    "software": "compiler",
-    "version": "gcc/12.3.0",
+    "software": "gcc",
+    "version": "12.3.0",
     "category": "Compilers",
     "architecture": "l40s",
-    "description": "compiler version gcc/12.3.0 for l40s architecture",
+    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).",
     "full_name": "compiler/gcc/12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003339"
+    "collected_at": "2025-10-10T18:46:54.970462"
   },
   {
-    "software": "compiler",
-    "version": "gcccore/12.3.0",
+    "software": "gcccore",
+    "version": "12.3.0",
     "category": "Compilers",
     "architecture": "l40s",
-    "description": "compiler version gcccore/12.3.0 for l40s architecture",
+    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).",
     "full_name": "compiler/gcccore/12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003347"
+    "collected_at": "2025-10-10T18:46:54.970472"
   },
   {
-    "software": "compiler",
-    "version": "intel",
+    "software": "intel-compilers",
+    "version": "2024.2.0",
     "category": "Compilers",
     "architecture": "l40s",
-    "description": "compiler version intel for l40s architecture",
+    "description": "Intel C, C++ & Fortran compilers (classic and oneAPI)",
     "full_name": "compiler/intel-compilers/2024.2.0",
-    "collected_at": "2025-10-10T17:50:07.003356"
+    "collected_at": "2025-10-10T18:46:54.970485"
   },
   {
-    "software": "compiler",
-    "version": "gcc/13.3.0",
+    "software": "gcc",
+    "version": "13.3.0",
     "category": "Compilers",
     "architecture": "l40s",
-    "description": "compiler version gcc/13.3.0 for l40s architecture",
+    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).",
     "full_name": "compiler/gcc/13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003370"
+    "collected_at": "2025-10-10T18:46:54.970504"
   },
   {
-    "software": "compiler",
-    "version": "gcccore/13.3.0",
+    "software": "gcccore",
+    "version": "13.3.0",
     "category": "Compilers",
     "architecture": "l40s",
-    "description": "compiler version gcccore/13.3.0 for l40s architecture",
+    "description": "The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).",
     "full_name": "compiler/gcccore/13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003379"
+    "collected_at": "2025-10-10T18:46:54.970514"
   },
   {
-    "software": "compiler",
-    "version": "llvm/16.0.6",
+    "software": "llvm",
+    "version": "16.0.6-gcccore-12.3.0",
     "category": "Compilers",
     "architecture": "l40s",
-    "description": "compiler version llvm/16.0.6 for l40s architecture",
+    "description": "The LLVM Core libraries provide a modern source- and target-independent optimizer, along with code generation support for many popular CPUs (as well as some less common ones!) These libraries are built around a well specified code representation known as the LLVM intermediate representation (\"LLVM IR\"). The LLVM Core libraries are well documented, and it is particularly easy to invent your own language (or port an existing compiler) to use LLVM as an optimizer and code generator.",
     "full_name": "compiler/llvm/16.0.6-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003390"
+    "collected_at": "2025-10-10T18:46:54.970524"
   },
   {
-    "software": "data",
-    "version": "lame/3.100",
+    "software": "lame",
+    "version": "3.100-gcccore-12.3.0",
     "category": "Data Analysis",
     "architecture": "l40s",
-    "description": "data version lame/3.100 for l40s architecture",
+    "description": "LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.",
     "full_name": "data/lame/3.100-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003407"
+    "collected_at": "2025-10-10T18:46:54.970541"
   },
   {
-    "software": "devel",
-    "version": "autoconf/2.71",
+    "software": "autoconf",
+    "version": "2.71-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version autoconf/2.71 for l40s architecture",
+    "description": "Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. These scripts can adapt the packages to many kinds of UNIX-like systems without manual user intervention. Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, in the form of M4 macro calls.",
     "full_name": "devel/autoconf/2.71-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003426"
+    "collected_at": "2025-10-10T18:46:54.970560"
   },
   {
-    "software": "devel",
-    "version": "make/4.4.1",
+    "software": "make",
+    "version": "4.4.1-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version make/4.4.1 for l40s architecture",
+    "description": "GNU version of make utility",
     "full_name": "devel/make/4.4.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003440"
+    "collected_at": "2025-10-10T18:46:54.970576"
   },
   {
-    "software": "devel",
-    "version": "autoconf/2.72",
+    "software": "autoconf",
+    "version": "2.72-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version autoconf/2.72 for l40s architecture",
+    "description": "Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. These scripts can adapt the packages to many kinds of UNIX-like systems without manual user intervention. Autoconf creates a configuration script for a package from a template file that lists the operating system features that the package can use, in the form of M4 macro calls.",
     "full_name": "devel/autoconf/2.72-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003454"
+    "collected_at": "2025-10-10T18:46:54.970591"
   },
   {
-    "software": "devel",
-    "version": "mako/1.2.4",
+    "software": "mako",
+    "version": "1.2.4-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version mako/1.2.4 for l40s architecture",
+    "description": "A super-fast templating language that borrows the best ideas from the existing templating languages",
     "full_name": "devel/mako/1.2.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003467"
+    "collected_at": "2025-10-10T18:46:54.970617"
   },
   {
-    "software": "devel",
-    "version": "automake/1.16.5",
+    "software": "automake",
+    "version": "1.16.5-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version automake/1.16.5 for l40s architecture",
+    "description": "Automake: GNU Standards-compliant Makefile generator",
     "full_name": "devel/automake/1.16.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003481"
+    "collected_at": "2025-10-10T18:46:54.970636"
   },
   {
-    "software": "devel",
-    "version": "ncurses/6.2",
+    "software": "ncurses",
+    "version": "6.2",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version ncurses/6.2 for l40s architecture",
+    "description": "The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.",
     "full_name": "devel/ncurses/6.2",
-    "collected_at": "2025-10-10T17:50:07.003491"
+    "collected_at": "2025-10-10T18:46:54.970648"
   },
   {
-    "software": "devel",
-    "version": "automake/1.16.5",
+    "software": "automake",
+    "version": "1.16.5-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version automake/1.16.5 for l40s architecture",
+    "description": "Automake: GNU Standards-compliant Makefile generator",
     "full_name": "devel/automake/1.16.5-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003505"
+    "collected_at": "2025-10-10T18:46:54.970664"
   },
   {
-    "software": "devel",
-    "version": "ncurses/6.3",
+    "software": "ncurses",
+    "version": "6.3",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version ncurses/6.3 for l40s architecture",
+    "description": "The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.",
     "full_name": "devel/ncurses/6.3",
-    "collected_at": "2025-10-10T17:50:07.003518"
+    "collected_at": "2025-10-10T18:46:54.970675"
   },
   {
-    "software": "devel",
-    "version": "autotools/20220317",
+    "software": "autotools",
+    "version": "20220317-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version autotools/20220317 for l40s architecture",
+    "description": "This bundle collect the standard GNU build tools: Autoconf, Automake and libtool",
     "full_name": "devel/autotools/20220317-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003532"
+    "collected_at": "2025-10-10T18:46:54.970690"
   },
   {
-    "software": "devel",
-    "version": "ncurses/6.4",
+    "software": "ncurses",
+    "version": "6.4-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version ncurses/6.4 for l40s architecture",
+    "description": "The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.",
     "full_name": "devel/ncurses/6.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003545"
+    "collected_at": "2025-10-10T18:46:54.970699"
   },
   {
-    "software": "devel",
-    "version": "autotools/20231222",
+    "software": "autotools",
+    "version": "20231222-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version autotools/20231222 for l40s architecture",
+    "description": "This bundle collect the standard GNU build tools: Autoconf, Automake and libtool",
     "full_name": "devel/autotools/20231222-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003560"
+    "collected_at": "2025-10-10T18:46:54.970713"
   },
   {
-    "software": "devel",
-    "version": "ncurses/6.5",
+    "software": "ncurses",
+    "version": "6.5-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version ncurses/6.5 for l40s architecture",
+    "description": "The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.",
     "full_name": "devel/ncurses/6.5-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003571"
+    "collected_at": "2025-10-10T18:46:54.970723"
   },
   {
-    "software": "devel",
-    "version": "boost/1.82.0",
+    "software": "boost",
+    "version": "1.82.0-gcc-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version boost/1.82.0 for l40s architecture",
+    "description": "Boost provides free peer-reviewed portable C++ source libraries.",
     "full_name": "devel/boost/1.82.0-gcc-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003585"
+    "collected_at": "2025-10-10T18:46:54.970737"
   },
   {
-    "software": "devel",
-    "version": "ncurses/6.5",
+    "software": "ncurses",
+    "version": "6.5",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version ncurses/6.5 for l40s architecture",
+    "description": "The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms characters and function-key mapping, and has all the other SYSV-curses enhancements over BSD Curses.",
     "full_name": "devel/ncurses/6.5",
-    "collected_at": "2025-10-10T17:50:07.003609"
+    "collected_at": "2025-10-10T18:46:54.970747"
   },
   {
-    "software": "devel",
-    "version": "boost/1.85.0",
+    "software": "boost",
+    "version": "1.85.0-gcc-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version boost/1.85.0 for l40s architecture",
+    "description": "Boost provides free peer-reviewed portable C++ source libraries.",
     "full_name": "devel/boost/1.85.0-gcc-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003626"
+    "collected_at": "2025-10-10T18:46:54.970766"
   },
   {
-    "software": "devel",
-    "version": "pcre/8.45",
+    "software": "pcre",
+    "version": "8.45-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version pcre/8.45 for l40s architecture",
+    "description": "The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5.",
     "full_name": "devel/pcre/8.45-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003638"
+    "collected_at": "2025-10-10T18:46:54.970777"
   },
   {
-    "software": "devel",
-    "version": "cmake/3.18.4",
+    "software": "cmake",
+    "version": "3.18.4",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version cmake/3.18.4 for l40s architecture",
+    "description": "CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
     "full_name": "devel/cmake/3.18.4",
-    "collected_at": "2025-10-10T17:50:07.003652"
+    "collected_at": "2025-10-10T18:46:54.970791"
   },
   {
-    "software": "devel",
-    "version": "pcre2/10.42",
+    "software": "pcre2",
+    "version": "10.42-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version pcre2/10.42 for l40s architecture",
+    "description": "The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5.",
     "full_name": "devel/pcre2/10.42-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003662"
+    "collected_at": "2025-10-10T18:46:54.970801"
   },
   {
-    "software": "devel",
-    "version": "cmake/3.26.3",
+    "software": "cmake",
+    "version": "3.26.3-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version cmake/3.26.3 for l40s architecture",
+    "description": "CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
     "full_name": "devel/cmake/3.26.3-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003676"
+    "collected_at": "2025-10-10T18:46:54.970814"
   },
   {
-    "software": "devel",
-    "version": "pkgconf/1.8.0",
+    "software": "pkgconf",
+    "version": "1.8.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version pkgconf/1.8.0 for l40s architecture",
+    "description": "pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.",
     "full_name": "devel/pkgconf/1.8.0",
-    "collected_at": "2025-10-10T17:50:07.003686"
+    "collected_at": "2025-10-10T18:46:54.970822"
   },
   {
-    "software": "devel",
-    "version": "cmake/3.29.3",
+    "software": "cmake",
+    "version": "3.29.3-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version cmake/3.29.3 for l40s architecture",
+    "description": "CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.",
     "full_name": "devel/cmake/3.29.3-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003699"
+    "collected_at": "2025-10-10T18:46:54.970836"
   },
   {
-    "software": "devel",
-    "version": "pkgconf/1.9.5",
+    "software": "pkgconf",
+    "version": "1.9.5-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version pkgconf/1.9.5 for l40s architecture",
+    "description": "pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.",
     "full_name": "devel/pkgconf/1.9.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003709"
+    "collected_at": "2025-10-10T18:46:54.970846"
   },
   {
-    "software": "devel",
-    "version": "dbus/1.15.4",
+    "software": "dbus",
+    "version": "1.15.4-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version dbus/1.15.4 for l40s architecture",
+    "description": "D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \"single instance\" application or daemon, and to launch applications and daemons on demand when their services are needed.",
     "full_name": "devel/dbus/1.15.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003723"
+    "collected_at": "2025-10-10T18:46:54.970864"
   },
   {
-    "software": "devel",
-    "version": "pkgconf/2.2.0",
+    "software": "pkgconf",
+    "version": "2.2.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version pkgconf/2.2.0 for l40s architecture",
+    "description": "pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.",
     "full_name": "devel/pkgconf/2.2.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003734"
+    "collected_at": "2025-10-10T18:46:54.970876"
   },
   {
-    "software": "devel",
-    "version": "doxygen/1.9.7",
+    "software": "doxygen",
+    "version": "1.9.7-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version doxygen/1.9.7 for l40s architecture",
+    "description": "Doxygen is a documentation system for C++, C, Java, Objective-C, Python, IDL (Corba and Microsoft flavors), Fortran, VHDL, PHP, C#, and to some extent D.",
     "full_name": "devel/doxygen/1.9.7-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003749"
+    "collected_at": "2025-10-10T18:46:54.970891"
   },
   {
-    "software": "devel",
-    "version": "protobuf",
+    "software": "protobuf-python",
+    "version": "4.24.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version protobuf for l40s architecture",
+    "description": "Python Protocol Buffers runtime library.",
     "full_name": "devel/protobuf-python/4.24.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003762"
+    "collected_at": "2025-10-10T18:46:54.970901"
   },
   {
-    "software": "devel",
-    "version": "gperf/3.1",
+    "software": "gperf",
+    "version": "3.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version gperf/3.1 for l40s architecture",
+    "description": "GNU gperf is a perfect hash function generator. For a given list of strings, it produces a hash function and hash table, in form of C or C++ code, for looking up a value depending on the input string. The hash function is perfect, which means that the hash table has no collisions, and the hash table lookup needs a single string comparison only.",
     "full_name": "devel/gperf/3.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003776"
+    "collected_at": "2025-10-10T18:46:54.970918"
   },
   {
-    "software": "devel",
-    "version": "protobuf/24.0",
+    "software": "protobuf",
+    "version": "24.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version protobuf/24.0 for l40s architecture",
+    "description": "Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.",
     "full_name": "devel/protobuf/24.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003789"
+    "collected_at": "2025-10-10T18:46:54.970928"
   },
   {
-    "software": "devel",
-    "version": "m4/1.4.19",
+    "software": "m4",
+    "version": "1.4.19-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version m4/1.4.19 for l40s architecture",
+    "description": "GNU M4 is an implementation of the traditional Unix macro processor. It is mostly SVR4 compatible although it has some extensions (for example, handling more than 9 positional parameters to macros). GNU M4 also has built-in functions for including files, running shell commands, doing arithmetic, etc.",
     "full_name": "devel/m4/1.4.19-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003803"
+    "collected_at": "2025-10-10T18:46:54.970941"
   },
   {
-    "software": "devel",
-    "version": "sqlite/3.42.0",
+    "software": "sqlite",
+    "version": "3.42.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version sqlite/3.42.0 for l40s architecture",
+    "description": "SQLite: SQL Database Engine in a C Library",
     "full_name": "devel/sqlite/3.42.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003813"
+    "collected_at": "2025-10-10T18:46:54.970950"
   },
   {
-    "software": "devel",
-    "version": "m4/1.4.19",
+    "software": "m4",
+    "version": "1.4.19-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version m4/1.4.19 for l40s architecture",
+    "description": "GNU M4 is an implementation of the traditional Unix macro processor. It is mostly SVR4 compatible although it has some extensions (for example, handling more than 9 positional parameters to macros). GNU M4 also has built-in functions for including files, running shell commands, doing arithmetic, etc.",
     "full_name": "devel/m4/1.4.19-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003827"
+    "collected_at": "2025-10-10T18:46:54.970966"
   },
   {
-    "software": "devel",
-    "version": "sqlite/3.45.3",
+    "software": "sqlite",
+    "version": "3.45.3-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version sqlite/3.45.3 for l40s architecture",
+    "description": "SQLite: SQL Database Engine in a C Library",
     "full_name": "devel/sqlite/3.45.3-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003837"
+    "collected_at": "2025-10-10T18:46:54.970977"
   },
   {
-    "software": "devel",
-    "version": "m4/1.4.19",
+    "software": "m4",
+    "version": "1.4.19",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version m4/1.4.19 for l40s architecture",
+    "description": "GNU M4 is an implementation of the traditional Unix macro processor. It is mostly SVR4 compatible although it has some extensions (for example, handling more than 9 positional parameters to macros). GNU M4 also has built-in functions for including files, running shell commands, doing arithmetic, etc.",
     "full_name": "devel/m4/1.4.19",
-    "collected_at": "2025-10-10T17:50:07.003851"
+    "collected_at": "2025-10-10T18:46:54.970990"
   },
   {
-    "software": "devel",
-    "version": "xorg",
+    "software": "xorg-macros",
+    "version": "1.20.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version xorg for l40s architecture",
+    "description": "X.org macros utilities.",
     "full_name": "devel/xorg-macros/1.20.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003861"
+    "collected_at": "2025-10-10T18:46:54.971000"
   },
   {
-    "software": "devel",
-    "version": "make/4.4.1",
+    "software": "make",
+    "version": "4.4.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version make/4.4.1 for l40s architecture",
+    "description": "GNU version of make utility",
     "full_name": "devel/make/4.4.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003875"
+    "collected_at": "2025-10-10T18:46:54.971014"
   },
   {
-    "software": "devel",
-    "version": "xorg",
+    "software": "xorg-macros",
+    "version": "1.20.1-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "devel version xorg for l40s architecture",
+    "description": "X.org macros utilities.",
     "full_name": "devel/xorg-macros/1.20.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003890"
+    "collected_at": "2025-10-10T18:46:54.971025"
   },
   {
-    "software": "lang",
-    "version": "bison/3.8.2",
+    "software": "bison",
+    "version": "3.8.2-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version bison/3.8.2 for l40s architecture",
+    "description": "Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.",
     "full_name": "lang/bison/3.8.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003909"
+    "collected_at": "2025-10-10T18:46:54.971045"
   },
   {
-    "software": "lang",
-    "version": "perl/5.36.1",
+    "software": "perl",
+    "version": "5.36.1-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version perl/5.36.1 for l40s architecture",
+    "description": "Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.",
     "full_name": "lang/perl/5.36.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003919"
+    "collected_at": "2025-10-10T18:46:54.971054"
   },
   {
-    "software": "lang",
-    "version": "bison/3.8.2",
+    "software": "bison",
+    "version": "3.8.2-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version bison/3.8.2 for l40s architecture",
+    "description": "Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.",
     "full_name": "lang/bison/3.8.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003933"
+    "collected_at": "2025-10-10T18:46:54.971070"
   },
   {
-    "software": "lang",
-    "version": "perl/5.38.0",
+    "software": "perl",
+    "version": "5.38.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version perl/5.38.0 for l40s architecture",
+    "description": "Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.",
     "full_name": "lang/perl/5.38.0",
-    "collected_at": "2025-10-10T17:50:07.003943"
+    "collected_at": "2025-10-10T18:46:54.971079"
   },
   {
-    "software": "lang",
-    "version": "bison/3.8.2",
+    "software": "bison",
+    "version": "3.8.2",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version bison/3.8.2 for l40s architecture",
+    "description": "Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.",
     "full_name": "lang/bison/3.8.2",
-    "collected_at": "2025-10-10T17:50:07.003959"
+    "collected_at": "2025-10-10T18:46:54.971093"
   },
   {
-    "software": "lang",
-    "version": "perl/5.38.2",
+    "software": "perl",
+    "version": "5.38.2-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version perl/5.38.2 for l40s architecture",
+    "description": "Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.",
     "full_name": "lang/perl/5.38.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.003972"
+    "collected_at": "2025-10-10T18:46:54.971105"
   },
   {
-    "software": "lang",
-    "version": "cython/3.0.8",
+    "software": "cython",
+    "version": "3.0.8-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version cython/3.0.8 for l40s architecture",
+    "description": "Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex).",
     "full_name": "lang/cython/3.0.8-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003986"
+    "collected_at": "2025-10-10T18:46:54.971122"
   },
   {
-    "software": "lang",
-    "version": "python",
+    "software": "python-bundle-pypi",
+    "version": "2023.06-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version python for l40s architecture",
+    "description": "Bundle of Python packages from PyPI",
     "full_name": "lang/python-bundle-pypi/2023.06-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.003997"
+    "collected_at": "2025-10-10T18:46:54.971135"
   },
   {
-    "software": "lang",
-    "version": "cython/3.0.10",
+    "software": "cython",
+    "version": "3.0.10-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version cython/3.0.10 for l40s architecture",
+    "description": "Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex).",
     "full_name": "lang/cython/3.0.10-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004011"
+    "collected_at": "2025-10-10T18:46:54.971150"
   },
   {
-    "software": "lang",
-    "version": "python",
+    "software": "python-bundle-pypi",
+    "version": "2024.06-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version python for l40s architecture",
+    "description": "Bundle of Python packages from PyPI",
     "full_name": "lang/python-bundle-pypi/2024.06-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004022"
+    "collected_at": "2025-10-10T18:46:54.971160"
   },
   {
-    "software": "lang",
-    "version": "flex/2.6.4",
+    "software": "flex",
+    "version": "2.6.4-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version flex/2.6.4 for l40s architecture",
+    "description": "Flex (Fast Lexical Analyzer) is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text.",
     "full_name": "lang/flex/2.6.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004039"
+    "collected_at": "2025-10-10T18:46:54.971174"
   },
   {
-    "software": "lang",
-    "version": "python/3.11.3",
+    "software": "python",
+    "version": "3.11.3-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version python/3.11.3 for l40s architecture",
+    "description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
     "full_name": "lang/python/3.11.3-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004052"
+    "collected_at": "2025-10-10T18:46:54.971183"
   },
   {
-    "software": "lang",
-    "version": "flex/2.6.4",
+    "software": "flex",
+    "version": "2.6.4-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version flex/2.6.4 for l40s architecture",
+    "description": "Flex (Fast Lexical Analyzer) is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text.",
     "full_name": "lang/flex/2.6.4-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004066"
+    "collected_at": "2025-10-10T18:46:54.971196"
   },
   {
-    "software": "lang",
-    "version": "python/3.12.3",
+    "software": "python",
+    "version": "3.12.3-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version python/3.12.3 for l40s architecture",
+    "description": "Python is a programming language that lets you work more quickly and integrate your systems more effectively.",
     "full_name": "lang/python/3.12.3-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004077"
+    "collected_at": "2025-10-10T18:46:54.971206"
   },
   {
-    "software": "lang",
-    "version": "flex/2.6.4",
+    "software": "flex",
+    "version": "2.6.4",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version flex/2.6.4 for l40s architecture",
+    "description": "Flex (Fast Lexical Analyzer) is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text.",
     "full_name": "lang/flex/2.6.4",
-    "collected_at": "2025-10-10T17:50:07.004090"
+    "collected_at": "2025-10-10T18:46:54.971219"
   },
   {
-    "software": "lang",
-    "version": "rust/1.70.0",
+    "software": "rust",
+    "version": "1.70.0-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version rust/1.70.0 for l40s architecture",
+    "description": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
     "full_name": "lang/rust/1.70.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004100"
+    "collected_at": "2025-10-10T18:46:54.971231"
   },
   {
-    "software": "lang",
-    "version": "fribidi/1.0.12",
+    "software": "fribidi",
+    "version": "1.0.12-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version fribidi/1.0.12 for l40s architecture",
+    "description": "The Free Implementation of the Unicode Bidirectional Algorithm.",
     "full_name": "lang/fribidi/1.0.12-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004114"
+    "collected_at": "2025-10-10T18:46:54.971245"
   },
   {
-    "software": "lang",
-    "version": "rust/1.78.0",
+    "software": "rust",
+    "version": "1.78.0-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version rust/1.78.0 for l40s architecture",
+    "description": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
     "full_name": "lang/rust/1.78.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004127"
+    "collected_at": "2025-10-10T18:46:54.971255"
   },
   {
-    "software": "lang",
-    "version": "miniforge3/24.11.3",
+    "software": "miniforge3",
+    "version": "24.11.3-0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version miniforge3/24.11.3 for l40s architecture",
+    "description": "Miniforge is a free minimal installer for conda and Mamba specific to conda-forge.",
     "full_name": "lang/miniforge3/24.11.3-0",
-    "collected_at": "2025-10-10T17:50:07.004141"
+    "collected_at": "2025-10-10T18:46:54.971269"
   },
   {
-    "software": "lang",
-    "version": "tcl/8.6.13",
+    "software": "tcl",
+    "version": "8.6.13-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version tcl/8.6.13 for l40s architecture",
+    "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, administration, testing and many more.",
     "full_name": "lang/tcl/8.6.13-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004151"
+    "collected_at": "2025-10-10T18:46:54.971278"
   },
   {
-    "software": "lang",
-    "version": "nasm/2.16.01",
+    "software": "nasm",
+    "version": "2.16.01-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version nasm/2.16.01 for l40s architecture",
+    "description": "NASM: General-purpose x86 assembler",
     "full_name": "lang/nasm/2.16.01-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004165"
+    "collected_at": "2025-10-10T18:46:54.971294"
   },
   {
-    "software": "lang",
-    "version": "tcl/8.6.14",
+    "software": "tcl",
+    "version": "8.6.14-gcccore-13.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version tcl/8.6.14 for l40s architecture",
+    "description": "Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, administration, testing and many more.",
     "full_name": "lang/tcl/8.6.14-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004175"
+    "collected_at": "2025-10-10T18:46:54.971304"
   },
   {
-    "software": "lang",
-    "version": "nodejs/18.17.1",
+    "software": "nodejs",
+    "version": "18.17.1-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version nodejs/18.17.1 for l40s architecture",
+    "description": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network efficient, perfect for data-intensive real-time applications that run across distributed devices.",
     "full_name": "lang/nodejs/18.17.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004189"
+    "collected_at": "2025-10-10T18:46:54.971320"
   },
   {
-    "software": "lang",
-    "version": "yasm/1.3.0",
+    "software": "yasm",
+    "version": "1.3.0-gcccore-12.3.0",
     "category": "Programming Languages",
     "architecture": "l40s",
-    "description": "lang version yasm/1.3.0 for l40s architecture",
+    "description": "Yasm: Complete rewrite of the NASM assembler with BSD license",
     "full_name": "lang/yasm/1.3.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004199"
+    "collected_at": "2025-10-10T18:46:54.971329"
   },
   {
-    "software": "lib",
-    "version": "abseil/20230125.3",
+    "software": "abseil",
+    "version": "20230125.3-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version abseil/20230125.3 for l40s architecture",
+    "description": "Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's own C++ code base, has been extensively tested and used in production, and is the same code we depend on in our daily coding lives.",
     "full_name": "lib/abseil/20230125.3-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004216"
+    "collected_at": "2025-10-10T18:46:54.971347"
   },
   {
-    "software": "lib",
-    "version": "libxml2/2.11.4",
+    "software": "libxml2",
+    "version": "2.11.4-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libxml2/2.11.4 for l40s architecture",
+    "description": "Libxml2 is the XML C parser and toolchain developed for the Gnome project (but usable outside of the Gnome platform).",
     "full_name": "lib/libxml2/2.11.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004225"
+    "collected_at": "2025-10-10T18:46:54.971357"
   },
   {
-    "software": "lib",
-    "version": "brotli/1.0.9",
+    "software": "brotli",
+    "version": "1.0.9-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version brotli/1.0.9 for l40s architecture",
+    "description": "Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a compression ratio comparable to the best currently available general-purpose compression methods. It is similar in speed with deflate but offers more dense compression. The specification of the Brotli Compressed Data Format is defined in RFC 7932.",
     "full_name": "lib/brotli/1.0.9-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004239"
+    "collected_at": "2025-10-10T18:46:54.971373"
   },
   {
-    "software": "lib",
-    "version": "libxml2/2.12.7",
+    "software": "libxml2",
+    "version": "2.12.7-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libxml2/2.12.7 for l40s architecture",
+    "description": "Libxml2 is the XML C parser and toolchain developed for the Gnome project (but usable outside of the Gnome platform).",
     "full_name": "lib/libxml2/2.12.7-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004248"
+    "collected_at": "2025-10-10T18:46:54.971386"
   },
   {
-    "software": "lib",
-    "version": "catch2/2.13.9",
+    "software": "catch2",
+    "version": "2.13.9-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version catch2/2.13.9 for l40s architecture",
+    "description": "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later",
     "full_name": "lib/catch2/2.13.9-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004261"
+    "collected_at": "2025-10-10T18:46:54.971399"
   },
   {
-    "software": "lib",
-    "version": "libyaml/0.2.5",
+    "software": "libyaml",
+    "version": "0.2.5-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libyaml/0.2.5 for l40s architecture",
+    "description": "LibYAML is a YAML parser and emitter written in C.",
     "full_name": "lib/libyaml/0.2.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004270"
+    "collected_at": "2025-10-10T18:46:54.971409"
   },
   {
-    "software": "lib",
-    "version": "catch2/2.13.10",
+    "software": "catch2",
+    "version": "2.13.10-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version catch2/2.13.10 for l40s architecture",
+    "description": "A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later",
     "full_name": "lib/catch2/2.13.10-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004296"
+    "collected_at": "2025-10-10T18:46:54.971423"
   },
   {
-    "software": "lib",
-    "version": "lz4/1.9.4",
+    "software": "lz4",
+    "version": "1.9.4-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version lz4/1.9.4 for l40s architecture",
+    "description": "lz4 version 1.9.4-gcccore-12.3.0 for l40s architecture",
     "full_name": "lib/lz4/1.9.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004306"
+    "collected_at": "2025-10-10T18:46:54.971434"
   },
   {
-    "software": "lib",
-    "version": "cereal/1.3.2",
+    "software": "cereal",
+    "version": "1.3.2",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version cereal/1.3.2 for l40s architecture",
+    "description": "cereal is a header-only C++11 serialization library. cereal takes arbitrary data types and reversibly turns them into different representations, such as compact binary encodings, XML, or JSON. cereal was designed to be fast, light-weight, and easy to extend - it has no external dependencies and can be easily bundled with other code or used standalone.",
     "full_name": "lib/cereal/1.3.2",
-    "collected_at": "2025-10-10T17:50:07.004319"
+    "collected_at": "2025-10-10T18:46:54.971447"
   },
   {
-    "software": "lib",
-    "version": "lz4/1.9.4",
+    "software": "lz4",
+    "version": "1.9.4-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version lz4/1.9.4 for l40s architecture",
+    "description": "lz4 version 1.9.4-gcccore-13.3.0 for l40s architecture",
     "full_name": "lib/lz4/1.9.4-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004329"
+    "collected_at": "2025-10-10T18:46:54.971461"
   },
   {
-    "software": "lib",
-    "version": "double",
+    "software": "double-conversion",
+    "version": "3.3.0-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version double for l40s architecture",
+    "description": "Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.",
     "full_name": "lib/double-conversion/3.3.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004348"
+    "collected_at": "2025-10-10T18:46:54.971475"
   },
   {
-    "software": "lib",
-    "version": "nccl/2.18.3",
+    "software": "nccl",
+    "version": "2.18.3-gcccore-12.3.0-cuda-12.1.1",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version nccl/2.18.3 for l40s architecture",
+    "description": "The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs.",
     "full_name": "lib/nccl/2.18.3-gcccore-12.3.0-cuda-12.1.1",
-    "collected_at": "2025-10-10T17:50:07.004357"
+    "collected_at": "2025-10-10T18:46:54.971485"
   },
   {
-    "software": "lib",
-    "version": "ffnvcodec/12.0.16.0",
+    "software": "ffnvcodec",
+    "version": "12.0.16.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version ffnvcodec/12.0.16.0 for l40s architecture",
+    "description": "FFmpeg nvidia headers. Adds support for nvenc and nvdec. Requires Nvidia GPU and drivers to be present (picked up dynamically).",
     "full_name": "lib/ffnvcodec/12.0.16.0",
-    "collected_at": "2025-10-10T17:50:07.004370"
+    "collected_at": "2025-10-10T18:46:54.971498"
   },
   {
-    "software": "lib",
-    "version": "nspr/4.35",
+    "software": "nspr",
+    "version": "4.35-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version nspr/4.35 for l40s architecture",
+    "description": "Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc-like functions.",
     "full_name": "lib/nspr/4.35-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004380"
+    "collected_at": "2025-10-10T18:46:54.971507"
   },
   {
-    "software": "lib",
-    "version": "gdrcopy/2.3.1",
+    "software": "gdrcopy",
+    "version": "2.3.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version gdrcopy/2.3.1 for l40s architecture",
+    "description": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.",
     "full_name": "lib/gdrcopy/2.3.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004397"
+    "collected_at": "2025-10-10T18:46:54.971520"
   },
   {
-    "software": "lib",
-    "version": "nss/3.89.1",
+    "software": "nss",
+    "version": "3.89.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version nss/3.89.1 for l40s architecture",
+    "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications.",
     "full_name": "lib/nss/3.89.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004408"
+    "collected_at": "2025-10-10T18:46:54.971529"
   },
   {
-    "software": "lib",
-    "version": "gdrcopy/2.4.1",
+    "software": "gdrcopy",
+    "version": "2.4.1-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version gdrcopy/2.4.1 for l40s architecture",
+    "description": "A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.",
     "full_name": "lib/gdrcopy/2.4.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004422"
+    "collected_at": "2025-10-10T18:46:54.971543"
   },
   {
-    "software": "lib",
-    "version": "openjpeg/2.5.0",
+    "software": "openjpeg",
+    "version": "2.5.0-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version openjpeg/2.5.0 for l40s architecture",
+    "description": "OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic Experts Reference Software.",
     "full_name": "lib/openjpeg/2.5.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004432"
+    "collected_at": "2025-10-10T18:46:54.971555"
   },
   {
-    "software": "lib",
-    "version": "giflib/5.2.1",
+    "software": "giflib",
+    "version": "5.2.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version giflib/5.2.1 for l40s architecture",
+    "description": "giflib is a library for reading and writing gif images. It is API and ABI compatible with libungif which was in wide use while the LZW compression algorithm was patented.",
     "full_name": "lib/giflib/5.2.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004445"
+    "collected_at": "2025-10-10T18:46:54.971568"
   },
   {
-    "software": "lib",
-    "version": "pmix/4.2.4",
+    "software": "pmix",
+    "version": "4.2.4-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version pmix/4.2.4 for l40s architecture",
+    "description": "Process Management for Exascale Environments PMI Exascale (PMIx) represents an attempt to provide an extended version of the PMI standard specifically designed to support clusters up to and including exascale sizes. The overall objective of the project is not to branch the existing pseudo-standard definitions - in fact, PMIx fully supports both of the existing PMI-1 and PMI-2 APIs - but rather to (a) augment and extend those APIs to eliminate some current restrictions that impact scalability, and (b) provide a reference implementation of the PMI-server that demonstrates the desired level of scalability.",
     "full_name": "lib/pmix/4.2.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004459"
+    "collected_at": "2025-10-10T18:46:54.971578"
   },
   {
-    "software": "lib",
-    "version": "graphite2/1.3.14",
+    "software": "graphite2",
+    "version": "1.3.14-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version graphite2/1.3.14 for l40s architecture",
+    "description": "Graphite is a \"smart font\" system developed specifically to handle the complexities of lesser-known languages of the world.",
     "full_name": "lib/graphite2/1.3.14-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004473"
+    "collected_at": "2025-10-10T18:46:54.971591"
   },
   {
-    "software": "lib",
-    "version": "pmix/5.0.2",
+    "software": "pmix",
+    "version": "5.0.2-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version pmix/5.0.2 for l40s architecture",
+    "description": "Process Management for Exascale Environments PMI Exascale (PMIx) represents an attempt to provide an extended version of the PMI standard specifically designed to support clusters up to and including exascale sizes. The overall objective of the project is not to branch the existing pseudo-standard definitions - in fact, PMIx fully supports both of the existing PMI-1 and PMI-2 APIs - but rather to (a) augment and extend those APIs to eliminate some current restrictions that impact scalability, and (b) provide a reference implementation of the PMI-server that demonstrates the desired level of scalability.",
     "full_name": "lib/pmix/5.0.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004483"
+    "collected_at": "2025-10-10T18:46:54.971613"
   },
   {
-    "software": "lib",
-    "version": "icu/73.2",
+    "software": "icu",
+    "version": "73.2-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version icu/73.2 for l40s architecture",
+    "description": "support for software applications.",
     "full_name": "lib/icu/73.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004496"
+    "collected_at": "2025-10-10T18:46:54.971628"
   },
   {
-    "software": "lib",
-    "version": "prrte/3.0.5",
+    "software": "prrte",
+    "version": "3.0.5-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version prrte/3.0.5 for l40s architecture",
+    "description": "PRRTE is the PMIx Reference RunTime Environment",
     "full_name": "lib/prrte/3.0.5-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004505"
+    "collected_at": "2025-10-10T18:46:54.971641"
   },
   {
-    "software": "lib",
-    "version": "icu/75.1",
+    "software": "icu",
+    "version": "75.1-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version icu/75.1 for l40s architecture",
+    "description": "support for software applications.",
     "full_name": "lib/icu/75.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004518"
+    "collected_at": "2025-10-10T18:46:54.971655"
   },
   {
-    "software": "lib",
-    "version": "pybind11/2.11.1",
+    "software": "pybind11",
+    "version": "2.11.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version pybind11/2.11.1 for l40s architecture",
+    "description": "pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.",
     "full_name": "lib/pybind11/2.11.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004527"
+    "collected_at": "2025-10-10T18:46:54.971665"
   },
   {
-    "software": "lib",
-    "version": "libevent/2.1.12",
+    "software": "libevent",
+    "version": "2.1.12-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libevent/2.1.12 for l40s architecture",
+    "description": "The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also support callbacks due to signals or regular timeouts.",
     "full_name": "lib/libevent/2.1.12-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004540"
+    "collected_at": "2025-10-10T18:46:54.971678"
   },
   {
-    "software": "lib",
-    "version": "pybind11/2.12.0",
+    "software": "pybind11",
+    "version": "2.12.0-gcc-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version pybind11/2.12.0 for l40s architecture",
+    "description": "pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.",
     "full_name": "lib/pybind11/2.12.0-gcc-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004550"
+    "collected_at": "2025-10-10T18:46:54.971688"
   },
   {
-    "software": "lib",
-    "version": "libevent/2.1.12",
+    "software": "libevent",
+    "version": "2.1.12-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libevent/2.1.12 for l40s architecture",
+    "description": "The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also support callbacks due to signals or regular timeouts.",
     "full_name": "lib/libevent/2.1.12-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004567"
+    "collected_at": "2025-10-10T18:46:54.971703"
   },
   {
-    "software": "lib",
-    "version": "pyyaml/6.0",
+    "software": "pyyaml",
+    "version": "6.0-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version pyyaml/6.0 for l40s architecture",
+    "description": "PyYAML is a YAML parser and emitter for the Python programming language.",
     "full_name": "lib/pyyaml/6.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004576"
+    "collected_at": "2025-10-10T18:46:54.971715"
   },
   {
-    "software": "lib",
-    "version": "libfabric/1.18.0",
+    "software": "libfabric",
+    "version": "1.18.0-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libfabric/1.18.0 for l40s architecture",
+    "description": "Libfabric is a core component of OFI. It is the library that defines and exports the user-space API of OFI, and is typically the only software that applications deal with directly. It works in conjunction with provider libraries, which are often integrated directly into libfabric.",
     "full_name": "lib/libfabric/1.18.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004593"
+    "collected_at": "2025-10-10T18:46:54.971728"
   },
   {
-    "software": "lib",
-    "version": "scikit",
+    "software": "scikit-build",
+    "version": "0.17.6-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version scikit for l40s architecture",
+    "description": "extensions.",
     "full_name": "lib/scikit-build/0.17.6-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004615"
+    "collected_at": "2025-10-10T18:46:54.971740"
   },
   {
-    "software": "lib",
-    "version": "libfabric/1.21.0",
+    "software": "libfabric",
+    "version": "1.21.0-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libfabric/1.21.0 for l40s architecture",
+    "description": "Libfabric is a core component of OFI. It is the library that defines and exports the user-space API of OFI, and is typically the only software that applications deal with directly. It works in conjunction with provider libraries, which are often integrated directly into libfabric.",
     "full_name": "lib/libfabric/1.21.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004632"
+    "collected_at": "2025-10-10T18:46:54.971755"
   },
   {
-    "software": "lib",
-    "version": "scikit",
+    "software": "scikit-build",
+    "version": "0.17.6-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version scikit for l40s architecture",
+    "description": "extensions.",
     "full_name": "lib/scikit-build/0.17.6-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004642"
+    "collected_at": "2025-10-10T18:46:54.971766"
   },
   {
-    "software": "lib",
-    "version": "libffi/3.4.4",
+    "software": "libffi",
+    "version": "3.4.4-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libffi/3.4.4 for l40s architecture",
+    "description": "The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run-time.",
     "full_name": "lib/libffi/3.4.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004656"
+    "collected_at": "2025-10-10T18:46:54.971780"
   },
   {
-    "software": "lib",
-    "version": "snappy/1.1.10",
+    "software": "snappy",
+    "version": "1.1.10-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version snappy/1.1.10 for l40s architecture",
+    "description": "compatibility with any other compression library; instead, it aims for very high speeds and reasonable compression.",
     "full_name": "lib/snappy/1.1.10-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004665"
+    "collected_at": "2025-10-10T18:46:54.971791"
   },
   {
-    "software": "lib",
-    "version": "libffi/3.4.5",
+    "software": "libffi",
+    "version": "3.4.5-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libffi/3.4.5 for l40s architecture",
+    "description": "The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at run-time.",
     "full_name": "lib/libffi/3.4.5-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004678"
+    "collected_at": "2025-10-10T18:46:54.971805"
   },
   {
-    "software": "lib",
-    "version": "tbb/2021.11.0",
+    "software": "tbb",
+    "version": "2021.11.0-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version tbb/2021.11.0 for l40s architecture",
+    "description": "Intel(R) Threading Building Blocks (Intel(R) TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.",
     "full_name": "lib/tbb/2021.11.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004687"
+    "collected_at": "2025-10-10T18:46:54.971815"
   },
   {
-    "software": "lib",
-    "version": "libiconv/1.17",
+    "software": "libiconv",
+    "version": "1.17-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libiconv/1.17 for l40s architecture",
+    "description": "Libiconv converts from one character encoding to another through Unicode conversion",
     "full_name": "lib/libiconv/1.17-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004700"
+    "collected_at": "2025-10-10T18:46:54.971829"
   },
   {
-    "software": "lib",
-    "version": "tbb/2021.13.0",
+    "software": "tbb",
+    "version": "2021.13.0-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version tbb/2021.13.0 for l40s architecture",
+    "description": "Intel(R) Threading Building Blocks (Intel(R) TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof scalability.",
     "full_name": "lib/tbb/2021.13.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004710"
+    "collected_at": "2025-10-10T18:46:54.971839"
   },
   {
-    "software": "lib",
-    "version": "libiconv/1.17",
+    "software": "libiconv",
+    "version": "1.17-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libiconv/1.17 for l40s architecture",
+    "description": "Libiconv converts from one character encoding to another through Unicode conversion",
     "full_name": "lib/libiconv/1.17-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004723"
+    "collected_at": "2025-10-10T18:46:54.971853"
   },
   {
-    "software": "lib",
-    "version": "ucx",
+    "software": "ucx-cuda",
+    "version": "1.14.1-gcccore-12.3.0-cuda-12.1.1",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version ucx for l40s architecture",
+    "description": "Unified Communication X An open-source production grade communication framework for data centric and high-performance applications This module adds the UCX CUDA support.",
     "full_name": "lib/ucx-cuda/1.14.1-gcccore-12.3.0-cuda-12.1.1",
-    "collected_at": "2025-10-10T17:50:07.004737"
+    "collected_at": "2025-10-10T18:46:54.971863"
   },
   {
-    "software": "lib",
-    "version": "libjpeg",
+    "software": "libjpeg-turbo",
+    "version": "2.1.5.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libjpeg for l40s architecture",
+    "description": "libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to accelerate baseline JPEG compression and decompression. libjpeg is a library that implements JPEG image encoding, decoding and transcoding.",
     "full_name": "lib/libjpeg-turbo/2.1.5.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004751"
+    "collected_at": "2025-10-10T18:46:54.971880"
   },
   {
-    "software": "lib",
-    "version": "ucx",
+    "software": "ucx-cuda",
+    "version": "1.16.0-gcccore-13.3.0-cuda-12.6.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version ucx for l40s architecture",
+    "description": "Unified Communication X An open-source production grade communication framework for data centric and high-performance applications This module adds the UCX CUDA support.",
     "full_name": "lib/ucx-cuda/1.16.0-gcccore-13.3.0-cuda-12.6.0",
-    "collected_at": "2025-10-10T17:50:07.004761"
+    "collected_at": "2025-10-10T18:46:54.971891"
   },
   {
-    "software": "lib",
-    "version": "libpng/1.6.39",
+    "software": "libpng",
+    "version": "1.6.39-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libpng/1.6.39 for l40s architecture",
+    "description": "libpng is the official PNG reference library",
     "full_name": "lib/libpng/1.6.39-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004775"
+    "collected_at": "2025-10-10T18:46:54.971904"
   },
   {
-    "software": "lib",
-    "version": "ucx/1.14.1",
+    "software": "ucx",
+    "version": "1.14.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version ucx/1.14.1 for l40s architecture",
+    "description": "Unified Communication X An open-source production grade communication framework for data centric and high-performance applications",
     "full_name": "lib/ucx/1.14.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004788"
+    "collected_at": "2025-10-10T18:46:54.971913"
   },
   {
-    "software": "lib",
-    "version": "libreadline/8.2",
+    "software": "libreadline",
+    "version": "8.2-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libreadline/8.2 for l40s architecture",
+    "description": "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
     "full_name": "lib/libreadline/8.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004801"
+    "collected_at": "2025-10-10T18:46:54.971931"
   },
   {
-    "software": "lib",
-    "version": "ucx/1.16.0",
+    "software": "ucx",
+    "version": "1.16.0-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version ucx/1.16.0 for l40s architecture",
+    "description": "Unified Communication X An open-source production grade communication framework for data centric and high-performance applications",
     "full_name": "lib/ucx/1.16.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004811"
+    "collected_at": "2025-10-10T18:46:54.971941"
   },
   {
-    "software": "lib",
-    "version": "libreadline/8.2",
+    "software": "libreadline",
+    "version": "8.2-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libreadline/8.2 for l40s architecture",
+    "description": "The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands.",
     "full_name": "lib/libreadline/8.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004828"
+    "collected_at": "2025-10-10T18:46:54.971957"
   },
   {
-    "software": "lib",
-    "version": "zlib/1.2.13",
+    "software": "zlib",
+    "version": "1.2.13-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version zlib/1.2.13 for l40s architecture",
+    "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
     "full_name": "lib/zlib/1.2.13-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004838"
+    "collected_at": "2025-10-10T18:46:54.971967"
   },
   {
-    "software": "lib",
-    "version": "libtiff/4.5.0",
+    "software": "libtiff",
+    "version": "4.5.0-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libtiff/4.5.0 for l40s architecture",
+    "description": "tiff: Library and tools for reading and writing TIFF data files",
     "full_name": "lib/libtiff/4.5.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004855"
+    "collected_at": "2025-10-10T18:46:54.971980"
   },
   {
-    "software": "lib",
-    "version": "zlib/1.2.13",
+    "software": "zlib",
+    "version": "1.2.13",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version zlib/1.2.13 for l40s architecture",
+    "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
     "full_name": "lib/zlib/1.2.13",
-    "collected_at": "2025-10-10T17:50:07.004865"
+    "collected_at": "2025-10-10T18:46:54.971988"
   },
   {
-    "software": "lib",
-    "version": "libtool/2.4.7",
+    "software": "libtool",
+    "version": "2.4.7-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libtool/2.4.7 for l40s architecture",
+    "description": "GNU libtool is a generic library support script. Libtool hides the complexity of using shared libraries behind a consistent, portable interface.",
     "full_name": "lib/libtool/2.4.7-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004878"
+    "collected_at": "2025-10-10T18:46:54.972001"
   },
   {
-    "software": "lib",
-    "version": "zlib/1.3.1",
+    "software": "zlib",
+    "version": "1.3.1-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version zlib/1.3.1 for l40s architecture",
+    "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
     "full_name": "lib/zlib/1.3.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004887"
+    "collected_at": "2025-10-10T18:46:54.972010"
   },
   {
-    "software": "lib",
-    "version": "libtool/2.4.7",
+    "software": "libtool",
+    "version": "2.4.7-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libtool/2.4.7 for l40s architecture",
+    "description": "GNU libtool is a generic library support script. Libtool hides the complexity of using shared libraries behind a consistent, portable interface.",
     "full_name": "lib/libtool/2.4.7-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004901"
+    "collected_at": "2025-10-10T18:46:54.972024"
   },
   {
-    "software": "lib",
-    "version": "zlib/1.3.1",
+    "software": "zlib",
+    "version": "1.3.1",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version zlib/1.3.1 for l40s architecture",
+    "description": "zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system.",
     "full_name": "lib/zlib/1.3.1",
-    "collected_at": "2025-10-10T17:50:07.004910"
+    "collected_at": "2025-10-10T18:46:54.972034"
   },
   {
-    "software": "lib",
-    "version": "libunwind/1.6.2",
+    "software": "libunwind",
+    "version": "1.6.2-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libunwind/1.6.2 for l40s architecture",
+    "description": "The primary goal of libunwind is to define a portable and efficient C programming interface (API) to determine the call-chain of a program. The API additionally provides the means to manipulate the preserved (callee-saved) state of each call-frame and to resume execution at any point in the call-chain (non-local goto). The API supports both local (same-process) and remote (across-process) operation. As such, the API is useful in a number of applications",
     "full_name": "lib/libunwind/1.6.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004924"
+    "collected_at": "2025-10-10T18:46:54.972047"
   },
   {
-    "software": "lib",
-    "version": "zstd/1.5.5",
+    "software": "zstd",
+    "version": "1.5.5-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version zstd/1.5.5 for l40s architecture",
+    "description": "Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very a special mode for small data, called dictionary compression, and can create dictionaries from any sample set.",
     "full_name": "lib/zstd/1.5.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004933"
+    "collected_at": "2025-10-10T18:46:54.972056"
   },
   {
-    "software": "lib",
-    "version": "libwebp/1.3.1",
+    "software": "libwebp",
+    "version": "1.3.1-gcccore-12.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version libwebp/1.3.1 for l40s architecture",
+    "description": "WebP is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.",
     "full_name": "lib/libwebp/1.3.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004951"
+    "collected_at": "2025-10-10T18:46:54.972072"
   },
   {
-    "software": "lib",
-    "version": "zstd/1.5.6",
+    "software": "zstd",
+    "version": "1.5.6-gcccore-13.3.0",
     "category": "Libraries",
     "architecture": "l40s",
-    "description": "lib version zstd/1.5.6 for l40s architecture",
+    "description": "Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very a special mode for small data, called dictionary compression, and can create dictionaries from any sample set.",
     "full_name": "lib/zstd/1.5.6-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.004960"
+    "collected_at": "2025-10-10T18:46:54.972082"
   },
   {
-    "software": "math",
-    "version": "eigen/3.4.0",
+    "software": "eigen",
+    "version": "3.4.0-gcccore-12.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version eigen/3.4.0 for l40s architecture",
+    "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.",
     "full_name": "math/eigen/3.4.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004978"
+    "collected_at": "2025-10-10T18:46:54.972101"
   },
   {
-    "software": "math",
-    "version": "gmpy2/2.1.5",
+    "software": "gmpy2",
+    "version": "2.1.5-gcc-12.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version gmpy2/2.1.5 for l40s architecture",
+    "description": "gmpy2 version 2.1.5-gcc-12.3.0 for l40s architecture",
     "full_name": "math/gmpy2/2.1.5-gcc-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004987"
+    "collected_at": "2025-10-10T18:46:54.972113"
   },
   {
-    "software": "math",
-    "version": "voro++/0.4.6",
+    "software": "voro++",
+    "version": "0.4.6-gcccore-12.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version voro++/0.4.6 for l40s architecture",
+    "description": "Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based calculations, computing the Voronoi cell for each particle individually. It is particularly well-suited for applications that rely on cell-based statistics, where features of Voronoi cells (eg. volume, centroid, number of faces) can be used to analyze a system of particles.",
     "full_name": "math/voro++/0.4.6-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.004995"
+    "collected_at": "2025-10-10T18:46:54.972122"
   },
   {
-    "software": "math",
-    "version": "eigen/3.4.0",
+    "software": "eigen",
+    "version": "3.4.0-gcccore-13.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version eigen/3.4.0 for l40s architecture",
+    "description": "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.",
     "full_name": "math/eigen/3.4.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005008"
+    "collected_at": "2025-10-10T18:46:54.972136"
   },
   {
-    "software": "math",
-    "version": "mpc/1.3.1",
+    "software": "mpc",
+    "version": "1.3.1-gcccore-12.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version mpc/1.3.1 for l40s architecture",
+    "description": "Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result. It extends the principles of the IEEE-754 standard for fixed precision real floating point numbers to complex numbers, providing well-defined semantics for every operation. At the same time, speed of operation at high precision is a major design goal.",
     "full_name": "math/mpc/1.3.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005016"
+    "collected_at": "2025-10-10T18:46:54.972148"
   },
   {
-    "software": "math",
-    "version": "gmp/6.2.1",
+    "software": "gmp",
+    "version": "6.2.1-gcccore-12.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version gmp/6.2.1 for l40s architecture",
+    "description": "GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.",
     "full_name": "math/gmp/6.2.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005028"
+    "collected_at": "2025-10-10T18:46:54.972160"
   },
   {
-    "software": "math",
-    "version": "mpfr/4.2.0",
+    "software": "mpfr",
+    "version": "4.2.0-gcccore-12.3.0",
     "category": "Mathematics Software",
     "architecture": "l40s",
-    "description": "math version mpfr/4.2.0 for l40s architecture",
+    "description": "The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.",
     "full_name": "math/mpfr/4.2.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005037"
+    "collected_at": "2025-10-10T18:46:54.972172"
   },
   {
-    "software": "mpi",
-    "version": "impi/2021.13.0",
-    "category": "MPI Libraries",
+    "software": "impi",
+    "version": "2021.13.0-intel-compilers-2024.2.0",
+    "category": "Parallel Computing",
     "architecture": "l40s",
-    "description": "mpi version impi/2021.13.0 for l40s architecture",
+    "description": "Intel MPI Library, compatible with MPICH ABI",
     "full_name": "mpi/impi/2021.13.0-intel-compilers-2024.2.0",
-    "collected_at": "2025-10-10T17:50:07.005053"
+    "collected_at": "2025-10-10T18:46:54.972188"
   },
   {
-    "software": "numlib",
-    "version": "blis/0.9.0",
-    "category": "Numeric Libraries",
+    "software": "blis",
+    "version": "0.9.0-gcc-12.3.0",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version blis/0.9.0 for l40s architecture",
+    "description": "BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.",
     "full_name": "numlib/blis/0.9.0-gcc-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005071"
+    "collected_at": "2025-10-10T18:46:54.972205"
   },
   {
-    "software": "numlib",
-    "version": "fftw/3.3.10",
-    "category": "Numeric Libraries",
+    "software": "fftw",
+    "version": "3.3.10-gcc-13.3.0",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version fftw/3.3.10 for l40s architecture",
+    "description": "FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.",
     "full_name": "numlib/fftw/3.3.10-gcc-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005081"
+    "collected_at": "2025-10-10T18:46:54.972216"
   },
   {
-    "software": "numlib",
-    "version": "blis/1.0",
-    "category": "Numeric Libraries",
+    "software": "blis",
+    "version": "1.0-gcc-13.3.0",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version blis/1.0 for l40s architecture",
+    "description": "BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.",
     "full_name": "numlib/blis/1.0-gcc-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005104"
+    "collected_at": "2025-10-10T18:46:54.972229"
   },
   {
-    "software": "numlib",
-    "version": "gsl/2.7",
-    "category": "Numeric Libraries",
+    "software": "gsl",
+    "version": "2.7-gcc-12.3.0",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version gsl/2.7 for l40s architecture",
+    "description": "The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting.",
     "full_name": "numlib/gsl/2.7-gcc-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005119"
+    "collected_at": "2025-10-10T18:46:54.972238"
   },
   {
-    "software": "numlib",
-    "version": "cudnn/8.9.2.26",
-    "category": "Numeric Libraries",
+    "software": "cudnn",
+    "version": "8.9.2.26-cuda-12.1.1",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version cudnn/8.9.2.26 for l40s architecture",
+    "description": "The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks.",
     "full_name": "numlib/cudnn/8.9.2.26-cuda-12.1.1",
-    "collected_at": "2025-10-10T17:50:07.005132"
+    "collected_at": "2025-10-10T18:46:54.972251"
   },
   {
-    "software": "numlib",
-    "version": "imkl",
-    "category": "Numeric Libraries",
+    "software": "imkl-fftw",
+    "version": "2024.2.0-iimpi-2024a",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version imkl for l40s architecture",
+    "description": "FFTW interfaces using Intel oneAPI Math Kernel Library",
     "full_name": "numlib/imkl-fftw/2024.2.0-iimpi-2024a",
-    "collected_at": "2025-10-10T17:50:07.005142"
+    "collected_at": "2025-10-10T18:46:54.972264"
   },
   {
-    "software": "numlib",
-    "version": "fftw/3.3.10",
-    "category": "Numeric Libraries",
+    "software": "fftw",
+    "version": "3.3.10-gcc-12.3.0",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version fftw/3.3.10 for l40s architecture",
+    "description": "FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.",
     "full_name": "numlib/fftw/3.3.10-gcc-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005155"
+    "collected_at": "2025-10-10T18:46:54.972278"
   },
   {
-    "software": "numlib",
-    "version": "imkl/2024.2.0",
-    "category": "Numeric Libraries",
+    "software": "imkl",
+    "version": "2024.2.0",
+    "category": "Numerical Libraries",
     "architecture": "l40s",
-    "description": "numlib version imkl/2024.2.0 for l40s architecture",
+    "description": "Intel oneAPI Math Kernel Library",
     "full_name": "numlib/imkl/2024.2.0",
-    "collected_at": "2025-10-10T17:50:07.005165"
+    "collected_at": "2025-10-10T18:46:54.972286"
   },
   {
-    "software": "system",
-    "version": "cuda/12.1.1",
-    "category": "System Modules",
+    "software": "cuda",
+    "version": "12.1.1",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version cuda/12.1.1 for l40s architecture",
+    "description": "CUDA (formerly Compute Unified Device Architecture) is a parallel computing platform and programming model created by NVIDIA and implemented by the graphics processing units (GPUs) that they produce. CUDA gives developers access to the virtual instruction set and memory of the parallel computational elements in CUDA GPUs.",
     "full_name": "system/cuda/12.1.1",
-    "collected_at": "2025-10-10T17:50:07.005182"
+    "collected_at": "2025-10-10T18:46:54.972303"
   },
   {
-    "software": "system",
-    "version": "libpciaccess/0.17",
-    "category": "System Modules",
+    "software": "libpciaccess",
+    "version": "0.17-gcccore-12.3.0",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version libpciaccess/0.17 for l40s architecture",
+    "description": "Generic PCI access library.",
     "full_name": "system/libpciaccess/0.17-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005192"
+    "collected_at": "2025-10-10T18:46:54.972312"
   },
   {
-    "software": "system",
-    "version": "cuda/12.6.0",
-    "category": "System Modules",
+    "software": "cuda",
+    "version": "12.6.0",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version cuda/12.6.0 for l40s architecture",
+    "description": "CUDA (formerly Compute Unified Device Architecture) is a parallel computing platform and programming model created by NVIDIA and implemented by the graphics processing units (GPUs) that they produce. CUDA gives developers access to the virtual instruction set and memory of the parallel computational elements in CUDA GPUs.",
     "full_name": "system/cuda/12.6.0",
-    "collected_at": "2025-10-10T17:50:07.005207"
+    "collected_at": "2025-10-10T18:46:54.972326"
   },
   {
-    "software": "system",
-    "version": "libpciaccess/0.18.1",
-    "category": "System Modules",
+    "software": "libpciaccess",
+    "version": "0.18.1-gcccore-13.3.0",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version libpciaccess/0.18.1 for l40s architecture",
+    "description": "Generic PCI access library.",
     "full_name": "system/libpciaccess/0.18.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005225"
+    "collected_at": "2025-10-10T18:46:54.972337"
   },
   {
-    "software": "system",
-    "version": "hwloc/2.9.1",
-    "category": "System Modules",
+    "software": "hwloc",
+    "version": "2.9.1-gcccore-12.3.0",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version hwloc/2.9.1 for l40s architecture",
+    "description": "The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
     "full_name": "system/hwloc/2.9.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005240"
+    "collected_at": "2025-10-10T18:46:54.972352"
   },
   {
-    "software": "system",
-    "version": "openssl/1.1",
-    "category": "System Modules",
+    "software": "openssl",
+    "version": "1.1",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version openssl/1.1 for l40s architecture",
+    "description": "The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolchain implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library.",
     "full_name": "system/openssl/1.1",
-    "collected_at": "2025-10-10T17:50:07.005250"
+    "collected_at": "2025-10-10T18:46:54.972361"
   },
   {
-    "software": "system",
-    "version": "hwloc/2.10.0",
-    "category": "System Modules",
+    "software": "hwloc",
+    "version": "2.10.0-gcccore-13.3.0",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version hwloc/2.10.0 for l40s architecture",
+    "description": "The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading. It also gathers various system attributes such as cache and memory information as well as the locality of I/O devices such as network interfaces, InfiniBand HCAs or GPUs. It primarily aims at helping applications with gathering information about modern computing hardware so as to exploit it accordingly and efficiently.",
     "full_name": "system/hwloc/2.10.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005264"
+    "collected_at": "2025-10-10T18:46:54.972375"
   },
   {
-    "software": "system",
-    "version": "openssl/3",
-    "category": "System Modules",
+    "software": "openssl",
+    "version": "3",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version openssl/3 for l40s architecture",
+    "description": "The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolchain implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library.",
     "full_name": "system/openssl/3",
-    "collected_at": "2025-10-10T17:50:07.005277"
+    "collected_at": "2025-10-10T18:46:54.972387"
   },
   {
-    "software": "system",
-    "version": "libdeflate/1.18",
-    "category": "System Modules",
+    "software": "libdeflate",
+    "version": "1.18-gcccore-12.3.0",
+    "category": "System Tools",
     "architecture": "l40s",
-    "description": "system version libdeflate/1.18 for l40s architecture",
+    "description": "Heavily optimized library for DEFLATE/zlib/gzip compression and decompression.",
     "full_name": "system/libdeflate/1.18-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005294"
+    "collected_at": "2025-10-10T18:46:54.972399"
   },
   {
-    "software": "toolchain",
-    "version": "iimpi/2024a",
+    "software": "iimpi",
+    "version": "2024a",
     "category": "Toolchains",
     "architecture": "l40s",
-    "description": "toolchain version iimpi/2024a for l40s architecture",
+    "description": "iimpi version 2024a for l40s architecture",
     "full_name": "toolchain/iimpi/2024a",
-    "collected_at": "2025-10-10T17:50:07.005310"
+    "collected_at": "2025-10-10T18:46:54.972415"
   },
   {
-    "software": "toolchain",
-    "version": "intel/2024a",
+    "software": "intel",
+    "version": "2024a",
     "category": "Toolchains",
     "architecture": "l40s",
-    "description": "toolchain version intel/2024a for l40s architecture",
+    "description": "Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).",
     "full_name": "toolchain/intel/2024a",
-    "collected_at": "2025-10-10T17:50:07.005319"
+    "collected_at": "2025-10-10T18:46:54.972426"
   },
   {
-    "software": "tools",
-    "version": "archspec/0.2.5",
+    "software": "archspec",
+    "version": "0.2.5-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version archspec/0.2.5 for l40s architecture",
+    "description": "A library for detecting, labeling, and reasoning about microarchitectures",
     "full_name": "tools/archspec/0.2.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005336"
+    "collected_at": "2025-10-10T18:46:54.972445"
   },
   {
-    "software": "tools",
-    "version": "hypothesis/6.103.1",
+    "software": "hypothesis",
+    "version": "6.103.1-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version hypothesis/6.103.1 for l40s architecture",
+    "description": "Hypothesis is an advanced testing library for Python. It lets you write tests which are parametrized by a source of examples, and then generates simple and comprehensible examples that make your tests fail. This lets you find more bugs in your code with less work.",
     "full_name": "tools/hypothesis/6.103.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005346"
+    "collected_at": "2025-10-10T18:46:54.972456"
   },
   {
-    "software": "tools",
-    "version": "binutils/2.40",
+    "software": "binutils",
+    "version": "2.40-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version binutils/2.40 for l40s architecture",
+    "description": "binutils: GNU binary utilities",
     "full_name": "tools/binutils/2.40-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005359"
+    "collected_at": "2025-10-10T18:46:54.972469"
   },
   {
-    "software": "tools",
-    "version": "libarchive/3.6.2",
+    "software": "libarchive",
+    "version": "3.6.2-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version libarchive/3.6.2 for l40s architecture",
+    "description": "Multi-format archive and compression library",
     "full_name": "tools/libarchive/3.6.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005368"
+    "collected_at": "2025-10-10T18:46:54.972481"
   },
   {
-    "software": "tools",
-    "version": "binutils/2.40",
+    "software": "binutils",
+    "version": "2.40",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version binutils/2.40 for l40s architecture",
+    "description": "binutils: GNU binary utilities",
     "full_name": "tools/binutils/2.40",
-    "collected_at": "2025-10-10T17:50:07.005386"
+    "collected_at": "2025-10-10T18:46:54.972495"
   },
   {
-    "software": "tools",
-    "version": "libarchive/3.7.4",
+    "software": "libarchive",
+    "version": "3.7.4-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version libarchive/3.7.4 for l40s architecture",
+    "description": "Multi-format archive and compression library",
     "full_name": "tools/libarchive/3.7.4-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005396"
+    "collected_at": "2025-10-10T18:46:54.972508"
   },
   {
-    "software": "tools",
-    "version": "binutils/2.42",
+    "software": "binutils",
+    "version": "2.42-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version binutils/2.42 for l40s architecture",
+    "description": "binutils: GNU binary utilities",
     "full_name": "tools/binutils/2.42-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005408"
+    "collected_at": "2025-10-10T18:46:54.972521"
   },
   {
-    "software": "tools",
-    "version": "lit/18.1.2",
+    "software": "lit",
+    "version": "18.1.2-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version lit/18.1.2 for l40s architecture",
+    "description": "lit is a portable tool for executing LLVM and Clang style test suites, summarizing their results, and providing indication of failures.",
     "full_name": "tools/lit/18.1.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005417"
+    "collected_at": "2025-10-10T18:46:54.972530"
   },
   {
-    "software": "tools",
-    "version": "binutils/2.42",
+    "software": "binutils",
+    "version": "2.42",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version binutils/2.42 for l40s architecture",
+    "description": "binutils: GNU binary utilities",
     "full_name": "tools/binutils/2.42",
-    "collected_at": "2025-10-10T17:50:07.005430"
+    "collected_at": "2025-10-10T18:46:54.972543"
   },
   {
-    "software": "tools",
-    "version": "maturin/1.6.0",
+    "software": "maturin",
+    "version": "1.6.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version maturin/1.6.0 for l40s architecture",
+    "description": "This project is meant as a zero configuration replacement for setuptools-rust and milksnake. It supports building wheels for python 3.5+ on windows, linux, mac and freebsd, can upload them to pypi and has basic pypy and graalpy support.",
     "full_name": "tools/maturin/1.6.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005439"
+    "collected_at": "2025-10-10T18:46:54.972553"
   },
   {
-    "software": "tools",
-    "version": "bzip2/1.0.8",
+    "software": "bzip2",
+    "version": "1.0.8-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version bzip2/1.0.8 for l40s architecture",
+    "description": "bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.",
     "full_name": "tools/bzip2/1.0.8-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005456"
+    "collected_at": "2025-10-10T18:46:54.972566"
   },
   {
-    "software": "tools",
-    "version": "meson",
+    "software": "meson-python",
+    "version": "0.16.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version meson for l40s architecture",
+    "description": "Python build backend (PEP 517) for Meson projects",
     "full_name": "tools/meson-python/0.16.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005465"
+    "collected_at": "2025-10-10T18:46:54.972576"
   },
   {
-    "software": "tools",
-    "version": "bzip2/1.0.8",
+    "software": "bzip2",
+    "version": "1.0.8-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version bzip2/1.0.8 for l40s architecture",
+    "description": "bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.",
     "full_name": "tools/bzip2/1.0.8-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005478"
+    "collected_at": "2025-10-10T18:46:54.972589"
   },
   {
-    "software": "tools",
-    "version": "meson/1.1.1",
+    "software": "meson",
+    "version": "1.1.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version meson/1.1.1 for l40s architecture",
+    "description": "Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.",
     "full_name": "tools/meson/1.1.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005487"
+    "collected_at": "2025-10-10T18:46:54.972609"
   },
   {
-    "software": "tools",
-    "version": "cffi/1.15.1",
+    "software": "cffi",
+    "version": "1.15.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version cffi/1.15.1 for l40s architecture",
+    "description": "C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.",
     "full_name": "tools/cffi/1.15.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005500"
+    "collected_at": "2025-10-10T18:46:54.972624"
   },
   {
-    "software": "tools",
-    "version": "meson/1.4.0",
+    "software": "meson",
+    "version": "1.4.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version meson/1.4.0 for l40s architecture",
+    "description": "Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.",
     "full_name": "tools/meson/1.4.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005509"
+    "collected_at": "2025-10-10T18:46:54.972634"
   },
   {
-    "software": "tools",
-    "version": "cffi/1.16.0",
+    "software": "cffi",
+    "version": "1.16.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version cffi/1.16.0 for l40s architecture",
+    "description": "C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.",
     "full_name": "tools/cffi/1.16.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005522"
+    "collected_at": "2025-10-10T18:46:54.972648"
   },
   {
-    "software": "tools",
-    "version": "ninja/1.11.1",
+    "software": "ninja",
+    "version": "1.11.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version ninja/1.11.1 for l40s architecture",
+    "description": "Ninja is a small build system with a focus on speed.",
     "full_name": "tools/ninja/1.11.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005531"
+    "collected_at": "2025-10-10T18:46:54.972658"
   },
   {
-    "software": "tools",
-    "version": "cryptography/41.0.1",
+    "software": "cryptography",
+    "version": "41.0.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version cryptography/41.0.1 for l40s architecture",
+    "description": "cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.",
     "full_name": "tools/cryptography/41.0.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005544"
+    "collected_at": "2025-10-10T18:46:54.972671"
   },
   {
-    "software": "tools",
-    "version": "ninja/1.12.1",
+    "software": "ninja",
+    "version": "1.12.1-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version ninja/1.12.1 for l40s architecture",
+    "description": "Ninja is a small build system with a focus on speed.",
     "full_name": "tools/ninja/1.12.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005554"
+    "collected_at": "2025-10-10T18:46:54.972681"
   },
   {
-    "software": "tools",
-    "version": "cryptography/42.0.8",
+    "software": "cryptography",
+    "version": "42.0.8-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version cryptography/42.0.8 for l40s architecture",
+    "description": "cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.",
     "full_name": "tools/cryptography/42.0.8-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005568"
+    "collected_at": "2025-10-10T18:46:54.972695"
   },
   {
-    "software": "tools",
-    "version": "numactl/2.0.16",
+    "software": "numactl",
+    "version": "2.0.16-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version numactl/2.0.16 for l40s architecture",
+    "description": "The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. The libnuma library provides convenient ways for you to add NUMA memory policies into your own program.",
     "full_name": "tools/numactl/2.0.16-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005577"
+    "collected_at": "2025-10-10T18:46:54.972705"
   },
   {
-    "software": "tools",
-    "version": "curl/8.0.1",
+    "software": "curl",
+    "version": "8.0.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version curl/8.0.1 for l40s architecture",
+    "description": "libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet and TFTP. libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling and more.",
     "full_name": "tools/curl/8.0.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005591"
+    "collected_at": "2025-10-10T18:46:54.972718"
   },
   {
-    "software": "tools",
-    "version": "numactl/2.0.18",
+    "software": "numactl",
+    "version": "2.0.18-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version numactl/2.0.18 for l40s architecture",
+    "description": "The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. The libnuma library provides convenient ways for you to add NUMA memory policies into your own program.",
     "full_name": "tools/numactl/2.0.18-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005612"
+    "collected_at": "2025-10-10T18:46:54.972729"
   },
   {
-    "software": "tools",
-    "version": "curl/8.7.1",
+    "software": "curl",
+    "version": "8.7.1-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version curl/8.7.1 for l40s architecture",
+    "description": "libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet and TFTP. libcurl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form based upload, proxies, cookies, user+password authentication (Basic, Digest, NTLM, Negotiate, Kerberos), file transfer resume, http proxy tunneling and more.",
     "full_name": "tools/curl/8.7.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005625"
+    "collected_at": "2025-10-10T18:46:54.972742"
   },
   {
-    "software": "tools",
-    "version": "patchelf/0.18.0",
+    "software": "patchelf",
+    "version": "0.18.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version patchelf/0.18.0 for l40s architecture",
+    "description": "PatchELF is a small utility to modify the dynamic linker and RPATH of ELF executables.",
     "full_name": "tools/patchelf/0.18.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005634"
+    "collected_at": "2025-10-10T18:46:54.972752"
   },
   {
-    "software": "tools",
-    "version": "expat/2.5.0",
+    "software": "expat",
+    "version": "2.5.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version expat/2.5.0 for l40s architecture",
+    "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
     "full_name": "tools/expat/2.5.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005660"
+    "collected_at": "2025-10-10T18:46:54.972768"
   },
   {
-    "software": "tools",
-    "version": "patchelf/0.18.0",
+    "software": "patchelf",
+    "version": "0.18.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version patchelf/0.18.0 for l40s architecture",
+    "description": "PatchELF is a small utility to modify the dynamic linker and RPATH of ELF executables.",
     "full_name": "tools/patchelf/0.18.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005670"
+    "collected_at": "2025-10-10T18:46:54.972781"
   },
   {
-    "software": "tools",
-    "version": "expat/2.6.2",
+    "software": "expat",
+    "version": "2.6.2-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version expat/2.6.2 for l40s architecture",
+    "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
     "full_name": "tools/expat/2.6.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005683"
+    "collected_at": "2025-10-10T18:46:54.972795"
   },
   {
-    "software": "tools",
-    "version": "poetry/1.5.1",
+    "software": "poetry",
+    "version": "1.5.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version poetry/1.5.1 for l40s architecture",
+    "description": "Python packaging and dependency management made easy. Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.",
     "full_name": "tools/poetry/1.5.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005693"
+    "collected_at": "2025-10-10T18:46:54.972807"
   },
   {
-    "software": "tools",
-    "version": "expecttest/0.1.5",
+    "software": "expecttest",
+    "version": "0.1.5-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version expecttest/0.1.5 for l40s architecture",
+    "description": "This library implements expect tests (also known as \"golden\" tests). Expect tests are a method of writing tests where instead of hard-coding the expected output of a test, you run the test to get the output, and the test framework automatically populates the expected output. If the output of the test changes, you can rerun the test with the environment variable EXPECTTEST_ACCEPT=1 to automatically update the expected output.",
     "full_name": "tools/expecttest/0.1.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005706"
+    "collected_at": "2025-10-10T18:46:54.972821"
   },
   {
-    "software": "tools",
-    "version": "poetry/1.8.3",
+    "software": "poetry",
+    "version": "1.8.3-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version poetry/1.8.3 for l40s architecture",
+    "description": "Python packaging and dependency management made easy. Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.",
     "full_name": "tools/poetry/1.8.3-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005715"
+    "collected_at": "2025-10-10T18:46:54.972831"
   },
   {
-    "software": "tools",
-    "version": "flit/3.9.0",
+    "software": "flit",
+    "version": "3.9.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version flit/3.9.0 for l40s architecture",
+    "description": "A simple packaging tool for simple packages.",
     "full_name": "tools/flit/3.9.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005732"
+    "collected_at": "2025-10-10T18:46:54.972844"
   },
   {
-    "software": "tools",
-    "version": "pytest",
+    "software": "pytest-flakefinder",
+    "version": "1.1.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version pytest for l40s architecture",
+    "description": "Runs tests multiple times to expose flakiness.",
     "full_name": "tools/pytest-flakefinder/1.1.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005742"
+    "collected_at": "2025-10-10T18:46:54.972854"
   },
   {
-    "software": "tools",
-    "version": "flit/3.9.0",
+    "software": "flit",
+    "version": "3.9.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version flit/3.9.0 for l40s architecture",
+    "description": "A simple packaging tool for simple packages.",
     "full_name": "tools/flit/3.9.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005755"
+    "collected_at": "2025-10-10T18:46:54.972868"
   },
   {
-    "software": "tools",
-    "version": "pytest",
+    "software": "pytest-rerunfailures",
+    "version": "12.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version pytest for l40s architecture",
+    "description": "pytest plugin to re-run tests to eliminate flaky failures.",
     "full_name": "tools/pytest-rerunfailures/12.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005765"
+    "collected_at": "2025-10-10T18:46:54.972878"
   },
   {
-    "software": "tools",
-    "version": "gettext/0.21.1",
+    "software": "gettext",
+    "version": "0.21.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version gettext/0.21.1 for l40s architecture",
+    "description": "GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well integrated set of tools and documentation",
     "full_name": "tools/gettext/0.21.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005782"
+    "collected_at": "2025-10-10T18:46:54.972891"
   },
   {
-    "software": "tools",
-    "version": "pytest",
+    "software": "pytest-shard",
+    "version": "0.1.2-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version pytest for l40s architecture",
+    "description": "pytest plugin to support parallelism across multiple machines. Shards tests based on a hash of their test name enabling easy parallelism across machines, suitable for a wide variety of continuous integration services. Tests are split at the finest level of granularity, individual test cases, enabling parallelism even if all of your tests are in a single file (or even single parameterized test method).",
     "full_name": "tools/pytest-shard/0.1.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005791"
+    "collected_at": "2025-10-10T18:46:54.972901"
   },
   {
-    "software": "tools",
-    "version": "gettext/0.21.1",
+    "software": "gettext",
+    "version": "0.21.1",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version gettext/0.21.1 for l40s architecture",
+    "description": "GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well integrated set of tools and documentation",
     "full_name": "tools/gettext/0.21.1",
-    "collected_at": "2025-10-10T17:50:07.005804"
+    "collected_at": "2025-10-10T18:46:54.972913"
   },
   {
-    "software": "tools",
-    "version": "re2c/3.1",
+    "software": "re2c",
+    "version": "3.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version re2c/3.1 for l40s architecture",
+    "description": "re2c is a free and open-source lexer generator for C and C++. Its main goal is generating fast lexers: at least as fast as their reasonably optimized hand-coded counterparts. Instead of using traditional table-driven approach, re2c encodes the generated finite state automata directly in the form of conditional jumps and comparisons.",
     "full_name": "tools/re2c/3.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005813"
+    "collected_at": "2025-10-10T18:46:54.972927"
   },
   {
-    "software": "tools",
-    "version": "gettext/0.22.5",
+    "software": "gettext",
+    "version": "0.22.5-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version gettext/0.22.5 for l40s architecture",
+    "description": "GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well integrated set of tools and documentation",
     "full_name": "tools/gettext/0.22.5-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005826"
+    "collected_at": "2025-10-10T18:46:54.972941"
   },
   {
-    "software": "tools",
-    "version": "setuptools",
+    "software": "setuptools-rust",
+    "version": "1.6.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version setuptools for l40s architecture",
+    "description": "setuptools-rust is a plugin for setuptools to build Rust Python extensions implemented with PyO3 or rust-cpython.",
     "full_name": "tools/setuptools-rust/1.6.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005835"
+    "collected_at": "2025-10-10T18:46:54.972951"
   },
   {
-    "software": "tools",
-    "version": "gettext/0.22.5",
+    "software": "gettext",
+    "version": "0.22.5",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version gettext/0.22.5 for l40s architecture",
+    "description": "GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well integrated set of tools and documentation",
     "full_name": "tools/gettext/0.22.5",
-    "collected_at": "2025-10-10T17:50:07.005848"
+    "collected_at": "2025-10-10T18:46:54.972964"
   },
   {
-    "software": "tools",
-    "version": "setuptools",
+    "software": "setuptools-rust",
+    "version": "1.9.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version setuptools for l40s architecture",
+    "description": "setuptools-rust is a plugin for setuptools to build Rust Python extensions implemented with PyO3 or rust-cpython.",
     "full_name": "tools/setuptools-rust/1.9.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005858"
+    "collected_at": "2025-10-10T18:46:54.972975"
   },
   {
-    "software": "tools",
-    "version": "git/2.41.0",
+    "software": "git",
+    "version": "2.41.0-gcccore-12.3.0-nodocs",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version git/2.41.0 for l40s architecture",
+    "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
     "full_name": "tools/git/2.41.0-gcccore-12.3.0-nodocs",
-    "collected_at": "2025-10-10T17:50:07.005871"
+    "collected_at": "2025-10-10T18:46:54.972989"
   },
   {
-    "software": "tools",
-    "version": "szip/2.1.1",
+    "software": "szip",
+    "version": "2.1.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version szip/2.1.1 for l40s architecture",
+    "description": "Szip compression software, providing lossless compression of scientific data",
     "full_name": "tools/szip/2.1.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005880"
+    "collected_at": "2025-10-10T18:46:54.972998"
   },
   {
-    "software": "tools",
-    "version": "git/2.45.1",
+    "software": "git",
+    "version": "2.45.1-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version git/2.45.1 for l40s architecture",
+    "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
     "full_name": "tools/git/2.45.1-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005893"
+    "collected_at": "2025-10-10T18:46:54.973012"
   },
   {
-    "software": "tools",
-    "version": "unzip/6.0",
+    "software": "unzip",
+    "version": "6.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version unzip/6.0 for l40s architecture",
+    "description": "UnZip is an extraction utility for archives compressed in .zip format (also called \"zipfiles\"). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with Info-ZIP's own Zip program, our primary objectives have been portability and non-MSDOS functionality.",
     "full_name": "tools/unzip/6.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005902"
+    "collected_at": "2025-10-10T18:46:54.973022"
   },
   {
-    "software": "tools",
-    "version": "groff/1.22.4",
+    "software": "groff",
+    "version": "1.22.4-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version groff/1.22.4 for l40s architecture",
+    "description": "Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output.",
     "full_name": "tools/groff/1.22.4-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005920"
+    "collected_at": "2025-10-10T18:46:54.973040"
   },
   {
-    "software": "tools",
-    "version": "unzip/6.0",
+    "software": "unzip",
+    "version": "6.0-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version unzip/6.0 for l40s architecture",
+    "description": "UnZip is an extraction utility for archives compressed in .zip format (also called \"zipfiles\"). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with Info-ZIP's own Zip program, our primary objectives have been portability and non-MSDOS functionality.",
     "full_name": "tools/unzip/6.0-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005933"
+    "collected_at": "2025-10-10T18:46:54.973050"
   },
   {
-    "software": "tools",
-    "version": "gzip/1.12",
+    "software": "gzip",
+    "version": "1.12-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version gzip/1.12 for l40s architecture",
+    "description": "gzip (GNU zip) is a popular data compression program as a replacement for compress",
     "full_name": "tools/gzip/1.12-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005946"
+    "collected_at": "2025-10-10T18:46:54.973063"
   },
   {
-    "software": "tools",
-    "version": "util",
+    "software": "util-linux",
+    "version": "2.39-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version util for l40s architecture",
+    "description": "Set of Linux utilities",
     "full_name": "tools/util-linux/2.39-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005955"
+    "collected_at": "2025-10-10T18:46:54.973073"
   },
   {
-    "software": "tools",
-    "version": "gzip/1.13",
+    "software": "gzip",
+    "version": "1.13-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version gzip/1.13 for l40s architecture",
+    "description": "gzip (GNU zip) is a popular data compression program as a replacement for compress",
     "full_name": "tools/gzip/1.13-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.005968"
+    "collected_at": "2025-10-10T18:46:54.973090"
   },
   {
-    "software": "tools",
-    "version": "virtualenv/20.23.1",
+    "software": "virtualenv",
+    "version": "20.23.1-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version virtualenv/20.23.1 for l40s architecture",
+    "description": "A tool for creating isolated virtual python environments.",
     "full_name": "tools/virtualenv/20.23.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005977"
+    "collected_at": "2025-10-10T18:46:54.973100"
   },
   {
-    "software": "tools",
-    "version": "hatchling/1.18.0",
+    "software": "hatchling",
+    "version": "1.18.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version hatchling/1.18.0 for l40s architecture",
+    "description": "Extensible, standards compliant build backend used by Hatch, a modern, extensible Python project manager.",
     "full_name": "tools/hatchling/1.18.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.005991"
+    "collected_at": "2025-10-10T18:46:54.973114"
   },
   {
-    "software": "tools",
-    "version": "virtualenv/20.26.2",
+    "software": "virtualenv",
+    "version": "20.26.2-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version virtualenv/20.26.2 for l40s architecture",
+    "description": "A tool for creating isolated virtual python environments.",
     "full_name": "tools/virtualenv/20.26.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.006000"
+    "collected_at": "2025-10-10T18:46:54.973124"
   },
   {
-    "software": "tools",
-    "version": "hatchling/1.24.2",
+    "software": "hatchling",
+    "version": "1.24.2-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version hatchling/1.24.2 for l40s architecture",
+    "description": "Extensible, standards compliant build backend used by Hatch, a modern, extensible Python project manager.",
     "full_name": "tools/hatchling/1.24.2-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.006013"
+    "collected_at": "2025-10-10T18:46:54.973138"
   },
   {
-    "software": "tools",
-    "version": "xxd/9.0.2112",
+    "software": "xxd",
+    "version": "9.0.2112-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version xxd/9.0.2112 for l40s architecture",
+    "description": "of binary files.",
     "full_name": "tools/xxd/9.0.2112-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006023"
+    "collected_at": "2025-10-10T18:46:54.973148"
   },
   {
-    "software": "tools",
-    "version": "help2man/1.49.3",
+    "software": "help2man",
+    "version": "1.49.3-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version help2man/1.49.3 for l40s architecture",
+    "description": "help2man produces simple manual pages from the '--help' and '--version' output of other commands.",
     "full_name": "tools/help2man/1.49.3-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006035"
+    "collected_at": "2025-10-10T18:46:54.973161"
   },
   {
-    "software": "tools",
-    "version": "xz/5.4.2",
+    "software": "xz",
+    "version": "5.4.2-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version xz/5.4.2 for l40s architecture",
+    "description": "xz: XZ utilities",
     "full_name": "tools/xz/5.4.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006052"
+    "collected_at": "2025-10-10T18:46:54.973170"
   },
   {
-    "software": "tools",
-    "version": "help2man/1.49.3",
+    "software": "help2man",
+    "version": "1.49.3-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version help2man/1.49.3 for l40s architecture",
+    "description": "help2man produces simple manual pages from the '--help' and '--version' output of other commands.",
     "full_name": "tools/help2man/1.49.3-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.006066"
+    "collected_at": "2025-10-10T18:46:54.973184"
   },
   {
-    "software": "tools",
-    "version": "xz/5.4.5",
+    "software": "xz",
+    "version": "5.4.5-gcccore-13.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version xz/5.4.5 for l40s architecture",
+    "description": "xz: XZ utilities",
     "full_name": "tools/xz/5.4.5-gcccore-13.3.0",
-    "collected_at": "2025-10-10T17:50:07.006076"
+    "collected_at": "2025-10-10T18:46:54.973199"
   },
   {
-    "software": "tools",
-    "version": "hypothesis/6.82.0",
+    "software": "hypothesis",
+    "version": "6.82.0-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version hypothesis/6.82.0 for l40s architecture",
+    "description": "Hypothesis is an advanced testing library for Python. It lets you write tests which are parametrized by a source of examples, and then generates simple and comprehensible examples that make your tests fail. This lets you find more bugs in your code with less work.",
     "full_name": "tools/hypothesis/6.82.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006092"
+    "collected_at": "2025-10-10T18:46:54.973213"
   },
   {
-    "software": "tools",
-    "version": "z3/4.12.2",
+    "software": "z3",
+    "version": "4.12.2-gcccore-12.3.0",
     "category": "Development Tools",
     "architecture": "l40s",
-    "description": "tools version z3/4.12.2 for l40s architecture",
+    "description": "Z3 is a theorem prover from Microsoft Research with support for bitvectors, booleans, arrays, floating point numbers, strings, and other data types. This module includes z3-solver, the Python interface of Z3.",
     "full_name": "tools/z3/4.12.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006101"
+    "collected_at": "2025-10-10T18:46:54.973222"
   },
   {
-    "software": "vis",
-    "version": "fontconfig/2.14.2",
+    "software": "fontconfig",
+    "version": "2.14.2-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version fontconfig/2.14.2 for l40s architecture",
+    "description": "Fontconfig is a library designed to provide system-wide font configuration, customization and application access.",
     "full_name": "vis/fontconfig/2.14.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006119"
+    "collected_at": "2025-10-10T18:46:54.973243"
   },
   {
-    "software": "vis",
-    "version": "littlecms/2.15",
+    "software": "littlecms",
+    "version": "2.15-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version littlecms/2.15 for l40s architecture",
+    "description": "Little CMS intends to be an OPEN SOURCE small-footprint color management engine, with special focus on accuracy and performance.",
     "full_name": "vis/littlecms/2.15-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006129"
+    "collected_at": "2025-10-10T18:46:54.973257"
   },
   {
-    "software": "vis",
-    "version": "freetype/2.13.0",
+    "software": "freetype",
+    "version": "2.13.0-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version freetype/2.13.0 for l40s architecture",
+    "description": "FreeType 2 is a software font engine that is designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images). It can be used in graphics libraries, display servers, font conversion tools, text image generation tools, and many other products as well.",
     "full_name": "vis/freetype/2.13.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006143"
+    "collected_at": "2025-10-10T18:46:54.973272"
   },
   {
-    "software": "vis",
-    "version": "pillow/10.0.0",
+    "software": "pillow",
+    "version": "10.0.0-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version pillow/10.0.0 for l40s architecture",
+    "description": "Pillow is the 'friendly PIL fork' by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.",
     "full_name": "vis/pillow/10.0.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006152"
+    "collected_at": "2025-10-10T18:46:54.973282"
   },
   {
-    "software": "vis",
-    "version": "glib/2.77.1",
+    "software": "glib",
+    "version": "2.77.1-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version glib/2.77.1 for l40s architecture",
+    "description": "GLib is one of the base libraries of the GTK+ project",
     "full_name": "vis/glib/2.77.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006170"
+    "collected_at": "2025-10-10T18:46:54.973295"
   },
   {
-    "software": "vis",
-    "version": "pixman/0.42.2",
+    "software": "pixman",
+    "version": "0.42.2-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version pixman/0.42.2 for l40s architecture",
+    "description": "Pixman is a low-level software library for pixel manipulation, providing features such as image compositing and trapezoid rasterization. Important users of pixman are the cairo graphics library and the X server.",
     "full_name": "vis/pixman/0.42.2-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006180"
+    "collected_at": "2025-10-10T18:46:54.973308"
   },
   {
-    "software": "vis",
-    "version": "jasper/4.0.0",
+    "software": "jasper",
+    "version": "4.0.0-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version jasper/4.0.0 for l40s architecture",
+    "description": "The JasPer Project is an open-source initiative to provide a free software-based reference implementation of the codec specified in the JPEG-2000 Part-1 standard.",
     "full_name": "vis/jasper/4.0.0-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006193"
+    "collected_at": "2025-10-10T18:46:54.973321"
   },
   {
-    "software": "vis",
-    "version": "x264/20230226",
+    "software": "x264",
+    "version": "20230226-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version x264/20230226 for l40s architecture",
+    "description": "x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format, and is released under the terms of the GNU GPL.",
     "full_name": "vis/x264/20230226-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006207"
+    "collected_at": "2025-10-10T18:46:54.973330"
   },
   {
-    "software": "vis",
-    "version": "jbigkit/2.1",
+    "software": "jbigkit",
+    "version": "2.1-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version jbigkit/2.1 for l40s architecture",
+    "description": "JBIG-KIT is a software implementation of the JBIG1 data compression standard (ITU-T T.82), which was designed for bi-level image data, such as scanned documents.",
     "full_name": "vis/jbigkit/2.1-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006220"
+    "collected_at": "2025-10-10T18:46:54.973343"
   },
   {
-    "software": "vis",
-    "version": "x265/3.5",
+    "software": "x265",
+    "version": "3.5-gcccore-12.3.0",
     "category": "Visualization",
     "architecture": "l40s",
-    "description": "vis version x265/3.5 for l40s architecture",
+    "description": "x265 is a free software library and application for encoding video streams into the H.265 AVC compression format, and is released under the terms of the GNU GPL.",
     "full_name": "vis/x265/3.5-gcccore-12.3.0",
-    "collected_at": "2025-10-10T17:50:07.006229"
+    "collected_at": "2025-10-10T18:46:54.973352"
   }
 ]

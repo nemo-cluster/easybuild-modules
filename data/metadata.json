@@ -1,5 +1,5 @@
 {
-  "collection_date": "2025-10-10T17:50:08.998940",
+  "collection_date": "2025-10-10T18:46:58.739384",
   "architectures": [
     "genoa",
     "h200",
@@ -7,12 +7,12 @@
     "mi300a",
     "milan"
   ],
-  "total_modules": 1957,
+  "total_modules": 1924,
   "modules_per_arch": {
-    "genoa": 547,
-    "h200": 549,
-    "l40s": 239,
-    "mi300a": 121,
-    "milan": 501
+    "genoa": 542,
+    "h200": 542,
+    "l40s": 232,
+    "mi300a": 114,
+    "milan": 494
   }
 }
