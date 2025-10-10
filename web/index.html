@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPC Module Browser</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+
+        select, input {
+            padding: 0.75rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .search-group {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .stats {
+            background: #ecf0f1;
+            padding: 1rem;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: linear-gradient(135deg, #34495e, #2c3e50);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th:hover {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            cursor: pointer;
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+
+        .architecture-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .arch-genoa { background-color: #e74c3c; }
+        .arch-h200 { background-color: #f39c12; }
+        .arch-l40s { background-color: #27ae60; }
+        .arch-mi300a { background-color: #9b59b6; }
+        .arch-milan { background-color: #3498db; }
+
+        .category-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 5px;
+            font-size: 0.875rem;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border: 1px solid #bdc3c7;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        .error {
+            background-color: #e74c3c;
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .filter-row {
+                flex-direction: column;
+            }
+            
+            .filter-group {
+                min-width: 100%;
+            }
+            
+            table {
+                font-size: 0.875rem;
+            }
+            
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HPC Module Browser</h1>
+            <p class="subtitle">Verfügbare Software-Module für verschiedene HPC-Architekturen</p>
+        </header>
+
+        <div class="controls">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="architectureFilter">Architektur:</label>
+                    <select id="architectureFilter">
+                        <option value="">Alle Architekturen</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="categoryFilter">Kategorie:</label>
+                    <select id="categoryFilter">
+                        <option value="">Alle Kategorien</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group search-group">
+                    <label for="searchInput">Software suchen:</label>
+                    <input type="text" id="searchInput" placeholder="Software-Name eingeben...">
+                </div>
+            </div>
+            
+            <div class="stats" id="statsDisplay">
+                Lade Daten...
+            </div>
+        </div>
+
+        <div id="errorDisplay"></div>
+
+        <div class="table-container">
+            <div id="loadingDisplay" class="loading">
+                Lade Module-Daten...
+            </div>
+            
+            <table id="moduleTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Software ↕</th>
+                        <th onclick="sortTable(1)">Version ↕</th>
+                        <th onclick="sortTable(2)">Kategorie ↕</th>
+                        <th onclick="sortTable(3)">Architektur ↕</th>
+                        <th onclick="sortTable(4)">Beschreibung ↕</th>
+                    </tr>
+                </thead>
+                <tbody id="moduleTableBody">
+                </tbody>
+            </table>
+            
+            <div id="noResultsDisplay" class="no-results" style="display: none;">
+                Keine Module gefunden, die den Filterkriterien entsprechen.
+            </div>
+        </div>
+    </div>
+
+    <script src="module-browser.js"></script>
+</body>
+</html>
