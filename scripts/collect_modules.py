@@ -139,20 +139,25 @@ class ModuleCollector:
         # Entferne Flags wie (D), (L), (S) am Ende
         clean_entry = re.sub(r'\s*\([^)]+\)$', '', module_entry.strip())
         
-        # Teile in Software und Version
+        # Teile in Komponenten: kategorie/software/version
         parts = clean_entry.split('/')
         if len(parts) < 2:
             return None
         
-        software = parts[0]
-        version_part = '/'.join(parts[1:])
-        
-        # Extrahiere Basis-Version (vor dem ersten Bindestrich)
-        version_match = re.match(r'^([^-]+)', version_part)
-        version = version_match.group(1) if version_match else version_part
-        
-        # Bestimme Kategorie basierend auf Software-Präfix
-        detected_category = self.detect_category(software, category)
+        # Bestimme Software und Version basierend auf Anzahl der Parts
+        if len(parts) == 2:
+            # Format: software/version
+            software = parts[0]
+            version = parts[1]
+            detected_category = self.detect_category(software, category)
+        else:
+            # Format: kategorie/software/version (3+ parts)
+            category_prefix = parts[0]
+            software = parts[1]
+            version = '/'.join(parts[2:])  # Rest ist Version (kann weitere Slashes enthalten)
+            
+            # Verwende Kategorie-Präfix für bessere Kategorisierung
+            detected_category = self.detect_category_from_prefix(category_prefix, category)
         
         # Hole echte Beschreibung mit module whatis
         whatis_description = self.get_module_whatis(clean_entry, architecture)
@@ -196,6 +201,45 @@ class ModuleCollector:
             return 'Parallel Computing'
         else:
             return 'Other'
+    
+    def detect_category_from_prefix(self, category_prefix: str, header_category: str) -> str:
+        """
+        Bestimmt die Kategorie basierend auf Modul-Präfix (z.B. devel, bio, chem)
+        """
+        # Direkte Zuordnung von bekannten Präfixen
+        prefix_mapping = {
+            'devel': 'Development Tools',
+            'bio': 'Biology Software',
+            'chem': 'Chemistry Software',
+            'compiler': 'Compilers',
+            'math': 'Mathematics Software',
+            'phys': 'Physics Software',
+            'tools': 'Development Tools',
+            'lib': 'Libraries',
+            'data': 'Data Analysis',
+            'ai': 'Artificial Intelligence',
+            'vis': 'Visualization',
+            'lang': 'Programming Languages',
+            'mpi': 'Parallel Computing',
+            'gpu': 'GPU Computing',
+            'system': 'System Tools',
+            'numlib': 'Numerical Libraries',
+            'toolchain': 'Toolchains'
+        }
+        
+        # Prüfe direkte Zuordnung
+        if category_prefix.lower() in prefix_mapping:
+            return prefix_mapping[category_prefix.lower()]
+        
+        # Prüfe ob Präfix in den definierten Kategorien ist
+        if category_prefix in self.categories:
+            return self.categories[category_prefix]
+        
+        # Verwende Header-Kategorie falls verfügbar
+        if header_category and header_category != "Unknown":
+            return header_category
+        
+        return 'Other'
     
     def collect_all_modules(self) -> Dict[str, List[Dict]]:
         """
