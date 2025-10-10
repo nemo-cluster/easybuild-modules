@@ -1,0 +1,2153 @@
+[
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Other",
+    "architecture": "l40s",
+    "description": "arch version genoa for l40s architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:07.003134"
+  },
+  {
+    "software": "arch",
+    "version": "l40s",
+    "category": "Other",
+    "architecture": "l40s",
+    "description": "arch version l40s for l40s architecture",
+    "full_name": "arch/l40s",
+    "collected_at": "2025-10-10T17:50:07.003173"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "l40s",
+    "description": "lang version miniforge3/24.11.3 for l40s architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:07.003209"
+  },
+  {
+    "software": "devel",
+    "version": "miniforge",
+    "category": "Global Aliases",
+    "architecture": "l40s",
+    "description": "devel version miniforge for l40s architecture",
+    "full_name": "devel/miniforge",
+    "collected_at": "2025-10-10T17:50:07.003220"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Global Aliases",
+    "architecture": "l40s",
+    "description": "lang version miniforge3/24.11.3 for l40s architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:07.003231"
+  },
+  {
+    "software": "arch",
+    "version": "genoa",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "l40s",
+    "description": "arch version genoa for l40s architecture",
+    "full_name": "arch/genoa",
+    "collected_at": "2025-10-10T17:50:07.003255"
+  },
+  {
+    "software": "arch",
+    "version": "h200",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "l40s",
+    "description": "arch version h200 for l40s architecture",
+    "full_name": "arch/h200",
+    "collected_at": "2025-10-10T17:50:07.003268"
+  },
+  {
+    "software": "arch",
+    "version": "l40s",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "l40s",
+    "description": "arch version l40s for l40s architecture",
+    "full_name": "arch/l40s",
+    "collected_at": "2025-10-10T17:50:07.003278"
+  },
+  {
+    "software": "arch",
+    "version": "mi300a",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "l40s",
+    "description": "arch version mi300a for l40s architecture",
+    "full_name": "arch/mi300a",
+    "collected_at": "2025-10-10T17:50:07.003287"
+  },
+  {
+    "software": "arch",
+    "version": "milan",
+    "category": "Modules for Architectures/Slurm Partitions",
+    "architecture": "l40s",
+    "description": "arch version milan for l40s architecture",
+    "full_name": "arch/milan",
+    "collected_at": "2025-10-10T17:50:07.003297"
+  },
+  {
+    "software": "chem",
+    "version": "kim",
+    "category": "Chemistry Software",
+    "architecture": "l40s",
+    "description": "chem version kim for l40s architecture",
+    "full_name": "chem/kim-api/2.3.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003319"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/12.3.0",
+    "category": "Compilers",
+    "architecture": "l40s",
+    "description": "compiler version gcc/12.3.0 for l40s architecture",
+    "full_name": "compiler/gcc/12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003339"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/12.3.0",
+    "category": "Compilers",
+    "architecture": "l40s",
+    "description": "compiler version gcccore/12.3.0 for l40s architecture",
+    "full_name": "compiler/gcccore/12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003347"
+  },
+  {
+    "software": "compiler",
+    "version": "intel",
+    "category": "Compilers",
+    "architecture": "l40s",
+    "description": "compiler version intel for l40s architecture",
+    "full_name": "compiler/intel-compilers/2024.2.0",
+    "collected_at": "2025-10-10T17:50:07.003356"
+  },
+  {
+    "software": "compiler",
+    "version": "gcc/13.3.0",
+    "category": "Compilers",
+    "architecture": "l40s",
+    "description": "compiler version gcc/13.3.0 for l40s architecture",
+    "full_name": "compiler/gcc/13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003370"
+  },
+  {
+    "software": "compiler",
+    "version": "gcccore/13.3.0",
+    "category": "Compilers",
+    "architecture": "l40s",
+    "description": "compiler version gcccore/13.3.0 for l40s architecture",
+    "full_name": "compiler/gcccore/13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003379"
+  },
+  {
+    "software": "compiler",
+    "version": "llvm/16.0.6",
+    "category": "Compilers",
+    "architecture": "l40s",
+    "description": "compiler version llvm/16.0.6 for l40s architecture",
+    "full_name": "compiler/llvm/16.0.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003390"
+  },
+  {
+    "software": "data",
+    "version": "lame/3.100",
+    "category": "Data Analysis",
+    "architecture": "l40s",
+    "description": "data version lame/3.100 for l40s architecture",
+    "full_name": "data/lame/3.100-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003407"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.71",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version autoconf/2.71 for l40s architecture",
+    "full_name": "devel/autoconf/2.71-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003426"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version make/4.4.1 for l40s architecture",
+    "full_name": "devel/make/4.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003440"
+  },
+  {
+    "software": "devel",
+    "version": "autoconf/2.72",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version autoconf/2.72 for l40s architecture",
+    "full_name": "devel/autoconf/2.72-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003454"
+  },
+  {
+    "software": "devel",
+    "version": "mako/1.2.4",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version mako/1.2.4 for l40s architecture",
+    "full_name": "devel/mako/1.2.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003467"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version automake/1.16.5 for l40s architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003481"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version ncurses/6.2 for l40s architecture",
+    "full_name": "devel/ncurses/6.2",
+    "collected_at": "2025-10-10T17:50:07.003491"
+  },
+  {
+    "software": "devel",
+    "version": "automake/1.16.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version automake/1.16.5 for l40s architecture",
+    "full_name": "devel/automake/1.16.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003505"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version ncurses/6.3 for l40s architecture",
+    "full_name": "devel/ncurses/6.3",
+    "collected_at": "2025-10-10T17:50:07.003518"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20220317",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version autotools/20220317 for l40s architecture",
+    "full_name": "devel/autotools/20220317-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003532"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.4",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version ncurses/6.4 for l40s architecture",
+    "full_name": "devel/ncurses/6.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003545"
+  },
+  {
+    "software": "devel",
+    "version": "autotools/20231222",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version autotools/20231222 for l40s architecture",
+    "full_name": "devel/autotools/20231222-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003560"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version ncurses/6.5 for l40s architecture",
+    "full_name": "devel/ncurses/6.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003571"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.82.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version boost/1.82.0 for l40s architecture",
+    "full_name": "devel/boost/1.82.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003585"
+  },
+  {
+    "software": "devel",
+    "version": "ncurses/6.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version ncurses/6.5 for l40s architecture",
+    "full_name": "devel/ncurses/6.5",
+    "collected_at": "2025-10-10T17:50:07.003609"
+  },
+  {
+    "software": "devel",
+    "version": "boost/1.85.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version boost/1.85.0 for l40s architecture",
+    "full_name": "devel/boost/1.85.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003626"
+  },
+  {
+    "software": "devel",
+    "version": "pcre/8.45",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version pcre/8.45 for l40s architecture",
+    "full_name": "devel/pcre/8.45-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003638"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.18.4",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version cmake/3.18.4 for l40s architecture",
+    "full_name": "devel/cmake/3.18.4",
+    "collected_at": "2025-10-10T17:50:07.003652"
+  },
+  {
+    "software": "devel",
+    "version": "pcre2/10.42",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version pcre2/10.42 for l40s architecture",
+    "full_name": "devel/pcre2/10.42-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003662"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.26.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version cmake/3.26.3 for l40s architecture",
+    "full_name": "devel/cmake/3.26.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003676"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.8.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version pkgconf/1.8.0 for l40s architecture",
+    "full_name": "devel/pkgconf/1.8.0",
+    "collected_at": "2025-10-10T17:50:07.003686"
+  },
+  {
+    "software": "devel",
+    "version": "cmake/3.29.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version cmake/3.29.3 for l40s architecture",
+    "full_name": "devel/cmake/3.29.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003699"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/1.9.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version pkgconf/1.9.5 for l40s architecture",
+    "full_name": "devel/pkgconf/1.9.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003709"
+  },
+  {
+    "software": "devel",
+    "version": "dbus/1.15.4",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version dbus/1.15.4 for l40s architecture",
+    "full_name": "devel/dbus/1.15.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003723"
+  },
+  {
+    "software": "devel",
+    "version": "pkgconf/2.2.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version pkgconf/2.2.0 for l40s architecture",
+    "full_name": "devel/pkgconf/2.2.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003734"
+  },
+  {
+    "software": "devel",
+    "version": "doxygen/1.9.7",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version doxygen/1.9.7 for l40s architecture",
+    "full_name": "devel/doxygen/1.9.7-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003749"
+  },
+  {
+    "software": "devel",
+    "version": "protobuf",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version protobuf for l40s architecture",
+    "full_name": "devel/protobuf-python/4.24.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003762"
+  },
+  {
+    "software": "devel",
+    "version": "gperf/3.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version gperf/3.1 for l40s architecture",
+    "full_name": "devel/gperf/3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003776"
+  },
+  {
+    "software": "devel",
+    "version": "protobuf/24.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version protobuf/24.0 for l40s architecture",
+    "full_name": "devel/protobuf/24.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003789"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version m4/1.4.19 for l40s architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003803"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.42.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version sqlite/3.42.0 for l40s architecture",
+    "full_name": "devel/sqlite/3.42.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003813"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version m4/1.4.19 for l40s architecture",
+    "full_name": "devel/m4/1.4.19-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003827"
+  },
+  {
+    "software": "devel",
+    "version": "sqlite/3.45.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version sqlite/3.45.3 for l40s architecture",
+    "full_name": "devel/sqlite/3.45.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003837"
+  },
+  {
+    "software": "devel",
+    "version": "m4/1.4.19",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version m4/1.4.19 for l40s architecture",
+    "full_name": "devel/m4/1.4.19",
+    "collected_at": "2025-10-10T17:50:07.003851"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version xorg for l40s architecture",
+    "full_name": "devel/xorg-macros/1.20.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003861"
+  },
+  {
+    "software": "devel",
+    "version": "make/4.4.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version make/4.4.1 for l40s architecture",
+    "full_name": "devel/make/4.4.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003875"
+  },
+  {
+    "software": "devel",
+    "version": "xorg",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "devel version xorg for l40s architecture",
+    "full_name": "devel/xorg-macros/1.20.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003890"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version bison/3.8.2 for l40s architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003909"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.36.1",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version perl/5.36.1 for l40s architecture",
+    "full_name": "lang/perl/5.36.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003919"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version bison/3.8.2 for l40s architecture",
+    "full_name": "lang/bison/3.8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003933"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.0",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version perl/5.38.0 for l40s architecture",
+    "full_name": "lang/perl/5.38.0",
+    "collected_at": "2025-10-10T17:50:07.003943"
+  },
+  {
+    "software": "lang",
+    "version": "bison/3.8.2",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version bison/3.8.2 for l40s architecture",
+    "full_name": "lang/bison/3.8.2",
+    "collected_at": "2025-10-10T17:50:07.003959"
+  },
+  {
+    "software": "lang",
+    "version": "perl/5.38.2",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version perl/5.38.2 for l40s architecture",
+    "full_name": "lang/perl/5.38.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.003972"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.8",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version cython/3.0.8 for l40s architecture",
+    "full_name": "lang/cython/3.0.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003986"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version python for l40s architecture",
+    "full_name": "lang/python-bundle-pypi/2023.06-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.003997"
+  },
+  {
+    "software": "lang",
+    "version": "cython/3.0.10",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version cython/3.0.10 for l40s architecture",
+    "full_name": "lang/cython/3.0.10-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004011"
+  },
+  {
+    "software": "lang",
+    "version": "python",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version python for l40s architecture",
+    "full_name": "lang/python-bundle-pypi/2024.06-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004022"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version flex/2.6.4 for l40s architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004039"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.11.3",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version python/3.11.3 for l40s architecture",
+    "full_name": "lang/python/3.11.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004052"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version flex/2.6.4 for l40s architecture",
+    "full_name": "lang/flex/2.6.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004066"
+  },
+  {
+    "software": "lang",
+    "version": "python/3.12.3",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version python/3.12.3 for l40s architecture",
+    "full_name": "lang/python/3.12.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004077"
+  },
+  {
+    "software": "lang",
+    "version": "flex/2.6.4",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version flex/2.6.4 for l40s architecture",
+    "full_name": "lang/flex/2.6.4",
+    "collected_at": "2025-10-10T17:50:07.004090"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.70.0",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version rust/1.70.0 for l40s architecture",
+    "full_name": "lang/rust/1.70.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004100"
+  },
+  {
+    "software": "lang",
+    "version": "fribidi/1.0.12",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version fribidi/1.0.12 for l40s architecture",
+    "full_name": "lang/fribidi/1.0.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004114"
+  },
+  {
+    "software": "lang",
+    "version": "rust/1.78.0",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version rust/1.78.0 for l40s architecture",
+    "full_name": "lang/rust/1.78.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004127"
+  },
+  {
+    "software": "lang",
+    "version": "miniforge3/24.11.3",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version miniforge3/24.11.3 for l40s architecture",
+    "full_name": "lang/miniforge3/24.11.3-0",
+    "collected_at": "2025-10-10T17:50:07.004141"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.13",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version tcl/8.6.13 for l40s architecture",
+    "full_name": "lang/tcl/8.6.13-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004151"
+  },
+  {
+    "software": "lang",
+    "version": "nasm/2.16.01",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version nasm/2.16.01 for l40s architecture",
+    "full_name": "lang/nasm/2.16.01-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004165"
+  },
+  {
+    "software": "lang",
+    "version": "tcl/8.6.14",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version tcl/8.6.14 for l40s architecture",
+    "full_name": "lang/tcl/8.6.14-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004175"
+  },
+  {
+    "software": "lang",
+    "version": "nodejs/18.17.1",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version nodejs/18.17.1 for l40s architecture",
+    "full_name": "lang/nodejs/18.17.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004189"
+  },
+  {
+    "software": "lang",
+    "version": "yasm/1.3.0",
+    "category": "Programming Languages",
+    "architecture": "l40s",
+    "description": "lang version yasm/1.3.0 for l40s architecture",
+    "full_name": "lang/yasm/1.3.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004199"
+  },
+  {
+    "software": "lib",
+    "version": "abseil/20230125.3",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version abseil/20230125.3 for l40s architecture",
+    "full_name": "lib/abseil/20230125.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004216"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.11.4",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libxml2/2.11.4 for l40s architecture",
+    "full_name": "lib/libxml2/2.11.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004225"
+  },
+  {
+    "software": "lib",
+    "version": "brotli/1.0.9",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version brotli/1.0.9 for l40s architecture",
+    "full_name": "lib/brotli/1.0.9-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004239"
+  },
+  {
+    "software": "lib",
+    "version": "libxml2/2.12.7",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libxml2/2.12.7 for l40s architecture",
+    "full_name": "lib/libxml2/2.12.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004248"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.9",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version catch2/2.13.9 for l40s architecture",
+    "full_name": "lib/catch2/2.13.9-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004261"
+  },
+  {
+    "software": "lib",
+    "version": "libyaml/0.2.5",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libyaml/0.2.5 for l40s architecture",
+    "full_name": "lib/libyaml/0.2.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004270"
+  },
+  {
+    "software": "lib",
+    "version": "catch2/2.13.10",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version catch2/2.13.10 for l40s architecture",
+    "full_name": "lib/catch2/2.13.10-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004296"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version lz4/1.9.4 for l40s architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004306"
+  },
+  {
+    "software": "lib",
+    "version": "cereal/1.3.2",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version cereal/1.3.2 for l40s architecture",
+    "full_name": "lib/cereal/1.3.2",
+    "collected_at": "2025-10-10T17:50:07.004319"
+  },
+  {
+    "software": "lib",
+    "version": "lz4/1.9.4",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version lz4/1.9.4 for l40s architecture",
+    "full_name": "lib/lz4/1.9.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004329"
+  },
+  {
+    "software": "lib",
+    "version": "double",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version double for l40s architecture",
+    "full_name": "lib/double-conversion/3.3.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004348"
+  },
+  {
+    "software": "lib",
+    "version": "nccl/2.18.3",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version nccl/2.18.3 for l40s architecture",
+    "full_name": "lib/nccl/2.18.3-gcccore-12.3.0-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:07.004357"
+  },
+  {
+    "software": "lib",
+    "version": "ffnvcodec/12.0.16.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version ffnvcodec/12.0.16.0 for l40s architecture",
+    "full_name": "lib/ffnvcodec/12.0.16.0",
+    "collected_at": "2025-10-10T17:50:07.004370"
+  },
+  {
+    "software": "lib",
+    "version": "nspr/4.35",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version nspr/4.35 for l40s architecture",
+    "full_name": "lib/nspr/4.35-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004380"
+  },
+  {
+    "software": "lib",
+    "version": "gdrcopy/2.3.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version gdrcopy/2.3.1 for l40s architecture",
+    "full_name": "lib/gdrcopy/2.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004397"
+  },
+  {
+    "software": "lib",
+    "version": "nss/3.89.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version nss/3.89.1 for l40s architecture",
+    "full_name": "lib/nss/3.89.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004408"
+  },
+  {
+    "software": "lib",
+    "version": "gdrcopy/2.4.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version gdrcopy/2.4.1 for l40s architecture",
+    "full_name": "lib/gdrcopy/2.4.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004422"
+  },
+  {
+    "software": "lib",
+    "version": "openjpeg/2.5.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version openjpeg/2.5.0 for l40s architecture",
+    "full_name": "lib/openjpeg/2.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004432"
+  },
+  {
+    "software": "lib",
+    "version": "giflib/5.2.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version giflib/5.2.1 for l40s architecture",
+    "full_name": "lib/giflib/5.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004445"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/4.2.4",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version pmix/4.2.4 for l40s architecture",
+    "full_name": "lib/pmix/4.2.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004459"
+  },
+  {
+    "software": "lib",
+    "version": "graphite2/1.3.14",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version graphite2/1.3.14 for l40s architecture",
+    "full_name": "lib/graphite2/1.3.14-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004473"
+  },
+  {
+    "software": "lib",
+    "version": "pmix/5.0.2",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version pmix/5.0.2 for l40s architecture",
+    "full_name": "lib/pmix/5.0.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004483"
+  },
+  {
+    "software": "lib",
+    "version": "icu/73.2",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version icu/73.2 for l40s architecture",
+    "full_name": "lib/icu/73.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004496"
+  },
+  {
+    "software": "lib",
+    "version": "prrte/3.0.5",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version prrte/3.0.5 for l40s architecture",
+    "full_name": "lib/prrte/3.0.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004505"
+  },
+  {
+    "software": "lib",
+    "version": "icu/75.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version icu/75.1 for l40s architecture",
+    "full_name": "lib/icu/75.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004518"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.11.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version pybind11/2.11.1 for l40s architecture",
+    "full_name": "lib/pybind11/2.11.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004527"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libevent/2.1.12 for l40s architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004540"
+  },
+  {
+    "software": "lib",
+    "version": "pybind11/2.12.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version pybind11/2.12.0 for l40s architecture",
+    "full_name": "lib/pybind11/2.12.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004550"
+  },
+  {
+    "software": "lib",
+    "version": "libevent/2.1.12",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libevent/2.1.12 for l40s architecture",
+    "full_name": "lib/libevent/2.1.12-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004567"
+  },
+  {
+    "software": "lib",
+    "version": "pyyaml/6.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version pyyaml/6.0 for l40s architecture",
+    "full_name": "lib/pyyaml/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004576"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.18.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libfabric/1.18.0 for l40s architecture",
+    "full_name": "lib/libfabric/1.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004593"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version scikit for l40s architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004615"
+  },
+  {
+    "software": "lib",
+    "version": "libfabric/1.21.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libfabric/1.21.0 for l40s architecture",
+    "full_name": "lib/libfabric/1.21.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004632"
+  },
+  {
+    "software": "lib",
+    "version": "scikit",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version scikit for l40s architecture",
+    "full_name": "lib/scikit-build/0.17.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004642"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.4",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libffi/3.4.4 for l40s architecture",
+    "full_name": "lib/libffi/3.4.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004656"
+  },
+  {
+    "software": "lib",
+    "version": "snappy/1.1.10",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version snappy/1.1.10 for l40s architecture",
+    "full_name": "lib/snappy/1.1.10-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004665"
+  },
+  {
+    "software": "lib",
+    "version": "libffi/3.4.5",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libffi/3.4.5 for l40s architecture",
+    "full_name": "lib/libffi/3.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004678"
+  },
+  {
+    "software": "lib",
+    "version": "tbb/2021.11.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version tbb/2021.11.0 for l40s architecture",
+    "full_name": "lib/tbb/2021.11.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004687"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libiconv/1.17 for l40s architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004700"
+  },
+  {
+    "software": "lib",
+    "version": "tbb/2021.13.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version tbb/2021.13.0 for l40s architecture",
+    "full_name": "lib/tbb/2021.13.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004710"
+  },
+  {
+    "software": "lib",
+    "version": "libiconv/1.17",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libiconv/1.17 for l40s architecture",
+    "full_name": "lib/libiconv/1.17-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004723"
+  },
+  {
+    "software": "lib",
+    "version": "ucx",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version ucx for l40s architecture",
+    "full_name": "lib/ucx-cuda/1.14.1-gcccore-12.3.0-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:07.004737"
+  },
+  {
+    "software": "lib",
+    "version": "libjpeg",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libjpeg for l40s architecture",
+    "full_name": "lib/libjpeg-turbo/2.1.5.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004751"
+  },
+  {
+    "software": "lib",
+    "version": "ucx",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version ucx for l40s architecture",
+    "full_name": "lib/ucx-cuda/1.16.0-gcccore-13.3.0-cuda-12.6.0",
+    "collected_at": "2025-10-10T17:50:07.004761"
+  },
+  {
+    "software": "lib",
+    "version": "libpng/1.6.39",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libpng/1.6.39 for l40s architecture",
+    "full_name": "lib/libpng/1.6.39-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004775"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.14.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version ucx/1.14.1 for l40s architecture",
+    "full_name": "lib/ucx/1.14.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004788"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libreadline/8.2 for l40s architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004801"
+  },
+  {
+    "software": "lib",
+    "version": "ucx/1.16.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version ucx/1.16.0 for l40s architecture",
+    "full_name": "lib/ucx/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004811"
+  },
+  {
+    "software": "lib",
+    "version": "libreadline/8.2",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libreadline/8.2 for l40s architecture",
+    "full_name": "lib/libreadline/8.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004828"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version zlib/1.2.13 for l40s architecture",
+    "full_name": "lib/zlib/1.2.13-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004838"
+  },
+  {
+    "software": "lib",
+    "version": "libtiff/4.5.0",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libtiff/4.5.0 for l40s architecture",
+    "full_name": "lib/libtiff/4.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004855"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.2.13",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version zlib/1.2.13 for l40s architecture",
+    "full_name": "lib/zlib/1.2.13",
+    "collected_at": "2025-10-10T17:50:07.004865"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libtool/2.4.7 for l40s architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004878"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version zlib/1.3.1 for l40s architecture",
+    "full_name": "lib/zlib/1.3.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004887"
+  },
+  {
+    "software": "lib",
+    "version": "libtool/2.4.7",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libtool/2.4.7 for l40s architecture",
+    "full_name": "lib/libtool/2.4.7-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004901"
+  },
+  {
+    "software": "lib",
+    "version": "zlib/1.3.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version zlib/1.3.1 for l40s architecture",
+    "full_name": "lib/zlib/1.3.1",
+    "collected_at": "2025-10-10T17:50:07.004910"
+  },
+  {
+    "software": "lib",
+    "version": "libunwind/1.6.2",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libunwind/1.6.2 for l40s architecture",
+    "full_name": "lib/libunwind/1.6.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004924"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.5",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version zstd/1.5.5 for l40s architecture",
+    "full_name": "lib/zstd/1.5.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004933"
+  },
+  {
+    "software": "lib",
+    "version": "libwebp/1.3.1",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version libwebp/1.3.1 for l40s architecture",
+    "full_name": "lib/libwebp/1.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004951"
+  },
+  {
+    "software": "lib",
+    "version": "zstd/1.5.6",
+    "category": "Libraries",
+    "architecture": "l40s",
+    "description": "lib version zstd/1.5.6 for l40s architecture",
+    "full_name": "lib/zstd/1.5.6-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.004960"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version eigen/3.4.0 for l40s architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004978"
+  },
+  {
+    "software": "math",
+    "version": "gmpy2/2.1.5",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version gmpy2/2.1.5 for l40s architecture",
+    "full_name": "math/gmpy2/2.1.5-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004987"
+  },
+  {
+    "software": "math",
+    "version": "voro++/0.4.6",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version voro++/0.4.6 for l40s architecture",
+    "full_name": "math/voro++/0.4.6-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.004995"
+  },
+  {
+    "software": "math",
+    "version": "eigen/3.4.0",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version eigen/3.4.0 for l40s architecture",
+    "full_name": "math/eigen/3.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005008"
+  },
+  {
+    "software": "math",
+    "version": "mpc/1.3.1",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version mpc/1.3.1 for l40s architecture",
+    "full_name": "math/mpc/1.3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005016"
+  },
+  {
+    "software": "math",
+    "version": "gmp/6.2.1",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version gmp/6.2.1 for l40s architecture",
+    "full_name": "math/gmp/6.2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005028"
+  },
+  {
+    "software": "math",
+    "version": "mpfr/4.2.0",
+    "category": "Mathematics Software",
+    "architecture": "l40s",
+    "description": "math version mpfr/4.2.0 for l40s architecture",
+    "full_name": "math/mpfr/4.2.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005037"
+  },
+  {
+    "software": "mpi",
+    "version": "impi/2021.13.0",
+    "category": "MPI Libraries",
+    "architecture": "l40s",
+    "description": "mpi version impi/2021.13.0 for l40s architecture",
+    "full_name": "mpi/impi/2021.13.0-intel-compilers-2024.2.0",
+    "collected_at": "2025-10-10T17:50:07.005053"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/0.9.0",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version blis/0.9.0 for l40s architecture",
+    "full_name": "numlib/blis/0.9.0-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005071"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version fftw/3.3.10 for l40s architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005081"
+  },
+  {
+    "software": "numlib",
+    "version": "blis/1.0",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version blis/1.0 for l40s architecture",
+    "full_name": "numlib/blis/1.0-gcc-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005104"
+  },
+  {
+    "software": "numlib",
+    "version": "gsl/2.7",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version gsl/2.7 for l40s architecture",
+    "full_name": "numlib/gsl/2.7-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005119"
+  },
+  {
+    "software": "numlib",
+    "version": "cudnn/8.9.2.26",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version cudnn/8.9.2.26 for l40s architecture",
+    "full_name": "numlib/cudnn/8.9.2.26-cuda-12.1.1",
+    "collected_at": "2025-10-10T17:50:07.005132"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version imkl for l40s architecture",
+    "full_name": "numlib/imkl-fftw/2024.2.0-iimpi-2024a",
+    "collected_at": "2025-10-10T17:50:07.005142"
+  },
+  {
+    "software": "numlib",
+    "version": "fftw/3.3.10",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version fftw/3.3.10 for l40s architecture",
+    "full_name": "numlib/fftw/3.3.10-gcc-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005155"
+  },
+  {
+    "software": "numlib",
+    "version": "imkl/2024.2.0",
+    "category": "Numeric Libraries",
+    "architecture": "l40s",
+    "description": "numlib version imkl/2024.2.0 for l40s architecture",
+    "full_name": "numlib/imkl/2024.2.0",
+    "collected_at": "2025-10-10T17:50:07.005165"
+  },
+  {
+    "software": "system",
+    "version": "cuda/12.1.1",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version cuda/12.1.1 for l40s architecture",
+    "full_name": "system/cuda/12.1.1",
+    "collected_at": "2025-10-10T17:50:07.005182"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.17",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version libpciaccess/0.17 for l40s architecture",
+    "full_name": "system/libpciaccess/0.17-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005192"
+  },
+  {
+    "software": "system",
+    "version": "cuda/12.6.0",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version cuda/12.6.0 for l40s architecture",
+    "full_name": "system/cuda/12.6.0",
+    "collected_at": "2025-10-10T17:50:07.005207"
+  },
+  {
+    "software": "system",
+    "version": "libpciaccess/0.18.1",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version libpciaccess/0.18.1 for l40s architecture",
+    "full_name": "system/libpciaccess/0.18.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005225"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.9.1",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version hwloc/2.9.1 for l40s architecture",
+    "full_name": "system/hwloc/2.9.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005240"
+  },
+  {
+    "software": "system",
+    "version": "openssl/1.1",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version openssl/1.1 for l40s architecture",
+    "full_name": "system/openssl/1.1",
+    "collected_at": "2025-10-10T17:50:07.005250"
+  },
+  {
+    "software": "system",
+    "version": "hwloc/2.10.0",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version hwloc/2.10.0 for l40s architecture",
+    "full_name": "system/hwloc/2.10.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005264"
+  },
+  {
+    "software": "system",
+    "version": "openssl/3",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version openssl/3 for l40s architecture",
+    "full_name": "system/openssl/3",
+    "collected_at": "2025-10-10T17:50:07.005277"
+  },
+  {
+    "software": "system",
+    "version": "libdeflate/1.18",
+    "category": "System Modules",
+    "architecture": "l40s",
+    "description": "system version libdeflate/1.18 for l40s architecture",
+    "full_name": "system/libdeflate/1.18-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005294"
+  },
+  {
+    "software": "toolchain",
+    "version": "iimpi/2024a",
+    "category": "Toolchains",
+    "architecture": "l40s",
+    "description": "toolchain version iimpi/2024a for l40s architecture",
+    "full_name": "toolchain/iimpi/2024a",
+    "collected_at": "2025-10-10T17:50:07.005310"
+  },
+  {
+    "software": "toolchain",
+    "version": "intel/2024a",
+    "category": "Toolchains",
+    "architecture": "l40s",
+    "description": "toolchain version intel/2024a for l40s architecture",
+    "full_name": "toolchain/intel/2024a",
+    "collected_at": "2025-10-10T17:50:07.005319"
+  },
+  {
+    "software": "tools",
+    "version": "archspec/0.2.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version archspec/0.2.5 for l40s architecture",
+    "full_name": "tools/archspec/0.2.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005336"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.103.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version hypothesis/6.103.1 for l40s architecture",
+    "full_name": "tools/hypothesis/6.103.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005346"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version binutils/2.40 for l40s architecture",
+    "full_name": "tools/binutils/2.40-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005359"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.6.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version libarchive/3.6.2 for l40s architecture",
+    "full_name": "tools/libarchive/3.6.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005368"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.40",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version binutils/2.40 for l40s architecture",
+    "full_name": "tools/binutils/2.40",
+    "collected_at": "2025-10-10T17:50:07.005386"
+  },
+  {
+    "software": "tools",
+    "version": "libarchive/3.7.4",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version libarchive/3.7.4 for l40s architecture",
+    "full_name": "tools/libarchive/3.7.4-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005396"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version binutils/2.42 for l40s architecture",
+    "full_name": "tools/binutils/2.42-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005408"
+  },
+  {
+    "software": "tools",
+    "version": "lit/18.1.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version lit/18.1.2 for l40s architecture",
+    "full_name": "tools/lit/18.1.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005417"
+  },
+  {
+    "software": "tools",
+    "version": "binutils/2.42",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version binutils/2.42 for l40s architecture",
+    "full_name": "tools/binutils/2.42",
+    "collected_at": "2025-10-10T17:50:07.005430"
+  },
+  {
+    "software": "tools",
+    "version": "maturin/1.6.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version maturin/1.6.0 for l40s architecture",
+    "full_name": "tools/maturin/1.6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005439"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version bzip2/1.0.8 for l40s architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005456"
+  },
+  {
+    "software": "tools",
+    "version": "meson",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version meson for l40s architecture",
+    "full_name": "tools/meson-python/0.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005465"
+  },
+  {
+    "software": "tools",
+    "version": "bzip2/1.0.8",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version bzip2/1.0.8 for l40s architecture",
+    "full_name": "tools/bzip2/1.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005478"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.1.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version meson/1.1.1 for l40s architecture",
+    "full_name": "tools/meson/1.1.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005487"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.15.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version cffi/1.15.1 for l40s architecture",
+    "full_name": "tools/cffi/1.15.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005500"
+  },
+  {
+    "software": "tools",
+    "version": "meson/1.4.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version meson/1.4.0 for l40s architecture",
+    "full_name": "tools/meson/1.4.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005509"
+  },
+  {
+    "software": "tools",
+    "version": "cffi/1.16.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version cffi/1.16.0 for l40s architecture",
+    "full_name": "tools/cffi/1.16.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005522"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.11.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version ninja/1.11.1 for l40s architecture",
+    "full_name": "tools/ninja/1.11.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005531"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/41.0.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version cryptography/41.0.1 for l40s architecture",
+    "full_name": "tools/cryptography/41.0.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005544"
+  },
+  {
+    "software": "tools",
+    "version": "ninja/1.12.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version ninja/1.12.1 for l40s architecture",
+    "full_name": "tools/ninja/1.12.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005554"
+  },
+  {
+    "software": "tools",
+    "version": "cryptography/42.0.8",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version cryptography/42.0.8 for l40s architecture",
+    "full_name": "tools/cryptography/42.0.8-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005568"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.16",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version numactl/2.0.16 for l40s architecture",
+    "full_name": "tools/numactl/2.0.16-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005577"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.0.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version curl/8.0.1 for l40s architecture",
+    "full_name": "tools/curl/8.0.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005591"
+  },
+  {
+    "software": "tools",
+    "version": "numactl/2.0.18",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version numactl/2.0.18 for l40s architecture",
+    "full_name": "tools/numactl/2.0.18-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005612"
+  },
+  {
+    "software": "tools",
+    "version": "curl/8.7.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version curl/8.7.1 for l40s architecture",
+    "full_name": "tools/curl/8.7.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005625"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version patchelf/0.18.0 for l40s architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005634"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.5.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version expat/2.5.0 for l40s architecture",
+    "full_name": "tools/expat/2.5.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005660"
+  },
+  {
+    "software": "tools",
+    "version": "patchelf/0.18.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version patchelf/0.18.0 for l40s architecture",
+    "full_name": "tools/patchelf/0.18.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005670"
+  },
+  {
+    "software": "tools",
+    "version": "expat/2.6.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version expat/2.6.2 for l40s architecture",
+    "full_name": "tools/expat/2.6.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005683"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.5.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version poetry/1.5.1 for l40s architecture",
+    "full_name": "tools/poetry/1.5.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005693"
+  },
+  {
+    "software": "tools",
+    "version": "expecttest/0.1.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version expecttest/0.1.5 for l40s architecture",
+    "full_name": "tools/expecttest/0.1.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005706"
+  },
+  {
+    "software": "tools",
+    "version": "poetry/1.8.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version poetry/1.8.3 for l40s architecture",
+    "full_name": "tools/poetry/1.8.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005715"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version flit/3.9.0 for l40s architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005732"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version pytest for l40s architecture",
+    "full_name": "tools/pytest-flakefinder/1.1.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005742"
+  },
+  {
+    "software": "tools",
+    "version": "flit/3.9.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version flit/3.9.0 for l40s architecture",
+    "full_name": "tools/flit/3.9.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005755"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version pytest for l40s architecture",
+    "full_name": "tools/pytest-rerunfailures/12.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005765"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version gettext/0.21.1 for l40s architecture",
+    "full_name": "tools/gettext/0.21.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005782"
+  },
+  {
+    "software": "tools",
+    "version": "pytest",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version pytest for l40s architecture",
+    "full_name": "tools/pytest-shard/0.1.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005791"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.21.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version gettext/0.21.1 for l40s architecture",
+    "full_name": "tools/gettext/0.21.1",
+    "collected_at": "2025-10-10T17:50:07.005804"
+  },
+  {
+    "software": "tools",
+    "version": "re2c/3.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version re2c/3.1 for l40s architecture",
+    "full_name": "tools/re2c/3.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005813"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version gettext/0.22.5 for l40s architecture",
+    "full_name": "tools/gettext/0.22.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005826"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version setuptools for l40s architecture",
+    "full_name": "tools/setuptools-rust/1.6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005835"
+  },
+  {
+    "software": "tools",
+    "version": "gettext/0.22.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version gettext/0.22.5 for l40s architecture",
+    "full_name": "tools/gettext/0.22.5",
+    "collected_at": "2025-10-10T17:50:07.005848"
+  },
+  {
+    "software": "tools",
+    "version": "setuptools",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version setuptools for l40s architecture",
+    "full_name": "tools/setuptools-rust/1.9.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005858"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.41.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version git/2.41.0 for l40s architecture",
+    "full_name": "tools/git/2.41.0-gcccore-12.3.0-nodocs",
+    "collected_at": "2025-10-10T17:50:07.005871"
+  },
+  {
+    "software": "tools",
+    "version": "szip/2.1.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version szip/2.1.1 for l40s architecture",
+    "full_name": "tools/szip/2.1.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005880"
+  },
+  {
+    "software": "tools",
+    "version": "git/2.45.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version git/2.45.1 for l40s architecture",
+    "full_name": "tools/git/2.45.1-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005893"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version unzip/6.0 for l40s architecture",
+    "full_name": "tools/unzip/6.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005902"
+  },
+  {
+    "software": "tools",
+    "version": "groff/1.22.4",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version groff/1.22.4 for l40s architecture",
+    "full_name": "tools/groff/1.22.4-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005920"
+  },
+  {
+    "software": "tools",
+    "version": "unzip/6.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version unzip/6.0 for l40s architecture",
+    "full_name": "tools/unzip/6.0-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005933"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.12",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version gzip/1.12 for l40s architecture",
+    "full_name": "tools/gzip/1.12-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005946"
+  },
+  {
+    "software": "tools",
+    "version": "util",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version util for l40s architecture",
+    "full_name": "tools/util-linux/2.39-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005955"
+  },
+  {
+    "software": "tools",
+    "version": "gzip/1.13",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version gzip/1.13 for l40s architecture",
+    "full_name": "tools/gzip/1.13-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.005968"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.23.1",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version virtualenv/20.23.1 for l40s architecture",
+    "full_name": "tools/virtualenv/20.23.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005977"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.18.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version hatchling/1.18.0 for l40s architecture",
+    "full_name": "tools/hatchling/1.18.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.005991"
+  },
+  {
+    "software": "tools",
+    "version": "virtualenv/20.26.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version virtualenv/20.26.2 for l40s architecture",
+    "full_name": "tools/virtualenv/20.26.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.006000"
+  },
+  {
+    "software": "tools",
+    "version": "hatchling/1.24.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version hatchling/1.24.2 for l40s architecture",
+    "full_name": "tools/hatchling/1.24.2-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.006013"
+  },
+  {
+    "software": "tools",
+    "version": "xxd/9.0.2112",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version xxd/9.0.2112 for l40s architecture",
+    "full_name": "tools/xxd/9.0.2112-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006023"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version help2man/1.49.3 for l40s architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006035"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version xz/5.4.2 for l40s architecture",
+    "full_name": "tools/xz/5.4.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006052"
+  },
+  {
+    "software": "tools",
+    "version": "help2man/1.49.3",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version help2man/1.49.3 for l40s architecture",
+    "full_name": "tools/help2man/1.49.3-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.006066"
+  },
+  {
+    "software": "tools",
+    "version": "xz/5.4.5",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version xz/5.4.5 for l40s architecture",
+    "full_name": "tools/xz/5.4.5-gcccore-13.3.0",
+    "collected_at": "2025-10-10T17:50:07.006076"
+  },
+  {
+    "software": "tools",
+    "version": "hypothesis/6.82.0",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version hypothesis/6.82.0 for l40s architecture",
+    "full_name": "tools/hypothesis/6.82.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006092"
+  },
+  {
+    "software": "tools",
+    "version": "z3/4.12.2",
+    "category": "Development Tools",
+    "architecture": "l40s",
+    "description": "tools version z3/4.12.2 for l40s architecture",
+    "full_name": "tools/z3/4.12.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006101"
+  },
+  {
+    "software": "vis",
+    "version": "fontconfig/2.14.2",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version fontconfig/2.14.2 for l40s architecture",
+    "full_name": "vis/fontconfig/2.14.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006119"
+  },
+  {
+    "software": "vis",
+    "version": "littlecms/2.15",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version littlecms/2.15 for l40s architecture",
+    "full_name": "vis/littlecms/2.15-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006129"
+  },
+  {
+    "software": "vis",
+    "version": "freetype/2.13.0",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version freetype/2.13.0 for l40s architecture",
+    "full_name": "vis/freetype/2.13.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006143"
+  },
+  {
+    "software": "vis",
+    "version": "pillow/10.0.0",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version pillow/10.0.0 for l40s architecture",
+    "full_name": "vis/pillow/10.0.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006152"
+  },
+  {
+    "software": "vis",
+    "version": "glib/2.77.1",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version glib/2.77.1 for l40s architecture",
+    "full_name": "vis/glib/2.77.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006170"
+  },
+  {
+    "software": "vis",
+    "version": "pixman/0.42.2",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version pixman/0.42.2 for l40s architecture",
+    "full_name": "vis/pixman/0.42.2-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006180"
+  },
+  {
+    "software": "vis",
+    "version": "jasper/4.0.0",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version jasper/4.0.0 for l40s architecture",
+    "full_name": "vis/jasper/4.0.0-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006193"
+  },
+  {
+    "software": "vis",
+    "version": "x264/20230226",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version x264/20230226 for l40s architecture",
+    "full_name": "vis/x264/20230226-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006207"
+  },
+  {
+    "software": "vis",
+    "version": "jbigkit/2.1",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version jbigkit/2.1 for l40s architecture",
+    "full_name": "vis/jbigkit/2.1-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006220"
+  },
+  {
+    "software": "vis",
+    "version": "x265/3.5",
+    "category": "Visualization",
+    "architecture": "l40s",
+    "description": "vis version x265/3.5 for l40s architecture",
+    "full_name": "vis/x265/3.5-gcccore-12.3.0",
+    "collected_at": "2025-10-10T17:50:07.006229"
+  }
+]
