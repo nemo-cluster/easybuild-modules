@@ -10,7 +10,7 @@ Configuration file: ~/.config/mediawiki/bwhpc.conf  (INI format)
 
     [mediawiki]
     url      = https://wiki.bwhpc.de/e        ; article base URL (for reference)
-    api      = https://wiki.bwhpc.de/api.php  ; MediaWiki API endpoint (optional, defaults to url/api.php)
+    api      = https://wiki.bwhpc.de/w/api.php  ; API endpoint (optional — auto-discovered via wgScriptPath)
     page     = NEMO2/Modules                 ; target wiki page
     file     = wiki/Easybuild_Module_List.mediawiki  ; local source file
     username = YourMainUsername@BotName      ; bot user (user@botname)

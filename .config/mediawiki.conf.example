@@ -8,9 +8,9 @@
 # Base URL of your MediaWiki instance (article path prefix, no trailing slash)
 url = https://wiki.bwhpc.de/e
 
-# API endpoint — only needed if it differs from url/api.php
-# wiki.bwhpc.de uses /e/ for articles and /w/ for the MediaWiki installation
-api = https://wiki.bwhpc.de/w/api.php
+# API endpoint — optional, only set if auto-discovery fails.
+# The script reads wgScriptPath from the wiki HTML to find the correct endpoint.
+# Example: api = https://wiki.bwhpc.de/w/api.php
 
 # Target page title in the wiki (will be created if absent, updated if present)
 page = NEMO2/Modules
