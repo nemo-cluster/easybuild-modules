@@ -9,8 +9,8 @@ page or creates it if it does not yet exist.
 Configuration file: ~/.config/mediawiki/bwhpc.conf  (INI format)
 
     [mediawiki]
-    url      = https://wiki.example.org      ; base URL, no trailing slash
-    page     = NEMO2/Easybuild_Modules/Module_List   ; target wiki page
+    url      = https://wiki.bwhpc.de/e        ; base URL, no trailing slash
+    page     = NEMO2/Modules                 ; target wiki page
     file     = wiki/Easybuild_Module_List.mediawiki  ; local source file
     username = YourMainUsername@BotName      ; bot user (user@botname)
     password = theActualBotPassword          ; bot password
