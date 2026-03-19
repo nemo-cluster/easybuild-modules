@@ -24,12 +24,55 @@ import configparser
 import http.cookiejar
 import json
 import os
+import re
 import sys
 import urllib.parse
 import urllib.request
+import urllib.error
 
 DEFAULT_CONFIG = os.path.expanduser('~/.config/mediawiki/bwhpc.conf')
 DEFAULT_SUMMARY = 'Auto-update: EasyBuild module list (bot)'
+
+
+# ---------------------------------------------------------------------------
+# API endpoint discovery
+# ---------------------------------------------------------------------------
+
+def _discover_api(article_base_url: str) -> str:
+    """
+    Try to discover the MediaWiki API endpoint by reading wgScriptPath from
+    any wiki page's HTML.  Falls back to article_base_url/api.php on failure.
+    """
+    try:
+        req = urllib.request.Request(article_base_url)
+        req.add_header('User-Agent', 'EasyBuildModuleUploader/1.0')
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            html = resp.read().decode('utf-8', errors='replace')
+        m = re.search(r'"wgScriptPath"\s*:\s*"([^"]*)"', html)
+        if m:
+            script_path = m.group(1)            # e.g. "" or "/w" or "/wiki"
+            parsed = urllib.parse.urlparse(article_base_url)
+            base = f"{parsed.scheme}://{parsed.netloc}"
+            discovered = base + script_path + '/api.php'
+            print(f"[info] Discovered API endpoint via wgScriptPath: {discovered}")
+            return discovered
+    except Exception as exc:
+        print(f"[warn] API auto-discovery failed: {exc}")
+    return article_base_url.rstrip('/') + '/api.php'
+
+
+def _verify_api(api_url: str) -> bool:
+    """Return True if api_url responds with a valid MediaWiki API JSON response."""
+    try:
+        url = api_url + '?' + urllib.parse.urlencode({
+            'action': 'query', 'meta': 'siteinfo', 'format': 'json'})
+        req = urllib.request.Request(url)
+        req.add_header('User-Agent', 'EasyBuildModuleUploader/1.0')
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            return 'query' in data or 'error' in data
+    except Exception:
+        return False
 
 
 # ---------------------------------------------------------------------------
@@ -68,6 +111,15 @@ def upload(cfg: configparser.SectionProxy) -> bool:
     api = cfg['url'].rstrip('/') + '/api.php'
     if cfg.get('api'):
         api = cfg['api'].rstrip('/')
+    else:
+        api = _discover_api(cfg['url'])
+
+    if not _verify_api(api):
+        print(f"Error: API endpoint not reachable or not a valid MediaWiki API: {api}")
+        print("Set the 'api' key in your config to the correct URL, e.g.:")
+        print("  api = https://wiki.bwhpc.de/w/api.php")
+        return False
+
     opener = _make_opener()
 
     # 1. Fetch login token
