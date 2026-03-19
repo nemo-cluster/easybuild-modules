@@ -71,7 +71,8 @@ def _verify_api(api_url: str) -> bool:
         with urllib.request.urlopen(req, timeout=10) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             return 'query' in data or 'error' in data
-    except Exception:
+    except Exception as exc:
+        print(f"[warn] API verification failed ({api_url}): {exc}")
         return False
 
 
