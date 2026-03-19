@@ -1,0 +1,39 @@
+= Toolchains (toolchain/) =
+
+Modules in category **Toolchains (toolchain/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>foss</code> || <code>2020b</code>, <code>2023a</code>, <code>2024a</code> || <code>toolchain/foss</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support, OpenBLAS (BLAS and LAPACK support), FFTW and ScaLAPACK.
+|-
+| <code>gfbf</code> || <code>2023a</code>, <code>2023b</code>, <code>2024a</code> || <code>toolchain/gfbf</code> || GNU Compiler Collection (GCC) based compiler toolchain, including FlexiBLAS (BLAS and LAPACK support) and (serial) FFTW.
+|-
+| <code>gompi</code> || <code>2020b</code>, <code>2023a</code>, <code>2024a</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
+|-
+| <code>iimpi</code> || <code>2024a</code> || <code>toolchain/iimpi</code> || iimpi 2024a
+|-
+| <code>intel</code> || <code>2024a</code> || <code>toolchain/intel</code> || Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>foss</code> || <code>2020b</code>, <code>2022a</code>, <code>2023a</code>, <code>2024a</code> || <code>toolchain/foss</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support, OpenBLAS (BLAS and LAPACK support), FFTW and ScaLAPACK.
+|-
+| <code>gfbf</code> || <code>2023a</code>, <code>2023b</code>, <code>2024a</code> || <code>toolchain/gfbf</code> || GNU Compiler Collection (GCC) based compiler toolchain, including FlexiBLAS (BLAS and LAPACK support) and (serial) FFTW.
+|-
+| <code>gompi</code> || <code>2020b</code>, <code>2022a</code>, <code>2023a</code>, <code>2024a</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
+|-
+| <code>iimpi</code> || <code>2024a</code> || <code>toolchain/iimpi</code> || iimpi 2024a
+|-
+| <code>intel</code> || <code>2024a</code> || <code>toolchain/intel</code> || Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).
+|}
+
+[[Category:NEMO2]][[Category:Software]]

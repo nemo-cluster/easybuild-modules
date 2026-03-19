@@ -1,0 +1,37 @@
+= System Tools (system/) =
+
+Modules in category **System Tools (system/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>cuda</code> || <code>11.5.2</code>, <code>11.7.0</code>, <code>12.1.1</code>, <code>12.6.0</code>, <code>12.9.1</code>, <code>13.1.0</code> || <code>system/cuda</code> || CUDA (formerly Compute Unified Device Architecture) is a parallel computing platform and programming model created by NVIDIA and implemented by the graphics processing units (GPUs) that they produce. …
+|-
+| <code>hwloc</code> || <code>2.10.0-gcccore-13.3.0</code>, <code>2.2.0-gcccore-10.2.0</code>, <code>2.7.1-gcccore-11.3.0</code>, <code>2.9.1-gcccore-12.3.0</code> || <code>system/hwloc</code> || The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA …
+|-
+| <code>libdeflate</code> || <code>1.18-gcccore-12.3.0</code>, <code>1.19-gcccore-13.2.0</code>, <code>1.20-gcccore-13.3.0</code> || <code>system/libdeflate</code> || Heavily optimized library for DEFLATE/zlib/gzip compression and decompression.
+|-
+| <code>libpciaccess</code> || <code>0.16-gcccore-10.2.0</code>, <code>0.16-gcccore-11.3.0</code>, <code>0.17-gcccore-12.3.0</code>, <code>0.17-gcccore-13.2.0</code>, <code>0.18.1-gcccore-13.3.0</code> || <code>system/libpciaccess</code> || Generic PCI access library.
+|-
+| <code>openssl</code> || <code>1.1</code>, <code>3</code> || <code>system/openssl</code> || The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolchain implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer …
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>hwloc</code> || <code>2.10.0-gcccore-13.3.0</code>, <code>2.2.0-gcccore-10.2.0</code>, <code>2.7.1-gcccore-11.3.0</code>, <code>2.9.1-gcccore-12.3.0</code> || <code>system/hwloc</code> || The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA …
+|-
+| <code>libdeflate</code> || <code>1.19-gcccore-13.2.0</code>, <code>1.20-gcccore-13.3.0</code> || <code>system/libdeflate</code> || Heavily optimized library for DEFLATE/zlib/gzip compression and decompression.
+|-
+| <code>libpciaccess</code> || <code>0.16-gcccore-10.2.0</code>, <code>0.16-gcccore-11.3.0</code>, <code>0.17-gcccore-12.3.0</code>, <code>0.17-gcccore-13.2.0</code>, <code>0.18.1-gcccore-13.3.0</code> || <code>system/libpciaccess</code> || Generic PCI access library.
+|-
+| <code>openssl</code> || <code>1.1</code>, <code>3</code> || <code>system/openssl</code> || The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolchain implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer …
+|}
+
+[[Category:NEMO2]][[Category:Software]]

@@ -1,0 +1,23 @@
+= Physics Software (phys/) =
+
+Modules in category **Physics Software (phys/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>hoomd-blue</code> || <code>5.2.0-foss-2024a</code> || <code>phys/hoomd-blue</code> || HOOMD-blue is a general-purpose particle simulation toolkit, implementing molecular dynamics and hard particle Monte Carlo optimized for fast execution on both GPUs and CPUs.
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>hoomd-blue</code> || <code>5.2.0-foss-2024a</code> || <code>phys/hoomd-blue</code> || HOOMD-blue is a general-purpose particle simulation toolkit, implementing molecular dynamics and hard particle Monte Carlo optimized for fast execution on both GPUs and CPUs.
+|}
+
+[[Category:NEMO2]][[Category:Software]]

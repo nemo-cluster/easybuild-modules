@@ -8,7 +8,7 @@ Modules in category **Global Aliases** on bwForCluster NEMO 2.
 |-
 ! Software !! Versions !! Module path !! Description
 |-
-| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel version miniforge for genoa architecture
+| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
 |}
 
 == Milan ==
@@ -17,7 +17,7 @@ Modules in category **Global Aliases** on bwForCluster NEMO 2.
 |-
 ! Software !! Versions !! Module path !! Description
 |-
-| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel version miniforge for milan architecture
+| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
 |}
 
 [[Category:NEMO2]][[Category:Software]]

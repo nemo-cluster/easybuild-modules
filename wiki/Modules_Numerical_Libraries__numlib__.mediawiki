@@ -1,0 +1,53 @@
+= Numerical Libraries (numlib/) =
+
+Modules in category **Numerical Libraries (numlib/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>blis</code> || <code>0.9.0-gcc-11.3.0</code>, <code>0.9.0-gcc-12.3.0</code>, <code>0.9.0-gcc-13.2.0</code>, <code>1.0-gcc-13.3.0</code> || <code>numlib/blis</code> || BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
+|-
+| <code>cudnn</code> || <code>8.9.2.26-cuda-12.1.1</code>, <code>9.15.0.57-cuda-12.9.1</code> || <code>numlib/cudnn</code> || The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks.
+|-
+| <code>fftw</code> || <code>3.3.10-gcc-11.3.0</code>, <code>3.3.10-gcc-12.3.0</code>, <code>3.3.10-gcc-13.2.0</code>, <code>3.3.10-gcc-13.3.0</code>, <code>3.3.8-gompi-2020b</code> || <code>numlib/fftw</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+|-
+| <code>fftw.mpi</code> || <code>3.3.10-gompi-2023a</code>, <code>3.3.10-gompi-2024a</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+|-
+| <code>gsl</code> || <code>2.6-gcc-10.2.0</code>, <code>2.7-gcc-12.3.0</code>, <code>2.8-gcc-13.3.0</code> || <code>numlib/gsl</code> || The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. The library provides a wide range of mathematical routines such as random number generators, special functions and …
+|-
+| <code>imkl</code> || <code>2024.2.0</code> || <code>numlib/imkl</code> || Intel oneAPI Math Kernel Library
+|-
+| <code>imkl-fftw</code> || <code>2024.2.0-iimpi-2024a</code> || <code>numlib/imkl-fftw</code> || FFTW interfaces using Intel oneAPI Math Kernel Library
+|-
+| <code>openblas</code> || <code>0.3.12-gcc-10.2.0</code>, <code>0.3.20-gcc-11.3.0</code>, <code>0.3.23-gcc-12.3.0</code>, <code>0.3.24-gcc-13.2.0</code>, <code>0.3.27-gcc-13.3.0</code> || <code>numlib/openblas</code> || OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+|-
+| <code>scalapack</code> || <code>2.1.0-gompi-2020b</code>, <code>2.2.0-gompi-2023a-fb</code>, <code>2.2.0-gompi-2024a-fb</code> || <code>numlib/scalapack</code> || The ScaLAPACK (or Scalable LAPACK) library includes a subset of LAPACK routines redesigned for distributed memory MIMD parallel computers.
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>blis</code> || <code>0.9.0-gcc-11.3.0</code>, <code>0.9.0-gcc-12.3.0</code>, <code>0.9.0-gcc-13.2.0</code>, <code>1.0-gcc-13.3.0</code> || <code>numlib/blis</code> || BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
+|-
+| <code>fftw</code> || <code>3.3.10-gcc-11.3.0</code>, <code>3.3.10-gcc-12.3.0</code>, <code>3.3.10-gcc-13.2.0</code>, <code>3.3.10-gcc-13.3.0</code>, <code>3.3.8-gompi-2020b</code> || <code>numlib/fftw</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+|-
+| <code>fftw.mpi</code> || <code>3.3.10-gompi-2022a</code>, <code>3.3.10-gompi-2023a</code>, <code>3.3.10-gompi-2024a</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+|-
+| <code>gsl</code> || <code>2.6-gcc-10.2.0</code>, <code>2.7-gcc-12.3.0</code>, <code>2.8-gcc-13.3.0</code> || <code>numlib/gsl</code> || The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. The library provides a wide range of mathematical routines such as random number generators, special functions and …
+|-
+| <code>imkl</code> || <code>2024.2.0</code> || <code>numlib/imkl</code> || Intel oneAPI Math Kernel Library
+|-
+| <code>imkl-fftw</code> || <code>2024.2.0-iimpi-2024a</code> || <code>numlib/imkl-fftw</code> || FFTW interfaces using Intel oneAPI Math Kernel Library
+|-
+| <code>openblas</code> || <code>0.3.12-gcc-10.2.0</code>, <code>0.3.20-gcc-11.3.0</code>, <code>0.3.23-gcc-12.3.0</code>, <code>0.3.24-gcc-13.2.0</code>, <code>0.3.27-gcc-13.3.0</code> || <code>numlib/openblas</code> || OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+|-
+| <code>scalapack</code> || <code>2.1.0-gompi-2020b</code>, <code>2.2.0-gompi-2022a-fb</code>, <code>2.2.0-gompi-2023a-fb</code>, <code>2.2.0-gompi-2024a-fb</code> || <code>numlib/scalapack</code> || The ScaLAPACK (or Scalable LAPACK) library includes a subset of LAPACK routines redesigned for distributed memory MIMD parallel computers.
+|}
+
+[[Category:NEMO2]][[Category:Software]]
