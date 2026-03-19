@@ -36,6 +36,14 @@ cp "$DATA_DIR/metadata.json" web/metadata.json
 echo "Generating MediaWiki pages..."
 python3 scripts/generate_mediawiki.py --data-dir "$DATA_DIR" --output-dir wiki --mode combined
 
+# Upload to MediaWiki if config exists
+if [ -f "$HOME/.config/mediawiki/bwhpc.conf" ]; then
+    echo "Uploading to MediaWiki..."
+    python3 scripts/upload_mediawiki.py
+else
+    echo "Skipping MediaWiki upload (~/.config/mediawiki/bwhpc.conf not found)"
+fi
+
 # Check if data exists
 if [ ! -d "$DATA_DIR" ] || [ -z "$(ls -A "$DATA_DIR")" ]; then
     echo "Error: No data found in directory $DATA_DIR"

@@ -8,6 +8,8 @@ via lmod (module avail / module spider) and writes JSON output.
 Architectures genoa, h200, rtx and mi300a share the same module tree
 (symbolic links to genoa).  Only one lmod query is performed for the
 whole group; the result is duplicated for the other members.
+l40s (Intel + NVIDIA L40S) is a separate physical architecture with
+its own module tree and is queried independently.
 """
 
 import subprocess
@@ -26,10 +28,11 @@ from typing import Dict, List, Optional
 # The first entry is the *canonical* architecture that is actually queried.
 ARCH_GROUPS = {
     'genoa': ['genoa', 'h200', 'rtx', 'mi300a'],
+    'l40s':  ['l40s'],    # Intel-based nodes, separate physical module tree
     'milan': ['milan'],
 }
 
-ALL_ARCHITECTURES = ['genoa', 'h200', 'rtx', 'mi300a', 'milan']
+ALL_ARCHITECTURES = ['genoa', 'h200', 'rtx', 'mi300a', 'l40s', 'milan']
 
 # Reverse lookup: architecture → canonical representative
 CANONICAL_ARCH = {

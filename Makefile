@@ -18,6 +18,7 @@ help:
 	@echo "  make wiki       - Generate MediaWiki page(s) (combined)"
 	@echo "  make wiki-cat   - Generate one MediaWiki page per category"
 	@echo "  make wiki-arch  - Generate one MediaWiki page per arch group"
+	@echo "  make wiki-upload - Upload wiki/Easybuild_Module_List.mediawiki to wiki"
 
 # Collect module data
 collect:
@@ -39,7 +40,7 @@ push:
 # Delete generated data
 clean:
 	@echo "Deleting generated data..."
-	rm -rf data/*.json wiki/*.mediawiki
+	rm -rf data/*.json wiki/*.mediawiki web/metadata.json
 	@echo "Data deleted."
 
 # Install Python dependencies (if required)
@@ -75,6 +76,11 @@ wiki-cat:
 wiki-arch:
 	@echo "Generating per-architecture MediaWiki pages..."
 	python3 scripts/generate_mediawiki.py --data-dir data --output-dir wiki --mode per-arch
+
+# Upload combined page to MediaWiki
+wiki-upload:
+	@echo "Uploading Easybuild_Module_List.mediawiki to wiki..."
+	python3 scripts/upload_mediawiki.py
 
 # Collect modules for specific architecture
 collect-genoa:

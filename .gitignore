@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 *.pyo
+
+# MediaWiki credentials (stored in user home, not in repo)
+# ~/.config/mediawiki/bwhpc.conf

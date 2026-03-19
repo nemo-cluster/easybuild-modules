@@ -10,6 +10,7 @@
 // Architectures that share an identical module tree (mirrors collect_modules.py)
 const ARCH_GROUPS = {
     genoa: ['genoa', 'h200', 'rtx', 'mi300a'],
+    l40s:  ['l40s'],    // separate physical architecture
     milan: ['milan'],
 };
 

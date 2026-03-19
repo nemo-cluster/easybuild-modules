@@ -20,11 +20,13 @@ from typing import Dict, List
 # Must match definitions in collect_modules.py
 ARCH_GROUPS = {
     'genoa': ['genoa', 'h200', 'rtx', 'mi300a'],
+    'l40s':  ['l40s'],
     'milan': ['milan'],
 }
 
 ARCH_GROUP_LABELS = {
     'genoa': 'Genoa / H200 / RTX / MI300A',
+    'l40s':  'L40S',
     'milan': 'Milan',
 }
 
