@@ -76,6 +76,24 @@ def _verify_api(api_url: str) -> bool:
         return False
 
 
+def _probe_api(base_url: str) -> None:
+    """Try common MediaWiki API paths and print which ones respond."""
+    parsed = urllib.parse.urlparse(base_url)
+    root = f"{parsed.scheme}://{parsed.netloc}"
+    candidates = [
+        root + '/api.php',
+        root + '/w/api.php',
+        root + '/wiki/api.php',
+        root + '/e/api.php',
+        root + '/mediawiki/api.php',
+    ]
+    print(f"Probing API endpoints for {root} ...")
+    for url in candidates:
+        ok = _verify_api(url)
+        status = "OK" if ok else "FAIL"
+        print(f"  [{status}] {url}")
+
+
 # ---------------------------------------------------------------------------
 # HTTP helpers (no third-party deps)
 # ---------------------------------------------------------------------------
@@ -200,7 +218,19 @@ def main() -> int:
         description='Upload EasyBuild module list to MediaWiki')
     parser.add_argument('--config', '-c', default=DEFAULT_CONFIG,
                         help=f'Config file (default: ~/.config/mediawiki/bwhpc.conf)')
+    parser.add_argument('--probe', action='store_true',
+                        help='Probe common API endpoints and exit (no upload)')
     args = parser.parse_args()
+
+    if args.probe:
+        # Load url from config if available, otherwise use example URL
+        url = 'https://wiki.bwhpc.de/e'
+        if os.path.isfile(args.config):
+            cfg = configparser.ConfigParser()
+            cfg.read(args.config, encoding='utf-8')
+            url = cfg.get('mediawiki', 'url', fallback=url)
+        _probe_api(url)
+        return 0
 
     if not os.path.isfile(args.config):
         print(f"Config file not found: {args.config}")
