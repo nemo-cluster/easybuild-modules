@@ -1,18 +1,30 @@
 {
-  "collection_date": "2025-11-25T18:04:05.990565",
+  "collection_date": "2026-03-19T19:53:27.120681",
   "architectures": [
     "genoa",
     "h200",
-    "l40s",
+    "rtx",
     "mi300a",
     "milan"
   ],
-  "total_modules": 2389,
+  "architecture_groups": {
+    "genoa": [
+      "genoa",
+      "h200",
+      "rtx",
+      "mi300a"
+    ],
+    "milan": [
+      "milan"
+    ]
+  },
+  "identical_note": "Architectures within the same group share an identical module tree (symbolic links).  Only one lmod query is performed per group.",
+  "total_modules": 2948,
   "modules_per_arch": {
-    "genoa": 543,
-    "h200": 543,
-    "l40s": 265,
-    "mi300a": 543,
-    "milan": 495
+    "genoa": 598,
+    "h200": 598,
+    "rtx": 598,
+    "mi300a": 598,
+    "milan": 556
   }
 }
