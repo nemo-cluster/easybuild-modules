@@ -1,243 +1,256 @@
 /**
- * bwForCluster NEMO 2 Easybuild Module Browser JavaScript
- * Manages loading, filtering and displaying module data
+ * bwForCluster NEMO 2 Easybuild Module Browser
+ *
+ * Features:
+ * - Deduplicates modules that are identical across genoa/h200/rtx/mi300a
+ * - Groups architecture badges per row
+ * - Shows data generation timestamp from metadata.json
  */
+
+// Architectures that share an identical module tree (mirrors collect_modules.py)
+const ARCH_GROUPS = {
+    genoa: ['genoa', 'h200', 'rtx', 'mi300a'],
+    milan: ['milan'],
+};
 
 class ModuleBrowser {
     constructor() {
-        this.modules = [];
+        this.rawModules   = [];   // deduplicated; each entry has .architectures[]
         this.filteredModules = [];
-        this.sortColumn = 0;
+        this.collectionDate = null;
+        this.sortColumn   = 0;
         this.sortDirection = 'asc';
-        
-        // Git Repository URL for data
-        this.dataUrl = 'https://raw.githubusercontent.com/nemo-cluster/easybuild-modules/main/data/modules_all.json';
-        
+
+        // Base URL for JSON data — trailing slash, no filename
+        this.dataBaseUrl = 'https://raw.githubusercontent.com/nemo-cluster/easybuild-modules/main/data';
+
         this.init();
     }
-    
+
     async init() {
         this.setupEventListeners();
         await this.loadData();
         this.populateFilters();
         this.filterAndDisplay();
     }
-    
+
     setupEventListeners() {
-        const architectureFilter = document.getElementById('architectureFilter');
-        const categoryFilter = document.getElementById('categoryFilter');
-        const searchInput = document.getElementById('searchInput');
-        
-        architectureFilter.addEventListener('change', () => this.filterAndDisplay());
-        categoryFilter.addEventListener('change', () => this.filterAndDisplay());
-        searchInput.addEventListener('input', () => this.filterAndDisplay());
+        document.getElementById('architectureFilter').addEventListener('change', () => this.filterAndDisplay());
+        document.getElementById('categoryFilter').addEventListener('change',     () => this.filterAndDisplay());
+        document.getElementById('searchInput').addEventListener('input',         () => this.filterAndDisplay());
     }
-    
+
+    // -- data loading -------------------------------------------------------
+
+    async fetchJson(url) {
+        const r = await fetch(url);
+        if (!r.ok) throw new Error(`HTTP ${r.status} – ${url}`);
+        return r.json();
+    }
+
     async loadData() {
+        let modules, metadata;
         try {
-            // Try to load data from Git repository
-            let response;
+            [modules, metadata] = await Promise.all([
+                this.fetchJson(`${this.dataBaseUrl}/modules_all.json`),
+                this.fetchJson(`${this.dataBaseUrl}/metadata.json`).catch(() => null),
+            ]);
+        } catch (remoteErr) {
+            console.warn('Remote data unavailable, using local sample:', remoteErr.message);
             try {
-                response = await fetch(this.dataUrl);
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-            } catch (gitError) {
-                // Fallback: Load local test data
-                console.warn('Cannot load from Git repository, using local test data:', gitError.message);
-                response = await fetch('./sample-data.json');
-                if (!response.ok) {
-                    throw new Error('Cannot load local test data either');
-                }
+                [modules, metadata] = await Promise.all([
+                    this.fetchJson('./sample-data.json'),
+                    this.fetchJson('./metadata.json').catch(() => null),
+                ]);
+            } catch (localErr) {
+                this.showError(`Cannot load data: ${localErr.message}`);
+                return;
             }
-            
-            this.modules = await response.json();
-            
-            document.getElementById('loadingDisplay').style.display = 'none';
-            document.getElementById('moduleTable').style.display = 'table';
-            
-        } catch (error) {
-            this.showError(`Error loading data: ${error.message}`);
-            // Create sample data for demo
-            this.createSampleData();
         }
-    }
-    
-    createSampleData() {
-        console.log('Creating sample data for demo');
-        this.modules = [
-            {
-                software: 'gromacs',
-                version: '2023.3',
-                category: 'Biology Software (bio/)',
-                architecture: 'genoa',
-                description: 'Molecular dynamics simulation package'
-            },
-            {
-                software: 'gcc',
-                version: '13.3.0',
-                category: 'Compilers (compiler/)',
-                architecture: 'genoa',
-                description: 'GNU Compiler Collection'
-            },
-            {
-                software: 'lammps',
-                version: '2aug2023_update2',
-                category: 'Chemistry Software (chem/)',
-                architecture: 'h200',
-                description: 'Large-scale Atomic/Molecular Massively Parallel Simulator'
-            },
-            {
-                software: 'intel-compilers',
-                version: '2024.2.0',
-                category: 'Compilers (compiler/)',
-                architecture: 'milan',
-                description: 'Intel C/C++ and Fortran compilers'
-            },
-            {
-                software: 'orca',
-                version: '6.0.1',
-                category: 'Chemistry Software (chem/)',
-                architecture: 'rtx',
-                description: 'Quantum chemistry program package'
-            }
-        ];
-        
+
+        if (metadata?.collection_date) {
+            this.collectionDate = metadata.collection_date;
+            this.showCollectionDate(metadata.collection_date);
+        }
+
+        this.rawModules = this.deduplicateModules(modules);
+
         document.getElementById('loadingDisplay').style.display = 'none';
         document.getElementById('moduleTable').style.display = 'table';
     }
-    
-    populateFilters() {
-        const architectures = [...new Set(this.modules.map(m => m.architecture))].sort();
-        const categories = [...new Set(this.modules.map(m => m.category))].sort();
-        
-        const archSelect = document.getElementById('architectureFilter');
-        const catSelect = document.getElementById('categoryFilter');
-        
-        // Clear existing options (except "All")
-        archSelect.innerHTML = '<option value="">All Architectures</option>';
-        catSelect.innerHTML = '<option value="">All Categories</option>';
-        
-        // Add architecture options
-        architectures.forEach(arch => {
-            const option = document.createElement('option');
-            option.value = arch;
-            option.textContent = arch;
-            archSelect.appendChild(option);
-        });
-        
-        // Add category options
-        categories.forEach(cat => {
-            const option = document.createElement('option');
-            option.value = cat;
-            option.textContent = cat;
-            catSelect.appendChild(option);
-        });
+
+    /**
+     * Merge entries with the same (software, version, category) into one row,
+     * collecting all architectures into an array.
+     */
+    deduplicateModules(modules) {
+        const map = new Map();
+        for (const m of modules) {
+            const key = `${m.software}|||${m.version}|||${m.category}`;
+            if (!map.has(key)) {
+                map.set(key, { ...m, architectures: [m.architecture] });
+            } else {
+                const entry = map.get(key);
+                if (!entry.architectures.includes(m.architecture)) {
+                    entry.architectures.push(m.architecture);
+                }
+            }
+        }
+        // Sort architectures within each entry alphabetically
+        for (const entry of map.values()) {
+            entry.architectures.sort();
+        }
+        return Array.from(map.values());
     }
-    
+
+    showCollectionDate(isoDate) {
+        const d = new Date(isoDate);
+        const formatted = d.toLocaleString('de-DE', {
+            day: '2-digit', month: '2-digit', year: 'numeric',
+            hour: '2-digit', minute: '2-digit',
+        });
+        const el = document.getElementById('collectionDate');
+        if (el) el.textContent = `Datenstand: ${formatted} Uhr`;
+    }
+
+    // -- filters ------------------------------------------------------------
+
+    populateFilters() {
+        // Collect all individual architectures present after dedup
+        const archSet = new Set(this.rawModules.flatMap(m => m.architectures));
+        const architectures = [...archSet].sort();
+        const categories = [...new Set(this.rawModules.map(m => m.category))].sort();
+
+        const archSelect = document.getElementById('architectureFilter');
+        archSelect.innerHTML = '<option value="">Alle Architekturen</option>';
+        for (const arch of architectures) {
+            const opt = document.createElement('option');
+            opt.value = arch;
+            opt.textContent = arch;
+            archSelect.appendChild(opt);
+        }
+
+        const catSelect = document.getElementById('categoryFilter');
+        catSelect.innerHTML = '<option value="">Alle Kategorien</option>';
+        for (const cat of categories) {
+            const opt = document.createElement('option');
+            opt.value = cat;
+            opt.textContent = cat;
+            catSelect.appendChild(opt);
+        }
+    }
+
     filterAndDisplay() {
-        const archFilter = document.getElementById('architectureFilter').value;
-        const catFilter = document.getElementById('categoryFilter').value;
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-        
-        this.filteredModules = this.modules.filter(module => {
-            const matchesArch = !archFilter || module.architecture === archFilter;
-            const matchesCat = !catFilter || module.category === catFilter;
-            const matchesSearch = !searchTerm || 
-                module.software.toLowerCase().includes(searchTerm) ||
-                module.description.toLowerCase().includes(searchTerm);
-            
+        const archFilter  = document.getElementById('architectureFilter').value;
+        const catFilter   = document.getElementById('categoryFilter').value;
+        const searchTerm  = document.getElementById('searchInput').value.toLowerCase();
+
+        this.filteredModules = this.rawModules.filter(m => {
+            // A module matches the arch filter if any of its architectures match
+            const matchesArch   = !archFilter  || m.architectures.includes(archFilter);
+            const matchesCat    = !catFilter   || m.category === catFilter;
+            const matchesSearch = !searchTerm  ||
+                m.software.toLowerCase().includes(searchTerm) ||
+                m.description.toLowerCase().includes(searchTerm);
             return matchesArch && matchesCat && matchesSearch;
         });
-        
+
         this.sortModules();
         this.displayModules();
         this.updateStats();
     }
-    
+
+    // -- sorting ------------------------------------------------------------
+
     sortModules() {
         const direction = this.sortDirection === 'asc' ? 1 : -1;
-        const columns = ['software', 'version', 'category', 'architecture', 'description'];
-        const sortKey = columns[this.sortColumn];
-        
+        // column 3 = architecture: sort by first arch in sorted array
+        const getVal = (m, col) => {
+            if (col === 3) return m.architectures[0] || '';
+            return (['software', 'version', 'category', '', 'description'][col] &&
+                    m[['software', 'version', 'category', '', 'description'][col]]) || '';
+        };
+
         this.filteredModules.sort((a, b) => {
-            const aVal = a[sortKey].toLowerCase();
-            const bVal = b[sortKey].toLowerCase();
-            
+            const aVal = getVal(a, this.sortColumn).toLowerCase();
+            const bVal = getVal(b, this.sortColumn).toLowerCase();
             if (aVal < bVal) return -1 * direction;
-            if (aVal > bVal) return 1 * direction;
+            if (aVal > bVal) return  1 * direction;
             return 0;
         });
     }
-    
+
+    // -- display ------------------------------------------------------------
+
+    archBadges(architectures) {
+        return architectures
+            .map(a => `<span class="architecture-tag arch-${this.escapeHtml(a)}">${this.escapeHtml(a)}</span>`)
+            .join(' ');
+    }
+
     displayModules() {
-        const tbody = document.getElementById('moduleTableBody');
+        const tbody     = document.getElementById('moduleTableBody');
         const noResults = document.getElementById('noResultsDisplay');
-        
+
         if (this.filteredModules.length === 0) {
             tbody.innerHTML = '';
             noResults.style.display = 'block';
             return;
         }
-        
         noResults.style.display = 'none';
-        
-        tbody.innerHTML = this.filteredModules.map(module => `
+
+        tbody.innerHTML = this.filteredModules.map(m => `
             <tr>
-                <td><strong>${this.escapeHtml(module.software)}</strong></td>
-                <td>${this.escapeHtml(module.version)}</td>
-                <td><span class="category-tag">${this.escapeHtml(module.category)}</span></td>
-                <td><span class="architecture-tag arch-${module.architecture}">${this.escapeHtml(module.architecture)}</span></td>
-                <td>${this.escapeHtml(module.description)}</td>
+                <td><strong>${this.escapeHtml(m.software)}</strong></td>
+                <td><code>${this.escapeHtml(m.version)}</code></td>
+                <td><span class="category-tag">${this.escapeHtml(m.category)}</span></td>
+                <td class="arch-cell">${this.archBadges(m.architectures)}</td>
+                <td>${this.escapeHtml(m.description)}</td>
             </tr>
         `).join('');
     }
-    
+
     updateStats() {
-        const total = this.modules.length;
+        const total    = this.rawModules.length;
         const filtered = this.filteredModules.length;
-        const architectures = [...new Set(this.filteredModules.map(m => m.architecture))];
-        
-        const statsText = `${filtered} of ${total} modules displayed | Architectures: ${architectures.length}`;
-        document.getElementById('statsDisplay').textContent = statsText;
+        const archSet  = new Set(this.filteredModules.flatMap(m => m.architectures));
+
+        let text = `${filtered} von ${total} Module angezeigt | Architekturen: ${archSet.size}`;
+        if (this.collectionDate) {
+            const d = new Date(this.collectionDate);
+            text += ` | Stand: ${d.toLocaleDateString('de-DE')}`;
+        }
+        document.getElementById('statsDisplay').textContent = text;
     }
-    
+
     showError(message) {
-        const errorDiv = document.getElementById('errorDisplay');
-        errorDiv.innerHTML = `<div class="error">${this.escapeHtml(message)}</div>`;
-        
+        document.getElementById('errorDisplay').innerHTML =
+            `<div class="error">${this.escapeHtml(message)}</div>`;
         document.getElementById('loadingDisplay').style.display = 'none';
     }
-    
+
     escapeHtml(text) {
         const div = document.createElement('div');
-        div.textContent = text;
+        div.textContent = String(text);
         return div.innerHTML;
     }
 }
 
-// Global function for table sorting
+// Global sort handler
 function sortTable(column) {
-    const browser = window.moduleBrowser;
-    if (browser.sortColumn === column) {
-        browser.sortDirection = browser.sortDirection === 'asc' ? 'desc' : 'asc';
-    } else {
-        browser.sortColumn = column;
-        browser.sortDirection = 'asc';
-    }
-    browser.filterAndDisplay();
+    const b = window.moduleBrowser;
+    b.sortDirection = (b.sortColumn === column && b.sortDirection === 'asc') ? 'desc' : 'asc';
+    b.sortColumn = column;
+    b.filterAndDisplay();
 }
 
-// Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
     window.moduleBrowser = new ModuleBrowser();
 });
 
-// Service Worker for offline functionality (optional)
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
-            .then(registration => console.log('SW registered'))
-            .catch(registrationError => console.log('SW registration failed'));
+            .catch(e => console.warn('SW registration failed:', e));
     });
 }

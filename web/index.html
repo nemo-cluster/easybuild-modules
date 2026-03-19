@@ -45,6 +45,13 @@
             opacity: 0.9;
         }
 
+        .collection-date {
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.75;
+            margin-top: 0.25rem;
+        }
+
         .controls {
             background: white;
             padding: 1.5rem;
@@ -143,11 +150,16 @@
 
         .architecture-tag {
             display: inline-block;
-            padding: 0.25rem 0.75rem;
+            padding: 0.25rem 0.6rem;
             border-radius: 15px;
-            font-size: 0.875rem;
+            font-size: 0.8rem;
             font-weight: 600;
             color: white;
+            margin: 1px 2px;
+        }
+
+        .arch-cell {
+            white-space: nowrap;
         }
 
         .arch-genoa { background-color: #e74c3c; }
@@ -212,27 +224,28 @@
         <header>
             <h1>bwForCluster NEMO 2 Easybuild Module Browser</h1>
             <p class="subtitle">Available software modules for various HPC architectures</p>
+            <p class="collection-date" id="collectionDate"></p>
         </header>
 
         <div class="controls">
             <div class="filter-row">
                 <div class="filter-group">
-                    <label for="architectureFilter">Architecture:</label>
+                    <label for="architectureFilter">Architektur:</label>
                     <select id="architectureFilter">
-                        <option value="">All Architectures</option>
+                        <option value="">Alle Architekturen</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="categoryFilter">Category:</label>
+                    <label for="categoryFilter">Kategorie:</label>
                     <select id="categoryFilter">
-                        <option value="">All Categories</option>
+                        <option value="">Alle Kategorien</option>
                     </select>
                 </div>
                 
                 <div class="filter-group search-group">
-                    <label for="searchInput">Search software:</label>
-                    <input type="text" id="searchInput" placeholder="Enter software name...">
+                    <label for="searchInput">Software suchen:</label>
+                    <input type="text" id="searchInput" placeholder="Softwarename eingeben ...">
                 </div>
             </div>
             

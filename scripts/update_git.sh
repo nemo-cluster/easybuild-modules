@@ -30,6 +30,7 @@ fi
 # Collect module data
 echo "Collecting module data..."
 python3 scripts/collect_modules.py --output-dir "$DATA_DIR"
+cp "$DATA_DIR/metadata.json" web/metadata.json
 
 # Generate MediaWiki pages
 echo "Generating MediaWiki pages..."

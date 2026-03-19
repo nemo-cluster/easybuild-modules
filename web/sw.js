@@ -1,12 +1,13 @@
 // Service Worker for bwForCluster NEMO 2 Easybuild Module Browser
 // Enables offline functionality and caching
 
-const CACHE_NAME = 'hpc-modules-v1';
+const CACHE_NAME = 'hpc-modules-v2';
 const CACHE_URLS = [
     './',
     './index.html',
     './module-browser.js',
-    './sample-data.json'
+    './sample-data.json',
+    './metadata.json',
 ];
 
 // Installation

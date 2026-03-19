@@ -1,0 +1,18 @@
+{
+  "collection_date": "2025-11-25T18:04:05.990565",
+  "architectures": [
+    "genoa",
+    "h200",
+    "l40s",
+    "mi300a",
+    "milan"
+  ],
+  "total_modules": 2389,
+  "modules_per_arch": {
+    "genoa": 543,
+    "h200": 543,
+    "l40s": 265,
+    "mi300a": 543,
+    "milan": 495
+  }
+}

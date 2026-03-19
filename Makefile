@@ -23,6 +23,7 @@ help:
 collect:
 	@echo "Collecting module data..."
 	python3 scripts/collect_modules.py --output-dir data
+	@cp data/metadata.json web/metadata.json
 	@echo "Done! Data saved in 'data/' directory."
 
 # Start local web server
