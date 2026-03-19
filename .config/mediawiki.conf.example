@@ -10,7 +10,7 @@ url = https://wiki.bwhpc.de/e
 
 # API endpoint — optional, only set if auto-discovery fails.
 # The script reads wgScriptPath from the wiki HTML to find the correct endpoint.
-# Example: api = https://wiki.bwhpc.de/w/api.php
+# Example: api = https://wiki.bwhpc.de/wiki/api.php
 
 # Target page title in the wiki (will be created if absent, updated if present)
 page = NEMO2/Modules
