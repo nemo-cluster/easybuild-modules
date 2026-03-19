@@ -1,0 +1,91 @@
+= Programming Languages =
+
+Modules in category **Programming Languages** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>bison</code> || <code>3.7.1-gcccore-10.2.0</code>, <code>3.8.2</code>, <code>3.8.2-gcccore-12.3.0</code>, <code>3.8.2-gcccore-13.2.0</code>, <code>3.8.2-gcccore-13.3.0</code> || <code>lang/bison</code> || Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.
+|-
+| <code>cython</code> || <code>3.0.10-gcccore-13.2.0</code>, <code>3.0.10-gcccore-13.3.0</code>, <code>3.0.8-gcccore-10.2.0</code>, <code>3.0.8-gcccore-12.3.0</code> || <code>lang/cython</code> || Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex).
+|-
+| <code>flex</code> || <code>2.6.4</code>, <code>2.6.4-gcccore-10.2.0</code>, <code>2.6.4-gcccore-12.3.0</code>, <code>2.6.4-gcccore-13.2.0</code>, <code>2.6.4-gcccore-13.3.0</code> || <code>lang/flex</code> || Flex (Fast Lexical Analyzer) is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text.
+|-
+| <code>fribidi</code> || <code>1.0.12-gcccore-12.3.0</code>, <code>1.0.15-gcccore-13.3.0</code> || <code>lang/fribidi</code> || The Free Implementation of the Unicode Bidirectional Algorithm.
+|-
+| <code>java</code> || <code>21.0.2</code> || <code>lang/java</code> || Java Platform, Standard Edition (Java SE) lets you develop and deploy Java applications on desktops and servers.
+|-
+| <code>lua</code> || <code>5.4.7-gcccore-13.3.0</code> || <code>lang/lua</code> || Lua is a powerful, fast, lightweight, embeddable scripting language. Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible …
+|-
+| <code>miniforge3</code> || <code>24.11.3-0</code> || <code>lang/miniforge3</code> || Miniforge is a free minimal installer for conda and Mamba specific to conda-forge.
+|-
+| <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code>, <code>2.16.01-gcccore-13.2.0</code>, <code>2.16.03-gcccore-13.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
+|-
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network efficient, perfect for data-intensive real-time applications that run across distributed devices.
+|-
+| <code>perl</code> || <code>5.32.0-gcccore-10.2.0</code>, <code>5.32.0-gcccore-10.2.0-minimal</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
+|-
+| <code>perl-bundle-cpan</code> || <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl-bundle-cpan</code> || A set of common packages from CPAN
+|-
+| <code>python</code> || <code>3.11.3-gcccore-12.3.0</code>, <code>3.11.5-gcccore-13.2.0</code>, <code>3.12.3-gcccore-13.3.0</code>, <code>3.8.6-gcccore-10.2.0</code> || <code>lang/python</code> || Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+|-
+| <code>python-bundle-pypi</code> || <code>2023.06-gcccore-12.3.0</code>, <code>2023.10-gcccore-13.2.0</code>, <code>2024.06-gcccore-13.3.0</code> || <code>lang/python-bundle-pypi</code> || Bundle of Python packages from PyPI
+|-
+| <code>rust</code> || <code>1.70.0-gcccore-12.3.0</code>, <code>1.73.0-gcccore-13.2.0</code>, <code>1.78.0-gcccore-13.3.0</code>, <code>1.83.0-gcccore-13.3.0</code> || <code>lang/rust</code> || Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
+|-
+| <code>scipy-bundle</code> || <code>2020.11-foss-2020b</code>, <code>2023.07-gfbf-2023a</code>, <code>2023.11-gfbf-2023b</code>, <code>2024.05-gfbf-2024a</code> || <code>lang/scipy-bundle</code> || Bundle of Python packages for scientific software
+|-
+| <code>tcl</code> || <code>8.6.10-gcccore-10.2.0</code>, <code>8.6.13-gcccore-12.3.0</code>, <code>8.6.13-gcccore-13.2.0</code>, <code>8.6.14-gcccore-13.3.0</code> || <code>lang/tcl</code> || Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, …
+|-
+| <code>tkinter</code> || <code>3.11.5-gcccore-13.2.0</code>, <code>3.12.3-gcccore-13.3.0</code> || <code>lang/tkinter</code> || Tkinter module, built with the Python buildsystem
+|-
+| <code>yasm</code> || <code>1.3.0-gcccore-12.3.0</code>, <code>1.3.0-gcccore-13.3.0</code> || <code>lang/yasm</code> || Yasm: Complete rewrite of the NASM assembler with BSD license
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>bison</code> || <code>3.7.1-gcccore-10.2.0</code>, <code>3.8.2</code>, <code>3.8.2-gcccore-12.3.0</code>, <code>3.8.2-gcccore-13.2.0</code>, <code>3.8.2-gcccore-13.3.0</code> || <code>lang/bison</code> || Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.
+|-
+| <code>cython</code> || <code>3.0.10-gcccore-13.2.0</code>, <code>3.0.10-gcccore-13.3.0</code>, <code>3.0.8-gcccore-10.2.0</code>, <code>3.0.8-gcccore-12.3.0</code> || <code>lang/cython</code> || Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex).
+|-
+| <code>flex</code> || <code>2.6.4</code>, <code>2.6.4-gcccore-10.2.0</code>, <code>2.6.4-gcccore-12.3.0</code>, <code>2.6.4-gcccore-13.2.0</code>, <code>2.6.4-gcccore-13.3.0</code> || <code>lang/flex</code> || Flex (Fast Lexical Analyzer) is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text.
+|-
+| <code>fribidi</code> || <code>1.0.12-gcccore-12.3.0</code>, <code>1.0.15-gcccore-13.3.0</code> || <code>lang/fribidi</code> || The Free Implementation of the Unicode Bidirectional Algorithm.
+|-
+| <code>java</code> || <code>21.0.2</code> || <code>lang/java</code> || Java Platform, Standard Edition (Java SE) lets you develop and deploy Java applications on desktops and servers.
+|-
+| <code>lua</code> || <code>5.4.7-gcccore-13.3.0</code> || <code>lang/lua</code> || Lua is a powerful, fast, lightweight, embeddable scripting language. Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible …
+|-
+| <code>miniforge3</code> || <code>24.11.3-0</code> || <code>lang/miniforge3</code> || Miniforge is a free minimal installer for conda and Mamba specific to conda-forge.
+|-
+| <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code>, <code>2.16.01-gcccore-13.2.0</code>, <code>2.16.03-gcccore-13.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
+|-
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network efficient, perfect for data-intensive real-time applications that run across distributed devices.
+|-
+| <code>perl</code> || <code>5.32.0-gcccore-10.2.0</code>, <code>5.32.0-gcccore-10.2.0-minimal</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
+|-
+| <code>perl-bundle-cpan</code> || <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl-bundle-cpan</code> || A set of common packages from CPAN
+|-
+| <code>python</code> || <code>3.11.3-gcccore-12.3.0</code>, <code>3.11.5-gcccore-13.2.0</code>, <code>3.12.3-gcccore-13.3.0</code>, <code>3.8.6-gcccore-10.2.0</code> || <code>lang/python</code> || Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+|-
+| <code>python-bundle-pypi</code> || <code>2023.06-gcccore-12.3.0</code>, <code>2023.10-gcccore-13.2.0</code>, <code>2024.06-gcccore-13.3.0</code> || <code>lang/python-bundle-pypi</code> || Bundle of Python packages from PyPI
+|-
+| <code>rust</code> || <code>1.70.0-gcccore-12.3.0</code>, <code>1.73.0-gcccore-13.2.0</code>, <code>1.78.0-gcccore-13.3.0</code>, <code>1.83.0-gcccore-13.3.0</code> || <code>lang/rust</code> || Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
+|-
+| <code>scipy-bundle</code> || <code>2020.11-foss-2020b</code>, <code>2023.07-gfbf-2023a</code>, <code>2023.11-gfbf-2023b</code>, <code>2024.05-gfbf-2024a</code> || <code>lang/scipy-bundle</code> || Bundle of Python packages for scientific software
+|-
+| <code>tcl</code> || <code>8.6.10-gcccore-10.2.0</code>, <code>8.6.13-gcccore-12.3.0</code>, <code>8.6.13-gcccore-13.2.0</code>, <code>8.6.14-gcccore-13.3.0</code> || <code>lang/tcl</code> || Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, …
+|-
+| <code>tkinter</code> || <code>3.11.5-gcccore-13.2.0</code>, <code>3.12.3-gcccore-13.3.0</code> || <code>lang/tkinter</code> || Tkinter module, built with the Python buildsystem
+|-
+| <code>yasm</code> || <code>1.3.0-gcccore-12.3.0</code>, <code>1.3.0-gcccore-13.3.0</code> || <code>lang/yasm</code> || Yasm: Complete rewrite of the NASM assembler with BSD license
+|}
+
+[[Category:NEMO2]][[Category:Software]]

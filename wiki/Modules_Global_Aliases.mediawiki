@@ -1,0 +1,23 @@
+= Global Aliases =
+
+Modules in category **Global Aliases** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel version miniforge for genoa architecture
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel version miniforge for milan architecture
+|}
+
+[[Category:NEMO2]][[Category:Software]]

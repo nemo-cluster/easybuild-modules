@@ -1,79 +1,101 @@
 # HPC Module Tracking System
 
-Ein automatisiertes System zur Sammlung und Darstellung von verfügbaren Software-Modulen für verschiedene HPC-Architekturen.
+Ein automatisiertes System zur Sammlung und Darstellung von verfügbaren Software-Modulen für verschiedene HPC-Architekturen auf bwForCluster NEMO 2.
 
-## 🏗️ Projektstruktur
+## Architektur-Gruppen
+
+Die Module für **genoa, h200, rtx und mi300a** sind identisch (symbolische Links auf `genoa`). Der Kollektor führt daher nur **einen** lmod-Lauf pro Gruppe durch und dupliziert das Ergebnis.
+
+| Gruppe | Architekturen            | Hinweis                              |
+|--------|--------------------------|--------------------------------------|
+| genoa  | genoa, h200, rtx, mi300a | Identische Module (symlinks → genoa) |
+| milan  | milan                    | Eigener Modul-Baum                   |
+
+## Projektstruktur
 
 ```
-module/
 ├── scripts/
-│   ├── collect_modules.py    # Python-Skript zur Modul-Sammlung
-│   └── update_git.sh         # Bash-Skript für Git-Updates
+│   ├── collect_modules.py      # Modul-Sammlung (lmod → JSON)
+│   ├── generate_mediawiki.py   # MediaWiki-Seiten-Generator
+│   └── update_git.sh           # Git-Push-Script
 ├── web/
-│   ├── index.html           # Haupt-Webseite
-│   ├── module-browser.js    # JavaScript-Logik
-│   ├── sample-data.json     # Beispiel-Daten für Tests
-│   └── sw.js               # Service Worker (optional)
-├── data/                   # Generierte JSON-Daten
-└── README.md              # Diese Datei
+│   ├── index.html              # Haupt-Webseite
+│   ├── module-browser.js       # JavaScript-Logik
+│   ├── sample-data.json        # Beispiel-Daten
+│   └── sw.js                   # Service Worker
+├── data/                       # Generierte JSON-Daten
+├── wiki/                       # Generierte MediaWiki-Seiten
+└── README.md
 ```
 
-## 🚀 Schnellstart
+## Schnellstart
 
 ### 1. Modul-Daten sammeln
 
 ```bash
-# Sammle Module für alle Architekturen
-python3 scripts/collect_modules.py
+# Alle Architekturen (genoa wird nur einmal abgefragt)
+make collect
 
-# Sammle nur für spezifische Architektur
+# Nur eine bestimmte Architektur
 python3 scripts/collect_modules.py --architecture genoa
 ```
 
-### 2. Daten ins Git-Repository pushen
+### 2. MediaWiki-Seiten generieren
 
 ```bash
-# Git-Repository konfigurieren (einmalig)
-git remote add origin https://github.com/nemo-cluster/easybuild-modules.git
+# Eine kombinierte Seite (Standard)
+make wiki
 
-# Daten sammeln und pushen
+# Je eine Seite pro Kategorie
+make wiki-cat
+
+# Je eine Seite pro Architektur-Gruppe
+make wiki-arch
+```
+
+Die generierten `.mediawiki`-Dateien landen in `wiki/`.
+
+### 3. Daten ins Git-Repository pushen
+
+```bash
+git remote add origin https://github.com/nemo-cluster/easybuild-modules.git
 ./scripts/update_git.sh
 ```
 
-### 3. Webseite anzeigen
+### 4. Webseite anzeigen
 
 ```bash
-# Lokaler Webserver für Tests
-cd web
-python3 -m http.server 8000
-
-# Öffne http://localhost:8000
+make web
+# → http://localhost:8000
 ```
 
-## 📊 Verfügbare Architekturen
+## Verfügbare Architekturen
 
-- **genoa** - AMD Genoa Prozessoren (S,L,D)
-- **h200** - NVIDIA H200 GPUs (S)
-- **l40s** - NVIDIA L40S GPUs (S)
-- **mi300a** - AMD MI300A GPUs (S)
-- **milan** - AMD Milan Prozessoren (S)
+- **genoa** – AMD Genoa Prozessoren (S,L,D)
+- **h200** – NVIDIA H200 GPUs (S) → identisch mit genoa
+- **rtx** – NVIDIA RTX GPUs (S) → identisch mit genoa
+- **mi300a** – AMD MI300A GPUs (S) → identisch mit genoa
+- **milan** – AMD Milan Prozessoren (S)
 
-## 🔧 Konfiguration
+## Konfiguration
 
 ### Python-Skript
 
-Das `collect_modules.py` Skript kann angepasst werden:
+In `collect_modules.py` werden Architekturen und Gruppen zentral definiert:
 
 ```python
-# Architekturen hinzufügen/entfernen
-self.architectures = ['genoa', 'h200', 'l40s', 'mi300a', 'milan']
+# Architektur-Gruppen (identische Modul-Bäume)
+ARCH_GROUPS = {
+    'genoa': ['genoa', 'h200', 'rtx', 'mi300a'],
+    'milan': ['milan'],
+}
 
-# Kategorien erweitern
-self.categories = {
-    'bio': 'Biology Software',
-    'chem': 'Chemistry Software', 
-    'compiler': 'Compilers',
-    # ... weitere Kategorien
+# Kategorien mit Modul-Pfad-Prefix
+CATEGORIES = {
+    'bio':  'Biology Software (bio/)',
+    'lib':  'Libraries (lib/)',
+    'chem': 'Chemistry Software (chem/)',
+    # ... weitere
 }
 ```
 
@@ -86,19 +108,24 @@ In `module-browser.js` die Git-Repository URL anpassen:
 this.dataUrl = 'https://raw.githubusercontent.com/nemo-cluster/easybuild-modules/main/data/modules_all.json';
 ```
 
-## 📁 Ausgabe-Dateien
+## Ausgabe-Dateien
 
-Das System generiert folgende JSON-Dateien:
+### JSON (data/)
 
-- `modules_all.json` - Alle Module kombiniert
-- `modules_genoa.json` - Module nur für Genoa
-- `modules_h200.json` - Module nur für H200
-- `modules_l40s.json` - Module nur für L40S
-- `modules_mi300a.json` - Module nur für MI300A
-- `modules_milan.json` - Module nur für Milan
-- `metadata.json` - Metadaten über die Sammlung
+- `modules_all.json` – Alle Module kombiniert
+- `modules_genoa.json` – Module für Genoa (= H200/RTX/MI300A)
+- `modules_h200.json` – Kopie von Genoa mit architecture=h200
+- `modules_rtx.json` – Kopie von Genoa mit architecture=rtx
+- `modules_mi300a.json` – Kopie von Genoa mit architecture=mi300a
+- `modules_milan.json` – Module für Milan
+- `metadata.json` – Metadaten über die Sammlung
 
-## 🌐 Web-Interface Features
+### MediaWiki (wiki/)
+
+- `Easybuild_Module_List.mediawiki` – Kombinierte Übersicht (make wiki)
+- oder getrennte Seiten pro Kategorie / Architektur-Gruppe
+
+## Web-Interface Features
 
 - **Filterung**: Nach Architektur und Kategorie
 - **Suche**: Volltext-Suche in Software-Namen und Beschreibungen
@@ -106,7 +133,7 @@ Das System generiert folgende JSON-Dateien:
 - **Responsive**: Funktioniert auf Desktop und Mobile
 - **Offline**: Service Worker für Offline-Funktionalität
 
-## 🔄 Automatisierung
+## Automatisierung
 
 ### Cron-Job für regelmäßige Updates
 
@@ -142,7 +169,7 @@ jobs:
           git push
 ```
 
-## 🐛 Fehlerbehebung
+## Fehlerbehebung
 
 ### Module-Sammlung funktioniert nicht
 

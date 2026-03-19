@@ -1,6 +1,6 @@
 # Makefile für HPC Module Tracking System
 
-.PHONY: help collect web push clean install test serve
+.PHONY: help collect web push clean install test serve wiki
 
 # Standard target
 help:
@@ -15,6 +15,9 @@ help:
 	@echo "  make install    - Install Python dependencies"
 	@echo "  make test       - Test the system with sample data"
 	@echo "  make serve      - Alias for 'make web'"
+	@echo "  make wiki       - Generate MediaWiki page(s) (combined)"
+	@echo "  make wiki-cat   - Generate one MediaWiki page per category"
+	@echo "  make wiki-arch  - Generate one MediaWiki page per arch group"
 
 # Collect module data
 collect:
@@ -35,7 +38,7 @@ push:
 # Delete generated data
 clean:
 	@echo "Deleting generated data..."
-	rm -rf data/*.json
+	rm -rf data/*.json wiki/*.mediawiki
 	@echo "Data deleted."
 
 # Install Python dependencies (if required)
@@ -48,14 +51,29 @@ install:
 test:
 	@echo "Testing the system..."
 	@echo "1. Testing Python script with mock data..."
-	@python3 -c "import sys; sys.path.append('scripts'); from collect_modules import ModuleCollector; collector = ModuleCollector(); print('✓ ModuleCollector can be imported'); print(f'✓ Architectures: {collector.architectures}'); print(f'✓ Categories: {len(collector.categories)} defined')"
-	@echo "2. Testing web files..."
+	@python3 -c "import sys; sys.path.append('scripts'); from collect_modules import ModuleCollector, ALL_ARCHITECTURES, ARCH_GROUPS, CATEGORIES; collector = ModuleCollector(); print('✓ ModuleCollector can be imported'); print(f'✓ Architectures: {ALL_ARCHITECTURES}'); print(f'✓ Arch groups: {ARCH_GROUPS}'); print(f'✓ Categories: {len(CATEGORIES)} defined')"
+	@echo "2. Testing MediaWiki generator..."
+	@python3 -c "import sys; sys.path.append('scripts'); from generate_mediawiki import generate_combined, load_data; print('✓ generate_mediawiki can be imported')"
+	@echo "3. Testing web files..."
 	@test -f web/index.html && echo "✓ index.html present" || echo "✗ index.html missing"
 	@test -f web/module-browser.js && echo "✓ module-browser.js present" || echo "✗ module-browser.js missing"
 	@test -f web/sample-data.json && echo "✓ sample-data.json present" || echo "✗ sample-data.json missing"
-	@echo "3. Testing Git setup..."
+	@echo "4. Testing Git setup..."
 	@git --version > /dev/null && echo "✓ Git available" || echo "✗ Git not available"
 	@echo "Tests completed!"
+
+# Generate MediaWiki pages
+wiki:
+	@echo "Generating combined MediaWiki page..."
+	python3 scripts/generate_mediawiki.py --data-dir data --output-dir wiki --mode combined
+
+wiki-cat:
+	@echo "Generating per-category MediaWiki pages..."
+	python3 scripts/generate_mediawiki.py --data-dir data --output-dir wiki --mode per-category
+
+wiki-arch:
+	@echo "Generating per-architecture MediaWiki pages..."
+	python3 scripts/generate_mediawiki.py --data-dir data --output-dir wiki --mode per-arch
 
 # Collect modules for specific architecture
 collect-genoa:
@@ -64,8 +82,8 @@ collect-genoa:
 collect-h200:
 	python3 scripts/collect_modules.py --architecture h200 --output-dir data
 
-collect-l40s:
-	python3 scripts/collect_modules.py --architecture l40s --output-dir data
+collect-rtx:
+	python3 scripts/collect_modules.py --architecture rtx --output-dir data
 
 collect-mi300a:
 	python3 scripts/collect_modules.py --architecture mi300a --output-dir data

@@ -2,7 +2,7 @@
     {
         "software": "gromacs",
         "version": "2023.3",
-        "category": "Biology Software",
+        "category": "Biology Software (bio/)",
         "architecture": "genoa",
         "description": "Molecular dynamics simulation package for biomolecular systems",
         "full_name": "bio/gromacs/2023.3-foss-2023a",
@@ -11,7 +11,7 @@
     {
         "software": "nest",
         "version": "3.8",
-        "category": "Biology Software", 
+        "category": "Biology Software (bio/)",
         "architecture": "genoa",
         "description": "Neural Simulation Tool for computational neuroscience",
         "full_name": "bio/nest/3.8-foss-2024a",
@@ -20,16 +20,16 @@
     {
         "software": "ase",
         "version": "3.24.0",
-        "category": "Chemistry Software",
-        "architecture": "genoa", 
+        "category": "Chemistry Software (chem/)",
+        "architecture": "genoa",
         "description": "Atomic Simulation Environment for computational chemistry",
         "full_name": "chem/ase/3.24.0-gfbf-2024a",
         "collected_at": "2025-10-10T10:00:00"
     },
     {
-        "software": "lammps", 
+        "software": "lammps",
         "version": "2aug2023_update2",
-        "category": "Chemistry Software",
+        "category": "Chemistry Software (chem/)",
         "architecture": "genoa",
         "description": "Large-scale Atomic/Molecular Massively Parallel Simulator",
         "full_name": "chem/lammps/2aug2023_update2-foss-2023a-kokkos",
@@ -37,8 +37,8 @@
     },
     {
         "software": "orca",
-        "version": "6.0.1", 
-        "category": "Chemistry Software",
+        "version": "6.0.1",
+        "category": "Chemistry Software (chem/)",
         "architecture": "genoa",
         "description": "Quantum chemistry program package",
         "full_name": "chem/orca/6.0.1-gompi-2023a-avx2",
@@ -47,7 +47,7 @@
     {
         "software": "plumed",
         "version": "2.9.0",
-        "category": "Chemistry Software", 
+        "category": "Chemistry Software (chem/)",
         "architecture": "genoa",
         "description": "Free energy calculation and enhanced sampling library",
         "full_name": "chem/plumed/2.9.0-foss-2023a",
@@ -56,16 +56,16 @@
     {
         "software": "gcc",
         "version": "13.3.0",
-        "category": "Compilers",
+        "category": "Compilers (compiler/)",
         "architecture": "genoa",
         "description": "GNU Compiler Collection for C, C++, and Fortran",
         "full_name": "compiler/gcc/13.3.0",
         "collected_at": "2025-10-10T10:00:00"
     },
     {
-        "software": "intel-compilers", 
+        "software": "intel-compilers",
         "version": "2024.2.0",
-        "category": "Compilers",
+        "category": "Compilers (compiler/)",
         "architecture": "genoa",
         "description": "Intel C/C++ and Fortran compilers with optimization",
         "full_name": "compiler/intel-compilers/2024.2.0",
@@ -74,7 +74,7 @@
     {
         "software": "llvm",
         "version": "18.1.8",
-        "category": "Compilers", 
+        "category": "Compilers (compiler/)",
         "architecture": "genoa",
         "description": "LLVM compiler infrastructure with Clang frontend",
         "full_name": "compiler/llvm/18.1.8-gcccore-13.3.0",
@@ -83,16 +83,16 @@
     {
         "software": "go",
         "version": "1.23.6",
-        "category": "Compilers",
-        "architecture": "genoa", 
+        "category": "Compilers (compiler/)",
+        "architecture": "genoa",
         "description": "Google Go programming language compiler",
         "full_name": "compiler/go/1.23.6",
         "collected_at": "2025-10-10T10:00:00"
     },
     {
         "software": "gromacs",
-        "version": "2023.3", 
-        "category": "Biology Software",
+        "version": "2023.3",
+        "category": "Biology Software (bio/)",
         "architecture": "h200",
         "description": "Molecular dynamics simulation package optimized for H200",
         "full_name": "bio/gromacs/2023.3-foss-2023a",
@@ -101,25 +101,25 @@
     {
         "software": "gcc",
         "version": "12.3.0",
-        "category": "Compilers",
+        "category": "Compilers (compiler/)",
         "architecture": "h200",
-        "description": "GNU Compiler Collection for H200 architecture", 
+        "description": "GNU Compiler Collection for H200 architecture",
         "full_name": "compiler/gcc/12.3.0",
         "collected_at": "2025-10-10T10:00:00"
     },
     {
         "software": "lammps",
-        "version": "2aug2023_update2", 
-        "category": "Chemistry Software",
-        "architecture": "l40s",
-        "description": "LAMMPS optimized for L40S GPU acceleration",
+        "version": "2aug2023_update2",
+        "category": "Chemistry Software (chem/)",
+        "architecture": "rtx",
+        "description": "LAMMPS optimized for RTX GPU acceleration",
         "full_name": "chem/lammps/2aug2023_update2-foss-2023a-kokkos",
         "collected_at": "2025-10-10T10:00:00"
     },
     {
         "software": "intel-compilers",
         "version": "2024.2.0",
-        "category": "Compilers", 
+        "category": "Compilers (compiler/)",
         "architecture": "mi300a",
         "description": "Intel compilers with MI300A optimization support",
         "full_name": "compiler/intel-compilers/2024.2.0",
@@ -128,10 +128,10 @@
     {
         "software": "orca",
         "version": "6.0.1",
-        "category": "Chemistry Software",
+        "category": "Chemistry Software (chem/)",
         "architecture": "milan",
         "description": "ORCA quantum chemistry suite for Milan architecture",
-        "full_name": "chem/orca/6.0.1-gompi-2023a-avx2", 
+        "full_name": "chem/orca/6.0.1-gompi-2023a-avx2",
         "collected_at": "2025-10-10T10:00:00"
     }
 ]

@@ -1,0 +1,31 @@
+= Data Analysis =
+
+Modules in category **Data Analysis** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>hdf5</code> || <code>1.10.7-gompi-2020b</code>, <code>1.14.0-gompi-2023a</code>, <code>1.14.5-gompi-2024a</code> || <code>data/hdf5</code> || HDF5 is a data model, library, and file format for storing and managing data. It supports an and complex data.
+|-
+| <code>lame</code> || <code>3.100-gcccore-12.3.0</code>, <code>3.100-gcccore-13.3.0</code> || <code>data/lame</code> || LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
+|-
+| <code>netcdf</code> || <code>4.9.2-gompi-2023a</code>, <code>4.9.2-gompi-2024a</code> || <code>data/netcdf</code> || NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>hdf5</code> || <code>1.10.7-gompi-2020b</code>, <code>1.14.0-gompi-2023a</code>, <code>1.14.5-gompi-2024a</code> || <code>data/hdf5</code> || HDF5 is a data model, library, and file format for storing and managing data. It supports an and complex data.
+|-
+| <code>lame</code> || <code>3.100-gcccore-12.3.0</code>, <code>3.100-gcccore-13.3.0</code> || <code>data/lame</code> || LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
+|-
+| <code>netcdf</code> || <code>4.9.2-gompi-2023a</code> || <code>data/netcdf</code> || NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
+|}
+
+[[Category:NEMO2]][[Category:Software]]

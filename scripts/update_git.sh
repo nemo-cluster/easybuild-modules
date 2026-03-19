@@ -31,6 +31,10 @@ fi
 echo "Collecting module data..."
 python3 scripts/collect_modules.py --output-dir "$DATA_DIR"
 
+# Generate MediaWiki pages
+echo "Generating MediaWiki pages..."
+python3 scripts/generate_mediawiki.py --data-dir "$DATA_DIR" --output-dir wiki --mode combined
+
 # Check if data exists
 if [ ! -d "$DATA_DIR" ] || [ -z "$(ls -A "$DATA_DIR")" ]; then
     echo "Error: No data found in directory $DATA_DIR"
@@ -39,7 +43,7 @@ fi
 
 # Git operations
 echo "Adding changes to Git..."
-git add "$DATA_DIR"/*
+git add "$DATA_DIR"/* wiki/*
 
 # Check if there are changes
 if git diff --staged --quiet; then

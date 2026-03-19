@@ -69,36 +69,36 @@ class ModuleBrowser {
             {
                 software: 'gromacs',
                 version: '2023.3',
-                category: 'Biology Software',
+                category: 'Biology Software (bio/)',
                 architecture: 'genoa',
                 description: 'Molecular dynamics simulation package'
             },
             {
                 software: 'gcc',
                 version: '13.3.0',
-                category: 'Compilers',
+                category: 'Compilers (compiler/)',
                 architecture: 'genoa',
                 description: 'GNU Compiler Collection'
             },
             {
                 software: 'lammps',
                 version: '2aug2023_update2',
-                category: 'Chemistry Software',
+                category: 'Chemistry Software (chem/)',
                 architecture: 'h200',
                 description: 'Large-scale Atomic/Molecular Massively Parallel Simulator'
             },
             {
                 software: 'intel-compilers',
                 version: '2024.2.0',
-                category: 'Compilers',
+                category: 'Compilers (compiler/)',
                 architecture: 'milan',
                 description: 'Intel C/C++ and Fortran compilers'
             },
             {
                 software: 'orca',
                 version: '6.0.1',
-                category: 'Chemistry Software',
-                architecture: 'l40s',
+                category: 'Chemistry Software (chem/)',
+                architecture: 'rtx',
                 description: 'Quantum chemistry program package'
             }
         ];
