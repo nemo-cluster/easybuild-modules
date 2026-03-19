@@ -6,7 +6,7 @@ This page is automatically generated from the module data collected on the HPC c
 |-
 ! Metric !! Value
 |-
-| Collection date || 2026-03-19T20:11:09.406246
+| Collection date || 2026-03-19T20:13:13.470034
 |-
 | Modules (genoa) || 598
 |-
