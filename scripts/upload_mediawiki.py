@@ -136,7 +136,7 @@ def upload(cfg: configparser.SectionProxy) -> bool:
     if not _verify_api(api):
         print(f"Error: API endpoint not reachable or not a valid MediaWiki API: {api}")
         print("Set the 'api' key in your config to the correct URL, e.g.:")
-        print("  api = https://wiki.bwhpc.de/w/api.php")
+        print("  api = https://wiki.bwhpc.de/wiki/api.php")
         return False
 
     opener = _make_opener()
