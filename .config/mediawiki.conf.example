@@ -5,8 +5,12 @@
 
 [mediawiki]
 
-# Base URL of your MediaWiki instance (no trailing slash)
+# Base URL of your MediaWiki instance (article path prefix, no trailing slash)
 url = https://wiki.bwhpc.de/e
+
+# API endpoint — only needed if it differs from url/api.php
+# For wiki.bwhpc.de the API is at the root, not under /e/
+api = https://wiki.bwhpc.de/api.php
 
 # Target page title in the wiki (will be created if absent, updated if present)
 page = NEMO2/Modules

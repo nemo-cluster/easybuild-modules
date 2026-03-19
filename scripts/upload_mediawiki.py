@@ -9,7 +9,8 @@ page or creates it if it does not yet exist.
 Configuration file: ~/.config/mediawiki/bwhpc.conf  (INI format)
 
     [mediawiki]
-    url      = https://wiki.bwhpc.de/e        ; base URL, no trailing slash
+    url      = https://wiki.bwhpc.de/e        ; article base URL (for reference)
+    api      = https://wiki.bwhpc.de/api.php  ; MediaWiki API endpoint (optional, defaults to url/api.php)
     page     = NEMO2/Modules                 ; target wiki page
     file     = wiki/Easybuild_Module_List.mediawiki  ; local source file
     username = YourMainUsername@BotName      ; bot user (user@botname)
@@ -65,6 +66,8 @@ def _api_get(opener: urllib.request.OpenerDirector, api_url: str,
 
 def upload(cfg: configparser.SectionProxy) -> bool:
     api = cfg['url'].rstrip('/') + '/api.php'
+    if cfg.get('api'):
+        api = cfg['api'].rstrip('/')
     opener = _make_opener()
 
     # 1. Fetch login token
