@@ -105,6 +105,101 @@ Modules in category **Libraries (lib/)** on bwForCluster NEMO 2.
 | <code>zstd</code> || <code>1.4.5-gcccore-10.2.0</code>, <code>1.5.2-gcccore-11.3.0</code>, <code>1.5.5-gcccore-12.3.0</code>, <code>1.5.5-gcccore-13.2.0</code>, <code>1.5.6-gcccore-13.3.0</code> || <code>lib/zstd</code> || Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of data, called dictionary compression, and can create dictionaries from any sample set.
 |}
 
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>abseil</code> || <code>20230125.3-gcccore-12.3.0</code> || <code>lib/abseil</code> || Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's own C++ code base, has been extensively tested …
+|-
+| <code>brotli</code> || <code>1.0.9-gcccore-12.3.0</code> || <code>lib/brotli</code> || Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a …
+|-
+| <code>catch2</code> || <code>2.13.10-gcccore-13.3.0</code>, <code>2.13.9-gcccore-12.3.0</code> || <code>lib/catch2</code> || A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later
+|-
+| <code>cereal</code> || <code>1.3.2</code> || <code>lib/cereal</code> || cereal is a header-only C++11 serialization library. cereal takes arbitrary data types and reversibly turns them into different representations, such as compact binary encodings, XML, or JSON. cereal …
+|-
+| <code>double-conversion</code> || <code>3.3.0-gcccore-12.3.0</code> || <code>lib/double-conversion</code> || Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.
+|-
+| <code>ffnvcodec</code> || <code>12.0.16.0</code> || <code>lib/ffnvcodec</code> || FFmpeg nvidia headers. Adds support for nvenc and nvdec. Requires Nvidia GPU and drivers to be present (picked up dynamically).
+|-
+| <code>gdrcopy</code> || <code>2.3.1-gcccore-12.3.0</code>, <code>2.4.1-gcccore-13.3.0</code> || <code>lib/gdrcopy</code> || A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.
+|-
+| <code>giflib</code> || <code>5.2.1-gcccore-12.3.0</code>, <code>5.2.1-gcccore-13.3.0</code> || <code>lib/giflib</code> || giflib is a library for reading and writing gif images. It is API and ABI compatible with libungif which was in wide use while the LZW compression algorithm was patented.
+|-
+| <code>graphite2</code> || <code>1.3.14-gcccore-12.3.0</code>, <code>1.3.14-gcccore-13.3.0</code> || <code>lib/graphite2</code> || Graphite is a "smart font" system developed specifically to handle the complexities of lesser-known languages of the world.
+|-
+| <code>icu</code> || <code>73.2-gcccore-12.3.0</code>, <code>75.1-gcccore-13.3.0</code> || <code>lib/icu</code> || software applications.
+|-
+| <code>libdrm</code> || <code>2.4.115-gcccore-12.3.0</code> || <code>lib/libdrm</code> || Direct Rendering Manager runtime library.
+|-
+| <code>libevent</code> || <code>2.1.12-gcccore-11.3.0</code>, <code>2.1.12-gcccore-12.3.0</code>, <code>2.1.12-gcccore-13.3.0</code> || <code>lib/libevent</code> || The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also support …
+|-
+| <code>libfabric</code> || <code>1.15.1-gcccore-11.3.0</code>, <code>1.18.0-gcccore-12.3.0</code>, <code>1.21.0-gcccore-13.3.0</code> || <code>lib/libfabric</code> || Libfabric is a core component of OFI. It is the library that defines and exports the user-space API of OFI, and is typically the only software that applications deal with directly. It works in …
+|-
+| <code>libffi</code> || <code>3.4.2-gcccore-11.3.0</code>, <code>3.4.4-gcccore-12.3.0</code>, <code>3.4.5-gcccore-13.3.0</code> || <code>lib/libffi</code> || The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at …
+|-
+| <code>libglvnd</code> || <code>1.6.0-gcccore-12.3.0</code> || <code>lib/libglvnd</code> || libglvnd is a vendor-neutral dispatch layer for arbitrating OpenGL API calls between multiple vendors.
+|-
+| <code>libiconv</code> || <code>1.17-gcccore-12.3.0</code>, <code>1.17-gcccore-13.3.0</code> || <code>lib/libiconv</code> || Libiconv converts from one character encoding to another through Unicode conversion
+|-
+| <code>libjpeg-turbo</code> || <code>2.1.5.1-gcccore-12.3.0</code> || <code>lib/libjpeg-turbo</code> || libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to accelerate baseline JPEG compression and decompression. libjpeg is a library that implements JPEG image encoding, decoding and …
+|-
+| <code>libpng</code> || <code>1.6.39-gcccore-12.3.0</code> || <code>lib/libpng</code> || libpng is the official PNG reference library
+|-
+| <code>libreadline</code> || <code>8.1.2-gcccore-11.3.0</code>, <code>8.2-gcccore-12.3.0</code>, <code>8.2-gcccore-13.3.0</code> || <code>lib/libreadline</code> || The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline …
+|-
+| <code>libtiff</code> || <code>4.5.0-gcccore-12.3.0</code> || <code>lib/libtiff</code> || tiff: Library and tools for reading and writing TIFF data files
+|-
+| <code>libtool</code> || <code>2.4.7</code>, <code>2.4.7-gcccore-11.3.0</code>, <code>2.4.7-gcccore-12.3.0</code>, <code>2.4.7-gcccore-13.3.0</code> || <code>lib/libtool</code> || GNU libtool is a generic library support script. Libtool hides the complexity of using shared libraries behind a consistent, portable interface.
+|-
+| <code>libunwind</code> || <code>1.6.2-gcccore-12.3.0</code>, <code>1.8.1-gcccore-13.3.0</code> || <code>lib/libunwind</code> || The primary goal of libunwind is to define a portable and efficient C programming interface (API) to determine the call-chain of a program. The API additionally provides the means to manipulate the …
+|-
+| <code>libwebp</code> || <code>1.3.1-gcccore-12.3.0</code> || <code>lib/libwebp</code> || WebP is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the …
+|-
+| <code>libxml2</code> || <code>2.11.4-gcccore-12.3.0</code>, <code>2.12.7-gcccore-13.3.0</code>, <code>2.9.13-gcccore-11.3.0</code> || <code>lib/libxml2</code> || Libxml2 is the XML C parser and toolchain developed for the Gnome project (but usable outside of the Gnome platform).
+|-
+| <code>libyaml</code> || <code>0.2.5-gcccore-12.3.0</code> || <code>lib/libyaml</code> || LibYAML is a YAML parser and emitter written in C.
+|-
+| <code>lz4</code> || <code>1.9.3-gcccore-11.3.0</code>, <code>1.9.4-gcccore-12.3.0</code>, <code>1.9.4-gcccore-13.3.0</code> || <code>lib/lz4</code> || lz4 1.9.3-gcccore-11.3.0
+|-
+| <code>nccl</code> || <code>2.18.3-gcccore-12.3.0-cuda-12.1.1</code> || <code>lib/nccl</code> || The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs.
+|-
+| <code>nspr</code> || <code>4.35-gcccore-12.3.0</code>, <code>4.35-gcccore-13.3.0</code> || <code>lib/nspr</code> || Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc-like functions.
+|-
+| <code>nss</code> || <code>3.104-gcccore-13.3.0</code>, <code>3.89.1-gcccore-12.3.0</code> || <code>lib/nss</code> || Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications.
+|-
+| <code>openjpeg</code> || <code>2.5.0-gcccore-12.3.0</code> || <code>lib/openjpeg</code> || OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic …
+|-
+| <code>pmix</code> || <code>4.1.2-gcccore-11.3.0</code>, <code>4.2.4-gcccore-12.3.0</code>, <code>5.0.2-gcccore-13.3.0</code> || <code>lib/pmix</code> || Process Management for Exascale Environments PMI Exascale (PMIx) represents an attempt to provide an extended version of the PMI standard specifically designed to support clusters up to and including …
+|-
+| <code>prrte</code> || <code>3.0.5-gcccore-13.3.0</code> || <code>lib/prrte</code> || PRRTE is the PMIx Reference RunTime Environment
+|-
+| <code>psutil</code> || <code>6.0.0-gcccore-13.3.0</code> || <code>lib/psutil</code> || A cross-platform process and system utilities module for Python
+|-
+| <code>pybind11</code> || <code>2.11.1-gcccore-12.3.0</code>, <code>2.12.0-gcc-13.3.0</code> || <code>lib/pybind11</code> || pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
+|-
+| <code>pyyaml</code> || <code>6.0-gcccore-12.3.0</code> || <code>lib/pyyaml</code> || PyYAML is a YAML parser and emitter for the Python programming language.
+|-
+| <code>scikit-build</code> || <code>0.17.6-gcccore-12.3.0</code>, <code>0.17.6-gcccore-13.3.0</code> || <code>lib/scikit-build</code> || scikit-build 0.17.6-gcccore-12.3.0
+|-
+| <code>sdl2</code> || <code>2.28.2-gcccore-12.3.0</code> || <code>lib/sdl2</code> || SDL: Simple DirectMedia Layer, a cross-platform multimedia library
+|-
+| <code>snappy</code> || <code>1.1.10-gcccore-12.3.0</code>, <code>1.2.1-gcccore-13.3.0</code> || <code>lib/snappy</code> || other compression library; instead, it aims for very high speeds and reasonable compression.
+|-
+| <code>tbb</code> || <code>2021.11.0-gcccore-12.3.0</code>, <code>2021.13.0-gcccore-13.3.0</code> || <code>lib/tbb</code> || Intel(R) Threading Building Blocks (Intel(R) TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof …
+|-
+| <code>ucc</code> || <code>1.0.0-gcccore-11.3.0</code>, <code>1.2.0-gcccore-12.3.0</code> || <code>lib/ucc</code> || UCC (Unified Collective Communication) is a collective communication operations API and library that is flexible, complete, and feature-rich for current and emerging programming models and runtimes.
+|-
+| <code>ucx</code> || <code>1.12.1-gcccore-11.3.0</code>, <code>1.14.1-gcccore-12.3.0</code>, <code>1.16.0-gcccore-13.3.0</code> || <code>lib/ucx</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications
+|-
+| <code>ucx-cuda</code> || <code>1.14.1-gcccore-12.3.0-cuda-12.1.1</code>, <code>1.16.0-gcccore-13.3.0-cuda-12.6.0</code> || <code>lib/ucx-cuda</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications This module adds the UCX CUDA support.
+|-
+| <code>zlib</code> || <code>1.2.12</code>, <code>1.2.12-gcccore-11.3.0</code>, <code>1.2.13</code>, <code>1.2.13-gcccore-12.3.0</code>, <code>1.3.1</code>, <code>1.3.1-gcccore-13.3.0</code> || <code>lib/zlib</code> || zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and …
+|-
+| <code>zstd</code> || <code>1.5.2-gcccore-11.3.0</code>, <code>1.5.5-gcccore-12.3.0</code>, <code>1.5.6-gcccore-13.3.0</code> || <code>lib/zstd</code> || Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of data, called dictionary compression, and can create dictionaries from any sample set.
+|}
+
 == Milan ==
 
 {| class="wikitable sortable" style="width:100%"
@@ -199,5 +294,3 @@ Modules in category **Libraries (lib/)** on bwForCluster NEMO 2.
 |-
 | <code>zstd</code> || <code>1.4.5-gcccore-10.2.0</code>, <code>1.5.2-gcccore-11.3.0</code>, <code>1.5.5-gcccore-12.3.0</code>, <code>1.5.5-gcccore-13.2.0</code>, <code>1.5.6-gcccore-13.3.0</code> || <code>lib/zstd</code> || Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of data, called dictionary compression, and can create dictionaries from any sample set.
 |}
-
-[[Category:NEMO2]][[Category:Software]]

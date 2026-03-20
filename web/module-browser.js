@@ -106,12 +106,12 @@ class ModuleBrowser {
 
     showCollectionDate(isoDate) {
         const d = new Date(isoDate);
-        const formatted = d.toLocaleString('de-DE', {
+        const formatted = d.toLocaleString('en-GB', {
             day: '2-digit', month: '2-digit', year: 'numeric',
             hour: '2-digit', minute: '2-digit',
         });
         const el = document.getElementById('collectionDate');
-        if (el) el.textContent = `Datenstand: ${formatted} Uhr`;
+        if (el) el.textContent = `Data as of: ${formatted}`;
     }
 
     // -- filters ------------------------------------------------------------
@@ -123,7 +123,7 @@ class ModuleBrowser {
         const categories = [...new Set(this.rawModules.map(m => m.category))].sort();
 
         const archSelect = document.getElementById('architectureFilter');
-        archSelect.innerHTML = '<option value="">Alle Architekturen</option>';
+        archSelect.innerHTML = '<option value="">All Architectures</option>';
         for (const arch of architectures) {
             const opt = document.createElement('option');
             opt.value = arch;
@@ -132,7 +132,7 @@ class ModuleBrowser {
         }
 
         const catSelect = document.getElementById('categoryFilter');
-        catSelect.innerHTML = '<option value="">Alle Kategorien</option>';
+        catSelect.innerHTML = '<option value="">All Categories</option>';
         for (const cat of categories) {
             const opt = document.createElement('option');
             opt.value = cat;
@@ -216,10 +216,10 @@ class ModuleBrowser {
         const filtered = this.filteredModules.length;
         const archSet  = new Set(this.filteredModules.flatMap(m => m.architectures));
 
-        let text = `${filtered} von ${total} Module angezeigt | Architekturen: ${archSet.size}`;
+        let text = `${filtered} of ${total} modules shown | Architectures: ${archSet.size}`;
         if (this.collectionDate) {
             const d = new Date(this.collectionDate);
-            text += ` | Stand: ${d.toLocaleDateString('de-DE')}`;
+            text += ` | Updated: ${d.toLocaleDateString('en-GB')}`;
         }
         document.getElementById('statsDisplay').textContent = text;
     }

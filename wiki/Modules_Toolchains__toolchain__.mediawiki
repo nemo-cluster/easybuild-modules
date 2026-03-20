@@ -19,6 +19,19 @@ Modules in category **Toolchains (toolchain/)** on bwForCluster NEMO 2.
 | <code>intel</code> || <code>2024a</code> || <code>toolchain/intel</code> || Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).
 |}
 
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>gompi</code> || <code>2022a</code>, <code>2023a</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
+|-
+| <code>iimpi</code> || <code>2024a</code> || <code>toolchain/iimpi</code> || iimpi 2024a
+|-
+| <code>intel</code> || <code>2024a</code> || <code>toolchain/intel</code> || Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).
+|}
+
 == Milan ==
 
 {| class="wikitable sortable" style="width:100%"
@@ -35,5 +48,3 @@ Modules in category **Toolchains (toolchain/)** on bwForCluster NEMO 2.
 |-
 | <code>intel</code> || <code>2024a</code> || <code>toolchain/intel</code> || Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).
 |}
-
-[[Category:NEMO2]][[Category:Software]]

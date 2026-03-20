@@ -27,6 +27,17 @@ Modules in category **Chemistry Software (chem/)** on bwForCluster NEMO 2.
 | <code>spglib-python</code> || <code>2.5.0-gfbf-2024a</code> || <code>chem/spglib-python</code> || Spglib for Python. Spglib is a library for finding and handling crystal symmetries written in C.
 |}
 
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>kim-api</code> || <code>2.3.0-gcc-12.3.0</code> || <code>chem/kim-api</code> || Open Knowledgebase of Interatomic Models. KIM is an API and OpenKIM is a collection of interatomic models (potentials) for atomistic simulations. This is a library that can be used by simulation …
+|-
+| <code>mdi</code> || <code>1.4.26-gompi-2023a</code> || <code>chem/mdi</code> || The MolSSI Driver Interface (MDI) project provides a standardized API for fast, on-the-fly communication between computational chemistry codes. This greatly simplifies the process of implementing …
+|}
+
 == Milan ==
 
 {| class="wikitable sortable" style="width:100%"
@@ -51,5 +62,3 @@ Modules in category **Chemistry Software (chem/)** on bwForCluster NEMO 2.
 |-
 | <code>spglib-python</code> || <code>2.5.0-gfbf-2024a</code> || <code>chem/spglib-python</code> || Spglib for Python. Spglib is a library for finding and handling crystal symmetries written in C.
 |}
-
-[[Category:NEMO2]][[Category:Software]]

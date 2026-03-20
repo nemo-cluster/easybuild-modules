@@ -110,7 +110,7 @@
         .table-container {
             background: white;
             border-radius: 10px;
-            overflow: hidden;
+            overflow-x: auto;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
@@ -202,6 +202,10 @@
         }
 
         @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
             .filter-row {
                 flex-direction: column;
             }
@@ -212,10 +216,16 @@
             
             table {
                 font-size: 0.875rem;
+                min-width: 600px;
             }
             
             th, td {
                 padding: 0.5rem;
+            }
+
+            /* Hide description column on small screens */
+            th:last-child, td:last-child {
+                display: none;
             }
         }
     </style>
@@ -231,22 +241,22 @@
         <div class="controls">
             <div class="filter-row">
                 <div class="filter-group">
-                    <label for="architectureFilter">Architektur:</label>
+                    <label for="architectureFilter">Architecture:</label>
                     <select id="architectureFilter">
-                        <option value="">Alle Architekturen</option>
+                        <option value="">All Architectures</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="categoryFilter">Kategorie:</label>
+                    <label for="categoryFilter">Category:</label>
                     <select id="categoryFilter">
-                        <option value="">Alle Kategorien</option>
+                        <option value="">All Categories</option>
                     </select>
                 </div>
                 
                 <div class="filter-group search-group">
-                    <label for="searchInput">Software suchen:</label>
-                    <input type="text" id="searchInput" placeholder="Softwarename eingeben ...">
+                    <label for="searchInput">Search Software:</label>
+                    <input type="text" id="searchInput" placeholder="Enter software name ...">
                 </div>
             </div>
             

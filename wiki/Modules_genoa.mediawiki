@@ -541,5 +541,3 @@ These architectures share an identical module tree (symbolic links to <code>geno
 |-
 | <code>x265</code> || <code>3.5-gcccore-12.3.0</code>, <code>3.6-gcccore-13.3.0</code> || <code>vis/x265</code> || x265 is a free software library and application for encoding video streams into the H.265 AVC compression format, and is released under the terms of the GNU GPL.
 |}
-
-[[Category:NEMO2]][[Category:Software]]

@@ -156,8 +156,8 @@ def _category_table(software_dict: Dict[str, List[Dict]],
     return '\n'.join(lines)
 
 
-def _stats_table(metadata: Dict) -> str:
-    """Summary statistics table."""
+def _stats_table(metadata: Dict, modules: List[Dict] = None) -> str:
+    """Summary statistics table with unique module counts per arch group."""
     lines = [
         '{| class="wikitable"',
         '|-',
@@ -165,12 +165,26 @@ def _stats_table(metadata: Dict) -> str:
         '|-',
         f'| Collection date || {metadata.get("collection_date", "n/a")}',
     ]
-    for arch, count in metadata.get('modules_per_arch', {}).items():
+    if modules is not None:
+        seen_all: set = set()
+        for canonical, members in ARCH_GROUPS.items():
+            unique = unique_modules_for_group(modules, members)
+            if not unique:
+                continue
+            group_label = ARCH_GROUP_LABELS.get(canonical, canonical)
+            lines.append('|-')
+            lines.append(f'| Unique modules ({group_label}) || {len(unique)}')
+            for m in unique:
+                seen_all.add((m['software'], m['version'], m['category']))
         lines.append('|-')
-        lines.append(f'| Modules ({arch}) || {count}')
-    lines.append('|-')
-    lines.append(
-        f'| Total modules || {metadata.get("total_modules", "n/a")}')
+        lines.append(f'| Total unique modules (all groups) || {len(seen_all)}')
+    else:
+        for arch, count in metadata.get('modules_per_arch', {}).items():
+            lines.append('|-')
+            lines.append(f'| Modules ({arch}) || {count}')
+        lines.append('|-')
+        lines.append(
+            f'| Total modules || {metadata.get("total_modules", "n/a")}')
     lines.append('|}')
     return '\n'.join(lines)
 
@@ -184,7 +198,7 @@ def generate_combined(modules: List[Dict], metadata: Dict) -> str:
         'This page is automatically generated from the module data '
         'collected on the HPC cluster.',
         '',
-        _stats_table(metadata),
+        _stats_table(metadata, modules),
         '',
         _arch_info_section(metadata),
     ]
@@ -211,10 +225,6 @@ def generate_combined(modules: List[Dict], metadata: Dict) -> str:
             page.append(_category_table(sw_dict, collapsible=True, collapsed=True))
             page.append('')
 
-    page.append('')
-    page.append(
-        '[[Category:NEMO2]][[Category:Software]]'
-    )
     return '\n'.join(page)
 
 
@@ -256,7 +266,6 @@ def generate_per_category(modules: List[Dict],
             lines.append(_category_table(by_sw, collapsible=False))
             lines.append('')
 
-        lines.append('[[Category:NEMO2]][[Category:Software]]')
         pages[safe_name] = '\n'.join(lines)
 
     return pages
@@ -291,7 +300,6 @@ def generate_per_arch(modules: List[Dict],
             lines.append(_category_table(sw_dict, collapsible=True, collapsed=True))
             lines.append('')
 
-        lines.append('[[Category:NEMO2]][[Category:Software]]')
         pages[canonical] = '\n'.join(lines)
 
     return pages

@@ -8,19 +8,13 @@ This page is automatically generated from the module data collected on the HPC c
 |-
 | Collection date || 2026-03-19T21:06:06.586025
 |-
-| Modules (genoa) || 598
+| Unique modules (Genoa / H200 / RTX / MI300A) || 596
 |-
-| Modules (h200) || 598
+| Unique modules (L40S) || 330
 |-
-| Modules (rtx) || 598
+| Unique modules (Milan) || 554
 |-
-| Modules (mi300a) || 598
-|-
-| Modules (l40s) || 332
-|-
-| Modules (milan) || 556
-|-
-| Total modules || 3280
+| Total unique modules (all groups) || 605
 |}
 
 == Architecture Overview ==
@@ -1539,6 +1533,3 @@ Available for: <code>milan</code>
 |-
 | <code>x265</code> || <code>3.5-gcccore-12.3.0</code>, <code>3.6-gcccore-13.3.0</code> || <code>vis/x265</code> || x265 is a free software library and application for encoding video streams into the H.265 AVC compression format, and is released under the terms of the GNU GPL.
 |}
-
-
-[[Category:NEMO2]][[Category:Software]]

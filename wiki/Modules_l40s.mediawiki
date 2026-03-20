@@ -1,0 +1,447 @@
+= EasyBuild Modules – L40S =
+
+Architectures: <code>l40s</code>
+
+These architectures share an identical module tree (symbolic links to <code>l40s</code>).
+
+== Chemistry Software (chem/) (2 software, 2 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>kim-api</code> || <code>2.3.0-gcc-12.3.0</code> || <code>chem/kim-api</code> || Open Knowledgebase of Interatomic Models. KIM is an API and OpenKIM is a collection of interatomic models (potentials) for atomistic simulations. This is a library that can be used by simulation …
+|-
+| <code>mdi</code> || <code>1.4.26-gompi-2023a</code> || <code>chem/mdi</code> || The MolSSI Driver Interface (MDI) project provides a standardized API for fast, on-the-fly communication between computational chemistry codes. This greatly simplifies the process of implementing …
+|}
+
+== Compilers (compiler/) (4 software, 8 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>gcc</code> || <code>11.3.0</code>, <code>12.3.0</code>, <code>13.3.0</code> || <code>compiler/gcc</code> || The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).
+|-
+| <code>gcccore</code> || <code>11.3.0</code>, <code>12.3.0</code>, <code>13.3.0</code> || <code>compiler/gcccore</code> || The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).
+|-
+| <code>intel-compilers</code> || <code>2024.2.0</code> || <code>compiler/intel-compilers</code> || Intel C, C++ & Fortran compilers (classic and oneAPI)
+|-
+| <code>llvm</code> || <code>16.0.6-gcccore-12.3.0</code> || <code>compiler/llvm</code> || The LLVM Core libraries provide a modern source- and target-independent optimizer, along with code generation support for many popular CPUs (as well as some less common ones!) These libraries are …
+|}
+
+== Data Analysis (data/) (3 software, 3 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>hdf5</code> || <code>1.14.0-gompi-2023a</code> || <code>data/hdf5</code> || HDF5 is a data model, library, and file format for storing and managing data. It supports an unlimited variety of
+|-
+| <code>lame</code> || <code>3.100-gcccore-12.3.0</code> || <code>data/lame</code> || LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
+|-
+| <code>netcdf</code> || <code>4.9.2-gompi-2023a</code> || <code>data/netcdf</code> || NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
+|}
+
+== Development Tools (devel/) (22 software, 55 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>autoconf</code> || <code>2.71</code>, <code>2.71-gcccore-11.3.0</code>, <code>2.71-gcccore-12.3.0</code>, <code>2.72-gcccore-13.3.0</code> || <code>devel/autoconf</code> || Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. These scripts can adapt the packages to many kinds of UNIX-like …
+|-
+| <code>automake</code> || <code>1.16.5</code>, <code>1.16.5-gcccore-11.3.0</code>, <code>1.16.5-gcccore-12.3.0</code>, <code>1.16.5-gcccore-13.3.0</code> || <code>devel/automake</code> || Automake: GNU Standards-compliant Makefile generator
+|-
+| <code>autotools</code> || <code>20220317</code>, <code>20220317-gcccore-11.3.0</code>, <code>20220317-gcccore-12.3.0</code>, <code>20231222-gcccore-13.3.0</code> || <code>devel/autotools</code> || This bundle collect the standard GNU build tools: Autoconf, Automake and libtool
+|-
+| <code>boost</code> || <code>1.82.0-gcc-12.3.0</code>, <code>1.85.0-gcc-13.3.0</code> || <code>devel/boost</code> || Boost provides free peer-reviewed portable C++ source libraries.
+|-
+| <code>cmake</code> || <code>3.18.4</code>, <code>3.23.1-gcccore-11.3.0</code>, <code>3.26.3-gcccore-12.3.0</code>, <code>3.29.3-gcccore-13.3.0</code> || <code>devel/cmake</code> || CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.
+|-
+| <code>dbus</code> || <code>1.15.4-gcccore-12.3.0</code>, <code>1.15.8-gcccore-13.3.0</code> || <code>devel/dbus</code> || D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and …
+|-
+| <code>doxygen</code> || <code>1.9.7-gcccore-12.3.0</code> || <code>devel/doxygen</code> || Doxygen is a documentation system for C++, C, Java, Objective-C, Python, IDL (Corba and Microsoft flavors), Fortran, VHDL, PHP, C#, and to some extent D.
+|-
+| <code>fonttools</code> || <code>4.53.1-gcccore-13.3.0</code> || <code>devel/fonttools</code> || fontTools is a library for manipulating fonts, written in Python. The project includes the TTX tool, that can convert TrueType and OpenType fonts to and from an XML text format, which is also called …
+|-
+| <code>gobject-introspection</code> || <code>1.76.1-gcccore-12.3.0</code> || <code>devel/gobject-introspection</code> || GObject introspection is a middleware layer between C libraries (using GObject) and language bindings. The C library can be scanned at compile time and generate a metadata file, in addition to the …
+|-
+| <code>gperf</code> || <code>3.1-gcccore-12.3.0</code> || <code>devel/gperf</code> || GNU gperf is a perfect hash function generator. For a given list of strings, it produces a hash function and hash table, in form of C or C++ code, for looking up a value depending on the input …
+|-
+| <code>intltool</code> || <code>0.51.0-gcccore-12.3.0</code> || <code>devel/intltool</code> || intltool is a set of tools to centralize translation of many different file formats using GNU gettext-compatible PO files.
+|-
+| <code>m4</code> || <code>1.4.18</code>, <code>1.4.19</code>, <code>1.4.19-gcccore-11.3.0</code>, <code>1.4.19-gcccore-12.3.0</code>, <code>1.4.19-gcccore-13.3.0</code> || <code>devel/m4</code> || GNU M4 is an implementation of the traditional Unix macro processor. It is mostly SVR4 compatible although it has some extensions (for example, handling more than 9 positional parameters to macros). …
+|-
+| <code>make</code> || <code>4.3-gcccore-11.3.0</code>, <code>4.4.1-gcccore-12.3.0</code>, <code>4.4.1-gcccore-13.3.0</code> || <code>devel/make</code> || GNU version of make utility
+|-
+| <code>mako</code> || <code>1.2.4-gcccore-12.3.0</code> || <code>devel/mako</code> || A super-fast templating language that borrows the best ideas from the existing templating languages
+|-
+| <code>ncurses</code> || <code>6.2</code>, <code>6.3</code>, <code>6.3-gcccore-11.3.0</code>, <code>6.4-gcccore-12.3.0</code>, <code>6.5</code>, <code>6.5-gcccore-13.3.0</code> || <code>devel/ncurses</code> || The Ncurses (new curses) library is a free software emulation of curses in System V Release 4.0, and more. It uses Terminfo format, supports pads and color and multiple highlights and forms …
+|-
+| <code>pcre</code> || <code>8.45-gcccore-12.3.0</code> || <code>devel/pcre</code> || The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5.
+|-
+| <code>pcre2</code> || <code>10.42-gcccore-12.3.0</code>, <code>10.43-gcccore-13.3.0</code> || <code>devel/pcre2</code> || The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5.
+|-
+| <code>pkgconf</code> || <code>1.8.0</code>, <code>1.8.0-gcccore-11.3.0</code>, <code>1.9.5-gcccore-12.3.0</code>, <code>2.2.0-gcccore-13.3.0</code> || <code>devel/pkgconf</code> || pkgconf is a program which helps to configure compiler and linker flags for development libraries. It is similar to pkg-config from freedesktop.org.
+|-
+| <code>protobuf</code> || <code>24.0-gcccore-12.3.0</code> || <code>devel/protobuf</code> || Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+|-
+| <code>protobuf-python</code> || <code>4.24.0-gcccore-12.3.0</code> || <code>devel/protobuf-python</code> || Python Protocol Buffers runtime library.
+|-
+| <code>sqlite</code> || <code>3.38.3-gcccore-11.3.0</code>, <code>3.42.0-gcccore-12.3.0</code>, <code>3.45.3-gcccore-13.3.0</code> || <code>devel/sqlite</code> || SQLite: SQL Database Engine in a C Library
+|-
+| <code>xorg-macros</code> || <code>1.19.3-gcccore-11.3.0</code>, <code>1.20.0-gcccore-12.3.0</code>, <code>1.20.1-gcccore-13.3.0</code> || <code>devel/xorg-macros</code> || X.org macros utilities.
+|}
+
+== Development Tools (tools/) (39 software, 80 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>archspec</code> || <code>0.2.5-gcccore-12.3.0</code> || <code>tools/archspec</code> || A library for detecting, labeling, and reasoning about microarchitectures
+|-
+| <code>binutils</code> || <code>2.38</code>, <code>2.38-gcccore-11.3.0</code>, <code>2.40</code>, <code>2.40-gcccore-12.3.0</code>, <code>2.42</code>, <code>2.42-gcccore-13.3.0</code> || <code>tools/binutils</code> || binutils: GNU binary utilities
+|-
+| <code>bzip2</code> || <code>1.0.8-gcccore-11.3.0</code>, <code>1.0.8-gcccore-12.3.0</code>, <code>1.0.8-gcccore-13.3.0</code> || <code>tools/bzip2</code> || bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical …
+|-
+| <code>cffi</code> || <code>1.15.1-gcccore-12.3.0</code>, <code>1.16.0-gcccore-13.3.0</code> || <code>tools/cffi</code> || C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
+|-
+| <code>cryptography</code> || <code>41.0.1-gcccore-12.3.0</code>, <code>42.0.8-gcccore-13.3.0</code> || <code>tools/cryptography</code> || cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+|-
+| <code>curl</code> || <code>7.83.0-gcccore-11.3.0</code>, <code>8.0.1-gcccore-12.3.0</code>, <code>8.7.1-gcccore-13.3.0</code> || <code>tools/curl</code> || libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, …
+|-
+| <code>db</code> || <code>18.1.40-gcccore-11.3.0</code> || <code>tools/db</code> || Berkeley DB enables the development of custom data management solutions, without the overhead traditionally associated with such custom projects.
+|-
+| <code>expat</code> || <code>2.4.8-gcccore-11.3.0</code>, <code>2.5.0-gcccore-12.3.0</code>, <code>2.6.2-gcccore-13.3.0</code> || <code>tools/expat</code> || Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)
+|-
+| <code>expecttest</code> || <code>0.1.5-gcccore-12.3.0</code> || <code>tools/expecttest</code> || This library implements expect tests (also known as "golden" tests). Expect tests are a method of writing tests where instead of hard-coding the expected output of a test, you run the test to get the …
+|-
+| <code>flit</code> || <code>3.9.0-gcccore-12.3.0</code>, <code>3.9.0-gcccore-13.3.0</code> || <code>tools/flit</code> || A simple packaging tool for simple packages.
+|-
+| <code>gettext</code> || <code>0.21</code>, <code>0.21.1</code>, <code>0.21.1-gcccore-12.3.0</code>, <code>0.22.5</code>, <code>0.22.5-gcccore-13.3.0</code> || <code>tools/gettext</code> || GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well …
+|-
+| <code>git</code> || <code>2.41.0-gcccore-12.3.0-nodocs</code>, <code>2.45.1-gcccore-13.3.0</code> || <code>tools/git</code> || Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+|-
+| <code>groff</code> || <code>1.22.4-gcccore-11.3.0</code>, <code>1.22.4-gcccore-12.3.0</code> || <code>tools/groff</code> || Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output.
+|-
+| <code>gzip</code> || <code>1.12-gcccore-11.3.0</code>, <code>1.12-gcccore-12.3.0</code>, <code>1.13-gcccore-13.3.0</code> || <code>tools/gzip</code> || gzip (GNU zip) is a popular data compression program as a replacement for compress
+|-
+| <code>hatchling</code> || <code>1.18.0-gcccore-12.3.0</code>, <code>1.24.2-gcccore-13.3.0</code> || <code>tools/hatchling</code> || Extensible, standards compliant build backend used by Hatch, a modern, extensible Python project manager.
+|-
+| <code>help2man</code> || <code>1.49.2-gcccore-11.3.0</code>, <code>1.49.3-gcccore-12.3.0</code>, <code>1.49.3-gcccore-13.3.0</code> || <code>tools/help2man</code> || help2man produces simple manual pages from the '--help' and '--version' output of other commands.
+|-
+| <code>hypothesis</code> || <code>6.103.1-gcccore-13.3.0</code>, <code>6.82.0-gcccore-12.3.0</code> || <code>tools/hypothesis</code> || Hypothesis is an advanced testing library for Python. It lets you write tests which are parametrized by a source of examples, and then generates simple and comprehensible examples that make your …
+|-
+| <code>libarchive</code> || <code>3.6.1-gcccore-11.3.0</code>, <code>3.6.2-gcccore-12.3.0</code>, <code>3.7.4-gcccore-13.3.0</code> || <code>tools/libarchive</code> || Multi-format archive and compression library
+|-
+| <code>libde265</code> || <code>1.0.15-gcccore-13.3.0</code> || <code>tools/libde265</code> || libde265 is an open source implementation of the h.265 video codec
+|-
+| <code>lit</code> || <code>18.1.2-gcccore-12.3.0</code>, <code>18.1.8-gcccore-13.3.0</code> || <code>tools/lit</code> || lit is a portable tool for executing LLVM and Clang style test suites, summarizing their results, and providing indication of failures.
+|-
+| <code>maturin</code> || <code>1.6.0-gcccore-13.3.0</code> || <code>tools/maturin</code> || This project is meant as a zero configuration replacement for setuptools-rust and milksnake. It supports building wheels for python 3.5+ on windows, linux, mac and freebsd, can upload them to pypi …
+|-
+| <code>meson</code> || <code>1.1.1-gcccore-12.3.0</code>, <code>1.4.0-gcccore-13.3.0</code> || <code>tools/meson</code> || Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.
+|-
+| <code>meson-python</code> || <code>0.16.0-gcccore-13.3.0</code> || <code>tools/meson-python</code> || Python build backend (PEP 517) for Meson projects
+|-
+| <code>ninja</code> || <code>1.11.1-gcccore-12.3.0</code>, <code>1.12.1-gcccore-13.3.0</code> || <code>tools/ninja</code> || Ninja is a small build system with a focus on speed.
+|-
+| <code>numactl</code> || <code>2.0.14-gcccore-11.3.0</code>, <code>2.0.16-gcccore-12.3.0</code>, <code>2.0.18-gcccore-13.3.0</code> || <code>tools/numactl</code> || The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. …
+|-
+| <code>patchelf</code> || <code>0.18.0-gcccore-12.3.0</code>, <code>0.18.0-gcccore-13.3.0</code> || <code>tools/patchelf</code> || PatchELF is a small utility to modify the dynamic linker and RPATH of ELF executables.
+|-
+| <code>poetry</code> || <code>1.5.1-gcccore-12.3.0</code>, <code>1.8.3-gcccore-13.3.0</code> || <code>tools/poetry</code> || Python packaging and dependency management made easy. Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.
+|-
+| <code>pytest-flakefinder</code> || <code>1.1.0-gcccore-12.3.0</code> || <code>tools/pytest-flakefinder</code> || Runs tests multiple times to expose flakiness.
+|-
+| <code>pytest-rerunfailures</code> || <code>12.0-gcccore-12.3.0</code> || <code>tools/pytest-rerunfailures</code> || pytest plugin to re-run tests to eliminate flaky failures.
+|-
+| <code>pytest-shard</code> || <code>0.1.2-gcccore-12.3.0</code> || <code>tools/pytest-shard</code> || pytest plugin to support parallelism across multiple machines. Shards tests based on a hash of their test name enabling easy parallelism across machines, suitable for a wide variety of continuous …
+|-
+| <code>re2c</code> || <code>3.1-gcccore-12.3.0</code> || <code>tools/re2c</code> || re2c is a free and open-source lexer generator for C and C++. Its main goal is generating fast lexers: at least as fast as their reasonably optimized hand-coded counterparts. Instead of using …
+|-
+| <code>setuptools-rust</code> || <code>1.6.0-gcccore-12.3.0</code>, <code>1.9.0-gcccore-13.3.0</code> || <code>tools/setuptools-rust</code> || setuptools-rust is a plugin for setuptools to build Rust Python extensions implemented with PyO3 or rust-cpython.
+|-
+| <code>szip</code> || <code>2.1.1-gcccore-12.3.0</code> || <code>tools/szip</code> || Szip compression software, providing lossless compression of scientific data
+|-
+| <code>unzip</code> || <code>6.0-gcccore-11.3.0</code>, <code>6.0-gcccore-12.3.0</code>, <code>6.0-gcccore-13.3.0</code> || <code>tools/unzip</code> || UnZip is an extraction utility for archives compressed in .zip format (also called "zipfiles"). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with …
+|-
+| <code>util-linux</code> || <code>2.39-gcccore-12.3.0</code> || <code>tools/util-linux</code> || Set of Linux utilities
+|-
+| <code>virtualenv</code> || <code>20.23.1-gcccore-12.3.0</code>, <code>20.26.2-gcccore-13.3.0</code> || <code>tools/virtualenv</code> || A tool for creating isolated virtual python environments.
+|-
+| <code>xxd</code> || <code>9.0.2112-gcccore-12.3.0</code> || <code>tools/xxd</code> || files.
+|-
+| <code>xz</code> || <code>5.2.5-gcccore-11.3.0</code>, <code>5.4.2-gcccore-12.3.0</code>, <code>5.4.5-gcccore-13.3.0</code> || <code>tools/xz</code> || xz: XZ utilities
+|-
+| <code>z3</code> || <code>4.12.2-gcccore-12.3.0</code> || <code>tools/z3</code> || Z3 is a theorem prover from Microsoft Research with support for bitvectors, booleans, arrays, floating point numbers, strings, and other data types. This module includes z3-solver, the Python …
+|}
+
+== Global Aliases (1 software, 1 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
+|}
+
+== Libraries (lib/) (44 software, 85 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>abseil</code> || <code>20230125.3-gcccore-12.3.0</code> || <code>lib/abseil</code> || Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's own C++ code base, has been extensively tested …
+|-
+| <code>brotli</code> || <code>1.0.9-gcccore-12.3.0</code> || <code>lib/brotli</code> || Brotli is a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling, with a …
+|-
+| <code>catch2</code> || <code>2.13.10-gcccore-13.3.0</code>, <code>2.13.9-gcccore-12.3.0</code> || <code>lib/catch2</code> || A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later
+|-
+| <code>cereal</code> || <code>1.3.2</code> || <code>lib/cereal</code> || cereal is a header-only C++11 serialization library. cereal takes arbitrary data types and reversibly turns them into different representations, such as compact binary encodings, XML, or JSON. cereal …
+|-
+| <code>double-conversion</code> || <code>3.3.0-gcccore-12.3.0</code> || <code>lib/double-conversion</code> || Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles.
+|-
+| <code>ffnvcodec</code> || <code>12.0.16.0</code> || <code>lib/ffnvcodec</code> || FFmpeg nvidia headers. Adds support for nvenc and nvdec. Requires Nvidia GPU and drivers to be present (picked up dynamically).
+|-
+| <code>gdrcopy</code> || <code>2.3.1-gcccore-12.3.0</code>, <code>2.4.1-gcccore-13.3.0</code> || <code>lib/gdrcopy</code> || A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.
+|-
+| <code>giflib</code> || <code>5.2.1-gcccore-12.3.0</code>, <code>5.2.1-gcccore-13.3.0</code> || <code>lib/giflib</code> || giflib is a library for reading and writing gif images. It is API and ABI compatible with libungif which was in wide use while the LZW compression algorithm was patented.
+|-
+| <code>graphite2</code> || <code>1.3.14-gcccore-12.3.0</code>, <code>1.3.14-gcccore-13.3.0</code> || <code>lib/graphite2</code> || Graphite is a "smart font" system developed specifically to handle the complexities of lesser-known languages of the world.
+|-
+| <code>icu</code> || <code>73.2-gcccore-12.3.0</code>, <code>75.1-gcccore-13.3.0</code> || <code>lib/icu</code> || software applications.
+|-
+| <code>libdrm</code> || <code>2.4.115-gcccore-12.3.0</code> || <code>lib/libdrm</code> || Direct Rendering Manager runtime library.
+|-
+| <code>libevent</code> || <code>2.1.12-gcccore-11.3.0</code>, <code>2.1.12-gcccore-12.3.0</code>, <code>2.1.12-gcccore-13.3.0</code> || <code>lib/libevent</code> || The libevent API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached. Furthermore, libevent also support …
+|-
+| <code>libfabric</code> || <code>1.15.1-gcccore-11.3.0</code>, <code>1.18.0-gcccore-12.3.0</code>, <code>1.21.0-gcccore-13.3.0</code> || <code>lib/libfabric</code> || Libfabric is a core component of OFI. It is the library that defines and exports the user-space API of OFI, and is typically the only software that applications deal with directly. It works in …
+|-
+| <code>libffi</code> || <code>3.4.2-gcccore-11.3.0</code>, <code>3.4.4-gcccore-12.3.0</code>, <code>3.4.5-gcccore-13.3.0</code> || <code>lib/libffi</code> || The libffi library provides a portable, high level programming interface to various calling conventions. This allows a programmer to call any function specified by a call interface description at …
+|-
+| <code>libglvnd</code> || <code>1.6.0-gcccore-12.3.0</code> || <code>lib/libglvnd</code> || libglvnd is a vendor-neutral dispatch layer for arbitrating OpenGL API calls between multiple vendors.
+|-
+| <code>libiconv</code> || <code>1.17-gcccore-12.3.0</code>, <code>1.17-gcccore-13.3.0</code> || <code>lib/libiconv</code> || Libiconv converts from one character encoding to another through Unicode conversion
+|-
+| <code>libjpeg-turbo</code> || <code>2.1.5.1-gcccore-12.3.0</code> || <code>lib/libjpeg-turbo</code> || libjpeg-turbo is a fork of the original IJG libjpeg which uses SIMD to accelerate baseline JPEG compression and decompression. libjpeg is a library that implements JPEG image encoding, decoding and …
+|-
+| <code>libpng</code> || <code>1.6.39-gcccore-12.3.0</code> || <code>lib/libpng</code> || libpng is the official PNG reference library
+|-
+| <code>libreadline</code> || <code>8.1.2-gcccore-11.3.0</code>, <code>8.2-gcccore-12.3.0</code>, <code>8.2-gcccore-13.3.0</code> || <code>lib/libreadline</code> || The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline …
+|-
+| <code>libtiff</code> || <code>4.5.0-gcccore-12.3.0</code> || <code>lib/libtiff</code> || tiff: Library and tools for reading and writing TIFF data files
+|-
+| <code>libtool</code> || <code>2.4.7</code>, <code>2.4.7-gcccore-11.3.0</code>, <code>2.4.7-gcccore-12.3.0</code>, <code>2.4.7-gcccore-13.3.0</code> || <code>lib/libtool</code> || GNU libtool is a generic library support script. Libtool hides the complexity of using shared libraries behind a consistent, portable interface.
+|-
+| <code>libunwind</code> || <code>1.6.2-gcccore-12.3.0</code>, <code>1.8.1-gcccore-13.3.0</code> || <code>lib/libunwind</code> || The primary goal of libunwind is to define a portable and efficient C programming interface (API) to determine the call-chain of a program. The API additionally provides the means to manipulate the …
+|-
+| <code>libwebp</code> || <code>1.3.1-gcccore-12.3.0</code> || <code>lib/libwebp</code> || WebP is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the …
+|-
+| <code>libxml2</code> || <code>2.11.4-gcccore-12.3.0</code>, <code>2.12.7-gcccore-13.3.0</code>, <code>2.9.13-gcccore-11.3.0</code> || <code>lib/libxml2</code> || Libxml2 is the XML C parser and toolchain developed for the Gnome project (but usable outside of the Gnome platform).
+|-
+| <code>libyaml</code> || <code>0.2.5-gcccore-12.3.0</code> || <code>lib/libyaml</code> || LibYAML is a YAML parser and emitter written in C.
+|-
+| <code>lz4</code> || <code>1.9.3-gcccore-11.3.0</code>, <code>1.9.4-gcccore-12.3.0</code>, <code>1.9.4-gcccore-13.3.0</code> || <code>lib/lz4</code> || lz4 1.9.3-gcccore-11.3.0
+|-
+| <code>nccl</code> || <code>2.18.3-gcccore-12.3.0-cuda-12.1.1</code> || <code>lib/nccl</code> || The NVIDIA Collective Communications Library (NCCL) implements multi-GPU and multi-node collective communication primitives that are performance optimized for NVIDIA GPUs.
+|-
+| <code>nspr</code> || <code>4.35-gcccore-12.3.0</code>, <code>4.35-gcccore-13.3.0</code> || <code>lib/nspr</code> || Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc-like functions.
+|-
+| <code>nss</code> || <code>3.104-gcccore-13.3.0</code>, <code>3.89.1-gcccore-12.3.0</code> || <code>lib/nss</code> || Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications.
+|-
+| <code>openjpeg</code> || <code>2.5.0-gcccore-12.3.0</code> || <code>lib/openjpeg</code> || OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic …
+|-
+| <code>pmix</code> || <code>4.1.2-gcccore-11.3.0</code>, <code>4.2.4-gcccore-12.3.0</code>, <code>5.0.2-gcccore-13.3.0</code> || <code>lib/pmix</code> || Process Management for Exascale Environments PMI Exascale (PMIx) represents an attempt to provide an extended version of the PMI standard specifically designed to support clusters up to and including …
+|-
+| <code>prrte</code> || <code>3.0.5-gcccore-13.3.0</code> || <code>lib/prrte</code> || PRRTE is the PMIx Reference RunTime Environment
+|-
+| <code>psutil</code> || <code>6.0.0-gcccore-13.3.0</code> || <code>lib/psutil</code> || A cross-platform process and system utilities module for Python
+|-
+| <code>pybind11</code> || <code>2.11.1-gcccore-12.3.0</code>, <code>2.12.0-gcc-13.3.0</code> || <code>lib/pybind11</code> || pybind11 is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
+|-
+| <code>pyyaml</code> || <code>6.0-gcccore-12.3.0</code> || <code>lib/pyyaml</code> || PyYAML is a YAML parser and emitter for the Python programming language.
+|-
+| <code>scikit-build</code> || <code>0.17.6-gcccore-12.3.0</code>, <code>0.17.6-gcccore-13.3.0</code> || <code>lib/scikit-build</code> || scikit-build 0.17.6-gcccore-12.3.0
+|-
+| <code>sdl2</code> || <code>2.28.2-gcccore-12.3.0</code> || <code>lib/sdl2</code> || SDL: Simple DirectMedia Layer, a cross-platform multimedia library
+|-
+| <code>snappy</code> || <code>1.1.10-gcccore-12.3.0</code>, <code>1.2.1-gcccore-13.3.0</code> || <code>lib/snappy</code> || other compression library; instead, it aims for very high speeds and reasonable compression.
+|-
+| <code>tbb</code> || <code>2021.11.0-gcccore-12.3.0</code>, <code>2021.13.0-gcccore-13.3.0</code> || <code>lib/tbb</code> || Intel(R) Threading Building Blocks (Intel(R) TBB) lets you easily write parallel C++ programs that take full advantage of multicore performance, that are portable, composable and have future-proof …
+|-
+| <code>ucc</code> || <code>1.0.0-gcccore-11.3.0</code>, <code>1.2.0-gcccore-12.3.0</code> || <code>lib/ucc</code> || UCC (Unified Collective Communication) is a collective communication operations API and library that is flexible, complete, and feature-rich for current and emerging programming models and runtimes.
+|-
+| <code>ucx</code> || <code>1.12.1-gcccore-11.3.0</code>, <code>1.14.1-gcccore-12.3.0</code>, <code>1.16.0-gcccore-13.3.0</code> || <code>lib/ucx</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications
+|-
+| <code>ucx-cuda</code> || <code>1.14.1-gcccore-12.3.0-cuda-12.1.1</code>, <code>1.16.0-gcccore-13.3.0-cuda-12.6.0</code> || <code>lib/ucx-cuda</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications This module adds the UCX CUDA support.
+|-
+| <code>zlib</code> || <code>1.2.12</code>, <code>1.2.12-gcccore-11.3.0</code>, <code>1.2.13</code>, <code>1.2.13-gcccore-12.3.0</code>, <code>1.3.1</code>, <code>1.3.1-gcccore-13.3.0</code> || <code>lib/zlib</code> || zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and …
+|-
+| <code>zstd</code> || <code>1.5.2-gcccore-11.3.0</code>, <code>1.5.5-gcccore-12.3.0</code>, <code>1.5.6-gcccore-13.3.0</code> || <code>lib/zstd</code> || Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of data, called dictionary compression, and can create dictionaries from any sample set.
+|}
+
+== Mathematics Software (math/) (8 software, 9 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>eigen</code> || <code>3.4.0-gcccore-12.3.0</code>, <code>3.4.0-gcccore-13.3.0</code> || <code>math/eigen</code> || Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+|-
+| <code>gmp</code> || <code>6.2.1-gcccore-12.3.0</code> || <code>math/gmp</code> || GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.
+|-
+| <code>gmpy2</code> || <code>2.1.5-gcc-12.3.0</code> || <code>math/gmpy2</code> || gmpy2 2.1.5-gcc-12.3.0
+|-
+| <code>mathematica</code> || <code>14.2.1</code> || <code>math/mathematica</code> || Mathematica is a computational software program used in many scientific, engineering, mathematical and computing fields.
+|-
+| <code>matlab</code> || <code>2023b</code> || <code>math/matlab</code> || MATLAB is a high-level language and interactive environment that enables you to perform computationally intensive tasks faster than with traditional programming languages such as C, C++, and Fortran.
+|-
+| <code>mpc</code> || <code>1.3.1-gcccore-12.3.0</code> || <code>math/mpc</code> || Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result. It extends the principles of the IEEE-754 standard for fixed precision …
+|-
+| <code>mpfr</code> || <code>4.2.0-gcccore-12.3.0</code> || <code>math/mpfr</code> || The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.
+|-
+| <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
+|}
+
+== Numerical Libraries (numlib/) (7 software, 13 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>blis</code> || <code>0.9.0-gcc-11.3.0</code>, <code>0.9.0-gcc-12.3.0</code>, <code>1.0-gcc-13.3.0</code> || <code>numlib/blis</code> || BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
+|-
+| <code>cudnn</code> || <code>8.9.2.26-cuda-12.1.1</code>, <code>9.15.0.57-cuda-12.9.1</code> || <code>numlib/cudnn</code> || The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks.
+|-
+| <code>fftw</code> || <code>3.3.10-gcc-11.3.0</code>, <code>3.3.10-gcc-12.3.0</code>, <code>3.3.10-gcc-13.3.0</code> || <code>numlib/fftw</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+|-
+| <code>fftw.mpi</code> || <code>3.3.10-gompi-2022a</code>, <code>3.3.10-gompi-2023a</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+|-
+| <code>gsl</code> || <code>2.7-gcc-12.3.0</code> || <code>numlib/gsl</code> || The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. The library provides a wide range of mathematical routines such as random number generators, special functions and …
+|-
+| <code>imkl</code> || <code>2024.2.0</code> || <code>numlib/imkl</code> || Intel oneAPI Math Kernel Library
+|-
+| <code>imkl-fftw</code> || <code>2024.2.0-iimpi-2024a</code> || <code>numlib/imkl-fftw</code> || FFTW interfaces using Intel oneAPI Math Kernel Library
+|}
+
+== Parallel Computing (mpi/) (2 software, 3 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>impi</code> || <code>2021.13.0-intel-compilers-2024.2.0</code> || <code>mpi/impi</code> || Intel MPI Library, compatible with MPICH ABI
+|-
+| <code>openmpi</code> || <code>4.1.4-gcc-11.3.0</code>, <code>4.1.5-gcc-12.3.0</code> || <code>mpi/openmpi</code> || The Open MPI Project is an open source MPI-3 implementation.
+|}
+
+== Programming Languages (lang/) (14 software, 31 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>bison</code> || <code>3.8.2</code>, <code>3.8.2-gcccore-11.3.0</code>, <code>3.8.2-gcccore-12.3.0</code>, <code>3.8.2-gcccore-13.3.0</code> || <code>lang/bison</code> || Bison is a general-purpose parser generator that converts an annotated context-free grammar into a deterministic LR or generalized LR (GLR) parser employing LALR(1) parser tables.
+|-
+| <code>cython</code> || <code>3.0.10-gcccore-13.3.0</code>, <code>3.0.8-gcccore-12.3.0</code> || <code>lang/cython</code> || Cython is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on Pyrex).
+|-
+| <code>flex</code> || <code>2.6.4</code>, <code>2.6.4-gcccore-11.3.0</code>, <code>2.6.4-gcccore-12.3.0</code>, <code>2.6.4-gcccore-13.3.0</code> || <code>lang/flex</code> || Flex (Fast Lexical Analyzer) is a tool for generating scanners. A scanner, sometimes called a tokenizer, is a program which recognizes lexical patterns in text.
+|-
+| <code>fribidi</code> || <code>1.0.12-gcccore-12.3.0</code> || <code>lang/fribidi</code> || The Free Implementation of the Unicode Bidirectional Algorithm.
+|-
+| <code>miniforge3</code> || <code>24.11.3-0</code> || <code>lang/miniforge3</code> || Miniforge is a free minimal installer for conda and Mamba specific to conda-forge.
+|-
+| <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
+|-
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
+|-
+| <code>perl</code> || <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
+|-
+| <code>perl-bundle-cpan</code> || <code>5.36.1-gcccore-12.3.0</code> || <code>lang/perl-bundle-cpan</code> || A set of common packages from CPAN
+|-
+| <code>python</code> || <code>3.10.4-gcccore-11.3.0-bare</code>, <code>3.11.3-gcccore-12.3.0</code>, <code>3.12.3-gcccore-13.3.0</code> || <code>lang/python</code> || Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+|-
+| <code>python-bundle-pypi</code> || <code>2023.06-gcccore-12.3.0</code>, <code>2024.06-gcccore-13.3.0</code> || <code>lang/python-bundle-pypi</code> || Bundle of Python packages from PyPI
+|-
+| <code>rust</code> || <code>1.70.0-gcccore-12.3.0</code>, <code>1.78.0-gcccore-13.3.0</code> || <code>lang/rust</code> || Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.
+|-
+| <code>tcl</code> || <code>8.6.12-gcccore-11.3.0</code>, <code>8.6.13-gcccore-12.3.0</code>, <code>8.6.14-gcccore-13.3.0</code> || <code>lang/tcl</code> || Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, suitable for a very wide range of uses, including web and desktop applications, networking, …
+|-
+| <code>yasm</code> || <code>1.3.0-gcccore-12.3.0</code> || <code>lang/yasm</code> || Yasm: Complete rewrite of the NASM assembler with BSD license
+|}
+
+== System Tools (system/) (5 software, 16 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>cuda</code> || <code>11.5.2</code>, <code>11.7.0</code>, <code>12.1.1</code>, <code>12.6.0</code>, <code>12.9.1</code>, <code>13.1.0</code> || <code>system/cuda</code> || CUDA (formerly Compute Unified Device Architecture) is a parallel computing platform and programming model created by NVIDIA and implemented by the graphics processing units (GPUs) that they produce. …
+|-
+| <code>hwloc</code> || <code>2.10.0-gcccore-13.3.0</code>, <code>2.7.1-gcccore-11.3.0</code>, <code>2.9.1-gcccore-12.3.0</code> || <code>system/hwloc</code> || The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA …
+|-
+| <code>libdeflate</code> || <code>1.18-gcccore-12.3.0</code>, <code>1.20-gcccore-13.3.0</code> || <code>system/libdeflate</code> || Heavily optimized library for DEFLATE/zlib/gzip compression and decompression.
+|-
+| <code>libpciaccess</code> || <code>0.16-gcccore-11.3.0</code>, <code>0.17-gcccore-12.3.0</code>, <code>0.18.1-gcccore-13.3.0</code> || <code>system/libpciaccess</code> || Generic PCI access library.
+|-
+| <code>openssl</code> || <code>1.1</code>, <code>3</code> || <code>system/openssl</code> || The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolchain implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer …
+|}
+
+== Toolchains (toolchain/) (3 software, 4 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>gompi</code> || <code>2022a</code>, <code>2023a</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
+|-
+| <code>iimpi</code> || <code>2024a</code> || <code>toolchain/iimpi</code> || iimpi 2024a
+|-
+| <code>intel</code> || <code>2024a</code> || <code>toolchain/intel</code> || Compiler toolchain including Intel compilers, Intel MPI and Intel Math Kernel Library (MKL).
+|}
+
+== Visualization (vis/) (18 software, 20 versions) ==
+
+{| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>assimp</code> || <code>5.4.3-gcccore-13.3.0</code> || <code>vis/assimp</code> || Open Asset Import Library (assimp) is a library to import and export various 3d-model-formats including scene-post-processing to generate missing render data.
+|-
+| <code>cairo</code> || <code>1.17.8-gcccore-12.3.0</code> || <code>vis/cairo</code> || Cairo is a 2D graphics library with support for multiple output devices. Currently supported output targets include the X Window System (via both Xlib and XCB), Quartz, Win32, image buffers, …
+|-
+| <code>ffmpeg</code> || <code>6.0-gcccore-12.3.0</code> || <code>vis/ffmpeg</code> || A complete, cross-platform solution to record, convert and stream audio and video.
+|-
+| <code>fontconfig</code> || <code>2.14.2-gcccore-12.3.0</code> || <code>vis/fontconfig</code> || Fontconfig is a library designed to provide system-wide font configuration, customization and application access.
+|-
+| <code>freetype</code> || <code>2.13.0-gcccore-12.3.0</code> || <code>vis/freetype</code> || FreeType 2 is a software font engine that is designed to be small, efficient, highly customizable, and portable while capable of producing high-quality output (glyph images). It can be used in …
+|-
+| <code>glib</code> || <code>2.77.1-gcccore-12.3.0</code> || <code>vis/glib</code> || GLib is one of the base libraries of the GTK+ project
+|-
+| <code>harfbuzz</code> || <code>5.3.1-gcccore-12.3.0</code> || <code>vis/harfbuzz</code> || HarfBuzz is an OpenType text shaping engine.
+|-
+| <code>jasper</code> || <code>4.0.0-gcccore-12.3.0</code> || <code>vis/jasper</code> || The JasPer Project is an open-source initiative to provide a free software-based reference implementation of the codec specified in the JPEG-2000 Part-1 standard.
+|-
+| <code>jbigkit</code> || <code>2.1-gcccore-12.3.0</code>, <code>2.1-gcccore-13.3.0</code> || <code>vis/jbigkit</code> || JBIG-KIT is a software implementation of the JBIG1 data compression standard (ITU-T T.82), which was designed for bi-level image data, such as scanned documents.
+|-
+| <code>libglu</code> || <code>9.0.3-gcccore-12.3.0</code> || <code>vis/libglu</code> || The OpenGL Utility Library (GLU) is a computer graphics library for OpenGL.
+|-
+| <code>littlecms</code> || <code>2.15-gcccore-12.3.0</code> || <code>vis/littlecms</code> || Little CMS intends to be an OPEN SOURCE small-footprint color management engine, with special focus on accuracy and performance.
+|-
+| <code>mesa</code> || <code>23.1.4-gcccore-12.3.0</code> || <code>vis/mesa</code> || Mesa is an open-source implementation of the OpenGL specification - a system for rendering interactive 3D graphics.
+|-
+| <code>pillow</code> || <code>10.0.0-gcccore-12.3.0</code> || <code>vis/pillow</code> || Pillow is the 'friendly PIL fork' by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
+|-
+| <code>pixman</code> || <code>0.42.2-gcccore-12.3.0</code>, <code>0.43.4-gcccore-13.3.0</code> || <code>vis/pixman</code> || Pixman is a low-level software library for pixel manipulation, providing features such as image compositing and trapezoid rasterization. Important users of pixman are the cairo graphics library and …
+|-
+| <code>wayland</code> || <code>1.23.0-gcccore-13.3.0</code> || <code>vis/wayland</code> || Wayland is a project to define a protocol for a compositor to talk to its clients as well as a library implementation of the protocol. The compositor can be a standalone display server running on …
+|-
+| <code>x11</code> || <code>20230603-gcccore-12.3.0</code> || <code>vis/x11</code> || The X Window System (X11) is a windowing system for bitmap displays
+|-
+| <code>x264</code> || <code>20230226-gcccore-12.3.0</code> || <code>vis/x264</code> || x264 is a free software library and application for encoding video streams into the H.264/MPEG-4 AVC compression format, and is released under the terms of the GNU GPL.
+|-
+| <code>x265</code> || <code>3.5-gcccore-12.3.0</code> || <code>vis/x265</code> || x265 is a free software library and application for encoding video streams into the H.265 AVC compression format, and is released under the terms of the GNU GPL.
+|}

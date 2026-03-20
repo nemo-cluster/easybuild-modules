@@ -19,5 +19,3 @@ Modules in category **Physics Software (phys/)** on bwForCluster NEMO 2.
 |-
 | <code>hoomd-blue</code> || <code>5.2.0-foss-2024a</code> || <code>phys/hoomd-blue</code> || HOOMD-blue is a general-purpose particle simulation toolkit, implementing molecular dynamics and hard particle Monte Carlo optimized for fast execution on both GPUs and CPUs.
 |}
-
-[[Category:NEMO2]][[Category:Software]]

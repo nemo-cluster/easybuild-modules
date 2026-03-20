@@ -19,6 +19,21 @@ Modules in category **Compilers (compiler/)** on bwForCluster NEMO 2.
 | <code>llvm</code> || <code>16.0.6-gcccore-12.3.0</code>, <code>18.1.8-gcccore-13.3.0</code> || <code>compiler/llvm</code> || The LLVM Core libraries provide a modern source- and target-independent optimizer, along with code generation support for many popular CPUs (as well as some less common ones!) These libraries are …
 |}
 
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>gcc</code> || <code>11.3.0</code>, <code>12.3.0</code>, <code>13.3.0</code> || <code>compiler/gcc</code> || The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).
+|-
+| <code>gcccore</code> || <code>11.3.0</code>, <code>12.3.0</code>, <code>13.3.0</code> || <code>compiler/gcccore</code> || The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Java, and Ada, as well as libraries for these languages (libstdc++, libgcj,...).
+|-
+| <code>intel-compilers</code> || <code>2024.2.0</code> || <code>compiler/intel-compilers</code> || Intel C, C++ & Fortran compilers (classic and oneAPI)
+|-
+| <code>llvm</code> || <code>16.0.6-gcccore-12.3.0</code> || <code>compiler/llvm</code> || The LLVM Core libraries provide a modern source- and target-independent optimizer, along with code generation support for many popular CPUs (as well as some less common ones!) These libraries are …
+|}
+
 == Milan ==
 
 {| class="wikitable sortable" style="width:100%"
@@ -35,5 +50,3 @@ Modules in category **Compilers (compiler/)** on bwForCluster NEMO 2.
 |-
 | <code>llvm</code> || <code>16.0.6-gcccore-12.3.0</code>, <code>18.1.8-gcccore-13.3.0-minimal</code> || <code>compiler/llvm</code> || The LLVM Core libraries provide a modern source- and target-independent optimizer, along with code generation support for many popular CPUs (as well as some less common ones!) These libraries are …
 |}
-
-[[Category:NEMO2]][[Category:Software]]

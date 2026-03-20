@@ -11,7 +11,7 @@ Modules in category **Global Aliases** on bwForCluster NEMO 2.
 | <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
 |}
 
-== Milan ==
+== L40S ==
 
 {| class="wikitable sortable" style="width:100%"
 |-
@@ -20,4 +20,11 @@ Modules in category **Global Aliases** on bwForCluster NEMO 2.
 | <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
 |}
 
-[[Category:NEMO2]][[Category:Software]]
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
+|}

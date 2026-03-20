@@ -35,6 +35,29 @@ Modules in category **Mathematics Software (math/)** on bwForCluster NEMO 2.
 | <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code>, <code>0.4.6-gcccore-13.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
 |}
 
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>eigen</code> || <code>3.4.0-gcccore-12.3.0</code>, <code>3.4.0-gcccore-13.3.0</code> || <code>math/eigen</code> || Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+|-
+| <code>gmp</code> || <code>6.2.1-gcccore-12.3.0</code> || <code>math/gmp</code> || GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.
+|-
+| <code>gmpy2</code> || <code>2.1.5-gcc-12.3.0</code> || <code>math/gmpy2</code> || gmpy2 2.1.5-gcc-12.3.0
+|-
+| <code>mathematica</code> || <code>14.2.1</code> || <code>math/mathematica</code> || Mathematica is a computational software program used in many scientific, engineering, mathematical and computing fields.
+|-
+| <code>matlab</code> || <code>2023b</code> || <code>math/matlab</code> || MATLAB is a high-level language and interactive environment that enables you to perform computationally intensive tasks faster than with traditional programming languages such as C, C++, and Fortran.
+|-
+| <code>mpc</code> || <code>1.3.1-gcccore-12.3.0</code> || <code>math/mpc</code> || Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result. It extends the principles of the IEEE-754 standard for fixed precision …
+|-
+| <code>mpfr</code> || <code>4.2.0-gcccore-12.3.0</code> || <code>math/mpfr</code> || The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.
+|-
+| <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
+|}
+
 == Milan ==
 
 {| class="wikitable sortable" style="width:100%"
@@ -59,5 +82,3 @@ Modules in category **Mathematics Software (math/)** on bwForCluster NEMO 2.
 |-
 | <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
 |}
-
-[[Category:NEMO2]][[Category:Software]]

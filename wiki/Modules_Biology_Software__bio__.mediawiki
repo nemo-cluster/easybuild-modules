@@ -23,5 +23,3 @@ Modules in category **Biology Software (bio/)** on bwForCluster NEMO 2.
 |-
 | <code>nest</code> || <code>2.20.2-foss-2020b</code>, <code>3.8-foss-2024a</code> || <code>bio/nest</code> || NEST is a simulator for spiking neural network models that focuses on the dynamics, size and structure of neural systems rather than on the exact morphology of individual neurons.
 |}
-
-[[Category:NEMO2]][[Category:Software]]
