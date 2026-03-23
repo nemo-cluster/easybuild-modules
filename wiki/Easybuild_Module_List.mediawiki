@@ -6,7 +6,7 @@ This page is automatically generated from the module data collected on the HPC c
 |-
 ! Metric !! Value
 |-
-| Collection date || 2026-03-20T16:33:31.977250
+| Collection date || 2026-03-23T19:04:24.861542
 |-
 | Unique modules (Genoa / H200 / RTX / MI300A) || 596
 |-
