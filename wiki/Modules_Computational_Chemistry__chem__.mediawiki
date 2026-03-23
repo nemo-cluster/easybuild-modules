@@ -1,0 +1,64 @@
+= Computational Chemistry (chem/) =
+
+Modules in category **Computational Chemistry (chem/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>ase</code> || <code>3.24.0-gfbf-2024a</code> || <code>chem/ase</code> || ASE is a python package providing an open source Atomic Simulation Environment in the Python scripting language. From version 3.20.1 we also include the ase-ext package, it contains optional …
+|-
+| <code>gpaw-setups</code> || <code>24.11.0</code> || <code>chem/gpaw-setups</code> || PAW setups for the GPAW Density Functional Theory package. Users can install setups manually using 'gpaw install-data' or use setups from this package. The versions of GPAW and GPAW-setups can be …
+|-
+| <code>kim-api</code> || <code>2.3.0-gcc-12.3.0</code>, <code>2.4.1-gcc-13.3.0</code> || <code>chem/kim-api</code> || Open Knowledgebase of Interatomic Models. KIM is an API and OpenKIM is a collection of interatomic models (potentials) for atomistic simulations. This is a library that can be used by simulation …
+|-
+| <code>lammps</code> || <code>2aug2023_update2-foss-2023a-kokkos</code> || <code>chem/lammps</code> || Simulator. LAMMPS has potentials for solid-state materials (metals, semiconductors) and soft matter (biomolecules, polymers) and coarse-grained or mesoscopic systems. It can be used to model atoms …
+|-
+| <code>libvdwxc</code> || <code>0.4.0-foss-2024a</code> || <code>chem/libvdwxc</code> || libvdwxc is a general library for evaluating energy and potential for exchange-correlation (XC) functionals from the vdW-DF family that can be used with various of density functional theory (DFT) …
+|-
+| <code>mdi</code> || <code>1.4.26-gompi-2023a</code>, <code>1.4.26-gompi-2024a</code> || <code>chem/mdi</code> || The MolSSI Driver Interface (MDI) project provides a standardized API for fast, on-the-fly communication between computational chemistry codes. This greatly simplifies the process of implementing …
+|-
+| <code>orca</code> || <code>6.0.1-gompi-2023a-avx2</code> || <code>chem/orca</code> || ORCA is a flexible, efficient and easy-to-use general purpose tool for quantum chemistry with specific emphasis on spectroscopic properties of open-shell molecules. It features a wide variety of …
+|-
+| <code>plumed</code> || <code>2.9.0-foss-2023a</code>, <code>2.9.3-foss-2024a</code> || <code>chem/plumed</code> || PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines. Free energy calculations can be …
+|-
+| <code>spglib-python</code> || <code>2.5.0-gfbf-2024a</code> || <code>chem/spglib-python</code> || Spglib for Python. Spglib is a library for finding and handling crystal symmetries written in C.
+|}
+
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>kim-api</code> || <code>2.3.0-gcc-12.3.0</code> || <code>chem/kim-api</code> || Open Knowledgebase of Interatomic Models. KIM is an API and OpenKIM is a collection of interatomic models (potentials) for atomistic simulations. This is a library that can be used by simulation …
+|-
+| <code>mdi</code> || <code>1.4.26-gompi-2023a</code> || <code>chem/mdi</code> || The MolSSI Driver Interface (MDI) project provides a standardized API for fast, on-the-fly communication between computational chemistry codes. This greatly simplifies the process of implementing …
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>ase</code> || <code>3.24.0-gfbf-2024a</code> || <code>chem/ase</code> || ASE is a python package providing an open source Atomic Simulation Environment in the Python scripting language. From version 3.20.1 we also include the ase-ext package, it contains optional …
+|-
+| <code>gpaw-setups</code> || <code>24.11.0</code> || <code>chem/gpaw-setups</code> || PAW setups for the GPAW Density Functional Theory package. Users can install setups manually using 'gpaw install-data' or use setups from this package. The versions of GPAW and GPAW-setups can be …
+|-
+| <code>kim-api</code> || <code>2.3.0-gcc-12.3.0</code> || <code>chem/kim-api</code> || Open Knowledgebase of Interatomic Models. KIM is an API and OpenKIM is a collection of interatomic models (potentials) for atomistic simulations. This is a library that can be used by simulation …
+|-
+| <code>lammps</code> || <code>2aug2023_update2-foss-2023a-kokkos</code> || <code>chem/lammps</code> || Simulator. LAMMPS has potentials for solid-state materials (metals, semiconductors) and soft matter (biomolecules, polymers) and coarse-grained or mesoscopic systems. It can be used to model atoms …
+|-
+| <code>libvdwxc</code> || <code>0.4.0-foss-2024a</code> || <code>chem/libvdwxc</code> || libvdwxc is a general library for evaluating energy and potential for exchange-correlation (XC) functionals from the vdW-DF family that can be used with various of density functional theory (DFT) …
+|-
+| <code>mdi</code> || <code>1.4.26-gompi-2023a</code> || <code>chem/mdi</code> || The MolSSI Driver Interface (MDI) project provides a standardized API for fast, on-the-fly communication between computational chemistry codes. This greatly simplifies the process of implementing …
+|-
+| <code>orca</code> || <code>6.0.1-gompi-2023a-avx2</code> || <code>chem/orca</code> || ORCA is a flexible, efficient and easy-to-use general purpose tool for quantum chemistry with specific emphasis on spectroscopic properties of open-shell molecules. It features a wide variety of …
+|-
+| <code>plumed</code> || <code>2.9.0-foss-2023a</code> || <code>chem/plumed</code> || PLUMED is an open source library for free energy calculations in molecular systems which works together with some of the most popular molecular dynamics engines. Free energy calculations can be …
+|-
+| <code>spglib-python</code> || <code>2.5.0-gfbf-2024a</code> || <code>chem/spglib-python</code> || Spglib for Python. Spglib is a library for finding and handling crystal symmetries written in C.
+|}

@@ -1,0 +1,84 @@
+= Mathematics (math/) =
+
+Modules in category **Mathematics (math/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>eigen</code> || <code>3.3.8-gcccore-10.2.0</code>, <code>3.4.0-gcccore-12.3.0</code>, <code>3.4.0-gcccore-13.2.0</code>, <code>3.4.0-gcccore-13.3.0</code> || <code>math/eigen</code> || Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+|-
+| <code>elpa</code> || <code>2024.05.001-foss-2024a</code> || <code>math/elpa</code> || Eigenvalue SoLvers for Petaflop-Applications.
+|-
+| <code>gmp</code> || <code>6.2.0-gcccore-10.2.0</code>, <code>6.2.1-gcccore-12.3.0</code>, <code>6.3.0-gcccore-13.3.0</code> || <code>math/gmp</code> || GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.
+|-
+| <code>gmpy2</code> || <code>2.1.5-gcc-12.3.0</code> || <code>math/gmpy2</code> || gmpy2 2.1.5-gcc-12.3.0
+|-
+| <code>libcerf</code> || <code>2.4-gcccore-13.3.0</code> || <code>math/libcerf</code> || libcerf is a self-contained numeric library that provides an efficient and accurate implementation of complex error functions, along with Dawson, Faddeeva, and Voigt functions.
+|-
+| <code>mathematica</code> || <code>14.2.1</code> || <code>math/mathematica</code> || Mathematica is a computational software program used in many scientific, engineering, mathematical and computing fields.
+|-
+| <code>matlab</code> || <code>2023b</code> || <code>math/matlab</code> || MATLAB is a high-level language and interactive environment that enables you to perform computationally intensive tasks faster than with traditional programming languages such as C, C++, and Fortran.
+|-
+| <code>mpc</code> || <code>1.3.1-gcccore-12.3.0</code> || <code>math/mpc</code> || Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result. It extends the principles of the IEEE-754 standard for fixed precision …
+|-
+| <code>mpfr</code> || <code>4.2.0-gcccore-12.3.0</code> || <code>math/mpfr</code> || The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.
+|-
+| <code>qhull</code> || <code>2020.2-gcccore-13.2.0</code>, <code>2020.2-gcccore-13.3.0</code> || <code>math/qhull</code> || Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram. The source code …
+|-
+| <code>scafacos</code> || <code>1.0.4-foss-2023a</code>, <code>1.0.4-foss-2024a</code> || <code>math/scafacos</code> || ScaFaCoS is a library of scalable fast coulomb solvers.
+|-
+| <code>sympy</code> || <code>1.12-gfbf-2023a</code> || <code>math/sympy</code> || SymPy is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and …
+|-
+| <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code>, <code>0.4.6-gcccore-13.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
+|}
+
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>eigen</code> || <code>3.4.0-gcccore-12.3.0</code>, <code>3.4.0-gcccore-13.3.0</code> || <code>math/eigen</code> || Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+|-
+| <code>gmp</code> || <code>6.2.1-gcccore-12.3.0</code> || <code>math/gmp</code> || GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.
+|-
+| <code>gmpy2</code> || <code>2.1.5-gcc-12.3.0</code> || <code>math/gmpy2</code> || gmpy2 2.1.5-gcc-12.3.0
+|-
+| <code>mathematica</code> || <code>14.2.1</code> || <code>math/mathematica</code> || Mathematica is a computational software program used in many scientific, engineering, mathematical and computing fields.
+|-
+| <code>matlab</code> || <code>2023b</code> || <code>math/matlab</code> || MATLAB is a high-level language and interactive environment that enables you to perform computationally intensive tasks faster than with traditional programming languages such as C, C++, and Fortran.
+|-
+| <code>mpc</code> || <code>1.3.1-gcccore-12.3.0</code> || <code>math/mpc</code> || Gnu Mpc is a C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result. It extends the principles of the IEEE-754 standard for fixed precision …
+|-
+| <code>mpfr</code> || <code>4.2.0-gcccore-12.3.0</code> || <code>math/mpfr</code> || The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.
+|-
+| <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>eigen</code> || <code>3.3.8-gcccore-10.2.0</code>, <code>3.4.0-gcccore-12.3.0</code>, <code>3.4.0-gcccore-13.2.0</code>, <code>3.4.0-gcccore-13.3.0</code> || <code>math/eigen</code> || Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+|-
+| <code>elpa</code> || <code>2024.05.001-foss-2024a</code> || <code>math/elpa</code> || Eigenvalue SoLvers for Petaflop-Applications.
+|-
+| <code>gmp</code> || <code>6.2.0-gcccore-10.2.0</code>, <code>6.2.1-gcccore-12.3.0</code> || <code>math/gmp</code> || GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers.
+|-
+| <code>libcerf</code> || <code>2.4-gcccore-13.3.0</code> || <code>math/libcerf</code> || libcerf is a self-contained numeric library that provides an efficient and accurate implementation of complex error functions, along with Dawson, Faddeeva, and Voigt functions.
+|-
+| <code>mathematica</code> || <code>14.2.1</code> || <code>math/mathematica</code> || Mathematica is a computational software program used in many scientific, engineering, mathematical and computing fields.
+|-
+| <code>matlab</code> || <code>2023b</code> || <code>math/matlab</code> || MATLAB is a high-level language and interactive environment that enables you to perform computationally intensive tasks faster than with traditional programming languages such as C, C++, and Fortran.
+|-
+| <code>qhull</code> || <code>2020.2-gcccore-13.2.0</code>, <code>2020.2-gcccore-13.3.0</code> || <code>math/qhull</code> || Qhull computes the convex hull, Delaunay triangulation, Voronoi diagram, halfspace intersection about a point, furthest-site Delaunay triangulation, and furthest-site Voronoi diagram. The source code …
+|-
+| <code>scafacos</code> || <code>1.0.4-foss-2023a</code> || <code>math/scafacos</code> || ScaFaCoS is a library of scalable fast coulomb solvers.
+|-
+| <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
+|}

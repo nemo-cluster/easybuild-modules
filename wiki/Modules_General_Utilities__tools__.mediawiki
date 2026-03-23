@@ -1,0 +1,260 @@
+= General Utilities (tools/) =
+
+Modules in category **General Utilities (tools/)** on bwForCluster NEMO 2.
+
+== Genoa / H200 / RTX / MI300A ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>archspec</code> || <code>0.2.1-gcccore-12.3.0</code>, <code>0.2.5-gcccore-12.3.0</code>, <code>0.2.5-gcccore-13.3.0</code> || <code>tools/archspec</code> || A library for detecting, labeling, and reasoning about microarchitectures
+|-
+| <code>binutils</code> || <code>2.35</code>, <code>2.35-gcccore-10.2.0</code>, <code>2.38</code>, <code>2.38-gcccore-11.3.0</code>, <code>2.40</code>, <code>2.40-gcccore-12.3.0</code>, <code>2.40-gcccore-13.2.0</code>, <code>2.42</code>, <code>2.42-gcccore-13.3.0</code> || <code>tools/binutils</code> || binutils: GNU binary utilities
+|-
+| <code>bzip2</code> || <code>1.0.8-gcccore-10.2.0</code>, <code>1.0.8-gcccore-11.3.0</code>, <code>1.0.8-gcccore-12.3.0</code>, <code>1.0.8-gcccore-13.2.0</code>, <code>1.0.8-gcccore-13.3.0</code> || <code>tools/bzip2</code> || bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical …
+|-
+| <code>cffi</code> || <code>1.15.1-gcccore-12.3.0</code>, <code>1.15.1-gcccore-13.2.0</code>, <code>1.16.0-gcccore-13.3.0</code> || <code>tools/cffi</code> || C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
+|-
+| <code>code-server</code> || <code>4.90.2</code> || <code>tools/code-server</code> || Run VS Code on any machine anywhere and access it in the browser.
+|-
+| <code>cppy</code> || <code>1.2.1-gcccore-13.2.0</code>, <code>1.2.1-gcccore-13.3.0</code> || <code>tools/cppy</code> || A small C++ header library which makes it easier to write Python extension modules. The primary feature is a PyObject smart pointer which automatically handles reference counting and provides …
+|-
+| <code>cryptography</code> || <code>41.0.1-gcccore-12.3.0</code>, <code>41.0.5-gcccore-13.2.0</code>, <code>42.0.8-gcccore-13.3.0</code> || <code>tools/cryptography</code> || cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+|-
+| <code>curl</code> || <code>7.72.0-gcccore-10.2.0</code>, <code>7.83.0-gcccore-11.3.0</code>, <code>8.0.1-gcccore-12.3.0</code>, <code>8.3.0-gcccore-13.2.0</code>, <code>8.7.1-gcccore-13.3.0</code> || <code>tools/curl</code> || libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, …
+|-
+| <code>db</code> || <code>18.1.40-gcccore-10.2.0</code>, <code>18.1.40-gcccore-11.3.0</code> || <code>tools/db</code> || Berkeley DB enables the development of custom data management solutions, without the overhead traditionally associated with such custom projects.
+|-
+| <code>expat</code> || <code>2.2.9-gcccore-10.2.0</code>, <code>2.4.8-gcccore-11.3.0</code>, <code>2.5.0-gcccore-12.3.0</code>, <code>2.5.0-gcccore-13.2.0</code>, <code>2.6.2-gcccore-13.3.0</code> || <code>tools/expat</code> || Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)
+|-
+| <code>expecttest</code> || <code>0.1.5-gcccore-12.3.0</code> || <code>tools/expecttest</code> || This library implements expect tests (also known as "golden" tests). Expect tests are a method of writing tests where instead of hard-coding the expected output of a test, you run the test to get the …
+|-
+| <code>flit</code> || <code>3.9.0-gcccore-12.3.0</code>, <code>3.9.0-gcccore-13.2.0</code>, <code>3.9.0-gcccore-13.3.0</code> || <code>tools/flit</code> || A simple packaging tool for simple packages.
+|-
+| <code>gettext</code> || <code>0.21</code>, <code>0.21-gcccore-10.2.0</code>, <code>0.21-gcccore-11.3.0</code>, <code>0.21.1</code>, <code>0.21.1-gcccore-12.3.0</code>, <code>0.22</code>, <code>0.22-gcccore-13.2.0</code>, <code>0.22.5</code>, <code>0.22.5-gcccore-13.3.0</code> || <code>tools/gettext</code> || GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well …
+|-
+| <code>git</code> || <code>2.28.0-gcccore-10.2.0-nodocs</code>, <code>2.41.0-gcccore-12.3.0-nodocs</code>, <code>2.42.0-gcccore-13.2.0</code>, <code>2.45.1-gcccore-13.3.0</code> || <code>tools/git</code> || Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+|-
+| <code>groff</code> || <code>1.22.4-gcccore-10.2.0</code>, <code>1.22.4-gcccore-11.3.0</code>, <code>1.22.4-gcccore-12.3.0</code>, <code>1.23.0-gcccore-13.2.0</code>, <code>1.23.0-gcccore-13.3.0</code> || <code>tools/groff</code> || Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output.
+|-
+| <code>gsd</code> || <code>3.4.2-foss-2024a</code> || <code>tools/gsd</code> || The GSD file format is the native file format for HOOMD-blue. GSD files store trajectories of the HOOMD-blue system state in a binary file with efficient random access to frames. GSD allows all …
+|-
+| <code>gzip</code> || <code>1.10-gcccore-10.2.0</code>, <code>1.12-gcccore-11.3.0</code>, <code>1.12-gcccore-12.3.0</code>, <code>1.13-gcccore-13.2.0</code>, <code>1.13-gcccore-13.3.0</code> || <code>tools/gzip</code> || gzip (GNU zip) is a popular data compression program as a replacement for compress
+|-
+| <code>hatchling</code> || <code>1.18.0-gcccore-12.3.0</code>, <code>1.18.0-gcccore-13.2.0</code>, <code>1.24.2-gcccore-13.3.0</code> || <code>tools/hatchling</code> || Extensible, standards compliant build backend used by Hatch, a modern, extensible Python project manager.
+|-
+| <code>help2man</code> || <code>1.47.16-gcccore-10.2.0</code>, <code>1.49.2-gcccore-11.3.0</code>, <code>1.49.3-gcccore-12.3.0</code>, <code>1.49.3-gcccore-13.2.0</code>, <code>1.49.3-gcccore-13.3.0</code> || <code>tools/help2man</code> || help2man produces simple manual pages from the '--help' and '--version' output of other commands.
+|-
+| <code>hypothesis</code> || <code>5.41.2-gcccore-10.2.0</code>, <code>6.103.1-gcccore-13.3.0</code>, <code>6.82.0-gcccore-12.3.0</code>, <code>6.90.0-gcccore-13.2.0</code> || <code>tools/hypothesis</code> || Hypothesis is an advanced testing library for Python. It lets you write tests which are parametrized by a source of examples, and then generates simple and comprehensible examples that make your …
+|-
+| <code>libarchive</code> || <code>3.4.3-gcccore-10.2.0</code>, <code>3.6.1-gcccore-11.3.0</code>, <code>3.6.2-gcccore-12.3.0</code>, <code>3.7.2-gcccore-13.2.0</code>, <code>3.7.4-gcccore-13.3.0</code> || <code>tools/libarchive</code> || Multi-format archive and compression library
+|-
+| <code>lit</code> || <code>18.1.2-gcccore-12.3.0</code>, <code>18.1.8-gcccore-13.3.0</code> || <code>tools/lit</code> || lit is a portable tool for executing LLVM and Clang style test suites, summarizing their results, and providing indication of failures.
+|-
+| <code>maturin</code> || <code>1.6.0-gcccore-13.3.0</code> || <code>tools/maturin</code> || This project is meant as a zero configuration replacement for setuptools-rust and milksnake. It supports building wheels for python 3.5+ on windows, linux, mac and freebsd, can upload them to pypi …
+|-
+| <code>meson</code> || <code>1.1.1-gcccore-12.3.0</code>, <code>1.2.3-gcccore-13.2.0</code>, <code>1.4.0-gcccore-13.3.0</code> || <code>tools/meson</code> || Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.
+|-
+| <code>meson-python</code> || <code>0.15.0-gcccore-13.2.0</code>, <code>0.16.0-gcccore-13.3.0</code> || <code>tools/meson-python</code> || Python build backend (PEP 517) for Meson projects
+|-
+| <code>networkx</code> || <code>3.1-gfbf-2023a</code> || <code>tools/networkx</code> || NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+|-
+| <code>ninja</code> || <code>1.11.1-gcccore-12.3.0</code>, <code>1.11.1-gcccore-13.2.0</code>, <code>1.12.1-gcccore-13.3.0</code> || <code>tools/ninja</code> || Ninja is a small build system with a focus on speed.
+|-
+| <code>numactl</code> || <code>2.0.13-gcccore-10.2.0</code>, <code>2.0.14-gcccore-11.3.0</code>, <code>2.0.16-gcccore-12.3.0</code>, <code>2.0.18-gcccore-13.3.0</code> || <code>tools/numactl</code> || The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. …
+|-
+| <code>patchelf</code> || <code>0.18.0-gcccore-12.3.0</code>, <code>0.18.0-gcccore-13.2.0</code>, <code>0.18.0-gcccore-13.3.0</code> || <code>tools/patchelf</code> || PatchELF is a small utility to modify the dynamic linker and RPATH of ELF executables.
+|-
+| <code>poetry</code> || <code>1.5.1-gcccore-12.3.0</code>, <code>1.6.1-gcccore-13.2.0</code>, <code>1.8.3-gcccore-13.3.0</code> || <code>tools/poetry</code> || Python packaging and dependency management made easy. Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.
+|-
+| <code>pytest-flakefinder</code> || <code>1.1.0-gcccore-12.3.0</code> || <code>tools/pytest-flakefinder</code> || Runs tests multiple times to expose flakiness.
+|-
+| <code>pytest-rerunfailures</code> || <code>12.0-gcccore-12.3.0</code> || <code>tools/pytest-rerunfailures</code> || pytest plugin to re-run tests to eliminate flaky failures.
+|-
+| <code>pytest-shard</code> || <code>0.1.2-gcccore-12.3.0</code> || <code>tools/pytest-shard</code> || pytest plugin to support parallelism across multiple machines. Shards tests based on a hash of their test name enabling easy parallelism across machines, suitable for a wide variety of continuous …
+|-
+| <code>re2c</code> || <code>3.1-gcccore-12.3.0</code>, <code>3.1-gcccore-13.3.0</code> || <code>tools/re2c</code> || re2c is a free and open-source lexer generator for C and C++. Its main goal is generating fast lexers: at least as fast as their reasonably optimized hand-coded counterparts. Instead of using …
+|-
+| <code>setuptools-rust</code> || <code>1.6.0-gcccore-12.3.0</code>, <code>1.8.0-gcccore-13.2.0</code>, <code>1.9.0-gcccore-13.3.0</code> || <code>tools/setuptools-rust</code> || setuptools-rust is a plugin for setuptools to build Rust Python extensions implemented with PyO3 or rust-cpython.
+|-
+| <code>szip</code> || <code>2.1.1-gcccore-10.2.0</code>, <code>2.1.1-gcccore-12.3.0</code>, <code>2.1.1-gcccore-13.3.0</code> || <code>tools/szip</code> || Szip compression software, providing lossless compression of scientific data
+|-
+| <code>unzip</code> || <code>6.0-gcccore-10.2.0</code>, <code>6.0-gcccore-11.3.0</code>, <code>6.0-gcccore-12.3.0</code>, <code>6.0-gcccore-13.2.0</code>, <code>6.0-gcccore-13.3.0</code> || <code>tools/unzip</code> || UnZip is an extraction utility for archives compressed in .zip format (also called "zipfiles"). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with …
+|-
+| <code>util-linux</code> || <code>2.39-gcccore-12.3.0</code>, <code>2.39-gcccore-13.2.0</code>, <code>2.40-gcccore-13.3.0</code> || <code>tools/util-linux</code> || Set of Linux utilities
+|-
+| <code>virtualenv</code> || <code>20.23.1-gcccore-12.3.0</code>, <code>20.24.6-gcccore-13.2.0</code>, <code>20.26.2-gcccore-13.3.0</code> || <code>tools/virtualenv</code> || A tool for creating isolated virtual python environments.
+|-
+| <code>xxd</code> || <code>9.0.2112-gcccore-12.3.0</code>, <code>9.1.1275-gcccore-13.3.0</code> || <code>tools/xxd</code> || files.
+|-
+| <code>xz</code> || <code>5.2.5-gcccore-10.2.0</code>, <code>5.2.5-gcccore-11.3.0</code>, <code>5.4.2-gcccore-12.3.0</code>, <code>5.4.4-gcccore-13.2.0</code>, <code>5.4.5-gcccore-13.3.0</code> || <code>tools/xz</code> || xz: XZ utilities
+|-
+| <code>z3</code> || <code>4.12.2-gcccore-12.3.0</code> || <code>tools/z3</code> || Z3 is a theorem prover from Microsoft Research with support for bitvectors, booleans, arrays, floating point numbers, strings, and other data types. This module includes z3-solver, the Python …
+|}
+
+== L40S ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>archspec</code> || <code>0.2.5-gcccore-12.3.0</code> || <code>tools/archspec</code> || A library for detecting, labeling, and reasoning about microarchitectures
+|-
+| <code>binutils</code> || <code>2.38</code>, <code>2.38-gcccore-11.3.0</code>, <code>2.40</code>, <code>2.40-gcccore-12.3.0</code>, <code>2.42</code>, <code>2.42-gcccore-13.3.0</code> || <code>tools/binutils</code> || binutils: GNU binary utilities
+|-
+| <code>bzip2</code> || <code>1.0.8-gcccore-11.3.0</code>, <code>1.0.8-gcccore-12.3.0</code>, <code>1.0.8-gcccore-13.3.0</code> || <code>tools/bzip2</code> || bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical …
+|-
+| <code>cffi</code> || <code>1.15.1-gcccore-12.3.0</code>, <code>1.16.0-gcccore-13.3.0</code> || <code>tools/cffi</code> || C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
+|-
+| <code>cryptography</code> || <code>41.0.1-gcccore-12.3.0</code>, <code>42.0.8-gcccore-13.3.0</code> || <code>tools/cryptography</code> || cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+|-
+| <code>curl</code> || <code>7.83.0-gcccore-11.3.0</code>, <code>8.0.1-gcccore-12.3.0</code>, <code>8.7.1-gcccore-13.3.0</code> || <code>tools/curl</code> || libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, …
+|-
+| <code>db</code> || <code>18.1.40-gcccore-11.3.0</code> || <code>tools/db</code> || Berkeley DB enables the development of custom data management solutions, without the overhead traditionally associated with such custom projects.
+|-
+| <code>expat</code> || <code>2.4.8-gcccore-11.3.0</code>, <code>2.5.0-gcccore-12.3.0</code>, <code>2.6.2-gcccore-13.3.0</code> || <code>tools/expat</code> || Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)
+|-
+| <code>expecttest</code> || <code>0.1.5-gcccore-12.3.0</code> || <code>tools/expecttest</code> || This library implements expect tests (also known as "golden" tests). Expect tests are a method of writing tests where instead of hard-coding the expected output of a test, you run the test to get the …
+|-
+| <code>flit</code> || <code>3.9.0-gcccore-12.3.0</code>, <code>3.9.0-gcccore-13.3.0</code> || <code>tools/flit</code> || A simple packaging tool for simple packages.
+|-
+| <code>gettext</code> || <code>0.21</code>, <code>0.21.1</code>, <code>0.21.1-gcccore-12.3.0</code>, <code>0.22.5</code>, <code>0.22.5-gcccore-13.3.0</code> || <code>tools/gettext</code> || GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well …
+|-
+| <code>git</code> || <code>2.41.0-gcccore-12.3.0-nodocs</code>, <code>2.45.1-gcccore-13.3.0</code> || <code>tools/git</code> || Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+|-
+| <code>groff</code> || <code>1.22.4-gcccore-11.3.0</code>, <code>1.22.4-gcccore-12.3.0</code> || <code>tools/groff</code> || Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output.
+|-
+| <code>gzip</code> || <code>1.12-gcccore-11.3.0</code>, <code>1.12-gcccore-12.3.0</code>, <code>1.13-gcccore-13.3.0</code> || <code>tools/gzip</code> || gzip (GNU zip) is a popular data compression program as a replacement for compress
+|-
+| <code>hatchling</code> || <code>1.18.0-gcccore-12.3.0</code>, <code>1.24.2-gcccore-13.3.0</code> || <code>tools/hatchling</code> || Extensible, standards compliant build backend used by Hatch, a modern, extensible Python project manager.
+|-
+| <code>help2man</code> || <code>1.49.2-gcccore-11.3.0</code>, <code>1.49.3-gcccore-12.3.0</code>, <code>1.49.3-gcccore-13.3.0</code> || <code>tools/help2man</code> || help2man produces simple manual pages from the '--help' and '--version' output of other commands.
+|-
+| <code>hypothesis</code> || <code>6.103.1-gcccore-13.3.0</code>, <code>6.82.0-gcccore-12.3.0</code> || <code>tools/hypothesis</code> || Hypothesis is an advanced testing library for Python. It lets you write tests which are parametrized by a source of examples, and then generates simple and comprehensible examples that make your …
+|-
+| <code>libarchive</code> || <code>3.6.1-gcccore-11.3.0</code>, <code>3.6.2-gcccore-12.3.0</code>, <code>3.7.4-gcccore-13.3.0</code> || <code>tools/libarchive</code> || Multi-format archive and compression library
+|-
+| <code>libde265</code> || <code>1.0.15-gcccore-13.3.0</code> || <code>tools/libde265</code> || libde265 is an open source implementation of the h.265 video codec
+|-
+| <code>lit</code> || <code>18.1.2-gcccore-12.3.0</code>, <code>18.1.8-gcccore-13.3.0</code> || <code>tools/lit</code> || lit is a portable tool for executing LLVM and Clang style test suites, summarizing their results, and providing indication of failures.
+|-
+| <code>maturin</code> || <code>1.6.0-gcccore-13.3.0</code> || <code>tools/maturin</code> || This project is meant as a zero configuration replacement for setuptools-rust and milksnake. It supports building wheels for python 3.5+ on windows, linux, mac and freebsd, can upload them to pypi …
+|-
+| <code>meson</code> || <code>1.1.1-gcccore-12.3.0</code>, <code>1.4.0-gcccore-13.3.0</code> || <code>tools/meson</code> || Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.
+|-
+| <code>meson-python</code> || <code>0.16.0-gcccore-13.3.0</code> || <code>tools/meson-python</code> || Python build backend (PEP 517) for Meson projects
+|-
+| <code>ninja</code> || <code>1.11.1-gcccore-12.3.0</code>, <code>1.12.1-gcccore-13.3.0</code> || <code>tools/ninja</code> || Ninja is a small build system with a focus on speed.
+|-
+| <code>numactl</code> || <code>2.0.14-gcccore-11.3.0</code>, <code>2.0.16-gcccore-12.3.0</code>, <code>2.0.18-gcccore-13.3.0</code> || <code>tools/numactl</code> || The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. …
+|-
+| <code>patchelf</code> || <code>0.18.0-gcccore-12.3.0</code>, <code>0.18.0-gcccore-13.3.0</code> || <code>tools/patchelf</code> || PatchELF is a small utility to modify the dynamic linker and RPATH of ELF executables.
+|-
+| <code>poetry</code> || <code>1.5.1-gcccore-12.3.0</code>, <code>1.8.3-gcccore-13.3.0</code> || <code>tools/poetry</code> || Python packaging and dependency management made easy. Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.
+|-
+| <code>pytest-flakefinder</code> || <code>1.1.0-gcccore-12.3.0</code> || <code>tools/pytest-flakefinder</code> || Runs tests multiple times to expose flakiness.
+|-
+| <code>pytest-rerunfailures</code> || <code>12.0-gcccore-12.3.0</code> || <code>tools/pytest-rerunfailures</code> || pytest plugin to re-run tests to eliminate flaky failures.
+|-
+| <code>pytest-shard</code> || <code>0.1.2-gcccore-12.3.0</code> || <code>tools/pytest-shard</code> || pytest plugin to support parallelism across multiple machines. Shards tests based on a hash of their test name enabling easy parallelism across machines, suitable for a wide variety of continuous …
+|-
+| <code>re2c</code> || <code>3.1-gcccore-12.3.0</code> || <code>tools/re2c</code> || re2c is a free and open-source lexer generator for C and C++. Its main goal is generating fast lexers: at least as fast as their reasonably optimized hand-coded counterparts. Instead of using …
+|-
+| <code>setuptools-rust</code> || <code>1.6.0-gcccore-12.3.0</code>, <code>1.9.0-gcccore-13.3.0</code> || <code>tools/setuptools-rust</code> || setuptools-rust is a plugin for setuptools to build Rust Python extensions implemented with PyO3 or rust-cpython.
+|-
+| <code>szip</code> || <code>2.1.1-gcccore-12.3.0</code> || <code>tools/szip</code> || Szip compression software, providing lossless compression of scientific data
+|-
+| <code>unzip</code> || <code>6.0-gcccore-11.3.0</code>, <code>6.0-gcccore-12.3.0</code>, <code>6.0-gcccore-13.3.0</code> || <code>tools/unzip</code> || UnZip is an extraction utility for archives compressed in .zip format (also called "zipfiles"). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with …
+|-
+| <code>util-linux</code> || <code>2.39-gcccore-12.3.0</code> || <code>tools/util-linux</code> || Set of Linux utilities
+|-
+| <code>virtualenv</code> || <code>20.23.1-gcccore-12.3.0</code>, <code>20.26.2-gcccore-13.3.0</code> || <code>tools/virtualenv</code> || A tool for creating isolated virtual python environments.
+|-
+| <code>xxd</code> || <code>9.0.2112-gcccore-12.3.0</code> || <code>tools/xxd</code> || files.
+|-
+| <code>xz</code> || <code>5.2.5-gcccore-11.3.0</code>, <code>5.4.2-gcccore-12.3.0</code>, <code>5.4.5-gcccore-13.3.0</code> || <code>tools/xz</code> || xz: XZ utilities
+|-
+| <code>z3</code> || <code>4.12.2-gcccore-12.3.0</code> || <code>tools/z3</code> || Z3 is a theorem prover from Microsoft Research with support for bitvectors, booleans, arrays, floating point numbers, strings, and other data types. This module includes z3-solver, the Python …
+|}
+
+== Milan ==
+
+{| class="wikitable sortable" style="width:100%"
+|-
+! Software !! Versions !! Module path !! Description
+|-
+| <code>archspec</code> || <code>0.2.5-gcccore-12.3.0</code> || <code>tools/archspec</code> || A library for detecting, labeling, and reasoning about microarchitectures
+|-
+| <code>binutils</code> || <code>2.35</code>, <code>2.35-gcccore-10.2.0</code>, <code>2.38</code>, <code>2.38-gcccore-11.3.0</code>, <code>2.40</code>, <code>2.40-gcccore-12.3.0</code>, <code>2.40-gcccore-13.2.0</code>, <code>2.42</code>, <code>2.42-gcccore-13.3.0</code> || <code>tools/binutils</code> || binutils: GNU binary utilities
+|-
+| <code>bzip2</code> || <code>1.0.8-gcccore-10.2.0</code>, <code>1.0.8-gcccore-11.3.0</code>, <code>1.0.8-gcccore-12.3.0</code>, <code>1.0.8-gcccore-13.2.0</code>, <code>1.0.8-gcccore-13.3.0</code> || <code>tools/bzip2</code> || bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical …
+|-
+| <code>cffi</code> || <code>1.15.1-gcccore-12.3.0</code>, <code>1.15.1-gcccore-13.2.0</code>, <code>1.16.0-gcccore-13.3.0</code> || <code>tools/cffi</code> || C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
+|-
+| <code>code-server</code> || <code>4.90.2</code> || <code>tools/code-server</code> || Run VS Code on any machine anywhere and access it in the browser.
+|-
+| <code>cppy</code> || <code>1.2.1-gcccore-13.2.0</code>, <code>1.2.1-gcccore-13.3.0</code> || <code>tools/cppy</code> || A small C++ header library which makes it easier to write Python extension modules. The primary feature is a PyObject smart pointer which automatically handles reference counting and provides …
+|-
+| <code>cryptography</code> || <code>41.0.1-gcccore-12.3.0</code>, <code>41.0.5-gcccore-13.2.0</code>, <code>42.0.8-gcccore-13.3.0</code> || <code>tools/cryptography</code> || cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
+|-
+| <code>curl</code> || <code>7.72.0-gcccore-10.2.0</code>, <code>7.83.0-gcccore-11.3.0</code>, <code>8.0.1-gcccore-12.3.0</code>, <code>8.3.0-gcccore-13.2.0</code>, <code>8.7.1-gcccore-13.3.0</code> || <code>tools/curl</code> || libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, …
+|-
+| <code>db</code> || <code>18.1.40-gcccore-10.2.0</code>, <code>18.1.40-gcccore-11.3.0</code> || <code>tools/db</code> || Berkeley DB enables the development of custom data management solutions, without the overhead traditionally associated with such custom projects.
+|-
+| <code>expat</code> || <code>2.2.9-gcccore-10.2.0</code>, <code>2.4.8-gcccore-11.3.0</code>, <code>2.5.0-gcccore-12.3.0</code>, <code>2.5.0-gcccore-13.2.0</code>, <code>2.6.2-gcccore-13.3.0</code> || <code>tools/expat</code> || Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)
+|-
+| <code>flit</code> || <code>3.9.0-gcccore-12.3.0</code>, <code>3.9.0-gcccore-13.2.0</code>, <code>3.9.0-gcccore-13.3.0</code> || <code>tools/flit</code> || A simple packaging tool for simple packages.
+|-
+| <code>gettext</code> || <code>0.21</code>, <code>0.21-gcccore-10.2.0</code>, <code>0.21.1</code>, <code>0.21.1-gcccore-12.3.0</code>, <code>0.22</code>, <code>0.22-gcccore-13.2.0</code>, <code>0.22.5</code>, <code>0.22.5-gcccore-13.3.0</code> || <code>tools/gettext</code> || GNU 'gettext' is an important step for the GNU Translation Project, as it is an asset on which we may build many other steps. This package offers to programmers, translators, and even users, a well …
+|-
+| <code>git</code> || <code>2.28.0-gcccore-10.2.0-nodocs</code>, <code>2.41.0-gcccore-12.3.0-nodocs</code>, <code>2.42.0-gcccore-13.2.0</code>, <code>2.45.1-gcccore-13.3.0</code> || <code>tools/git</code> || Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+|-
+| <code>groff</code> || <code>1.22.4-gcccore-10.2.0</code>, <code>1.22.4-gcccore-11.3.0</code>, <code>1.22.4-gcccore-12.3.0</code>, <code>1.23.0-gcccore-13.2.0</code>, <code>1.23.0-gcccore-13.3.0</code> || <code>tools/groff</code> || Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output.
+|-
+| <code>gsd</code> || <code>3.4.2-foss-2024a</code> || <code>tools/gsd</code> || The GSD file format is the native file format for HOOMD-blue. GSD files store trajectories of the HOOMD-blue system state in a binary file with efficient random access to frames. GSD allows all …
+|-
+| <code>gzip</code> || <code>1.10-gcccore-10.2.0</code>, <code>1.12-gcccore-11.3.0</code>, <code>1.12-gcccore-12.3.0</code>, <code>1.13-gcccore-13.2.0</code>, <code>1.13-gcccore-13.3.0</code> || <code>tools/gzip</code> || gzip (GNU zip) is a popular data compression program as a replacement for compress
+|-
+| <code>hatchling</code> || <code>1.18.0-gcccore-12.3.0</code>, <code>1.18.0-gcccore-13.2.0</code>, <code>1.24.2-gcccore-13.3.0</code> || <code>tools/hatchling</code> || Extensible, standards compliant build backend used by Hatch, a modern, extensible Python project manager.
+|-
+| <code>help2man</code> || <code>1.47.16-gcccore-10.2.0</code>, <code>1.49.2-gcccore-11.3.0</code>, <code>1.49.3-gcccore-12.3.0</code>, <code>1.49.3-gcccore-13.2.0</code>, <code>1.49.3-gcccore-13.3.0</code> || <code>tools/help2man</code> || help2man produces simple manual pages from the '--help' and '--version' output of other commands.
+|-
+| <code>hypothesis</code> || <code>5.41.2-gcccore-10.2.0</code>, <code>6.103.1-gcccore-13.3.0</code>, <code>6.82.0-gcccore-12.3.0</code>, <code>6.90.0-gcccore-13.2.0</code> || <code>tools/hypothesis</code> || Hypothesis is an advanced testing library for Python. It lets you write tests which are parametrized by a source of examples, and then generates simple and comprehensible examples that make your …
+|-
+| <code>libarchive</code> || <code>3.4.3-gcccore-10.2.0</code>, <code>3.6.1-gcccore-11.3.0</code>, <code>3.6.2-gcccore-12.3.0</code>, <code>3.7.2-gcccore-13.2.0</code>, <code>3.7.4-gcccore-13.3.0</code> || <code>tools/libarchive</code> || Multi-format archive and compression library
+|-
+| <code>lit</code> || <code>18.1.2-gcccore-12.3.0</code>, <code>18.1.8-gcccore-13.3.0</code> || <code>tools/lit</code> || lit is a portable tool for executing LLVM and Clang style test suites, summarizing their results, and providing indication of failures.
+|-
+| <code>maturin</code> || <code>1.6.0-gcccore-13.3.0</code> || <code>tools/maturin</code> || This project is meant as a zero configuration replacement for setuptools-rust and milksnake. It supports building wheels for python 3.5+ on windows, linux, mac and freebsd, can upload them to pypi …
+|-
+| <code>meson</code> || <code>1.1.1-gcccore-12.3.0</code>, <code>1.2.3-gcccore-13.2.0</code>, <code>1.4.0-gcccore-13.3.0</code> || <code>tools/meson</code> || Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.
+|-
+| <code>meson-python</code> || <code>0.15.0-gcccore-13.2.0</code>, <code>0.16.0-gcccore-13.3.0</code> || <code>tools/meson-python</code> || Python build backend (PEP 517) for Meson projects
+|-
+| <code>networkx</code> || <code>3.1-gfbf-2023a</code> || <code>tools/networkx</code> || NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+|-
+| <code>ninja</code> || <code>1.11.1-gcccore-12.3.0</code>, <code>1.11.1-gcccore-13.2.0</code>, <code>1.12.1-gcccore-13.3.0</code> || <code>tools/ninja</code> || Ninja is a small build system with a focus on speed.
+|-
+| <code>numactl</code> || <code>2.0.13-gcccore-10.2.0</code>, <code>2.0.14-gcccore-11.3.0</code>, <code>2.0.16-gcccore-12.3.0</code>, <code>2.0.18-gcccore-13.3.0</code> || <code>tools/numactl</code> || The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. …
+|-
+| <code>patchelf</code> || <code>0.18.0-gcccore-12.3.0</code>, <code>0.18.0-gcccore-13.2.0</code>, <code>0.18.0-gcccore-13.3.0</code> || <code>tools/patchelf</code> || PatchELF is a small utility to modify the dynamic linker and RPATH of ELF executables.
+|-
+| <code>poetry</code> || <code>1.5.1-gcccore-12.3.0</code>, <code>1.6.1-gcccore-13.2.0</code>, <code>1.8.3-gcccore-13.3.0</code> || <code>tools/poetry</code> || Python packaging and dependency management made easy. Poetry helps you declare, manage and install dependencies of Python projects, ensuring you have the right stack everywhere.
+|-
+| <code>re2c</code> || <code>3.1-gcccore-12.3.0</code>, <code>3.1-gcccore-13.3.0</code> || <code>tools/re2c</code> || re2c is a free and open-source lexer generator for C and C++. Its main goal is generating fast lexers: at least as fast as their reasonably optimized hand-coded counterparts. Instead of using …
+|-
+| <code>setuptools-rust</code> || <code>1.6.0-gcccore-12.3.0</code>, <code>1.8.0-gcccore-13.2.0</code>, <code>1.9.0-gcccore-13.3.0</code> || <code>tools/setuptools-rust</code> || setuptools-rust is a plugin for setuptools to build Rust Python extensions implemented with PyO3 or rust-cpython.
+|-
+| <code>szip</code> || <code>2.1.1-gcccore-10.2.0</code>, <code>2.1.1-gcccore-12.3.0</code>, <code>2.1.1-gcccore-13.3.0</code> || <code>tools/szip</code> || Szip compression software, providing lossless compression of scientific data
+|-
+| <code>unzip</code> || <code>6.0-gcccore-10.2.0</code>, <code>6.0-gcccore-11.3.0</code>, <code>6.0-gcccore-12.3.0</code>, <code>6.0-gcccore-13.2.0</code>, <code>6.0-gcccore-13.3.0</code> || <code>tools/unzip</code> || UnZip is an extraction utility for archives compressed in .zip format (also called "zipfiles"). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with …
+|-
+| <code>util-linux</code> || <code>2.39-gcccore-12.3.0</code>, <code>2.39-gcccore-13.2.0</code>, <code>2.40-gcccore-13.3.0</code> || <code>tools/util-linux</code> || Set of Linux utilities
+|-
+| <code>virtualenv</code> || <code>20.23.1-gcccore-12.3.0</code>, <code>20.24.6-gcccore-13.2.0</code>, <code>20.26.2-gcccore-13.3.0</code> || <code>tools/virtualenv</code> || A tool for creating isolated virtual python environments.
+|-
+| <code>xxd</code> || <code>9.0.2112-gcccore-12.3.0</code> || <code>tools/xxd</code> || files.
+|-
+| <code>xz</code> || <code>5.2.5-gcccore-10.2.0</code>, <code>5.2.5-gcccore-11.3.0</code>, <code>5.4.2-gcccore-12.3.0</code>, <code>5.4.4-gcccore-13.2.0</code>, <code>5.4.5-gcccore-13.3.0</code> || <code>tools/xz</code> || xz: XZ utilities
+|}
