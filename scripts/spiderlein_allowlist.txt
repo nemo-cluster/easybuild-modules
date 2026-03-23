@@ -1,0 +1,123 @@
+# spiderlein_allowlist.txt
+#
+# Controls which modules appear in the spiderlein output (--mode spiderlein).
+# Format:  category/software   (lowercase)
+# Entries use DISPLAY names, i.e. names AFTER rename mappings from
+# spiderlein_cat_rename.json have been applied.
+# Example: gcc is renamed to gnu → use "compiler/gnu" here.
+#
+# Only exact category/software pairs are matched — i.e. "compiler/gnu" includes
+# all versions of GCC, but NOT gcccore, go, etc.
+#
+# If this file is empty (contains only comments / blank lines), ALL modules
+# are written to the output without filtering.
+
+# ---------------------------------------------------------------------------
+# Compilers
+# (gcc → gnu via spiderlein_cat_rename.json; intel-compilers → intel)
+# ---------------------------------------------------------------------------
+compiler/gnu
+compiler/intel
+compiler/go
+compiler/llvm
+
+# ---------------------------------------------------------------------------
+# MPI
+# ---------------------------------------------------------------------------
+mpi/openmpi
+mpi/impi
+
+# ---------------------------------------------------------------------------
+# Toolchains  — no toolchain category in bwHPC spiderlein system
+# ---------------------------------------------------------------------------
+#toolchain/foss
+#toolchain/gfbf
+#toolchain/gompi
+#toolchain/iimpi
+#toolchain/intel
+
+# ---------------------------------------------------------------------------
+# Numerical Libraries
+# (fftw.mpi → fftw-mpi; imkl-fftw → mkl-fftw via cat_rename.json)
+# ---------------------------------------------------------------------------
+numlib/fftw
+numlib/fftw-mpi
+numlib/openblas
+numlib/blis
+numlib/gsl
+numlib/imkl
+numlib/mkl-fftw
+numlib/scalapack
+numlib/cudnn
+
+# ---------------------------------------------------------------------------
+# Math Software
+# ---------------------------------------------------------------------------
+math/eigen
+math/elpa
+math/matlab
+math/mathematica
+math/scafacos
+math/sympy
+math/voro++
+math/gmp
+
+# ---------------------------------------------------------------------------
+# Libraries  (data/ and system/ are remapped to lib/ and devel/ respectively)
+# hdf5, netcdf: EB path data/ → display category lib/ via cat_rename.json
+# mpi4py, nccl, boost: already under lib/ in EB
+# ---------------------------------------------------------------------------
+lib/hdf5
+lib/netcdf
+lib/mpi4py
+lib/nccl
+
+# ---------------------------------------------------------------------------
+# Biology / Neuroscience
+# ---------------------------------------------------------------------------
+bio/gromacs
+bio/nest
+
+# ---------------------------------------------------------------------------
+# Chemistry
+# ---------------------------------------------------------------------------
+chem/ase
+chem/gpaw-setups
+chem/kim-api
+chem/lammps
+chem/libvdwxc
+chem/mdi
+chem/orca
+chem/plumed
+chem/spglib-python
+
+# ---------------------------------------------------------------------------
+# Physics
+# ---------------------------------------------------------------------------
+phys/hoomd-blue
+
+# ---------------------------------------------------------------------------
+# Development / Programming Environments
+# (lang/ remapped → devel/ via cat_rename.json; system/cuda → devel/cuda)
+# ---------------------------------------------------------------------------
+devel/python
+devel/java
+devel/miniforge3
+devel/rust
+devel/scipy-bundle
+devel/perl
+devel/lua
+devel/nodejs
+devel/boost
+devel/cmake
+devel/doxygen
+devel/qt5
+devel/cuda
+
+# ---------------------------------------------------------------------------
+# Visualization
+# ---------------------------------------------------------------------------
+vis/ffmpeg
+vis/matplotlib
+vis/turbovnc
+vis/vtk

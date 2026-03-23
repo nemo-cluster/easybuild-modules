@@ -1,6 +1,6 @@
 # Makefile für HPC Module Tracking System
 
-.PHONY: help collect web push clean install test serve wiki
+.PHONY: help collect web push clean install test serve wiki spiderlein
 
 # Standard target
 help:
@@ -19,6 +19,8 @@ help:
 	@echo "  make wiki-cat   - Generate one MediaWiki page per category"
 	@echo "  make wiki-arch  - Generate one MediaWiki page per arch group"
 	@echo "  make wiki-upload - Upload wiki/Easybuild_Module_List.mediawiki to wiki"
+	@echo "  make spiderlein  - Generate spiderlein-compatible HTML (web/nemo2_spiderlein_gsorted.html)"
+	@echo "  make spiderlein-preview - Preview spiderlein output at http://localhost:8000/spiderlein_preview.html"
 
 # Collect module data
 collect:
@@ -51,7 +53,17 @@ install:
 
 # Test system
 test:
-	@echo "Testing the system..."
+
+# Generate spiderlein-compatible HTML
+spiderlein:
+	@echo "Generating spiderlein HTML..."
+	python3 scripts/generate_mediawiki.py --mode spiderlein --output-dir web
+	@echo "Done! Output: web/nemo2_spiderlein_gsorted.html"
+
+# Preview spiderlein output in browser (like bwhpc.de/software.php)
+spiderlein-preview:
+	@echo "Starting spiderlein preview at http://localhost:8000/spiderlein_preview.html"
+	@cd web && python3 -m http.server 8000
 	@echo "1. Testing Python script with mock data..."
 	@python3 -c "import sys; sys.path.append('scripts'); from collect_modules import ModuleCollector, ALL_ARCHITECTURES, ARCH_GROUPS, CATEGORIES; collector = ModuleCollector(); print('✓ ModuleCollector can be imported'); print(f'✓ Architectures: {ALL_ARCHITECTURES}'); print(f'✓ Arch groups: {ARCH_GROUPS}'); print(f'✓ Categories: {len(CATEGORIES)} defined')"
 	@echo "2. Testing MediaWiki generator..."

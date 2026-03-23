@@ -1,0 +1,22 @@
+{
+  "_comment": [
+    "Rename mappings for --mode spiderlein output.",
+    "Keys are lowercase EB names (as they appear in the full_name path).",
+    "Values are the display names written to the HTML output.",
+    "Leave a dict empty {} if no renames are needed for that section."
+  ],
+
+  "software": {
+    "gcc":               "gnu",
+    "intel-compilers":   "intel",
+    "fftw.mpi":          "fftw-mpi",
+    "imkl-fftw":         "mkl-fftw",
+    "python-bundle-pypi":"python-bundle"
+  },
+
+  "category": {
+    "lang":   "devel",
+    "data":   "lib",
+    "system": "devel"
+  }
+}
