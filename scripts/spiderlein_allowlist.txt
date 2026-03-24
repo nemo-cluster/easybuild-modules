@@ -65,12 +65,15 @@ math/gmp
 # ---------------------------------------------------------------------------
 # Libraries  (data/ and system/ are remapped to lib/ and devel/ respectively)
 # hdf5, netcdf: EB path data/ → display category lib/ via cat_rename.json
-# mpi4py, nccl, boost: already under lib/ in EB
+# boost: EB path devel/ → display category lib/ via move in cat_rename.json
+# cudnn: EB path numlib/ → display category lib/ via move in cat_rename.json
 # ---------------------------------------------------------------------------
 lib/hdf5
 lib/netcdf
 lib/mpi4py
 lib/nccl
+lib/boost
+lib/cudnn
 
 # ---------------------------------------------------------------------------
 # Biology / Neuroscience
@@ -108,11 +111,11 @@ devel/scipy-bundle
 devel/perl
 devel/lua
 devel/nodejs
-devel/boost
 devel/cmake
 devel/doxygen
 devel/qt5
 devel/cuda
+devel/code-server
 
 # ---------------------------------------------------------------------------
 # Visualization

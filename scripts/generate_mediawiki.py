@@ -106,7 +106,7 @@ def load_spiderlein_config(allowlist_path: str,
                 if entry and not entry.startswith('#'):
                     allowlist.add(entry.lower())
 
-    renames: Dict = {'software': {}, 'category': {}}
+    renames: Dict = {'software': {}, 'category': {}, 'move': {}}
     if cat_rename_path and os.path.exists(cat_rename_path):
         with open(cat_rename_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -115,6 +115,10 @@ def load_spiderlein_config(allowlist_path: str,
         }
         renames['category'] = {
             k.lower(): v for k, v in data.get('category', {}).items()
+        }
+        renames['move'] = {
+            k.lower(): v.lower() for k, v in data.get('move', {}).items()
+            if not k.startswith('_')
         }
     return allowlist, renames
 
@@ -147,6 +151,8 @@ def generate_spiderlein(modules: List[Dict], metadata: Dict,
         # Apply output renames first, then filter by display names
         cat_out = renames['category'].get(cat_key, cat_key)
         sw_out  = renames['software'].get(sw_key,  sw_key)
+        # Per-software category override (applied after all other renames)
+        cat_out = renames['move'].get(f'{cat_out}/{sw_out}', cat_out)
 
         # Allowlist filter uses display names (after rename)
         if allowlist and f'{cat_out}/{sw_out}' not in allowlist:
@@ -494,6 +500,9 @@ def main():
             print(f"  Software renames: {sw_renames}")
         if cat_renames:
             print(f"  Category renames: {cat_renames}")
+        moves = renames.get('move', {})
+        if moves:
+            print(f"  Category moves:   {moves}")
 
     print(f"\nDone!  {args.mode} mode → {args.output_dir}/")
     return 0

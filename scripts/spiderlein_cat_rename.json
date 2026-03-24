@@ -18,5 +18,13 @@
     "lang":   "devel",
     "data":   "lib",
     "system": "devel"
+  },
+
+  "move": {
+    "_comment": "Per-software category overrides: 'display_cat/display_sw' → 'new_cat'.",
+    "_comment2": "Applied after 'category' and 'software' renames. Allowlist uses the final names.",
+    "devel/boost":        "lib",
+    "numlib/cudnn":       "lib",
+    "tools/code-server":  "devel"
   }
 }
