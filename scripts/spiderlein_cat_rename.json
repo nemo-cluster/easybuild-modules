@@ -25,6 +25,7 @@
     "_comment2": "Applied after 'category' and 'software' renames. Allowlist uses the final names.",
     "devel/boost":        "lib",
     "numlib/cudnn":       "lib",
-    "tools/code-server":  "devel"
+    "tools/code-server":  "devel",
+    "bio/gromacs":        "chem"
   }
 }

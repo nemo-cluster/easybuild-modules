@@ -74,11 +74,17 @@ lib/mpi4py
 lib/nccl
 lib/boost
 lib/cudnn
+lib/flexiblas
+lib/libfabric
+lib/pybind11
+lib/ucx
+lib/ucx-cuda
 
 # ---------------------------------------------------------------------------
 # Biology / Neuroscience
+# (gromacs: EB path bio/ → display category chem/ via move in cat_rename.json)
 # ---------------------------------------------------------------------------
-bio/gromacs
+chem/gromacs
 bio/nest
 
 # ---------------------------------------------------------------------------
@@ -116,11 +122,30 @@ devel/doxygen
 devel/qt5
 devel/cuda
 devel/code-server
+devel/autotools
+devel/cython
+devel/hwloc
+devel/openssl
+devel/protobuf
+devel/sqlite
+
+# ---------------------------------------------------------------------------
+# Tools
+# ---------------------------------------------------------------------------
+tools/curl
+tools/git
+tools/meson
+tools/ninja
+tools/numactl
 
 # ---------------------------------------------------------------------------
 # Visualization
 # ---------------------------------------------------------------------------
+vis/cairo
 vis/ffmpeg
 vis/matplotlib
+vis/mesa
+vis/pillow
 vis/turbovnc
 vis/vtk
+vis/x11
