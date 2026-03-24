@@ -6,7 +6,7 @@ This page is automatically generated from the module data collected on the HPC c
 |-
 ! Metric !! Value
 |-
-| Collection date || 2026-03-23T19:04:24.861542
+| Collection date || 2026-03-23T20:18:56.531215
 |-
 | Unique modules (Genoa / H200 / RTX / MI300A) || 596
 |-
@@ -485,7 +485,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 |-
 | <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code>, <code>2.16.01-gcccore-13.2.0</code>, <code>2.16.03-gcccore-13.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
 |-
-| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network perfect for data-intensive real-time applications that run across distributed devices.
 |-
 | <code>perl</code> || <code>5.32.0-gcccore-10.2.0</code>, <code>5.32.0-gcccore-10.2.0-minimal</code>, <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
 |-
@@ -949,7 +949,7 @@ Available for: <code>l40s</code>
 |-
 | <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
 |-
-| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network perfect for data-intensive real-time applications that run across distributed devices.
 |-
 | <code>perl</code> || <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
 |-
@@ -1441,7 +1441,7 @@ Available for: <code>milan</code>
 |-
 | <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code>, <code>2.16.01-gcccore-13.2.0</code>, <code>2.16.03-gcccore-13.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
 |-
-| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network perfect for data-intensive real-time applications that run across distributed devices.
 |-
 | <code>perl</code> || <code>5.32.0-gcccore-10.2.0</code>, <code>5.32.0-gcccore-10.2.0-minimal</code>, <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
 |-
