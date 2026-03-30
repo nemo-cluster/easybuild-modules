@@ -4,11 +4,11 @@ Automatisierte Erfassung und Darstellung verfügbarer Softwaremodule für alle H
 
 ## Architektur-Gruppen
 
-| Gruppe | Architekturen             | Hinweis                               |
-|--------|---------------------------|---------------------------------------|
-| genoa  | genoa, h200, rtx, mi300a  | Identische Module (Symlinks → genoa)  |
-| l40s   | l40s                      | Eigener Modul-Baum                    |
-| milan  | milan                     | Eigener Modul-Baum                    |
+| Gruppe | Architekturen            | Hinweis                              |
+| ------ | ------------------------ | ------------------------------------ |
+| genoa  | genoa, h200, rtx, mi300a | Identische Module (Symlinks → genoa) |
+| l40s   | l40s                     | Eigener Modul-Baum                   |
+| milan  | milan                    | Eigener Modul-Baum                   |
 
 Die Gruppen `genoa`, `l40s` und `milan` werden separat per lmod abgefragt. `h200`, `rtx` und `mi300a` sind Kopien von `genoa`.
 
@@ -69,6 +69,7 @@ make push
 Die Spiderlein-Ausgabe (`web/nemo2_spiderlein_gsorted.html`) ist kompatibel mit dem bwHPC-Softwareportal. Sie wird über `generate_mediawiki.py --mode spiderlein` erzeugt.
 
 **Konfiguration:**
+
 - `scripts/spiderlein_allowlist.txt` – welche Module erscheinen (leer = alle)
 - `scripts/spiderlein_cat_rename.json` – Umbenennungen für Konsistenz mit anderen Clustern:
   - `software`: Software-Name-Aliase (z. B. `gcc` → `gnu`)
@@ -88,4 +89,3 @@ Die Seite lädt `data/modules_all.json` direkt aus dem Repository. URL in `web/m
 ## Lizenz
 
 MIT – siehe `LICENSE`.
-
