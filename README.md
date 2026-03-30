@@ -1,219 +1,91 @@
-# HPC Module Tracking System
+# bwForCluster NEMO 2 – Easybuild Module Tracking
 
-Ein automatisiertes System zur Sammlung und Darstellung von verfügbaren Software-Modulen für verschiedene HPC-Architekturen auf bwForCluster NEMO 2.
+Automatisierte Erfassung und Darstellung verfügbarer Softwaremodule für alle HPC-Architekturen auf bwForCluster NEMO 2.
 
 ## Architektur-Gruppen
 
-Die Module für **genoa, h200, rtx und mi300a** sind identisch (symbolische Links auf `genoa`). Der Kollektor führt daher nur **einen** lmod-Lauf pro Gruppe durch und dupliziert das Ergebnis.
+| Gruppe | Architekturen             | Hinweis                               |
+|--------|---------------------------|---------------------------------------|
+| genoa  | genoa, h200, rtx, mi300a  | Identische Module (Symlinks → genoa)  |
+| l40s   | l40s                      | Eigener Modul-Baum                    |
+| milan  | milan                     | Eigener Modul-Baum                    |
 
-| Gruppe | Architekturen            | Hinweis                              |
-|--------|--------------------------|--------------------------------------|
-| genoa  | genoa, h200, rtx, mi300a | Identische Module (symlinks → genoa) |
-| milan  | milan                    | Eigener Modul-Baum                   |
+Die Gruppen `genoa`, `l40s` und `milan` werden separat per lmod abgefragt. `h200`, `rtx` und `mi300a` sind Kopien von `genoa`.
 
 ## Projektstruktur
 
 ```
-├── scripts/
-│   ├── collect_modules.py      # Modul-Sammlung (lmod → JSON)
-│   ├── generate_mediawiki.py   # MediaWiki-Seiten-Generator
-│   └── update_git.sh           # Git-Push-Script
-├── web/
-│   ├── index.html              # Haupt-Webseite
-│   ├── module-browser.js       # JavaScript-Logik
-│   ├── sample-data.json        # Beispiel-Daten
-│   └── sw.js                   # Service Worker
-├── data/                       # Generierte JSON-Daten
-├── wiki/                       # Generierte MediaWiki-Seiten
-└── README.md
+scripts/
+  collect_modules.py          # Modul-Sammlung (lmod → JSON)
+  generate_mediawiki.py       # MediaWiki- und Spiderlein-Generator
+  spiderlein_allowlist.txt    # Allowlist für Spiderlein-Ausgabe
+  spiderlein_cat_rename.json  # Umbenennung/Umkategorisierung für Spiderlein
+  update_git.sh               # Git-Push-Script
+  upload_mediawiki.py         # Upload auf bwHPC-Wiki
+data/
+  modules_all.json            # Alle Module kombiniert
+  modules_genoa.json          # genoa (= h200, rtx, mi300a)
+  modules_h200.json           # Kopie von genoa mit architecture=h200
+  modules_rtx.json            # Kopie von genoa mit architecture=rtx
+  modules_mi300a.json         # Kopie von genoa mit architecture=mi300a
+  modules_l40s.json           # l40s
+  modules_milan.json          # milan
+  metadata.json               # Metadaten (Zeitstempel, Architekturen)
+web/
+  index.html                  # Modul-Browser (Webseite)
+  module-browser.js           # JavaScript-Logik
+  nemo2_spiderlein_gsorted.html  # Spiderlein-kompatible Ausgabe
+  spiderlein_preview.html     # Vorschau-Viewer für Spiderlein-Output
+wiki/
+  Easybuild_Module_List.mediawiki   # Kombinierte Übersicht
+  Modules_<Kategorie>__.mediawiki   # Je eine Seite pro Kategorie
+  Modules_<Arch>.mediawiki          # Je eine Seite pro Architektur-Gruppe
 ```
 
 ## Schnellstart
 
-### 1. Modul-Daten sammeln
-
 ```bash
-# Alle Architekturen (genoa wird nur einmal abgefragt)
+# Modul-Daten sammeln (auf dem Cluster mit lmod)
 make collect
 
-# Nur eine bestimmte Architektur
-python3 scripts/collect_modules.py --architecture genoa
+# MediaWiki-Seiten generieren
+make wiki          # kombinierte Seite
+make wiki-cat      # eine Seite pro Kategorie
+make wiki-arch     # eine Seite pro Architektur-Gruppe
+
+# Spiderlein-kompatible HTML generieren (web/nemo2_spiderlein_gsorted.html)
+make spiderlein
+
+# Lokalen Webserver starten
+make web           # → http://localhost:8000
+make spiderlein-preview  # → http://localhost:8000/spiderlein_preview.html
+
+# Daten pushen
+make push
 ```
 
-### 2. MediaWiki-Seiten generieren
+## Spiderlein-Ausgabe
+
+Die Spiderlein-Ausgabe (`web/nemo2_spiderlein_gsorted.html`) ist kompatibel mit dem bwHPC-Softwareportal. Sie wird über `generate_mediawiki.py --mode spiderlein` erzeugt.
+
+**Konfiguration:**
+- `scripts/spiderlein_allowlist.txt` – welche Module erscheinen (leer = alle)
+- `scripts/spiderlein_cat_rename.json` – Umbenennungen für Konsistenz mit anderen Clustern:
+  - `software`: Software-Name-Aliase (z. B. `gcc` → `gnu`)
+  - `category`: globale Kategorie-Umbenennungen (z. B. `lang` → `devel`)
+  - `move`: per-Software-Umkategorisierung (z. B. `bio/gromacs` → `chem`)
+
+Die Umbennungen gelten **nur** für die Spiderlein-Ausgabe. Browser und Wiki zeigen die echten EasyBuild-Pfade.
+
+## Webseite / Modul-Browser
 
 ```bash
-# Eine kombinierte Seite (Standard)
-make wiki
-
-# Je eine Seite pro Kategorie
-make wiki-cat
-
-# Je eine Seite pro Architektur-Gruppe
-make wiki-arch
+make web  # startet http.server auf Port 8000
 ```
 
-Die generierten `.mediawiki`-Dateien landen in `wiki/`.
+Die Seite lädt `data/modules_all.json` direkt aus dem Repository. URL in `web/module-browser.js` anpassen falls nötig.
 
-### 3. Daten ins Git-Repository pushen
+## Lizenz
 
-```bash
-git remote add origin https://github.com/nemo-cluster/easybuild-modules.git
-./scripts/update_git.sh
-```
+MIT – siehe `LICENSE`.
 
-### 4. Webseite anzeigen
-
-```bash
-make web
-# → http://localhost:8000
-```
-
-## Verfügbare Architekturen
-
-- **genoa** – AMD Genoa Prozessoren (S,L,D)
-- **h200** – NVIDIA H200 GPUs (S) → identisch mit genoa
-- **rtx** – NVIDIA RTX GPUs (S) → identisch mit genoa
-- **mi300a** – AMD MI300A GPUs (S) → identisch mit genoa
-- **milan** – AMD Milan Prozessoren (S)
-
-## Konfiguration
-
-### Python-Skript
-
-In `collect_modules.py` werden Architekturen und Gruppen zentral definiert:
-
-```python
-# Architektur-Gruppen (identische Modul-Bäume)
-ARCH_GROUPS = {
-    'genoa': ['genoa', 'h200', 'rtx', 'mi300a'],
-    'milan': ['milan'],
-}
-
-# Kategorien mit Modul-Pfad-Prefix
-CATEGORIES = {
-    'bio':  'Biology Software (bio/)',
-    'lib':  'Libraries (lib/)',
-    'chem': 'Chemistry Software (chem/)',
-    # ... weitere
-}
-```
-
-### Web-Interface
-
-In `module-browser.js` die Git-Repository URL anpassen:
-
-```javascript
-// Ihre Git-Repository URL für Daten
-this.dataUrl = 'https://raw.githubusercontent.com/nemo-cluster/easybuild-modules/main/data/modules_all.json';
-```
-
-## Ausgabe-Dateien
-
-### JSON (data/)
-
-- `modules_all.json` – Alle Module kombiniert
-- `modules_genoa.json` – Module für Genoa (= H200/RTX/MI300A)
-- `modules_h200.json` – Kopie von Genoa mit architecture=h200
-- `modules_rtx.json` – Kopie von Genoa mit architecture=rtx
-- `modules_mi300a.json` – Kopie von Genoa mit architecture=mi300a
-- `modules_milan.json` – Module für Milan
-- `metadata.json` – Metadaten über die Sammlung
-
-### MediaWiki (wiki/)
-
-- `Easybuild_Module_List.mediawiki` – Kombinierte Übersicht (make wiki)
-- oder getrennte Seiten pro Kategorie / Architektur-Gruppe
-
-## Web-Interface Features
-
-- **Filterung**: Nach Architektur und Kategorie
-- **Suche**: Volltext-Suche in Software-Namen und Beschreibungen
-- **Sortierung**: Klickbare Spalten-Header
-- **Responsive**: Funktioniert auf Desktop und Mobile
-- **Offline**: Service Worker für Offline-Funktionalität
-
-## Automatisierung
-
-### Cron-Job für regelmäßige Updates
-
-```bash
-# Täglich um 6:00 Uhr Module sammeln und pushen
-0 6 * * * cd /pfad/zum/projekt && ./scripts/update_git.sh >> /var/log/module-update.log 2>&1
-```
-
-### GitHub Actions (optional)
-
-Erstellen Sie `.github/workflows/update-modules.yml`:
-
-```yaml
-name: Update Module Data
-on:
-  schedule:
-    - cron: '0 6 * * *'  # Täglich um 6:00 UTC
-  workflow_dispatch:
-
-jobs:
-  update:
-    runs-on: self-hosted  # Auf HPC-System mit lmod
-    steps:
-      - uses: actions/checkout@v4
-      - name: Collect modules
-        run: python3 scripts/collect_modules.py
-      - name: Commit and push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/
-          git commit -m "Auto-update module data" || exit 0
-          git push
-```
-
-## Fehlerbehebung
-
-### Module-Sammlung funktioniert nicht
-
-1. Prüfen Sie ob `lmod` verfügbar ist:
-   ```bash
-   module --version
-   ```
-
-2. Testen Sie manuell:
-   ```bash
-   module load arch/genoa
-   module avail
-   ```
-
-3. Prüfen Sie Berechtigungen für die Architekturen
-
-### Web-Interface zeigt keine Daten
-
-1. Prüfen Sie die Git-Repository URL in `module-browser.js`
-2. Stellen Sie sicher, dass das Repository öffentlich ist
-3. Testen Sie mit lokalen Daten über `sample-data.json`
-
-### Git-Push schlägt fehl
-
-1. Konfigurieren Sie Git-Credentials:
-   ```bash
-   git config --global user.name "Ihr Name"
-   git config --global user.email "ihre.email@domain.de"
-   ```
-
-2. Verwenden Sie SSH-Keys oder Personal Access Tokens
-
-## 📝 Lizenz
-
-MIT License - Siehe LICENSE Datei für Details.
-
-## 🤝 Beitragen
-
-1. Fork des Repositories
-2. Feature-Branch erstellen (`git checkout -b feature/AmazingFeature`)
-3. Änderungen committen (`git commit -m 'Add some AmazingFeature'`)
-4. Branch pushen (`git push origin feature/AmazingFeature`)
-5. Pull Request öffnen
-
-## 📞 Support
-
-Bei Fragen oder Problemen erstellen Sie bitte ein Issue im GitHub Repository.
