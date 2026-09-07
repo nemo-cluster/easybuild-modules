@@ -6,11 +6,11 @@ This page is automatically generated from the module data collected on the HPC c
 |-
 ! Metric !! Value
 |-
-| Collection date || 2026-09-02T18:06:32.632350
+| Collection date || 2026-09-07T17:02:44.304669
 |-
-| Unique modules (Genoa / H200 / RTX / MI300A) || 818
+| Unique modules (Genoa / H200 / RTX / MI300A) || 823
 |-
-| Unique modules (L40S) || 468
+| Unique modules (L40S) || 494
 |-
 | Unique modules (Milan) || 775
 |-
@@ -42,17 +42,17 @@ This page is automatically generated from the module data collected on the HPC c
 
 Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi300a</code>
 
-=== Compiler Toolchains (toolchain/) (5 software, 13 versions) ===
+=== Compiler Toolchains (toolchain/) (5 software, 15 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
 ! Software !! Versions !! Module path !! Description
 |-
-| <code>foss</code> || <code>2020b</code>, <code>2023a</code>, <code>2024a</code>, <code>2025b</code> || <code>toolchain/foss</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support, OpenBLAS (BLAS and LAPACK support), FFTW and ScaLAPACK.
+| <code>foss</code> || <code>2020b</code>, <code>2023a</code>, <code>2024a</code>, <code>2025b</code>, <code>2026.1</code> || <code>toolchain/foss</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support, OpenBLAS (BLAS and LAPACK support), FFTW and ScaLAPACK.
 |-
 | <code>gfbf</code> || <code>2023a</code>, <code>2023b</code>, <code>2024a</code> || <code>toolchain/gfbf</code> || GNU Compiler Collection (GCC) based compiler toolchain, including FlexiBLAS (BLAS and LAPACK support) and (serial) FFTW.
 |-
-| <code>gompi</code> || <code>2020b</code>, <code>2023a</code>, <code>2024a</code>, <code>2025b</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
+| <code>gompi</code> || <code>2020b</code>, <code>2023a</code>, <code>2024a</code>, <code>2025b</code>, <code>2026.1</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
 |-
 | <code>iimpi</code> || <code>2024a</code> || <code>toolchain/iimpi</code> || iimpi 2024a
 |-
@@ -181,7 +181,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 | <code>zeromq</code> || <code>4.3.5-gcccore-14.3.0</code> || <code>devel/zeromq</code> || ZeroMQ looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, …
 |}
 
-=== General Libraries (lib/) (64 software, 213 versions) ===
+=== General Libraries (lib/) (64 software, 214 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -203,7 +203,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 |-
 | <code>flask</code> || <code>3.0.3-gcccore-13.3.0</code> || <code>lib/flask</code> || Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. This module includes the Flask …
 |-
-| <code>flexiblas</code> || <code>3.3.1-gcc-12.3.0</code>, <code>3.3.1-gcc-13.2.0</code>, <code>3.4.4-gcc-13.3.0</code>, <code>3.4.5-gcc-14.3.0</code> || <code>lib/flexiblas</code> || FlexiBLAS is a wrapper library that enables the exchange of the BLAS and LAPACK implementation used by a program without recompiling or relinking it.
+| <code>flexiblas</code> || <code>3.3.1-gcc-12.3.0</code>, <code>3.3.1-gcc-13.2.0</code>, <code>3.4.4-gcc-13.3.0</code>, <code>3.4.5-gcc-14.3.0</code>, <code>3.5.0-gcc-15.2.0</code> || <code>lib/flexiblas</code> || FlexiBLAS is a wrapper library that enables the exchange of the BLAS and LAPACK implementation used by a program without recompiling or relinking it.
 |-
 | <code>gdrcopy</code> || <code>2.3.1-gcccore-12.3.0</code>, <code>2.4.1-gcccore-13.3.0</code>, <code>2.5-gcccore-14.3.0</code>, <code>2.5.2-gcccore-15.2.0</code> || <code>lib/gdrcopy</code> || A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.
 |-
@@ -491,7 +491,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 | <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code>, <code>0.4.6-gcccore-13.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
 |}
 
-=== Numerical Libraries (numlib/) (10 software, 36 versions) ===
+=== Numerical Libraries (numlib/) (10 software, 38 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -505,7 +505,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 |-
 | <code>fftw</code> || <code>3.3.10-gcc-11.3.0</code>, <code>3.3.10-gcc-12.3.0</code>, <code>3.3.10-gcc-13.2.0</code>, <code>3.3.10-gcc-13.3.0</code>, <code>3.3.10-gcc-14.3.0</code>, <code>3.3.10-gcc-15.2.0</code>, <code>3.3.8-gompi-2020b</code> || <code>numlib/fftw</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
 |-
-| <code>fftw.mpi</code> || <code>3.3.10-gompi-2023a</code>, <code>3.3.10-gompi-2024a</code>, <code>3.3.10-gompi-2025b</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+| <code>fftw.mpi</code> || <code>3.3.10-gompi-2023a</code>, <code>3.3.10-gompi-2024a</code>, <code>3.3.10-gompi-2025b</code>, <code>3.3.10-gompi-2026.1</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
 |-
 | <code>gsl</code> || <code>2.6-gcc-10.2.0</code>, <code>2.7-gcc-12.3.0</code>, <code>2.8-gcc-13.3.0</code> || <code>numlib/gsl</code> || The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. The library provides a wide range of mathematical routines such as random number generators, special functions and …
 |-
@@ -515,7 +515,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 |-
 | <code>openblas</code> || <code>0.3.12-gcc-10.2.0</code>, <code>0.3.20-gcc-11.3.0</code>, <code>0.3.23-gcc-12.3.0</code>, <code>0.3.24-gcc-13.2.0</code>, <code>0.3.27-gcc-13.3.0</code>, <code>0.3.30-gcc-14.3.0</code>, <code>0.3.32-gcc-15.2.0</code> || <code>numlib/openblas</code> || OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
 |-
-| <code>scalapack</code> || <code>2.1.0-gompi-2020b</code>, <code>2.2.0-gompi-2023a-fb</code>, <code>2.2.0-gompi-2024a-fb</code>, <code>2.2.2-gompi-2025b-fb</code> || <code>numlib/scalapack</code> || The ScaLAPACK (or Scalable LAPACK) library includes a subset of LAPACK routines redesigned for distributed memory MIMD parallel computers.
+| <code>scalapack</code> || <code>2.1.0-gompi-2020b</code>, <code>2.2.0-gompi-2023a-fb</code>, <code>2.2.0-gompi-2024a-fb</code>, <code>2.2.2-gompi-2025b-fb</code>, <code>2.2.2-gompi-2026.1-fb</code> || <code>numlib/scalapack</code> || The ScaLAPACK (or Scalable LAPACK) library includes a subset of LAPACK routines redesigned for distributed memory MIMD parallel computers.
 |}
 
 === Physics & Materials Science (phys/) (1 software, 1 versions) ===
@@ -549,7 +549,7 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 |-
 | <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code>, <code>2.16.01-gcccore-13.2.0</code>, <code>2.16.03-gcccore-13.3.0</code>, <code>2.16.03-gcccore-14.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
 |-
-| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code>, <code>22.17.1-gcccore-14.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network perfect for data-intensive real-time applications that run across distributed devices.
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code>, <code>22.17.1-gcccore-14.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
 |-
 | <code>perl</code> || <code>5.32.0-gcccore-10.2.0</code>, <code>5.32.0-gcccore-10.2.0-minimal</code>, <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code>, <code>5.40.2-gcccore-14.3.0</code>, <code>5.42.0-gcccore-15.2.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
 |-
@@ -654,13 +654,15 @@ Available for: <code>genoa</code>, <code>h200</code>, <code>rtx</code>, <code>mi
 
 Available for: <code>l40s</code>
 
-=== Compiler Toolchains (toolchain/) (3 software, 5 versions) ===
+=== Compiler Toolchains (toolchain/) (4 software, 7 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
 ! Software !! Versions !! Module path !! Description
 |-
-| <code>gompi</code> || <code>2022a</code>, <code>2023a</code>, <code>2025b</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
+| <code>foss</code> || <code>2026.1</code> || <code>toolchain/foss</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support, OpenBLAS (BLAS and LAPACK support), FFTW and ScaLAPACK.
+|-
+| <code>gompi</code> || <code>2022a</code>, <code>2023a</code>, <code>2025b</code>, <code>2026.1</code> || <code>toolchain/gompi</code> || GNU Compiler Collection (GCC) based compiler toolchain, including OpenMPI for MPI support.
 |-
 | <code>iimpi</code> || <code>2024a</code> || <code>toolchain/iimpi</code> || iimpi 2024a
 |-
@@ -708,7 +710,7 @@ Available for: <code>l40s</code>
 | <code>netcdf</code> || <code>4.9.2-gompi-2023a</code> || <code>data/netcdf</code> || NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
 |}
 
-=== Development Tools (devel/) (25 software, 78 versions) ===
+=== Development Tools (devel/) (25 software, 80 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -724,7 +726,7 @@ Available for: <code>l40s</code>
 |-
 | <code>build</code> || <code>1.3.0-gcccore-14.3.0</code> || <code>devel/build</code> || A simple, correct Python build frontend.
 |-
-| <code>cmake</code> || <code>3.18.4</code>, <code>3.23.1-gcccore-11.3.0</code>, <code>3.26.3-gcccore-12.3.0</code>, <code>3.29.3-gcccore-13.3.0</code>, <code>3.31.8-gcccore-14.3.0</code>, <code>4.0.3-gcccore-14.3.0</code> || <code>devel/cmake</code> || CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.
+| <code>cmake</code> || <code>3.18.4</code>, <code>3.23.1-gcccore-11.3.0</code>, <code>3.26.3-gcccore-12.3.0</code>, <code>3.29.3-gcccore-13.3.0</code>, <code>3.31.8-gcccore-14.3.0</code>, <code>4.0.3-gcccore-14.3.0</code>, <code>4.2.1-gcccore-15.2.0</code> || <code>devel/cmake</code> || CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software.
 |-
 | <code>dbus</code> || <code>1.15.4-gcccore-12.3.0</code>, <code>1.15.8-gcccore-13.3.0</code> || <code>devel/dbus</code> || D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and …
 |-
@@ -758,14 +760,14 @@ Available for: <code>l40s</code>
 |-
 | <code>pyzmq</code> || <code>27.1.0-gcccore-14.3.0</code> || <code>devel/pyzmq</code> || Python bindings for ZeroMQ
 |-
-| <code>sqlite</code> || <code>3.38.3-gcccore-11.3.0</code>, <code>3.42.0-gcccore-12.3.0</code>, <code>3.45.3-gcccore-13.3.0</code>, <code>3.50.1-gcccore-14.3.0</code> || <code>devel/sqlite</code> || SQLite: SQL Database Engine in a C Library
+| <code>sqlite</code> || <code>3.38.3-gcccore-11.3.0</code>, <code>3.42.0-gcccore-12.3.0</code>, <code>3.45.3-gcccore-13.3.0</code>, <code>3.50.1-gcccore-14.3.0</code>, <code>3.51.1-gcccore-15.2.0</code> || <code>devel/sqlite</code> || SQLite: SQL Database Engine in a C Library
 |-
 | <code>xorg-macros</code> || <code>1.19.3-gcccore-11.3.0</code>, <code>1.20.0-gcccore-12.3.0</code>, <code>1.20.1-gcccore-13.3.0</code>, <code>1.20.2-gcccore-14.3.0</code>, <code>1.20.2-gcccore-15.2.0</code> || <code>devel/xorg-macros</code> || X.org macros utilities.
 |-
 | <code>zeromq</code> || <code>4.3.5-gcccore-14.3.0</code> || <code>devel/zeromq</code> || ZeroMQ looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, …
 |}
 
-=== General Libraries (lib/) (53 software, 129 versions) ===
+=== General Libraries (lib/) (54 software, 136 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -783,7 +785,9 @@ Available for: <code>l40s</code>
 |-
 | <code>ffnvcodec</code> || <code>12.0.16.0</code>, <code>13.0.19.0</code> || <code>lib/ffnvcodec</code> || FFmpeg nvidia headers. Adds support for nvenc and nvdec. Requires Nvidia GPU and drivers to be present (picked up dynamically).
 |-
-| <code>gdrcopy</code> || <code>2.3.1-gcccore-12.3.0</code>, <code>2.4.1-gcccore-13.3.0</code>, <code>2.5-gcccore-14.3.0</code> || <code>lib/gdrcopy</code> || A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.
+| <code>flexiblas</code> || <code>3.5.0-gcc-15.2.0</code> || <code>lib/flexiblas</code> || FlexiBLAS is a wrapper library that enables the exchange of the BLAS and LAPACK implementation used by a program without recompiling or relinking it.
+|-
+| <code>gdrcopy</code> || <code>2.3.1-gcccore-12.3.0</code>, <code>2.4.1-gcccore-13.3.0</code>, <code>2.5-gcccore-14.3.0</code>, <code>2.5.2-gcccore-15.2.0</code> || <code>lib/gdrcopy</code> || A low-latency GPU memory copy library based on NVIDIA GPUDirect RDMA technology.
 |-
 | <code>giflib</code> || <code>5.2.1-gcccore-12.3.0</code>, <code>5.2.1-gcccore-13.3.0</code> || <code>lib/giflib</code> || giflib is a library for reading and writing gif images. It is API and ABI compatible with libungif which was in wide use while the LZW compression algorithm was patented.
 |-
@@ -809,7 +813,7 @@ Available for: <code>l40s</code>
 |-
 | <code>libpng</code> || <code>1.6.39-gcccore-12.3.0</code> || <code>lib/libpng</code> || libpng is the official PNG reference library
 |-
-| <code>libpsl</code> || <code>0.21.5-gcccore-14.3.0</code> || <code>lib/libpsl</code> || C library for the Public Suffix List
+| <code>libpsl</code> || <code>0.21.5-gcccore-14.3.0</code>, <code>0.21.5-gcccore-15.2.0</code> || <code>lib/libpsl</code> || C library for the Public Suffix List
 |-
 | <code>libreadline</code> || <code>8.1.2-gcccore-11.3.0</code>, <code>8.2-gcccore-12.3.0</code>, <code>8.2-gcccore-13.3.0</code>, <code>8.2-gcccore-14.3.0</code>, <code>8.3-gcccore-15.2.0</code> || <code>lib/libreadline</code> || The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline …
 |-
@@ -845,9 +849,9 @@ Available for: <code>l40s</code>
 |-
 | <code>openjpeg</code> || <code>2.5.0-gcccore-12.3.0</code> || <code>lib/openjpeg</code> || OpenJPEG is an open-source JPEG 2000 codec written in C language. It has been developed in order to promote the use of JPEG 2000, a still-image compression standard from the Joint Photographic …
 |-
-| <code>pmix</code> || <code>4.1.2-gcccore-11.3.0</code>, <code>4.2.4-gcccore-12.3.0</code>, <code>5.0.2-gcccore-13.3.0</code>, <code>5.0.8-gcccore-14.3.0</code> || <code>lib/pmix</code> || Process Management for Exascale Environments PMI Exascale (PMIx) represents an attempt to provide an extended version of the PMI standard specifically designed to support clusters up to and including …
+| <code>pmix</code> || <code>4.1.2-gcccore-11.3.0</code>, <code>4.2.4-gcccore-12.3.0</code>, <code>5.0.2-gcccore-13.3.0</code>, <code>5.0.8-gcccore-14.3.0</code>, <code>6.1.0-gcccore-15.2.0</code> || <code>lib/pmix</code> || Process Management for Exascale Environments PMI Exascale (PMIx) represents an attempt to provide an extended version of the PMI standard specifically designed to support clusters up to and including …
 |-
-| <code>prrte</code> || <code>3.0.11-gcccore-14.3.0</code>, <code>3.0.5-gcccore-13.3.0</code> || <code>lib/prrte</code> || PRRTE is the PMIx Reference RunTime Environment
+| <code>prrte</code> || <code>3.0.11-gcccore-14.3.0</code>, <code>3.0.5-gcccore-13.3.0</code>, <code>4.1.0-gcccore-15.2.0</code> || <code>lib/prrte</code> || PRRTE is the PMIx Reference RunTime Environment
 |-
 | <code>psutil</code> || <code>6.0.0-gcccore-13.3.0</code>, <code>7.0.0-gcccore-14.3.0</code> || <code>lib/psutil</code> || A cross-platform process and system utilities module for Python
 |-
@@ -871,14 +875,14 @@ Available for: <code>l40s</code>
 |-
 | <code>ucx</code> || <code>1.12.1-gcccore-11.3.0</code>, <code>1.14.1-gcccore-12.3.0</code>, <code>1.16.0-gcccore-13.3.0</code>, <code>1.19.0-gcccore-14.3.0</code>, <code>1.20.0-gcccore-15.2.0</code> || <code>lib/ucx</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications
 |-
-| <code>ucx-cuda</code> || <code>1.14.1-gcccore-12.3.0-cuda-12.1.1</code>, <code>1.16.0-gcccore-13.3.0-cuda-12.6.0</code>, <code>1.19.0-gcccore-14.3.0-cuda-12.9.1</code> || <code>lib/ucx-cuda</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications This module adds the UCX CUDA support.
+| <code>ucx-cuda</code> || <code>1.14.1-gcccore-12.3.0-cuda-12.1.1</code>, <code>1.16.0-gcccore-13.3.0-cuda-12.6.0</code>, <code>1.19.0-gcccore-14.3.0-cuda-12.9.1</code>, <code>1.20.0-gcccore-15.2.0-cuda-13.3.0</code> || <code>lib/ucx-cuda</code> || Unified Communication X An open-source production grade communication framework for data centric and high-performance applications This module adds the UCX CUDA support.
 |-
 | <code>zlib</code> || <code>1.2.12</code>, <code>1.2.12-gcccore-11.3.0</code>, <code>1.2.13</code>, <code>1.2.13-gcccore-12.3.0</code>, <code>1.3.1</code>, <code>1.3.1-gcccore-13.3.0</code>, <code>1.3.1-gcccore-14.3.0</code>, <code>2.3.2-gcccore-15.2.0</code> || <code>lib/zlib</code> || zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and …
 |-
-| <code>zstd</code> || <code>1.5.2-gcccore-11.3.0</code>, <code>1.5.5-gcccore-12.3.0</code>, <code>1.5.6-gcccore-13.3.0</code>, <code>1.5.7-gcccore-14.3.0</code> || <code>lib/zstd</code> || Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of data, called dictionary compression, and can create dictionaries from any sample set.
+| <code>zstd</code> || <code>1.5.2-gcccore-11.3.0</code>, <code>1.5.5-gcccore-12.3.0</code>, <code>1.5.6-gcccore-13.3.0</code>, <code>1.5.7-gcccore-14.3.0</code>, <code>1.5.7-gcccore-15.2.0</code> || <code>lib/zstd</code> || Zstandard is a real-time compression algorithm, providing high compression ratios. It offers a very wide range of data, called dictionary compression, and can create dictionaries from any sample set.
 |}
 
-=== General Utilities (tools/) (44 software, 121 versions) ===
+=== General Utilities (tools/) (44 software, 126 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -894,7 +898,7 @@ Available for: <code>l40s</code>
 |-
 | <code>cryptography</code> || <code>41.0.1-gcccore-12.3.0</code>, <code>42.0.8-gcccore-13.3.0</code>, <code>45.0.5-gcccore-14.3.0</code> || <code>tools/cryptography</code> || cryptography is a package designed to expose cryptographic primitives and recipes to Python developers.
 |-
-| <code>curl</code> || <code>7.83.0-gcccore-11.3.0</code>, <code>8.0.1-gcccore-12.3.0</code>, <code>8.14.1-gcccore-14.3.0</code>, <code>8.7.1-gcccore-13.3.0</code> || <code>tools/curl</code> || libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, …
+| <code>curl</code> || <code>7.83.0-gcccore-11.3.0</code>, <code>8.0.1-gcccore-12.3.0</code>, <code>8.14.1-gcccore-14.3.0</code>, <code>8.17.0-gcccore-15.2.0</code>, <code>8.7.1-gcccore-13.3.0</code> || <code>tools/curl</code> || libcurl is a free and easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, …
 |-
 | <code>db</code> || <code>18.1.40-gcccore-11.3.0</code> || <code>tools/db</code> || Berkeley DB enables the development of custom data management solutions, without the overhead traditionally associated with such custom projects.
 |-
@@ -928,7 +932,7 @@ Available for: <code>l40s</code>
 |-
 | <code>jupyterlab</code> || <code>4.4.9-gcccore-14.3.0</code> || <code>tools/jupyterlab</code> || JupyterLab is the next-generation user interface for Project Jupyter offering all the familiar building blocks of the classic Jupyter Notebook (notebook, terminal, text editor, file browser, rich …
 |-
-| <code>libarchive</code> || <code>3.6.1-gcccore-11.3.0</code>, <code>3.6.2-gcccore-12.3.0</code>, <code>3.7.4-gcccore-13.3.0</code>, <code>3.8.1-gcccore-14.3.0</code> || <code>tools/libarchive</code> || Multi-format archive and compression library
+| <code>libarchive</code> || <code>3.6.1-gcccore-11.3.0</code>, <code>3.6.2-gcccore-12.3.0</code>, <code>3.7.4-gcccore-13.3.0</code>, <code>3.8.1-gcccore-14.3.0</code>, <code>3.8.5-gcccore-15.2.0</code> || <code>tools/libarchive</code> || Multi-format archive and compression library
 |-
 | <code>libde265</code> || <code>1.0.15-gcccore-13.3.0</code> || <code>tools/libde265</code> || libde265 is an open source implementation of the h.265 video codec
 |-
@@ -936,11 +940,11 @@ Available for: <code>l40s</code>
 |-
 | <code>maturin</code> || <code>1.6.0-gcccore-13.3.0</code>, <code>1.9.1-gcccore-14.3.0</code> || <code>tools/maturin</code> || This project is meant as a zero configuration replacement for setuptools-rust and milksnake. It supports building wheels for python 3.5+ on windows, linux, mac and freebsd, can upload them to pypi …
 |-
-| <code>meson</code> || <code>1.1.1-gcccore-12.3.0</code>, <code>1.4.0-gcccore-13.3.0</code>, <code>1.8.2-gcccore-14.3.0</code> || <code>tools/meson</code> || Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.
+| <code>meson</code> || <code>1.1.1-gcccore-12.3.0</code>, <code>1.10.2-gcccore-15.2.0</code>, <code>1.4.0-gcccore-13.3.0</code>, <code>1.8.2-gcccore-14.3.0</code> || <code>tools/meson</code> || Meson is a cross-platform build system designed to be both as fast and as user friendly as possible.
 |-
 | <code>meson-python</code> || <code>0.16.0-gcccore-13.3.0</code> || <code>tools/meson-python</code> || Python build backend (PEP 517) for Meson projects
 |-
-| <code>ninja</code> || <code>1.11.1-gcccore-12.3.0</code>, <code>1.12.1-gcccore-13.3.0</code>, <code>1.13.0-gcccore-14.3.0</code> || <code>tools/ninja</code> || Ninja is a small build system with a focus on speed.
+| <code>ninja</code> || <code>1.11.1-gcccore-12.3.0</code>, <code>1.12.1-gcccore-13.3.0</code>, <code>1.13.0-gcccore-14.3.0</code>, <code>1.13.2-gcccore-15.2.0</code> || <code>tools/ninja</code> || Ninja is a small build system with a focus on speed.
 |-
 | <code>numactl</code> || <code>2.0.14-gcccore-11.3.0</code>, <code>2.0.16-gcccore-12.3.0</code>, <code>2.0.18-gcccore-13.3.0</code>, <code>2.0.19-gcccore-14.3.0</code>, <code>2.0.19-gcccore-15.2.0</code> || <code>tools/numactl</code> || The numactl program allows you to run your application program on specific cpu's and memory nodes. It does this by supplying a NUMA memory policy to the operating system before running your program. …
 |-
@@ -968,7 +972,7 @@ Available for: <code>l40s</code>
 |-
 | <code>xxd</code> || <code>9.0.2112-gcccore-12.3.0</code> || <code>tools/xxd</code> || files.
 |-
-| <code>xz</code> || <code>5.2.5-gcccore-11.3.0</code>, <code>5.4.2-gcccore-12.3.0</code>, <code>5.4.5-gcccore-13.3.0</code>, <code>5.8.1-gcccore-14.3.0</code> || <code>tools/xz</code> || xz: XZ utilities
+| <code>xz</code> || <code>5.2.5-gcccore-11.3.0</code>, <code>5.4.2-gcccore-12.3.0</code>, <code>5.4.5-gcccore-13.3.0</code>, <code>5.8.1-gcccore-14.3.0</code>, <code>5.8.2-gcccore-15.2.0</code> || <code>tools/xz</code> || xz: XZ utilities
 |-
 | <code>z3</code> || <code>4.12.2-gcccore-12.3.0</code>, <code>4.15.1-gcccore-14.3.0</code> || <code>tools/z3</code> || Z3 is a theorem prover from Microsoft Research with support for bitvectors, booleans, arrays, floating point numbers, strings, and other data types. This module includes z3-solver, the Python …
 |}
@@ -982,7 +986,7 @@ Available for: <code>l40s</code>
 | <code>devel</code> || <code>miniforge</code> || <code>devel</code> || devel miniforge
 |}
 
-=== MPI Libraries (mpi/) (3 software, 5 versions) ===
+=== MPI Libraries (mpi/) (3 software, 6 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -992,7 +996,7 @@ Available for: <code>l40s</code>
 |-
 | <code>opencoarrays</code> || <code>2.10.2-gompi-2025b</code> || <code>mpi/opencoarrays</code> || OpenCoarrays is an open-source software project that supports the coarray Fortran (CAF) parallel programming features of the Fortran 2008 standard and several features proposed for Fortran 2015 in …
 |-
-| <code>openmpi</code> || <code>4.1.4-gcc-11.3.0</code>, <code>4.1.5-gcc-12.3.0</code>, <code>5.0.8-gcc-14.3.0</code> || <code>mpi/openmpi</code> || The Open MPI Project is an open source MPI-3 implementation.
+| <code>openmpi</code> || <code>4.1.4-gcc-11.3.0</code>, <code>4.1.5-gcc-12.3.0</code>, <code>5.0.10-gcc-15.2.0</code>, <code>5.0.8-gcc-14.3.0</code> || <code>mpi/openmpi</code> || The Open MPI Project is an open source MPI-3 implementation.
 |}
 
 === Mathematics (math/) (8 software, 10 versions) ===
@@ -1018,30 +1022,34 @@ Available for: <code>l40s</code>
 | <code>voro++</code> || <code>0.4.6-gcccore-12.3.0</code> || <code>math/voro++</code> || Voro++ is a software library for carrying out three-dimensional computations of the Voronoi tessellation. A distinguishing feature of the Voro++ library is that it carries out cell-based …
 |}
 
-=== Numerical Libraries (numlib/) (8 software, 18 versions) ===
+=== Numerical Libraries (numlib/) (10 software, 23 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
 ! Software !! Versions !! Module path !! Description
 |-
-| <code>aocl-blas</code> || <code>5.1-gcc-14.3.0</code> || <code>numlib/aocl-blas</code> || AOCL-BLAS is AMD's optimized version of BLAS targeted for AMD EPYC and Ryzen CPUs.
+| <code>aocl-blas</code> || <code>5.1-gcc-14.3.0</code>, <code>5.2-gcc-15.2.0</code> || <code>numlib/aocl-blas</code> || AOCL-BLAS is AMD's optimized version of BLAS targeted for AMD EPYC and Ryzen CPUs.
 |-
-| <code>blis</code> || <code>0.9.0-gcc-11.3.0</code>, <code>0.9.0-gcc-12.3.0</code>, <code>1.0-gcc-13.3.0</code>, <code>2.0-gcc-14.3.0</code> || <code>numlib/blis</code> || BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
+| <code>blis</code> || <code>0.9.0-gcc-11.3.0</code>, <code>0.9.0-gcc-12.3.0</code>, <code>1.0-gcc-13.3.0</code>, <code>2.0-gcc-14.3.0</code>, <code>2.0-gcc-15.2.0</code> || <code>numlib/blis</code> || BLIS is a portable software framework for instantiating high-performance BLAS-like dense linear algebra libraries.
 |-
 | <code>cudnn</code> || <code>8.9.2.26-cuda-12.1.1</code>, <code>9.15.0.57-cuda-12.9.1</code> || <code>numlib/cudnn</code> || The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks.
 |-
 | <code>fftw</code> || <code>3.3.10-gcc-11.3.0</code>, <code>3.3.10-gcc-12.3.0</code>, <code>3.3.10-gcc-13.3.0</code>, <code>3.3.10-gcc-14.3.0</code>, <code>3.3.10-gcc-15.2.0</code> || <code>numlib/fftw</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
 |-
-| <code>fftw.mpi</code> || <code>3.3.10-gompi-2022a</code>, <code>3.3.10-gompi-2023a</code>, <code>3.3.10-gompi-2025b</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
+| <code>fftw.mpi</code> || <code>3.3.10-gompi-2022a</code>, <code>3.3.10-gompi-2023a</code>, <code>3.3.10-gompi-2025b</code>, <code>3.3.10-gompi-2026.1</code> || <code>numlib/fftw.mpi</code> || FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data.
 |-
 | <code>gsl</code> || <code>2.7-gcc-12.3.0</code> || <code>numlib/gsl</code> || The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. The library provides a wide range of mathematical routines such as random number generators, special functions and …
 |-
 | <code>imkl</code> || <code>2024.2.0</code> || <code>numlib/imkl</code> || Intel oneAPI Math Kernel Library
 |-
 | <code>imkl-fftw</code> || <code>2024.2.0-iimpi-2024a</code> || <code>numlib/imkl-fftw</code> || FFTW interfaces using Intel oneAPI Math Kernel Library
+|-
+| <code>openblas</code> || <code>0.3.32-gcc-15.2.0</code> || <code>numlib/openblas</code> || OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+|-
+| <code>scalapack</code> || <code>2.2.2-gompi-2026.1-fb</code> || <code>numlib/scalapack</code> || The ScaLAPACK (or Scalable LAPACK) library includes a subset of LAPACK routines redesigned for distributed memory MIMD parallel computers.
 |}
 
-=== Programming Languages & Utilities (lang/) (14 software, 43 versions) ===
+=== Programming Languages & Utilities (lang/) (14 software, 44 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
@@ -1059,13 +1067,13 @@ Available for: <code>l40s</code>
 |-
 | <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
 |-
-| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network perfect for data-intensive real-time applications that run across distributed devices.
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
 |-
 | <code>perl</code> || <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.2-gcccore-13.3.0</code>, <code>5.40.2-gcccore-14.3.0</code>, <code>5.42.0-gcccore-15.2.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
 |-
 | <code>perl-bundle-cpan</code> || <code>5.36.1-gcccore-12.3.0</code> || <code>lang/perl-bundle-cpan</code> || A set of common packages from CPAN
 |-
-| <code>python</code> || <code>3.10.4-gcccore-11.3.0-bare</code>, <code>3.11.3-gcccore-12.3.0</code>, <code>3.12.3-gcccore-13.3.0</code>, <code>3.13.5-gcccore-14.3.0</code> || <code>lang/python</code> || Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+| <code>python</code> || <code>3.10.4-gcccore-11.3.0-bare</code>, <code>3.11.3-gcccore-12.3.0</code>, <code>3.12.3-gcccore-13.3.0</code>, <code>3.13.5-gcccore-14.3.0</code>, <code>3.14.2-gcccore-15.2.0</code> || <code>lang/python</code> || Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 |-
 | <code>python-bundle-pypi</code> || <code>2023.06-gcccore-12.3.0</code>, <code>2024.06-gcccore-13.3.0</code>, <code>2025.07-gcccore-14.3.0</code> || <code>lang/python-bundle-pypi</code> || Bundle of Python packages from PyPI
 |-
@@ -1076,19 +1084,19 @@ Available for: <code>l40s</code>
 | <code>yasm</code> || <code>1.3.0-gcccore-12.3.0</code> || <code>lang/yasm</code> || Yasm: Complete rewrite of the NASM assembler with BSD license
 |}
 
-=== System Software (system/) (6 software, 19 versions) ===
+=== System Software (system/) (6 software, 22 versions) ===
 
 {| class="wikitable sortable mw-collapsible mw-collapsed" style="width:100%"
 |-
 ! Software !! Versions !! Module path !! Description
 |-
-| <code>cuda</code> || <code>11.5.2</code>, <code>11.7.0</code>, <code>12.1.1</code>, <code>12.6.0</code>, <code>12.9.1</code>, <code>13.1.0</code> || <code>system/cuda</code> || CUDA (formerly Compute Unified Device Architecture) is a parallel computing platform and programming model created by NVIDIA and implemented by the graphics processing units (GPUs) that they produce. …
+| <code>cuda</code> || <code>11.5.2</code>, <code>11.7.0</code>, <code>12.1.1</code>, <code>12.6.0</code>, <code>12.9.1</code>, <code>13.1.0</code>, <code>13.3.0</code> || <code>system/cuda</code> || CUDA (formerly Compute Unified Device Architecture) is a parallel computing platform and programming model created by NVIDIA and implemented by the graphics processing units (GPUs) that they produce. …
 |-
-| <code>hwloc</code> || <code>2.10.0-gcccore-13.3.0</code>, <code>2.12.1-gcccore-14.3.0</code>, <code>2.7.1-gcccore-11.3.0</code>, <code>2.9.1-gcccore-12.3.0</code> || <code>system/hwloc</code> || The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA …
+| <code>hwloc</code> || <code>2.10.0-gcccore-13.3.0</code>, <code>2.12.1-gcccore-14.3.0</code>, <code>2.13.0-gcccore-15.2.0</code>, <code>2.7.1-gcccore-11.3.0</code>, <code>2.9.1-gcccore-12.3.0</code> || <code>system/hwloc</code> || The Portable Hardware Locality (hwloc) software package provides a portable abstraction (across OS, versions, architectures, ...) of the hierarchical topology of modern architectures, including NUMA …
 |-
 | <code>libdeflate</code> || <code>1.18-gcccore-12.3.0</code>, <code>1.20-gcccore-13.3.0</code> || <code>system/libdeflate</code> || Heavily optimized library for DEFLATE/zlib/gzip compression and decompression.
 |-
-| <code>libpciaccess</code> || <code>0.16-gcccore-11.3.0</code>, <code>0.17-gcccore-12.3.0</code>, <code>0.18.1-gcccore-13.3.0</code>, <code>0.18.1-gcccore-14.3.0</code> || <code>system/libpciaccess</code> || Generic PCI access library.
+| <code>libpciaccess</code> || <code>0.16-gcccore-11.3.0</code>, <code>0.17-gcccore-12.3.0</code>, <code>0.18.1-gcccore-13.3.0</code>, <code>0.18.1-gcccore-14.3.0</code>, <code>0.19-gcccore-15.2.0</code> || <code>system/libpciaccess</code> || Generic PCI access library.
 |-
 | <code>openpgm</code> || <code>5.2.122-gcccore-14.3.0</code> || <code>system/openpgm</code> || OpenPGM is an open source implementation of the Pragmatic General Multicast (PGM) specification in RFC 3208 available at www.ietf.org. PGM is a reliable and scalable multicast protocol that enables …
 |-
@@ -1617,7 +1625,7 @@ Available for: <code>milan</code>
 |-
 | <code>nasm</code> || <code>2.16.01-gcccore-12.3.0</code>, <code>2.16.01-gcccore-13.2.0</code>, <code>2.16.03-gcccore-13.3.0</code>, <code>2.16.03-gcccore-14.3.0</code> || <code>lang/nasm</code> || NASM: General-purpose x86 assembler
 |-
-| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code>, <code>22.17.1-gcccore-14.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network perfect for data-intensive real-time applications that run across distributed devices.
+| <code>nodejs</code> || <code>18.17.1-gcccore-12.3.0</code>, <code>20.13.1-gcccore-13.3.0</code>, <code>22.17.1-gcccore-14.3.0</code> || <code>lang/nodejs</code> || Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. data-intensive real-time applications that run across distributed devices.
 |-
 | <code>perl</code> || <code>5.32.0-gcccore-10.2.0</code>, <code>5.32.0-gcccore-10.2.0-minimal</code>, <code>5.34.1-gcccore-11.3.0</code>, <code>5.36.1-gcccore-12.3.0</code>, <code>5.38.0</code>, <code>5.38.0-gcccore-13.2.0</code>, <code>5.38.2-gcccore-13.3.0</code>, <code>5.40.2-gcccore-14.3.0</code>, <code>5.42.0-gcccore-15.2.0</code> || <code>lang/perl</code> || Larry Wall's Practical Extraction and Report Language This is a minimal build without any modules. Should only be used for build dependencies.
 |-

@@ -1,5 +1,5 @@
 {
-  "collection_date": "2026-09-02T18:06:32.632350",
+  "collection_date": "2026-09-07T17:02:44.304669",
   "architectures": [
     "genoa",
     "h200",
@@ -23,13 +23,13 @@
     ]
   },
   "identical_note": "Architectures within the same group share an identical module tree (symbolic links).  Only one lmod query is performed per group.",
-  "total_modules": 4527,
+  "total_modules": 4573,
   "modules_per_arch": {
-    "genoa": 820,
-    "h200": 820,
-    "rtx": 820,
-    "mi300a": 820,
-    "l40s": 470,
+    "genoa": 825,
+    "h200": 825,
+    "rtx": 825,
+    "mi300a": 825,
+    "l40s": 496,
     "milan": 777
   }
 }
